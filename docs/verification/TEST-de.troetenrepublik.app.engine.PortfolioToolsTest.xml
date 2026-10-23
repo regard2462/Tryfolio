@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.PortfolioToolsTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.179">
+  <properties/>
+  <testcase name="indexedStartsAtZero" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.002"/>
+  <testcase name="projectionWithoutVolatilityIsCompoundInterest" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.002"/>
+  <testcase name="targetProbabilityFallsWithHigherTargets" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.044"/>
+  <testcase name="replayNeedsPricesFromTheFirstPurchase" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.001"/>
+  <testcase name="flowsComeFromTradesAtMarketValue" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.001"/>
+  <testcase name="crisesAreInOrderAndCoverTheirWindow" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="cashGrowsWithTheRate" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="withdrawalLastsExactlyAsLongAsTheMoney" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.003"/>
+  <testcase name="betaFromWeeklyReturns" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="rebalanceBuyOnlyFillsTheGaps" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.001"/>
+  <testcase name="windowReturnAndRecovery" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="timeWeightedIgnoresPurchases" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="withdrawalSucceedsLessWithHigherRates" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.039"/>
+  <testcase name="concentrationAndEffectiveNumber" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.001"/>
+  <testcase name="correlationOfDailyReturns" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="projectionMedianFollowsTheChosenReturn" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.083"/>
+  <testcase name="replayBuysAndSellsTheSameAmounts" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="replaySellsAtMostEverything" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="rebalanceWithSalesReachesTheTargets" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.001"/>
+  <testcase name="dividendsRepeatOneYearLater" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.001"/>
+  <testcase name="moneyWeightedReturnPerYear" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <testcase name="inflationTurnsValuesIntoTodaysMoney" classname="de.troetenrepublik.app.engine.PortfolioToolsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.FeaturesTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.02">
+  <properties/>
+  <testcase name="biweeklyPlanRunsOnSecondAndSixteenth" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.003"/>
+  <testcase name="quarterlyPlanWaitsThreeMonths" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="withdrawRejectsInvalidAmounts" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="backupRoundTripKeepsAccountAndSettings" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.014"/>
+  <testcase name="withdrawRespectsReservedOrders" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="failedPlanIsRecordedOncePerDay" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="pausedPlanNeverRuns" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="ordersDoNotFillOutsideTradingHours" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="dividendBeforePurchaseOrBeforePayDateIsIgnored" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.001"/>
+  <testcase name="backupRejectsForeignOrBrokenFiles" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="sellWithholdsTaxOnRealizedGain" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="yearChangeResetsAllowanceButKeepsPots" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="marketHoursFollowBerlinTime" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="dayOrderExpiresAtTradingClose" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="planExecutionTracksInvestedAndCounts" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="lossFillsPotAndOffsetsLaterGain" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="stockLossDoesNotOffsetGeneralGain" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="weeklyPlanRunsEverySevenDays" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="backupToleratesMissingOptionalFields" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="alertFiresOnceAndIsRemoved" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="gtcOrderLivesForThreeHundredSixtyDays" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="dividendIsBookedOnceWithTax" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="gainIsTaxedAfterAllowance" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <testcase name="interestAccruesDailyAndIsCreditedWithTax" classname="de.troetenrepublik.app.engine.FeaturesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

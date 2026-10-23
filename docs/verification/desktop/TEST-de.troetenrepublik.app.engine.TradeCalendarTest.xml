@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.TradeCalendarTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.006">
+  <properties/>
+  <testcase name="monthSumsCountWinsAndLosses" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.004"/>
+  <testcase name="dividendsReceivedAndExpectedStandOnTheirDay" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.001"/>
+  <testcase name="buysAndOtherBookingsDoNotCount" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.0"/>
+  <testcase name="colourStrengthGrowsWithResultButStaysVisible" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.0"/>
+  <testcase name="dayResultIsRealizedOverCostOfClosedShares" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.0"/>
+  <testcase name="knockoutCountsOnKnockoutDayNotOnRefund" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.0"/>
+  <testcase name="monthRangeReachesFromFirstBookingToLastExpectedDividend" classname="de.troetenrepublik.app.engine.TradeCalendarTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

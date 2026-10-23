@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!--
+        Monogramm T mit Kerzen, ganz kantig: schwarzes T mit nach rechts breiter werdendem Balken auf weissem
+        Grund, rechts davon drei steigende Kerzen (eine rote, zwei gruene). Alles liegt in der sicheren Zone
+        des adaptiven Symbols (mittlere 66 dp).
+    -->
+    <!-- Balken des T, rechts hoeher -->
+    <path android:fillColor="#000000"
+        android:pathData="M25.68,38.16 L64.08,32.4 L64.08,47.76 L25.68,43.92 Z" />
+    <!-- Stamm des T -->
+    <path android:fillColor="#000000"
+        android:pathData="M39.12,42 L50.64,42 L50.64,78.48 L39.12,78.48 Z" />
+    <!-- Kerze 1, fallend -->
+    <path android:strokeColor="#E24B4A" android:strokeWidth="1.2" android:fillColor="#00000000"
+        android:pathData="M66.96,60.24 L66.96,75.6" />
+    <path android:fillColor="#E24B4A"
+        android:pathData="M64.56,63.12 L69.36,63.12 L69.36,72.72 L64.56,72.72 Z" />
+    <!-- Kerze 2, steigend -->
+    <path android:strokeColor="#1D9E75" android:strokeWidth="1.2" android:fillColor="#00000000"
+        android:pathData="M73.68,50.64 L73.68,72.72" />
+    <path android:fillColor="#1D9E75"
+        android:pathData="M71.28,54.48 L76.08,54.48 L76.08,69.84 L71.28,69.84 Z" />
+    <!-- Kerze 3, steigend -->
+    <path android:strokeColor="#1D9E75" android:strokeWidth="1.2" android:fillColor="#00000000"
+        android:pathData="M80.4,40.08 L80.4,69.84" />
+    <path android:fillColor="#1D9E75"
+        android:pathData="M78,44.88 L82.8,44.88 L82.8,66.96 L78,66.96 Z" />
+</vector>

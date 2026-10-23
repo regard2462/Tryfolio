@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.DepotzerlegungTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.041">
+  <properties/>
+  <testcase name="alteVerkaeufeOhneProduktBleibenAussen" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.019"/>
+  <testcase name="kaufUndVerkaufVerfaelschenDasErgebnisNicht" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.002"/>
+  <testcase name="wochenUndMonate" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.001"/>
+  <testcase name="bestandUndZufluesseMitKnockout" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.002"/>
+  <testcase name="verkaufteDerivateBehaltenIhrProdukt" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.016"/>
+  <testcase name="groessteAnstiegeUndRueckgaenge" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.001"/>
+  <testcase name="ursachenEinesAnstiegs" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.0"/>
+  <testcase name="depotkurveBehaeltVerkaufteHebelOhneProdukt" classname="de.troetenrepublik.app.engine.DepotzerlegungTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

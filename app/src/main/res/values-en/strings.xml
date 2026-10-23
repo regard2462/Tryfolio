@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_depot_name">Portfolio</string>
+    <string name="widget_werte_name">Watchlist</string>
+    <string name="widget_depot_beschreibung">Portfolio value and daily change</string>
+    <string name="widget_werte_beschreibung">Watchlist, holdings or your own list, scrollable</string>
+    <string name="widget_oeffnen">Open the app to load</string>
+    <string name="widget_einzel_name">Single stock</string>
+    <string name="widget_mover_name">Top &amp; flop</string>
+    <string name="widget_dividenden_name">Dividends</string>
+    <string name="widget_schnell_name">Shortcuts</string>
+    <string name="widget_einzel_beschreibung">One stock with price, daily change and intraday line</string>
+    <string name="widget_mover_beschreibung">Best and worst holdings of the day</string>
+    <string name="widget_dividenden_beschreibung">Received and expected dividends, the next payments</string>
+    <string name="widget_schnell_beschreibung">Search, orders, heatmap and news with one tap</string>
+    <string name="widget_maerkte_name">Markets</string>
+    <string name="widget_maerkte_beschreibung">DAX, S&amp;P 500, Nasdaq 100, Euro Stoxx 50, gold and Bitcoin</string>
+    <string name="widget_stimmung_name">Sentiment</string>
+    <string name="widget_stimmung_beschreibung">Fear and greed gauge for stocks or crypto</string>
+    <string name="widget_news_name">Portfolio news</string>
+    <string name="widget_news_beschreibung">Headlines about your holdings</string>
+    <string name="widget_liste_leer">No stocks chosen yet. Long-press › widget settings.</string>
+</resources>

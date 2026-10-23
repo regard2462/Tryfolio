@@ -1,0 +1,137 @@
+# Android-APK von Tryfolio.
+# Läuft bei jedem Push auf main, der die App betrifft, und von Hand (Actions → Android-APK → Run workflow). Die
+# Versionsnummer für Android (versionCode) ist 100 plus die Zahl der Commits, damit jede neue APK die installierte
+# aktualisiert (seit 4.9). Die APK liegt danach als Artefakt am Lauf und im
+# Vorab-Release „apk-aktuell“, das jedes Mal auf den neuen Stand wandert (Download-Link bleibt gleich). Gibt es schon
+# das Release der Fassung (v<versionName>, von „Desktop-Pakete“), kommt sie dort dazu (seit 4.7).
+#
+# Signatur: Sind die Secrets TROETE_KEYSTORE (Keystore als Base64) und TROETE_STORE_PW gesetzt (dazu optional
+# TROETE_KEY_ALIAS, Standard „troete“, und TROETE_KEY_PW), entsteht eine signierte Release-APK
+# (…-release.apk, nicht debugbar). Sonst wie bisher die Debug-APK (…-debug.apk).
+# Keystore anlegen (einmal, gut aufheben, ohne ihn gibt es keine Updates mehr):
+#   keytool -genkeypair -v -keystore troete.jks -alias troete -keyalg RSA -keysize 4096 -validity 10000
+#   base64 -w0 troete.jks   → als Secret TROETE_KEYSTORE eintragen
+# Wechsel von Debug zu Release ändert die Signatur: Die alte App muss einmal deinstalliert werden
+# (vorher das Übungsdepot exportieren und danach wieder importieren).
+name: Android-APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "gradle/**"
+      - "*.gradle.kts"
+      - "gradle.properties"
+      - ".github/workflows/apk.yml"
+
+# Ein neuer Stand ersetzt einen noch laufenden Bau
+concurrency:
+  group: apk
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@ed408507eac070d1f99cc633dbcf757c94c7933a # v4
+
+      - name: APK bauen
+        env:
+          TROETE_KEYSTORE: ${{ secrets.TROETE_KEYSTORE }}
+          TROETE_STORE_PW: ${{ secrets.TROETE_STORE_PW }}
+          TROETE_KEY_ALIAS: ${{ secrets.TROETE_KEY_ALIAS }}
+          TROETE_KEY_PW: ${{ secrets.TROETE_KEY_PW }}
+        run: |
+          chmod +x gradlew
+          fassung=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          code=$((100 + $(git rev-list --count HEAD)))
+          echo "versionCode $code"
+          mkdir -p ausgabe
+          if [ -n "$TROETE_KEYSTORE" ] && [ -n "$TROETE_STORE_PW" ]; then
+            art=release
+            export TROETE_KEYSTORE_DATEI="$RUNNER_TEMP/troete.jks"
+            printf '%s' "$TROETE_KEYSTORE" | base64 -d > "$TROETE_KEYSTORE_DATEI"
+            ./gradlew :app:assembleRelease --no-daemon -Ptroete.versionCode=$code
+            rm -f "$TROETE_KEYSTORE_DATEI"
+            apk=app/build/outputs/apk/release/app-release.apk
+            test -f "$apk" || { echo "Release-APK nicht signiert (Secrets prüfen)"; exit 1; }
+          else
+            art=debug
+            ./gradlew :app:assembleDebug --no-daemon -Ptroete.versionCode=$code
+            apk=app/build/outputs/apk/debug/app-debug.apk
+          fi
+          cp "$apk" "ausgabe/tryfolio-$fassung-${GITHUB_SHA::7}-$art.apk"
+          cp "$apk" "ausgabe/tryfolio-aktuell-$art.apk"
+          cp "$apk" "ausgabe/tryfolio-$fassung-$art.apk"
+          echo "APK_ART=$art" >> "$GITHUB_ENV"
+          echo "FASSUNG=$fassung" >> "$GITHUB_ENV"
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: apk
+          path: ausgabe/tryfolio-[0-9]*.apk
+          if-no-files-found: error
+
+      - name: Vorab-Release apk-aktuell
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git tag -f apk-aktuell "$GITHUB_SHA"
+          git push -f origin refs/tags/apk-aktuell
+          name=$([ "$APK_ART" = release ] && echo "Signierte APK" || echo "Debug-APK")
+          gh release view apk-aktuell >/dev/null 2>&1 || gh release create apk-aktuell --prerelease --title "Aktueller Stand (Android)" \
+            --notes "$name vom neuesten Stand auf main, wird bei jeder Änderung ersetzt."
+          gh release edit apk-aktuell --prerelease --notes "$name vom Stand ${GITHUB_SHA::7} auf main, wird bei jeder Änderung ersetzt."
+          gh release upload apk-aktuell "ausgabe/tryfolio-aktuell-$APK_ART.apk" --clobber
+          # Nur eine Fassung im Release lassen, damit niemand versehentlich die andere Signatur lädt
+          andere=$([ "$APK_ART" = release ] && echo debug || echo release)
+          gh release delete-asset apk-aktuell "tryfolio-aktuell-$andere.apk" -y 2>/dev/null || true
+
+      - name: An das Release der Fassung hängen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v$FASSUNG"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            echo "Kein Release $tag, die APK liegt nur in apk-aktuell"
+            exit 0
+          fi
+          datei="tryfolio-$FASSUNG-$APK_ART.apk"
+          gh release upload "$tag" "ausgabe/$datei" --clobber
+          # Dateitabelle des Release-Texts um die Android-Zeile ergänzen (englisch, dann deutsch)
+          version=$(sed -n 's/^val troeteVersion = "\(.*\)"/\1/p' desktop/build.gradle.kts)
+          sed "s/@FASSUNG@/$FASSUNG/g; s/@VERSION@/$version/g" .github/release-text.md | awk -v d="$datei" '
+            /^\|---\|---\|---\|$/ {
+              print; n++
+              if (n == 1) print "| `" d "` | Android 8 and newer | Open the file on your phone and allow installing from this source |"
+              if (n == 2) print "| `" d "` | Android 8 und neuer | Datei auf dem Handy öffnen und das Installieren aus dieser Quelle erlauben |"
+              next
+            }
+            { print }' > "$RUNNER_TEMP/text.md"
+          gh release edit "$tag" --notes-file "$RUNNER_TEMP/text.md"
+
+      - name: Branch apk (nur die neueste APK, für Abrufe über git)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir zweig
+          cp "ausgabe/tryfolio-aktuell-$APK_ART.apk" zweig/
+          cd zweig
+          git init -q -b apk
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "APK vom Stand ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" apk

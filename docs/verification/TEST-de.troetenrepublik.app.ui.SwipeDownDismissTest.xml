@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.ui.SwipeDownDismissTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.022">
+  <properties/>
+  <testcase name="fastFlickDownClosesEvenWhenShort" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.002"/>
+  <testcase name="releasedFarEnoughTheSheetLeavesTheStack" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.002"/>
+  <testcase name="shortOrUpwardSwipeKeepsPageOpen" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.0"/>
+  <testcase name="releasedTooEarlyTheSheetReturns" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.005"/>
+  <testcase name="fingerCatchesAnEnteringSheet" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.012"/>
+  <testcase name="downSwipePastThresholdCloses" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.0"/>
+  <testcase name="pageFollowsTheFingerPixelForPixel" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.0"/>
+  <testcase name="releaseWithoutDragOnlyReportsDone" classname="de.troetenrepublik.app.ui.SwipeDownDismissTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

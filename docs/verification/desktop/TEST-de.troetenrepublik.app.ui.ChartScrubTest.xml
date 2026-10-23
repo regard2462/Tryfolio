@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.ui.ChartScrubTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.002">
+  <properties/>
+  <testcase name="dayAxisIsTheTradingWindowAndIgnoresTheClock" classname="de.troetenrepublik.app.ui.ChartScrubTest" time="0.0"/>
+  <testcase name="fingerFindsTheNearestPoint" classname="de.troetenrepublik.app.ui.ChartScrubTest" time="0.0"/>
+  <testcase name="dayAxisOnlyForTheDayChartWithPricesInTheWindow" classname="de.troetenrepublik.app.ui.ChartScrubTest" time="0.001"/>
+  <testcase name="fingerFollowsEveryPointOfTheDay" classname="de.troetenrepublik.app.ui.ChartScrubTest" time="0.001"/>
+  <testcase name="crosshairFindsTheNearestPointInTime" classname="de.troetenrepublik.app.ui.ChartScrubTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

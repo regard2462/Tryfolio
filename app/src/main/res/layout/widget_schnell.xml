@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget „Schnellzugriff“ (erzeugt, siehe Widgets.kt) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_wurzel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_hintergrund"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/schnell1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/widget_kachel"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/schnell_zeichen1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔎"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/schnell_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="2dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schnell2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_marginStart="6dp"
+            android:background="@drawable/widget_kachel"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/schnell_zeichen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🧾"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/schnell_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="2dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schnell3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_marginStart="6dp"
+            android:background="@drawable/widget_kachel"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/schnell_zeichen3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🗺️"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/schnell_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="2dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/schnell4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_marginStart="6dp"
+            android:background="@drawable/widget_kachel"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/schnell_zeichen4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📰"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/schnell_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="2dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

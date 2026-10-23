@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.ZweitnotizTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.002">
+  <properties/>
+  <testcase name="picksGermanListingWithMatchingPriceAndSkipsDepositaryReceipts" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.001"/>
+  <testcase name="beforeHomeOpensTheDayChartShowsTheGermanListingAlone" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="searchTermDropsShareClassAndLegalForm" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="morningPriceComesFromGermanListingWhileHomeIsClosed" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="sameDayGermanPricesFillBeforeOpenAndAfterClose" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="staleOrImplausibleGermanPriceIsIgnored" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="homeExchangeWinsWhileItTrades" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="onlyForeignStocksNeedASecondListing" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.001"/>
+  <testcase name="atNightTheAxisIgnoresTheNextDayWindowOfTheHomeExchange" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <testcase name="germanListingWithoutTradesTodayChangesNothing" classname="de.troetenrepublik.app.engine.ZweitnotizTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

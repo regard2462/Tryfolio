@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.ui.SeitenstapelTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.01">
+  <properties/>
+  <testcase name="systemBackPreviewFollowsProgressAndCancelReturns" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.004"/>
+  <testcase name="onlyTopPageAndTheOneBelowAreDrawn" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.001"/>
+  <testcase name="sheetsSlideInAndArrowSlidesThemOut" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.0"/>
+  <testcase name="slowReleaseAcceleratesSmoothlyAndEndsWithinTime" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.001"/>
+  <testcase name="guideFadesInsteadOfSliding" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.002"/>
+  <testcase name="releaseGlideStartsAtFingerSpeed" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.0"/>
+  <testcase name="savedStackKeepsPageIds" classname="de.troetenrepublik.app.ui.SeitenstapelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

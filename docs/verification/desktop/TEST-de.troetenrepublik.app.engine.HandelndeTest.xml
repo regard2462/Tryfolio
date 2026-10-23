@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.HandelndeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.006">
+  <properties/>
+  <testcase name="richtungNachSummeUndNurPassendeKuerzel" classname="de.troetenrepublik.app.engine.HandelndeTest" time="0.004"/>
+  <testcase name="ohneKaeuferUndVerkaeuferKeineTendenz" classname="de.troetenrepublik.app.engine.HandelndeTest" time="0.001"/>
+  <testcase name="investorenNachQuartalsvergleich" classname="de.troetenrepublik.app.engine.HandelndeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.Fassung28Test" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.029">
+  <properties/>
+  <testcase name="guardianListeArtikelUndFehler" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.004"/>
+  <testcase name="woerterbuchDerMarkte" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.001"/>
+  <testcase name="gemerkteGuardianArtikelVerfallen" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.001"/>
+  <testcase name="quellenMitSchluessel" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.004"/>
+  <testcase name="wettverlaufAusBuchungenUndKursen" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.0"/>
+  <testcase name="uebersetzerMerktUndZaehlt" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.008"/>
+  <testcase name="kontingentZeichenUndDatei" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.01"/>
+  <testcase name="kontingentGleitendesFensterUndAbstand" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.001"/>
+  <testcase name="finnhubUndAlphaVantage" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.0"/>
+  <testcase name="spracheNachSystem" classname="de.troetenrepublik.app.engine.Fassung28Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

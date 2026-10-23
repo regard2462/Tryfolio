@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.PrognoseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.1">
+  <properties/>
+  <testcase name="wettenKaufenVerkaufenAufloesen" classname="de.troetenrepublik.app.engine.PrognoseTest" time="0.003"/>
+  <testcase name="polymarketListeUndEreignis" classname="de.troetenrepublik.app.engine.PrognoseTest" time="0.087"/>
+  <testcase name="kalshiTrendsEreignisMarktUndKerzen" classname="de.troetenrepublik.app.engine.PrognoseTest" time="0.007"/>
+  <testcase name="aufloesungWirdErkannt" classname="de.troetenrepublik.app.engine.PrognoseTest" time="0.0"/>
+  <testcase name="polymarketMarktUndVerlauf" classname="de.troetenrepublik.app.engine.PrognoseTest" time="0.003"/>
+  <testcase name="wettenPruefenEinsatzKursUndGuthaben" classname="de.troetenrepublik.app.engine.PrognoseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.Features16Test" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.009">
+  <properties/>
+  <testcase name="freshAccountHoldsOnlyTheStartingBalance" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <testcase name="importMergesWithExistingPosition" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <testcase name="lumpSumInHindsight" classname="de.troetenrepublik.app.engine.Features16Test" time="0.003"/>
+  <testcase name="importResultIsMeasuredAgainstCostBasis" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <testcase name="fairValueAndPositionSize" classname="de.troetenrepublik.app.engine.Features16Test" time="0.001"/>
+  <testcase name="historyStartsAtPurchaseDate" classname="de.troetenrepublik.app.engine.Features16Test" time="0.001"/>
+  <testcase name="importRejectsInvalidInput" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <testcase name="onlyDividendsAfterImportAreBooked" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <testcase name="savingsPlanBuysOncePerMonth" classname="de.troetenrepublik.app.engine.Features16Test" time="0.001"/>
+  <testcase name="riskFindsDrawdownAndRecovery" classname="de.troetenrepublik.app.engine.Features16Test" time="0.001"/>
+  <testcase name="importIsNotACashFlowInStatisticsOrDocuments" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <testcase name="importAddsPositionWithoutCashFlow" classname="de.troetenrepublik.app.engine.Features16Test" time="0.001"/>
+  <testcase name="dividendsTrailingAndYearly" classname="de.troetenrepublik.app.engine.Features16Test" time="0.001"/>
+  <testcase name="moneyWeightedReturn" classname="de.troetenrepublik.app.engine.Features16Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

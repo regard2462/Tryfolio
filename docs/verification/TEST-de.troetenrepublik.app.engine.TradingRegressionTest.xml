@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.TradingRegressionTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.029">
+  <properties/>
+  <testcase name="depositDoesNotIncreaseProfit" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.001"/>
+  <testcase name="historyCompactionKeepsOldestAndNewestSamples" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.022"/>
+  <testcase name="tinySaleCannotCreateNegativeCashThroughFee" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="missingQuotesUseCostBasisInsteadOfAFalseTotalLoss" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="buyingRejectsOverflow" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="newAccountResetsMaintenanceMarkers" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="limitSellWaitsUntilBidIsWithinLimit" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="expiredOptionPaysIntrinsicValueAtExactExpiry" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="sellingWithoutQuoteCannotDestroyPosition" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="nextCalendarMonthRunsEvenAcrossShortFebruary" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.001"/>
+  <testcase name="planFor31stRunsAtEndOfFebruary" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="idsAreUniqueAcrossThreads" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.004"/>
+  <testcase name="legacySnapshotJsonRemainsReadable" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="limitBuyWaitsUntilAskIsWithinLimit" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="buyingChargesFeeExactlyOnce" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="staleQuotesDoNotExecutePendingOrders" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="failedSavingsPlanCanRetryAfterDeposit" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.001"/>
+  <testcase name="zeroPortfolioCanBeRecorded" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="malformedOrderIsRejectedBeforeStorage" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="savingsPlanDoesNotRunTwiceInJanuary" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="duplicateOrderIdIsNotStoredTwice" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="invalidDepositsDoNotCorruptAccount" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="buyingRejectsNonFiniteQuantityAndPrice" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="wholeFractionalPositionCanBeSoldWithoutRoundingDust" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="snapshotGrowsDespiteFiveSecondTicks" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <testcase name="knockoutCancelsPendingOrderWithoutAnExistingPosition" classname="de.troetenrepublik.app.engine.TradingRegressionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

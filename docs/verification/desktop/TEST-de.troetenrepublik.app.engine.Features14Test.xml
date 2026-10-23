@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.Features14Test" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.055">
+  <properties/>
+  <testcase name="statisticsTreeGroupsIncomeExpensesInvestments" classname="de.troetenrepublik.app.engine.Features14Test" time="0.008"/>
+  <testcase name="knockoutStrikeIsInNativeCurrencyAndPricedInEuro" classname="de.troetenrepublik.app.engine.Features14Test" time="0.002"/>
+  <testcase name="trailingStopFollowsHighAndTriggersOnPullback" classname="de.troetenrepublik.app.engine.Features14Test" time="0.003"/>
+  <testcase name="formatsFollowLanguage" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="transactionsCarryTagsInsteadOfTexts" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="trailingStopRejectsBadDistance" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="portfolioCurveIgnoresPurchasesAndSales" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="holdingsAreReconstructedBackwardsFromTransactions" classname="de.troetenrepublik.app.engine.Features14Test" time="0.001"/>
+  <testcase name="knockoutStaysVisibleWithResidualAndSettlesAfterTwoDays" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="warrantsHaveIssuersMaturitiesAndDeltaRange" classname="de.troetenrepublik.app.engine.Features14Test" time="0.019"/>
+  <testcase name="watchlistRemembersPriceWhenAdded" classname="de.troetenrepublik.app.engine.Features14Test" time="0.001"/>
+  <testcase name="bubblePackingDoesNotOverlap" classname="de.troetenrepublik.app.engine.Features14Test" time="0.003"/>
+  <testcase name="factorsStopAtTwenty" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="warrantLabelUsesNativeCurrency" classname="de.troetenrepublik.app.engine.Features14Test" time="0.002"/>
+  <testcase name="customLeverageWithDecimalsCreatesDistinctProduct" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="bothLanguagesProvideEveryText" classname="de.troetenrepublik.app.engine.Features14Test" time="0.012"/>
+  <testcase name="knockedOutProductCannotBeBoughtOrSold" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="marketHoursStatusIsStructured" classname="de.troetenrepublik.app.engine.Features14Test" time="0.0"/>
+  <testcase name="settlementDocumentIsLocalized" classname="de.troetenrepublik.app.engine.Features14Test" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

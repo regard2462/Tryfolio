@@ -1,0 +1,15 @@
+Java 17.0.14 · Windows 11 amd64
+OK     Yahoo-Kurse: 9623 Bytes
+OK     Yahoo-Schlagzeilen: 17383 Bytes
+OK     tagesschau: 35238 Bytes
+OK     EZB: 5752 Bytes
+OK     Federal Reserve: 14813 Bytes
+OK     Logo aus dem Netz: 128x128
+OK     Bild lesen (Skia): 512x512
+OK     HTML lesen (Jsoup): 2 Absaetze
+OK     Artikel aus dem Netz: 80 Absaetze
+OK     Oberflaeche (Compose und Skia, ohne Fenster): 400x200
+OK     Katalog: 45 Basiswerte
+OK     Einstellungen (DataStore): ok
+OK     Finanzwissen (Webserver): 1314 Zeichen
+ALLES OK

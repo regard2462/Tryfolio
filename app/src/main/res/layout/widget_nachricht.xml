@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Schlagzeile im News-Widget (seit 5.4) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zeile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:id="@+id/nachricht_titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="#FFFFFFFF"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/nachricht_zeile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#80FFFFFF"
+        android:textSize="11sp" />
+</LinearLayout>

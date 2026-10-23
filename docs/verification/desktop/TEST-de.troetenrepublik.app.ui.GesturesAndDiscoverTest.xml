@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.012">
+  <properties/>
+  <testcase name="optionChainCountsOnlyTheLastTradingDay" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.003"/>
+  <testcase name="headerStaysBetweenPortfolioAndCashAndLeavesWithCash" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.0"/>
+  <testcase name="popularFollowsTurnoverAndKeepsTwoGermanValues" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.005"/>
+  <testcase name="filtersCombineWithAndBetweenAndOrWithin" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.003"/>
+  <testcase name="profileCircleGrowsOnTheWayToTheProfile" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.0"/>
+  <testcase name="catalogMapsAssetClassesAndRegions" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.001"/>
+  <testcase name="longShortOnlyForUsSymbols" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.0"/>
+  <testcase name="homePagesFormARowWithoutWrapping" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.0"/>
+  <testcase name="moversNeedRealTurnover" classname="de.troetenrepublik.app.ui.GesturesAndDiscoverTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Tryfolio</string>
+    <!-- Widgets (seit 4.6); die Texte im Widget selbst kommen aus der App in ihrer Sprache -->
+    <string name="widget_depot_name">Depot</string>
+    <string name="widget_werte_name">Werte</string>
+    <string name="widget_depot_beschreibung">Wert des Depots und Tagesänderung</string>
+    <string name="widget_werte_beschreibung">Watchlist, Depot oder eigene Liste, rollbar</string>
+    <string name="widget_oeffnen">Zum Laden die App öffnen</string>
+    <string name="widget_einzel_name">Einzelwert</string>
+    <string name="widget_mover_name">Top &amp; Flop</string>
+    <string name="widget_dividenden_name">Dividenden</string>
+    <string name="widget_schnell_name">Schnellzugriff</string>
+    <string name="widget_einzel_beschreibung">Ein Wert mit Kurs, Tagesänderung und Tagesverlauf</string>
+    <string name="widget_mover_beschreibung">Beste und schlechteste Positionen des Tages</string>
+    <string name="widget_dividenden_beschreibung">Erhaltene und erwartete Dividenden, die nächsten Zahlungen</string>
+    <string name="widget_maerkte_name">Märkte</string>
+    <string name="widget_maerkte_beschreibung">DAX, S&amp;P 500, Nasdaq 100, Euro Stoxx 50, Gold und Bitcoin</string>
+    <string name="widget_schnell_beschreibung">Suche, Orders, Heatmap und News mit einem Tipp</string>
+    <string name="widget_stimmung_name">Stimmung</string>
+    <string name="widget_stimmung_beschreibung">Angst-und-Gier-Barometer für Aktien oder Krypto als Tacho</string>
+    <string name="widget_news_name">News zum Depot</string>
+    <string name="widget_news_beschreibung">Schlagzeilen zu deinen Positionen</string>
+    <string name="widget_liste_leer">Noch keine Werte gewählt. Lange drücken › Widget einstellen.</string>
+</resources>

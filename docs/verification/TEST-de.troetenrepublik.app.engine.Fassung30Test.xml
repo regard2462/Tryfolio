@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.troetenrepublik.app.engine.Fassung30Test" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-16T12:00:00" hostname="localhost" time="0.025">
+  <properties/>
+  <testcase name="rueckgangUndUlcer" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.002"/>
+  <testcase name="meldungenAufWhitehouseJePerson" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.001"/>
+  <testcase name="verkaeufe" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.001"/>
+  <testcase name="betaAlphaKorrelation" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.001"/>
+  <testcase name="senatLesen" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.011"/>
+  <testcase name="sharpeUndSortino" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.0"/>
+  <testcase name="regierungLesen" classname="de.troetenrepublik.app.engine.Fassung30Test" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

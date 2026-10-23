@@ -1,0 +1,161 @@
+   0,1 s  warte „Trötenrepublik“: true
+   0,6 s  Foto 01-einrichtung
+   0,7 s  warte „Watchlist“: true
+   6,6 s  Foto 02-depot
+   7,1 s  Maus gezogen ab Offset(700.0, 1290.0) um -500.0
+   9,8 s  Foto 02b-cash-per-maus
+   9,8 s  Cash per Maus: true
+  10,3 s  Maus gezogen ab Offset(140.0, 240.0) um 500.0
+  15,0 s  Foto 02c-depot-dollar
+  15,1 s  Treffer „Cash“: Rect.fromLTRB(0.0, 0.0, 0.0, 0.0), Rect.fromLTRB(0.0, 0.0, 0.0, 0.0), Rect.fromLTRB(281.0, 36.0, 392.0, 132.0) -> 2
+  15,1 s  tippe „Cash“
+  17,9 s  Foto 02d-cash-dollar
+  18,0 s  Treffer „Portfolio“: Rect.fromLTRB(40.0, 36.0, 249.0, 132.0) -> 0
+  18,0 s  tippe „Portfolio“
+  21,2 s  Treffer „News“: Rect.fromLTRB(40.0, 974.0, 340.0, 1149.0) -> 0
+  21,2 s  tippe „News“
+  22,9 s  warte „tagesschau“: true
+  35,5 s  warte „Notenbanken“: true
+  38,8 s  Foto 03-news
+  38,8 s  Schlagzeilen: 176
+  38,9 s  Wichtige Meldungen: 18 von 176: Silver’s recent 50% drop from a record high hints that an economic slowdown looms | Vor den US-Zwischenwahlen: Trump setzt umfassende Russland-Zölle aus | Eskalation im Jemen-Konflikt: Raketenangriff auf saudischen Ölexporthafen Yanbu abgewehrt | U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year | Nowhere to hide: Tech selloff hits software and chip stocks alike | KI-Abverkauf und Zinsdruck belasten Tech-Werte – Bumble nach Übernahmeofferte im Höhenflug | Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027 | Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation
+  40,8 s  Maus gezogen ab Offset(600.0, 1000.0) um -420.0
+  45,1 s  Foto 03b-news-gewischt
+  57,3 s  Treffer „Notenbanken“: Rect.fromLTRB(727.0, 229.0, 840.0, 316.0) -> 0
+  57,5 s  tippe „Notenbanken“
+  59,5 s  Foto 04-news-notenbanken
+  59,6 s  Treffer „EZB“: Rect.fromLTRB(167.0, 393.0, 277.0, 465.0) -> 0
+  59,8 s  tippe „EZB“
+  61,4 s  Foto 04b-news-notenbanken-ezb
+  64,1 s  Treffer „Yahoo Finance“: Rect.fromLTRB(0.0, 229.0, 78.0, 316.0) -> 0
+  64,2 s  tippe „Yahoo Finance“
+  66,3 s  Foto 04c-news-yahoo
+  75,4 s  Treffer „The Guardian“: Rect.fromLTRB(686.0, 229.0, 840.0, 316.0) -> 0
+  75,5 s  tippe „The Guardian“
+  76,7 s  warte „Schlüssel eintragen“: true
+  77,3 s  Foto 04d-news-guardian-ohne-schluessel
+  77,4 s  Treffer „Schlüssel eintragen“: Rect.fromLTRB(72.0, 786.0, 334.0, 850.0), Rect.fromLTRB(0.0, 0.0, 0.0, 0.0) -> 0
+  77,5 s  tippe „Schlüssel eintragen“
+  78,8 s  warte „Einige Dienste geben ihre Daten nur mit einem eigenen, kostenlosen Schlüssel heraus. Du holst ihn dir beim Anbieter; die App speichert ihn nur auf diesem Gerät und schickt ihn nur an diesen Anbieter. Sie zählt jeden Abruf mit und bleibt unter den Limits der Anbieter. Ist ein Limit erreicht, wartet sie, bis das Kontingent wieder reicht.“: true
+  81,4 s  Foto 04e-zugaenge
+  81,4 s  Escape: Fenster
+  92,7 s  Treffer „Notenbanken“: Rect.fromLTRB(727.0, 229.0, 840.0, 316.0) -> 0
+  92,8 s  tippe „Notenbanken“
+  94,0 s  Meldung: Christine Lagarde: IMFC Statement
+  94,1 s  Treffer „Christine Lagarde: IMFC Statement“: Rect.fromLTRB(0.0, 552.0, 840.0, 684.0) -> 0
+  94,1 s  tippe „Christine Lagarde: IMFC Statement“
+  96,9 s  warte „Im Browser öffnen“: true
+ 125,9 s  Foto 05-news-artikel
+ 125,9 s  Escape: Oberflaeche
+ 128,4 s  Blatt zu, Seite darunter offen: true
+ 128,4 s  Escape: Fenster
+ 129,7 s  warte „Copytrading“: true
+ 131,4 s  Treffer „Copytrading“: Rect.fromLTRB(388.0, 974.0, 688.0, 1149.0) -> 0
+ 131,5 s  tippe „Copytrading“
+ 142,7 s  Foto 10-copy-start
+ 142,8 s  warte „Neueste Geschäfte“: true
+ 150,3 s  Foto 11-copy-kongress
+ 154,4 s  Foto 11b-copy-suche
+ 154,4 s  Pelosi im Verzeichnis: true
+ 154,5 s  Treffer „Nancy Pelosi“: Rect.fromLTRB(0.0, 781.0, 840.0, 901.0) -> 0
+ 154,6 s  tippe „Nancy Pelosi“
+ 227,5 s  Foto 12-copy-pelosi
+ 237,1 s  Foto 12b-copy-pelosi-verlauf
+ 237,2 s  Pelosi-Verlauf: Graph
+ 237,3 s  Treffer „Nachbilden“: Rect.fromLTRB(0.0, 727.0, 840.0, 824.0) -> 0
+ 237,4 s  tippe „Nachbilden“
+ 249,4 s  Foto 13-copy-nachbilden
+ 249,4 s  Escape: Oberflaeche
+ 252,1 s  Escape: Fenster
+ 254,1 s  Treffer „Senat“: Rect.fromLTRB(424.0, 325.0, 578.0, 412.0) -> 0
+ 254,2 s  tippe „Senat“
+ 255,7 s  warte „Geschäfte von Mitgliedern des US-Senats nach dem STOCK Act, gemeldet bis zu 45 Tage nach dem Geschäft, der Betrag nur als Spanne. Die Datenbank des Senats lässt Abrufe von außerhalb der USA nicht zu. Die App bringt deshalb einen Stand der letzten drei Jahre mit, zuletzt vom 15.10.2026. Neuere Meldungen kommen mit der nächsten Fassung der App.“: true
+ 259,8 s  Foto 13b-copy-senat
+ 259,8 s  Senat, aktivste Person: Alan Armstrong
+ 267,5 s  Treffer „Alan Armstrong“: Rect.fromLTRB(0.0, 695.0, 840.0, 815.0) -> 0
+ 267,6 s  tippe „Alan Armstrong“
+ 282,7 s  Foto 13c-copy-senator
+ 282,7 s  Escape: Fenster
+ 284,8 s  Treffer „Regierung“: Rect.fromLTRB(594.0, 325.0, 816.0, 412.0) -> 0
+ 284,9 s  tippe „Regierung“
+ 289,7 s  Foto 13d-copy-regierung
+ 289,8 s  Treffer „Donald J. Trump“: Rect.fromLTRB(0.0, 682.0, 840.0, 839.0) -> 0
+ 289,9 s  tippe „Donald J. Trump“
+ 291,6 s  warte „Käufe (geschätzt)“: true
+ 299,9 s  Foto 13e-copy-trump
+ 299,9 s  warte „Truth Social“: true
+ 300,1 s  Treffer „Truth Social“: Rect.fromLTRB(0.0, 727.0, 840.0, 855.0) -> 0
+ 300,2 s  tippe „Truth Social“
+ 302,0 s  Truth Social: 10 Beitraege sichtbar
+ 312,1 s  Foto 13e2-copy-truth
+ 312,1 s  Escape: Fenster
+ 314,7 s  warte „Käufe (geschätzt)“: true
+ 327,6 s  Foto 13f-copy-trump-verlauf
+ 333,0 s  warte „Meistgehandelt“: true
+ 333,0 s  Trump: Meistgehandelt sichtbar
+ 333,0 s  Escape: Fenster
+ 338,4 s  Treffer „Investoren“: Rect.fromLTRB(448.0, 325.0, 673.0, 412.0) -> 0
+ 338,6 s  tippe „Investoren“
+ 343,9 s  Foto 14-copy-investoren
+ 344,0 s  Treffer „Warren Buffett“: Rect.fromLTRB(0.0, 779.0, 840.0, 973.0) -> 0
+ 344,1 s  tippe „Warren Buffett“
+ 345,9 s  warte „Positionen“: true
+ 360,4 s  Foto 15-copy-buffett
+ 372,9 s  Foto 15b-copy-buffett-verlauf
+ 373,1 s  Treffer „+ Vergleichen“: Rect.fromLTRB(339.0, 1460.0, 590.0, 1532.0) -> 0
+ 373,2 s  tippe „+ Vergleichen“
+ 384,9 s  Foto 15c-vergleich-auswahl
+ 385,4 s  Treffer „S&P 500“: Rect.fromLTRB(16.0, 913.0, 824.0, 1049.0) -> 0
+ 385,9 s  tippe „S&P 500“
+ 392,9 s  Escape: Oberflaeche
+ 404,4 s  Foto 15d-buffett-mit-sp500
+ 410,3 s  Treffer „Weitere Kennzahlen“: Rect.fromLTRB(40.0, 492.0, 311.0, 548.0) -> 0
+ 410,5 s  tippe „Weitere Kennzahlen“
+ 412,3 s  warte „Sharpe“: true
+ 412,4 s  warte „Beta“: true
+ 416,4 s  Foto 15d2-buffett-kennzahlen
+ 425,7 s  Foto 15e-buffett-quartale
+ 425,7 s  Escape: Fenster
+ 427,8 s  Treffer „Investoren vergleichen“: Rect.fromLTRB(0.0, 682.0, 840.0, 779.0) -> 0
+ 428,0 s  tippe „Investoren vergleichen“
+ 441,1 s  Foto 15f-investoren-vergleich
+ 441,1 s  Escape: Fenster
+ 443,3 s  Treffer „Strategien“: Rect.fromLTRB(579.0, 325.0, 800.0, 412.0) -> 0
+ 443,5 s  tippe „Strategien“
+ 447,5 s  Foto 16-copy-strategien
+ 447,6 s  Treffer „Strategien vergleichen“: Rect.fromLTRB(0.0, 571.0, 840.0, 668.0) -> 0
+ 447,7 s  tippe „Strategien vergleichen“
+ 464,6 s  Foto 16b-strategien-vergleich
+ 464,6 s  Escape: Fenster
+ 466,7 s  Treffer „Permanent Portfolio“: Rect.fromLTRB(0.0, 801.0, 840.0, 986.0) -> 0
+ 466,8 s  tippe „Permanent Portfolio“
+ 474,5 s  Foto 17-copy-permanent
+ 501,7 s  Foto 17b-copy-permanent-verlauf
+ 501,7 s  Escape: Fenster
+ 503,9 s  Escape: Fenster
+ 505,5 s  Treffer „SAP“: Rect.fromLTRB(0.0, 1380.0, 840.0, 1516.0), Rect.fromLTRB(0.0, 0.0, 0.0, 0.0) -> 0
+ 505,6 s  tippe „SAP“
+ 506,9 s  warte „Kaufen“: true
+ 518,2 s  Foto 06-aktie-sap
+ 533,5 s  Quelle: Quelle: Wikipedia
+ 535,2 s  Treffer „Quelle: Wikipedia“: Rect.fromLTRB(0.0, 1184.0, 310.0, 1243.0) -> 0
+ 535,3 s  tippe „Quelle: Wikipedia“
+ 572,0 s  Foto 07-quelle
+ 572,0 s  Escape: Oberflaeche
+ 574,5 s  Blatt zu, Seite darunter offen: true
+ 574,5 s  Escape: Fenster
+ 575,8 s  Treffer „E“: Rect.fromLTRB(0.0, 0.0, 0.0, 0.0), Rect.fromLTRB(720.0, 40.0, 808.0, 128.0) -> 1
+ 575,9 s  tippe „E“
+ 576,8 s  warte „Erika“: true
+ 578,2 s  Foto 08-profil
+ 578,2 s  Escape: Fenster
+ 580,6 s  warte „Finanzwissen“: true
+ 583,0 s  Treffer „Finanzwissen“: Rect.fromLTRB(498.0, 974.0, 798.0, 1149.0) -> 0
+ 583,0 s  tippe „Finanzwissen“
+ 584,0 s  warte „in deinem Browser“: true
+ 584,6 s  Foto 09-finanzwissen
+ 584,6 s  Finanzwissen: http://127.0.0.1:59375/finanzwissen/index.html?theme=dunkel&lang=de&umgebung=browser
+ 584,6 s  Escape: Fenster
+ 586,0 s  warte „Search“: true
+ 586,6 s  Foto 10-englisch
+ 586,6 s  fertig

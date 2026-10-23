@@ -1,0 +1,29 @@
+   0,1 s  warte „Investments“: true
+   3,2 s  warte „Prediction Markets“: true
+   6,1 s  Foto 17c-start-kacheln
+   6,1 s  Treffer „Prediction Markets“: Rect.fromLTRB(436.0, 974.0, 774.0, 1149.0) -> 0
+   6,2 s  tippe „Prediction Markets“
+  12,0 s  Foto 17d-pm-geoeffnet
+  20,3 s  Foto 18-pm-polymarket
+  20,3 s  PM-Ereignis: Manchester City FC vs. Ipswich Town FC
+  20,4 s  Treffer „Manchester City FC vs. Ipswich Town FC“: Rect.fromLTRB(0.0, 994.0, 840.0, 1157.0) -> 0
+  20,6 s  tippe „Manchester City FC vs. Ipswich Town FC“
+  64,6 s  Foto 19-pm-ereignis
+  64,7 s  Ja-Pillen: 3
+  68,8 s  warte „Wette platzieren“: true
+  70,8 s  Foto 20-pm-wettblatt
+  71,2 s  Treffer „Wette platzieren“: Rect.fromLTRB(40.0, 1624.0, 800.0, 1736.0) -> 0
+  71,7 s  tippe „Wette platzieren“
+  73,1 s  Wette platziert: true
+  77,7 s  Foto 20b-pm-gewettet
+  77,8 s  Escape: Fenster
+  80,8 s  Foto 20c-pm-zurueck
+  81,0 s  Treffer „Meine Wetten“: Rect.fromLTRB(466.0, 325.0, 774.0, 412.0) -> 0
+  81,1 s  tippe „Meine Wetten“
+  86,7 s  Foto 21-pm-meine-wetten
+ 103,4 s  Foto 21b-pm-meine-wetten-liste
+ 103,6 s  Treffer „Kalshi“: Rect.fromLTRB(292.0, 325.0, 450.0, 412.0) -> 0
+ 103,6 s  tippe „Kalshi“
+ 112,2 s  Foto 22-pm-kalshi
+ 112,2 s  Escape: Fenster
+ 113,6 s  fertig

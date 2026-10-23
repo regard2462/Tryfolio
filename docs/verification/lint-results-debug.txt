@@ -1,0 +1,169 @@
+app\build.gradle.kts:16: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 35
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+app\build.gradle.kts:48: Warning: A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.11.0 [GradleDependency]
+    implementation("androidx.activity:activity-compose:1.9.3")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:49: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.8.7 is available: 2.11.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:50: Warning: A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.19.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.15.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:52: Warning: A newer version of androidx.work:work-runtime-ktx than 2.10.0 is available: 2.11.2 [GradleDependency]
+    implementation("androidx.work:work-runtime-ktx:2.10.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:54: Warning: A newer version of com.squareup.okhttp3:okhttp than 4.12.0 is available: 5.4.0 [GradleDependency]
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:55: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.7.3 is available: 1.8.1 [GradleDependency]
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:56: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.9.0 is available: 1.11.0 [GradleDependency]
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app\build.gradle.kts:58: Warning: A newer version of androidx.webkit:webkit than 1.12.1 is available: 1.15.0 [GradleDependency]
+    implementation("androidx.webkit:webkit:1.12.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+app\src\main\res\mipmap-anydpi-v26: Warning: This folder configuration (v26) is unnecessary; minSdkVersion is 26. Merge all the resources in this folder into mipmap-anydpi. [ObsoleteSdkInt]
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+app\src\main\java\de\troetenrepublik\app\ui\CopytradingScreen.kt:788: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var anzahl by remember { mutableStateOf(10) }
+                             ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\CopytradingScreen.kt:846: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var tag by remember { mutableStateOf(1) }
+                          ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:96: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var leverage by remember { mutableStateOf(0) }
+                               ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:97: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var factor by remember { mutableStateOf(0) }
+                             ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:98: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var deltaMin by remember { mutableStateOf(0.0) }
+                               ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:101: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var vol by remember(symbol) { mutableStateOf(Derivatives.defaultVol(Symbols.typeOf(symbol))) }
+                                  ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:103: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var strikeMin by remember(symbol) { mutableStateOf(0.0) }
+                                        ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:104: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var strikeMax by remember(symbol) { mutableStateOf(0.0) }
+                                        ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:105: Information: Prefer mutableLongStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var expiryFrom by remember(symbol) { mutableStateOf(0L) }
+                                         ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:106: Information: Prefer mutableLongStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var expiryTo by remember(symbol) { mutableStateOf(0L) }
+                                       ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:400: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var lo by remember { mutableStateOf(if (min > 0) min else bounds.first) }
+                         ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:401: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var hi by remember { mutableStateOf(if (max > 0) max else bounds.second) }
+                         ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:440: Information: Prefer mutableLongStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var lo by remember { mutableStateOf(from) }
+                         ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\DerivativesSheet.kt:441: Information: Prefer mutableLongStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var hi by remember { mutableStateOf(to) }
+                         ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\Format.kt:38: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var usdJeEuro by mutableStateOf(0.0)
+                     ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\Geldanzeige.kt:67: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var wahl by rememberSaveable(schluessel, start) { mutableStateOf(start) }
+                                                      ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\InstrumentScreen.kt:120: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var vol by remember(symbol) { mutableStateOf(Derivatives.defaultVol(type)) }
+                                  ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\Logo.kt:254: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var index by remember(symbol, urls) { mutableStateOf(0) }
+                                          ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\Onboarding.kt:43: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var step by rememberSaveable { mutableStateOf(0) }
+                                   ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\Onboarding.kt:45: Information: Prefer mutableDoubleStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var capital by rememberSaveable { mutableStateOf(50_000.0) }
+                                      ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\PlanSheet.kt:60: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var day by rememberSaveable { mutableStateOf(2) }
+                                  ~~~~~~~~~~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\StatisticsSheet.kt:302: Information: Prefer mutableFloatStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+            val appear = remember { mutableStateOf(0f) }
+                                    ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AutoboxingStateCreation":
+   Calling mutableStateOf<T>() when T is either backed by a primitive type on
+   the JVM or is a value class results in a state implementation that requires
+   all state values to be boxed. This usually causes an additional allocation
+   for each state write, and adds some additional work to auto-unbox values
+   when reading the value of the state. Instead, prefer to use a specialized
+   primitive state implementation for Int, Long, Float, and Double when the
+   state does not need to track null values and does not override the default
+   SnapshotMutationPolicy. See mutableIntStateOf(), mutableLongStateOf(),
+   mutableFloatStateOf(), and mutableDoubleStateOf() for more information.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.runtime
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+app\src\main\java\de\troetenrepublik\app\ui\VergleichsChart.kt:124: Warning: Assigning value will cause an autoboxing operation. Use floatValue to avoid unnecessary allocations. [AutoboxingStateValueProperty from androidx.compose.runtime]
+        val tAuswahl: Long? = fadenX?.let { x -> zeitpunkt(x / breiteRef.value) }
+                                                                         ~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\VergleichsChart.kt:137: Warning: Assigning value will cause an autoboxing operation. Use floatValue to avoid unnecessary allocations. [AutoboxingStateValueProperty from androidx.compose.runtime]
+                            breiteRef.value = size.width.toFloat()
+                                      ~~~~~
+app\src\main\java\de\troetenrepublik\app\ui\VergleichsChart.kt:156: Warning: Assigning value will cause an autoboxing operation. Use floatValue to avoid unnecessary allocations. [AutoboxingStateValueProperty from androidx.compose.runtime]
+                breiteRef.value = w
+                          ~~~~~
+
+   Explanation for issues of type "AutoboxingStateValueProperty":
+   Avoid using the generic value property when using a specialized State type.
+   Reading or writing to the state's generic value property will result in an
+   unnecessary autoboxing operation. Prefer the specialized value property
+   (e.g. intValue for MutableIntState), or use property delegation to avoid
+   unnecessary allocations.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.runtime
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+0 errors, 13 warnings

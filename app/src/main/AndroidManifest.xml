@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".TroeteApp"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Troete"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.Troete">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Widgets auf dem Startbildschirm (seit 4.6) -->
+        <receiver
+            android:name=".plattform.DepotWidget"
+            android:exported="false"
+            android:label="@string/widget_depot_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_depot_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.WerteWidget"
+            android:exported="false"
+            android:label="@string/widget_werte_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_werte_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.EinzelwertWidget"
+            android:exported="false"
+            android:label="@string/widget_einzel_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_einzel_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.MoverWidget"
+            android:exported="false"
+            android:label="@string/widget_mover_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_mover_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.DividendenWidget"
+            android:exported="false"
+            android:label="@string/widget_dividenden_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_dividenden_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.SchnellWidget"
+            android:exported="false"
+            android:label="@string/widget_schnell_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_schnell_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.MaerkteWidget"
+            android:exported="false"
+            android:label="@string/widget_maerkte_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_maerkte_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.StimmungWidget"
+            android:exported="false"
+            android:label="@string/widget_stimmung_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_stimmung_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.NewsWidget"
+            android:exported="false"
+            android:label="@string/widget_news_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_news_info" />
+        </receiver>
+        <!-- Zeilen der rollbaren Widget-Listen (seit 5.4); nur der Startbildschirm darf sich verbinden -->
+        <service
+            android:name=".plattform.WidgetListenDienst"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <!-- Nach einem Update der App die Widgets neu zeichnen -->
+        <receiver
+            android:name=".plattform.WidgetsNachUpdate"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <!-- Einstellung der Widgets (seit 4.6, seit 5.4 fuer alle ausser dem Schnellzugriff): ruft der Startbildschirm beim Hinzufuegen oder Bearbeiten auf -->
+        <activity
+            android:name=".plattform.WidgetEinstellung"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Troete">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

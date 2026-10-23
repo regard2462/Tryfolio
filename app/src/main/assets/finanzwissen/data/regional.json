@@ -1,0 +1,473 @@
+{
+ "us": {
+  "name": {
+   "de": "USA",
+   "en": "United States"
+  },
+  "stand": "2026-10",
+  "module": {
+   "m16": {
+    "de": {
+     "titel": "Steuern in den USA",
+     "unter": "Kapitalerträge, Verluste, Formulare und Erbschaft",
+     "beschreibung": "Wie Kapitalerträge in den USA auf Bundesebene besteuert werden, wie Verluste verrechnet werden, was bei Fonds, ausländischen Erträgen, Krypto und Immobilien gilt, welche Formulare dazugehören und wie Depots vererbt oder verschenkt werden. Die Bundesstaaten erheben zum Teil eigene Steuern."
+    },
+    "en": {
+     "titel": "Taxes in the United States",
+     "unter": "Investment income, losses, forms and estates",
+     "beschreibung": "How investment income is taxed at the federal level in the US, how losses are netted, what applies to funds, foreign income, crypto and real estate, which forms are involved and how portfolios pass by inheritance or gift. Many states levy their own taxes on top."
+    }
+   },
+   "m17": {
+    "de": {
+     "unter": "Social Security, Arbeitgeberpläne und private Vorsorge",
+     "beschreibung": "Social Security, betriebliche Pläne wie der 401(k) und private Konten wie die IRA, ihre steuerlichen Vorteile, die Berechnung des eigenen Bedarfs, Krankenversicherung im Alter und die Frage, wie ein Vermögen im Ruhestand entnommen wird."
+    },
+    "en": {
+     "unter": "Social Security, employer plans and personal savings",
+     "beschreibung": "Social Security, employer plans such as the 401(k) and personal accounts such as the IRA, their tax advantages, calculating your own needs, health coverage in retirement and the question of how wealth is withdrawn in retirement."
+    }
+   },
+   "m18": {
+    "de": {
+     "beschreibung": "Eigenheim und vermietete Immobilie in den USA mit den Rechnungen, die vor dem Kauf nötig sind: Abschlusskosten, Hypothek, Zinsrisiko, Mietrendite und Steuern."
+    },
+    "en": {
+     "beschreibung": "Owner-occupied homes and rental property in the US, with the calculations needed before buying: closing costs, mortgage, interest rate risk, rental yield and taxes."
+    }
+   }
+  },
+  "lektionen": {
+   "m02-l05": {
+    "de": {
+     "titel": "Notwendige und verzichtbare Versicherungen in den USA",
+     "hinweis": "Statt Privathaftpflicht, BU und GKV/PKV: Haftpflicht- und Umbrella-Schutz, Erwerbsunfähigkeitsschutz (SSDI, LTD) und Krankenversicherung in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Essential and dispensable insurance in the US",
+     "hinweis": "Instead of German liability, occupational disability and health insurance: liability and umbrella coverage, disability protection (SSDI, LTD) and health coverage in the US (as of 2026)."
+    }
+   },
+   "m02-l07": {
+    "de": {
+     "titel": "Brutto, Netto und Grenzsteuersatz in den USA",
+     "hinweis": "Statt deutschem Einkommensteuertarif und Sozialabgaben: Bundeseinkommensteuer-Stufen, Standardabzug und FICA-Lohnsteuern in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Gross, net and the marginal tax rate in the US",
+     "hinweis": "Instead of Germany's income tax schedule and social security contributions: federal income tax brackets, the standard deduction and FICA payroll taxes in the US (as of 2026)."
+    }
+   },
+   "m02-l09": {
+    "de": {
+     "titel": "Kreditauskunft, Credit Score und finanzielle Ordnung in den USA",
+     "hinweis": "Statt Schufa, DSGVO-Auskunft und deutschem Kontorecht: US-Kreditauskünfte, FICO-Score, Fair Credit Reporting Act und Vorsorge mit Vollmacht und POD/TOD-Verfügungen (Stand 2026)."
+    },
+    "en": {
+     "titel": "Credit reports, credit scores and keeping your finances in order",
+     "hinweis": "Instead of SCHUFA, GDPR access requests and German account law: US credit reports, FICO scores, the Fair Credit Reporting Act and emergency planning with powers of attorney and POD/TOD designations (as of 2026)."
+    }
+   },
+   "m02-l11": {
+    "de": {
+     "titel": "Partnerschaft, Kinder und Erbe in den USA",
+     "hinweis": "Statt deutschem Erbrecht, Erbschaftsteuer-Freibeträgen und Vorsorgevollmacht: Güterrecht und Erbfolge der Bundesstaaten, Schenkung- und Nachlasssteuer des Bundes, Step-up in Basis und Vollmachten in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Partnership, children and inheritance in the US",
+     "hinweis": "Instead of German inheritance law, inheritance tax allowances and lasting powers of attorney: state marital property and intestacy rules, federal gift and estate tax, the step-up in basis and powers of attorney in the US (as of 2026)."
+    }
+   },
+   "m04-l02": {
+    "de": {
+     "titel": "Depot und Broker in den USA",
+     "hinweis": "Statt deutscher Einlagensicherung, Abgeltungsteuer und Freistellungsauftrag: Verwahrung im Street Name, SIPC und FDIC, Payment for Order Flow und die Steuerbescheinigungen von US-Brokern (Stand 2026)."
+    },
+    "en": {
+     "titel": "Brokerage accounts and brokers in the US",
+     "hinweis": "Instead of German deposit protection, flat-rate withholding tax and exemption orders: street-name custody, SIPC and FDIC, payment for order flow and tax reporting by US brokers (as of 2026)."
+    }
+   },
+   "m04-l03": {
+    "de": {
+     "titel": "Die erste Order bei einem US-Broker",
+     "hinweis": "Statt Xetra, deutscher Börsenplätze und Mistrade-Regeln: Handelszeiten, NBBO, Orderweiterleitung und Schutzmechanismen am US-Aktienmarkt (Stand 2026)."
+    },
+    "en": {
+     "titel": "Your first order at a US broker",
+     "hinweis": "Instead of Xetra, German trading venues and mistrade rules: trading sessions, the NBBO, order routing and safeguards in the US stock market (as of 2026)."
+    }
+   },
+   "m04-l09": {
+    "de": {
+     "titel": "Kosten einer Wertpapierorder in den USA",
+     "hinweis": "Statt Xetra-Spannen, deutscher Quellensteueranrechnung und Abgeltungsteuer: Handelskosten bei 0 $ Ordergebühr, Foreign Tax Credit und Steuern beim Rebalancing in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Costs of a securities order in the US",
+     "hinweis": "Instead of Xetra spreads, German withholding tax credit and flat-rate tax: trading costs with $0 commissions, the foreign tax credit and taxes on rebalancing in the US (as of 2026)."
+    }
+   },
+   "m04-l11": {
+    "de": {
+     "titel": "Das Geschäftsmodell der US-Finanzbranche",
+     "hinweis": "Statt WpHG, Gewerbeordnung und Zillmerung: wie Broker, Fondsanbieter, Berater und Versicherer in den USA verdienen und welche Pflichten Regulation Best Interest und der Investment Advisers Act vorschreiben (Stand 2026)."
+    },
+    "en": {
+     "titel": "The business model of the US financial industry",
+     "hinweis": "Instead of Germany's WpHG, Trade Regulation Act and Zillmer adjustment: how brokers, fund sponsors, advisers and insurers earn money in the US and what Regulation Best Interest and the Investment Advisers Act require (as of 2026)."
+    }
+   },
+   "m05-l09": {
+    "de": {
+     "titel": "Geldmarkt und Cash in den USA",
+     "hinweis": "Statt €STR, Tagesgeld, Bubills und deutscher Einlagensicherung: Federal Funds Rate, Sparkonten, CDs, Geldmarktfonds, Treasury Bills und FDIC-Versicherung in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Money market and cash in the US",
+     "hinweis": "Instead of the €STR, German instant-access accounts, Bubills and German deposit protection: the federal funds rate, savings accounts, CDs, money market funds, Treasury bills and FDIC insurance in the US (as of 2026)."
+    }
+   },
+   "m09-l05": {
+    "de": {
+     "titel": "Ausschüttungen, Wiederanlage und Steuerlast",
+     "hinweis": "Statt der deutschen Wahl zwischen ausschüttenden und thesaurierenden Fonds und der Vorabpauschale: wie Fondsausschüttungen in den USA auf Bundesebene besteuert werden und warum thesaurierende ausländische ETFs für US-Personen eine Falle sind (Stand 2026)."
+    },
+    "en": {
+     "titel": "Distributions, reinvestment and tax drag",
+     "hinweis": "Instead of Germany's choice between distributing and accumulating funds and the advance lump sum: how fund distributions are taxed at the federal level in the US and why accumulating foreign ETFs are a trap for US persons (as of 2026)."
+    }
+   },
+   "m09-l06": {
+    "de": {
+     "titel": "Einen ETF in den USA auswählen",
+     "hinweis": "Statt irischer UCITS-ETFs, Teilfreistellung und deutscher Handelsplätze: wie du unter US-börsennotierten ETFs auswählst, einschließlich Fondsstruktur und des PFIC-Problems ausländischer Fonds (Stand 2026)."
+    },
+    "en": {
+     "titel": "Choosing an ETF in the US",
+     "hinweis": "Instead of Irish UCITS ETFs, Germany's partial exemption and German trading venues: how to choose among US-listed ETFs, including fund structure and the PFIC problem with foreign funds (as of 2026)."
+    }
+   },
+   "m09-l07": {
+    "de": {
+     "titel": "Automatisch investieren und durchhalten",
+     "hinweis": "Statt des deutschen ETF-Sparplans mit Freistellungsauftrag, Vorabpauschale und FIFO: automatisches Investieren über 401(k), IRA und Depot in den USA, mit Arbeitgeberzuschuss, freier Wahl der verkauften Tranchen und der Wash-Sale-Regel (Stand 2026)."
+    },
+    "en": {
+     "titel": "Setting up automatic investing and sticking with it",
+     "hinweis": "Instead of the German ETF savings plan with exemption order, advance lump sum and mandatory FIFO: automatic investing through a 401(k), an IRA or a brokerage account in the US, with the employer match, free choice of the lots you sell and the wash sale rule (as of 2026)."
+    }
+   },
+   "m14-l09": {
+    "de": {
+     "titel": "Steuern und Praxis beim Trading in den USA",
+     "hinweis": "Statt deutscher Verlusttöpfe, Abgeltungsteuer und Vorabpauschale: wie Trading-Gewinne in den USA auf Bundesebene besteuert werden, mit Wash-Sale-Regel, Section-1256-Kontrakten und Steuervorauszahlungen (Stand 2026)."
+    },
+    "en": {
+     "titel": "Taxes and practicalities in US trading",
+     "hinweis": "Instead of German loss pots, flat-rate withholding tax and the advance lump sum: how trading gains are taxed at the federal level in the US, including the wash sale rule, Section 1256 contracts and estimated tax payments (as of 2026)."
+    }
+   },
+   "m16-l01": {
+    "de": {
+     "titel": "Grundlagen der US-Steuer auf Kapitalerträge",
+     "hinweis": "Statt der deutschen Abgeltungsteuer: wie Zinsen, Dividenden und Kursgewinne in den USA auf Bundesebene besteuert werden (Stand 2026)."
+    },
+    "en": {
+     "titel": "Basics of US investment income taxes",
+     "hinweis": "Instead of Germany's flat-rate withholding tax: how interest, dividends and capital gains are taxed at the federal level in the US (as of 2026)."
+    }
+   },
+   "m16-l02": {
+    "de": {
+     "titel": "Die 0-%-Stufe und steuerbegünstigte Konten",
+     "hinweis": "Statt Sparer-Pauschbetrag und Freistellungsauftrag: wie Standardabzug, 0-%-Stufe und steuerbegünstigte Konten Kapitalerträge in den USA steuerfrei halten (Stand 2026)."
+    },
+    "en": {
+     "titel": "The 0% bracket and tax-advantaged accounts",
+     "hinweis": "Instead of Germany's saver's allowance and exemption order: how the standard deduction, the 0% bracket and tax-advantaged accounts keep investment income tax-free in the US (as of 2026)."
+    }
+   },
+   "m16-l03": {
+    "de": {
+     "titel": "Wie US-Fonds und ETFs besteuert werden",
+     "hinweis": "Statt Teilfreistellung und Vorabpauschale: wie die USA Fondsausschüttungen, Kapitalgewinnausschüttungen und qualifizierte Dividenden besteuern und warum ausländische Fonds (PFIC) für US-Anleger ungeeignet sind (Stand 2026)."
+    },
+    "en": {
+     "titel": "How US funds and ETFs are taxed",
+     "hinweis": "Instead of Germany's partial exemption and advance lump sum: how the US taxes fund distributions, capital gain distributions and qualified dividends, and why foreign funds (PFICs) are a poor fit for US investors (as of 2026)."
+    }
+   },
+   "m16-l04": {
+    "de": {
+     "titel": "Kursverluste verrechnen",
+     "hinweis": "Statt Verlustverrechnungstöpfen und Verlustbescheinigung: wie Kursverluste in den USA verrechnet werden, mit der 3.000-$-Grenze, dem Verlustvortrag und der Wash-Sale-Regel (Stand 2026)."
+    },
+    "en": {
+     "titel": "Offsetting capital losses",
+     "hinweis": "Instead of Germany's loss offset pots and loss certificate: how capital losses are netted in the US, with the $3,000 limit, the carryforward and the wash sale rule (as of 2026)."
+    }
+   },
+   "m16-l05": {
+    "de": {
+     "titel": "Lot-Auswahl, Depotübertrag und Steuerstundung",
+     "hinweis": "Statt FIFO-Pflicht, Gläubigerwechsel und Abgeltungsteuer: wie US-Anleger Tranchen auswählen, was bei Depotübertrag, Schenkung und Erbschaft (Step-up) gilt und was die Steuerstundung bringt (Stand 2026)."
+    },
+    "en": {
+     "titel": "Lot selection, transfers and tax deferral",
+     "hinweis": "Instead of Germany's mandatory FIFO and change-of-creditor rules: how US investors choose tax lots, what applies to account transfers, gifts and inheritances (step-up), and what tax deferral is worth (as of 2026)."
+    }
+   },
+   "m16-l06": {
+    "de": {
+     "titel": "Ausländische Steuern und Konten im Ausland",
+     "hinweis": "Statt der deutschen Anrechnung von Quellensteuer und der Wegzugsbesteuerung: der Foreign Tax Credit, ausländische Konten und Fonds aus US-Sicht und die US-Expatriation-Tax (Stand 2026)."
+    },
+    "en": {
+     "titel": "Foreign taxes and foreign accounts",
+     "hinweis": "Instead of Germany's crediting of withholding tax and its exit taxation: the US foreign tax credit, foreign accounts and funds from a US perspective, and the US expatriation tax (as of 2026)."
+    }
+   },
+   "m16-l07": {
+    "de": {
+     "titel": "Kapitalerträge erklären: Formulare 1099, 8949 und Schedule D",
+     "hinweis": "Statt der deutschen Anlage KAP: wie Kapitalerträge in den USA über die Formulare 1099, 8949 und Schedule D erklärt und korrigiert werden (Stand 2026)."
+    },
+    "en": {
+     "titel": "Reporting investment income: Forms 1099, 8949 and Schedule D",
+     "hinweis": "Instead of Germany's capital income annex (Anlage KAP): how investment income is reported and corrected in the US on Forms 1099, 8949 and Schedule D (as of 2026)."
+    }
+   },
+   "m16-l08": {
+    "de": {
+     "titel": "Krypto, Gold und Sammlerstücke",
+     "hinweis": "Statt der deutschen Regeln zu privaten Veräußerungsgeschäften mit einjähriger Haltefrist: wie die USA Krypto, Gold und Sammlerstücke auf Bundesebene besteuern (Stand 2026)."
+    },
+    "en": {
+     "titel": "Crypto, gold and collectibles",
+     "hinweis": "Instead of Germany's rules on private disposal transactions with a one-year holding period: how crypto, gold and collectibles are taxed at the federal level in the US (as of 2026)."
+    }
+   },
+   "m16-l09": {
+    "de": {
+     "titel": "Steuern rund um Immobilien",
+     "hinweis": "Statt Grunderwerbsteuer, Grundsteuer, AfA und Spekulationsfrist in Deutschland: Kaufnebenkosten, Property Tax, Vermietung, Abschreibung und Verkauf nach US-Bundesrecht (Stand 2026)."
+    },
+    "en": {
+     "titel": "Taxes on real estate",
+     "hinweis": "Instead of Germany's real estate transfer tax, property tax, depreciation and ten-year rule: closing costs, property tax, rentals, depreciation and sales under US federal law (as of 2026)."
+    }
+   },
+   "m16-l10": {
+    "de": {
+     "titel": "Wertpapierdepots vererben und verschenken",
+     "hinweis": "Statt der deutschen Erbschaft- und Schenkungsteuer mit Steuerklassen und Zehnjahresfrist: die US-Bundeserbschaft- und Schenkungsteuer, der Step-up der Anschaffungskosten und Begünstigtenerklärungen (Stand 2026)."
+    },
+    "en": {
+     "titel": "Inheriting and gifting investment portfolios",
+     "hinweis": "Instead of Germany's inheritance and gift tax with tax classes and a ten-year period: the US federal estate and gift tax, the step-up in basis and beneficiary designations (as of 2026)."
+    }
+   },
+   "m17-l01": {
+    "de": {
+     "titel": "Der dreibeinige Hocker",
+     "hinweis": "Statt des deutschen Drei-Schichten-Modells: wie die Altersvorsorge in den USA auf Social Security, betrieblichen Plänen und privatem Sparen ruht und wie jedes Standbein auf Bundesebene besteuert wird (Stand 2026)."
+    },
+    "en": {
+     "titel": "The three-legged stool",
+     "hinweis": "Instead of Germany's three-layer model: how US retirement income rests on Social Security, employer plans and personal savings, and how each is taxed at the federal level (as of 2026)."
+    }
+   },
+   "m17-l02": {
+    "de": {
+     "titel": "Grundlagen der Social Security",
+     "hinweis": "Statt der deutschen gesetzlichen Rente: wie die US-amerikanische Social Security finanziert, berechnet und besteuert wird (Stand 2026)."
+    },
+    "en": {
+     "titel": "Social Security basics",
+     "hinweis": "Instead of the German statutory pension: how US Social Security is financed, calculated and taxed (as of 2026)."
+    }
+   },
+   "m17-l03": {
+    "de": {
+     "titel": "Traditional und Roth IRA",
+     "hinweis": "Statt Riester- und Rürup-Rente: die US-amerikanische Traditional und Roth IRA mit den Regeln und Grenzen des Bundes für 2026."
+    },
+    "en": {
+     "titel": "Traditional and Roth IRAs",
+     "hinweis": "Instead of Germany's Riester and Rürup pensions: the US Traditional and Roth IRA, with the federal rules and limits for 2026."
+    }
+   },
+   "m17-l04": {
+    "de": {
+     "titel": "401(k), 403(b) und der Arbeitgeber-Match",
+     "hinweis": "Statt der deutschen betrieblichen Altersvorsorge (bAV): 401(k)- und 403(b)-Pläne und der Arbeitgeber-Match nach US-Bundesrecht (Stand 2026)."
+    },
+    "en": {
+     "titel": "401(k), 403(b) and the employer match",
+     "hinweis": "Instead of the German occupational pension (bAV): 401(k) and 403(b) plans and the employer match under US federal rules (as of 2026)."
+    }
+   },
+   "m17-l05": {
+    "de": {
+     "titel": "Annuity oder Depot",
+     "hinweis": "Statt deutscher Fondspolicen und der 12/62-Regel: Variable Annuities und kapitalbildende Lebensversicherungen im Vergleich zum Depot nach US-Bundessteuerrecht (Stand 2026)."
+    },
+    "en": {
+     "titel": "Annuity or brokerage account",
+     "hinweis": "Instead of German unit-linked policies and the 12/62 rule: variable annuities and cash-value life insurance compared with a brokerage account under US federal tax rules (as of 2026)."
+    }
+   },
+   "m17-l06": {
+    "de": {
+     "titel": "Finanzbedarf im Ruhestand",
+     "hinweis": "Statt gesetzlicher Rente, Rentenniveau und Kranken- und Pflegebeiträgen: Bedarfsrechnung mit Social Security, Medicare-Beiträgen und der US-Besteuerung der Leistungen (Stand 2026)."
+    },
+    "en": {
+     "titel": "Financial needs in retirement",
+     "hinweis": "Instead of Germany's statutory pension, pension level and health insurance contributions: the needs calculation with Social Security, Medicare premiums and US taxation of benefits (as of 2026)."
+    }
+   },
+   "m17-l07": {
+    "de": {
+     "titel": "Entnahmestrategien",
+     "hinweis": "Statt Abgeltungsteuer, Teilfreistellung und Vorabpauschale: wie Entnahmen in den USA je nach Konto besteuert werden, mit Pflichtentnahmen (RMDs) und steuerlicher Reihenfolge der Konten (Stand 2026)."
+    },
+    "en": {
+     "titel": "Withdrawal strategies",
+     "hinweis": "Instead of Germany's flat-rate withholding tax and advance lump sum: how withdrawals are taxed in the US depending on the account, with required minimum distributions and the tax order of withdrawals (as of 2026)."
+    }
+   },
+   "m17-l08": {
+    "de": {
+     "titel": "Sofortrente, Auszahlplan, Kombination",
+     "hinweis": "Statt deutscher Sofortrente mit Höchstrechnungszins und Ertragsanteilbesteuerung: US-Sofortrenten (SPIAs), Treasury-Leitern, die Exclusion Ratio und der spätere Bezug der Social Security (Stand 2026)."
+    },
+    "en": {
+     "titel": "Income annuity, withdrawal plan, combination",
+     "hinweis": "Instead of Germany's immediate annuity with its regulated maximum technical interest rate and income-portion taxation: US income annuities (SPIAs), Treasury ladders, the exclusion ratio and delaying Social Security (as of 2026)."
+    }
+   },
+   "m17-l09": {
+    "de": {
+     "titel": "Pflege und Krankenversicherung im Alter",
+     "hinweis": "Statt Pflegegraden, KVdR und Elternunterhalt: Medicare mit Medigap oder Medicare Advantage, einkommensabhängige Zuschläge, Pflegekosten, Pflegeversicherung und Medicaid mit fünfjähriger Rückschau in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Long-term care and health insurance in old age",
+     "hinweis": "Instead of Germany's care levels, statutory health insurance for pensioners and parental maintenance: Medicare with Medigap or Medicare Advantage, income-related surcharges, long-term care costs, insurance and Medicaid's five-year look-back in the US (as of 2026)."
+    }
+   },
+   "m17-l10": {
+    "de": {
+     "titel": "Einen Altersvorsorgeplan aufstellen",
+     "hinweis": "Statt Renteninformation, Kontenklärung, bAV-Zuschuss und Riester: ein Vorsorgeplan mit Social Security Statement, 401(k)-Match, IRA, HSA und der US-Besteuerung im Ruhestand (Stand 2026)."
+    },
+    "en": {
+     "titel": "Drawing up a retirement plan",
+     "hinweis": "Instead of Germany's pension statement, account clarification, employer subsidy and Riester: a retirement plan with the Social Security Statement, 401(k) match, IRA, HSA and US taxation in retirement (as of 2026)."
+    }
+   },
+   "m17-l11": {
+    "de": {
+     "titel": "Jenseits von IRA und 401(k)",
+     "hinweis": "Statt des deutschen Altersvorsorgedepots: die übrigen US-Steuervorteile für die Altersvorsorge, vom Saver's Credit und Health Savings Account bis zu Plänen für Selbstständige und Roth-Umwandlungen (Stand 2026)."
+    },
+    "en": {
+     "titel": "Beyond the IRA and 401(k)",
+     "hinweis": "Instead of Germany's new retirement investment account: the remaining US tax breaks for retirement savers, from the Saver's Credit and health savings account to plans for the self-employed and Roth conversions (as of 2026)."
+    }
+   },
+   "m18-l01": {
+    "de": {
+     "titel": "Kaufen oder mieten in den USA",
+     "hinweis": "Statt Grunderwerbsteuer, Notar und Maklercourtage in Deutschland: der Vergleich von Kaufen und Mieten mit US-Abschlusskosten, Grundsteuer, Verkaufsprovision und den US-Steuerregeln für Selbstnutzer (Stand 2026)."
+    },
+    "en": {
+     "titel": "Buying or renting in the US",
+     "hinweis": "Instead of Germany's transfer tax, notary and agent fees: buying versus renting with US closing costs, property tax, selling commissions and the US tax rules for owner-occupiers (as of 2026)."
+    }
+   },
+   "m18-l02": {
+    "de": {
+     "titel": "Die Kosten eines Hauses in den USA",
+     "hinweis": "Statt Grunderwerbsteuer, Notar, Betriebskostenverordnung und Gebäudeenergiegesetz: US-Abschlusskosten mit Loan Estimate, Titelversicherung und Escrow, die örtliche Grundsteuer und Pflichten beim Hauskauf in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "The costs of a home in the US",
+     "hinweis": "Instead of Germany's transfer tax, notary, operating-costs rules and buildings energy law: US closing costs with the Loan Estimate, title insurance and escrow, local property tax and the obligations that come with a US home purchase (as of 2026)."
+    }
+   },
+   "m18-l03": {
+    "de": {
+     "titel": "Hypotheken in den USA",
+     "hinweis": "Statt Annuitätendarlehen mit Anfangstilgung, Zinsbindung, KfW und § 489 BGB: die US-Hypothek mit 30 Jahren Festzins, Anzahlung und Hypothekenversicherung (PMI, FHA), Sondertilgung ohne Entschädigung und Umschuldung (Stand 2026)."
+    },
+    "en": {
+     "titel": "Mortgages in the US",
+     "hinweis": "Instead of German annuity loans with an initial repayment rate, fixed-rate periods, KfW and Section 489 BGB: the US 30-year fixed-rate mortgage, down payment and mortgage insurance (PMI, FHA), penalty-free prepayment and refinancing (as of 2026)."
+    }
+   },
+   "m18-l04": {
+    "de": {
+     "titel": "Variabel oder fest: Zinsrisiko und Stresstest",
+     "hinweis": "Statt Anschlussfinanzierung nach zehn Jahren Zinsbindung, Arbeitslosengeld I und § 489 BGB: Hypotheken mit variablem Zins (ARM) und ihre Caps im Vergleich zum 30-jährigen Festzins, Schuldenquote, Arbeitslosenversicherung der Bundesstaaten und Haftung nach einer Trennung in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Adjustable or fixed: rate risk and stress test",
+     "hinweis": "Instead of Germany's follow-up financing after a ten-year fixed-rate period, unemployment benefit I and Section 489 BGB: adjustable-rate mortgages and their caps compared with the 30-year fixed rate, debt-to-income ratio, state unemployment insurance and liability after a separation in the US (as of 2026)."
+    }
+   },
+   "m18-l05": {
+    "de": {
+     "titel": "Vermietete Immobilie als Kapitalanlage in den USA",
+     "hinweis": "Statt II. Berechnungsverordnung, AfA nach § 7 EStG und deutschem Mietrecht: Cap Rate und Nettobetriebsergebnis, Abschreibung über 27,5 Jahre, Regeln für passive Verluste, Nachversteuerung und 1031-Tausch in den USA (Stand 2026)."
+    },
+    "en": {
+     "titel": "Rental property as an investment in the US",
+     "hinweis": "Instead of Germany's Second Computation Ordinance, Section 7 EStG depreciation and German tenancy law: cap rate and net operating income, 27.5-year depreciation, passive loss rules, recapture and 1031 exchanges in the US (as of 2026)."
+    }
+   },
+   "m18-l06": {
+    "de": {
+     "titel": "Steuern auf vermietete Immobilien",
+     "hinweis": "Statt AfA, Spekulationsfrist und deutschem Mietrecht: wie Mieteinkünfte in den USA auf Bundesebene besteuert werden, mit Abschreibung, Passive-Activity-Regeln, Recapture und 1031 Exchange (Stand 2026)."
+    },
+    "en": {
+     "titel": "Taxes on rental property",
+     "hinweis": "Instead of German depreciation rules, the ten-year holding period and German tenancy law: how rental income is taxed at the federal level in the US, including depreciation, passive activity rules, recapture and 1031 exchanges (as of 2026)."
+    }
+   },
+   "m18-l07": {
+    "de": {
+     "titel": "Condos, HOAs und Co-ops",
+     "hinweis": "Statt des deutschen Wohnungseigentumsgesetzes (WEG): wie Eigentumswohnungen (Condos), Eigentümergemeinschaften in Wohnsiedlungen (HOAs) und Co-ops in den USA funktionieren (Stand 2026)."
+    },
+    "en": {
+     "titel": "Condos, HOAs and co-ops",
+     "hinweis": "Instead of Germany's Apartment Ownership Act (WEG): how condominiums, homeowners associations (HOAs) and co-ops work in the US (as of 2026)."
+    }
+   },
+   "m18-l08": {
+    "de": {
+     "titel": "REITs und andere indirekte Immobilienanlagen",
+     "hinweis": "Statt offener Immobilienfonds, deutscher REITs, Crowdinvesting nach deutschem Recht und Abgeltungsteuer: REITs, nicht börsennotierte REITs, Intervallfonds und Crowdfunding in den USA und ihre Besteuerung auf Bundesebene (Stand 2026)."
+    },
+    "en": {
+     "titel": "REITs and other indirect real estate",
+     "hinweis": "Instead of German open-ended real estate funds, German REITs, German crowdinvesting rules and the flat-rate withholding tax: REITs, non-traded REITs, interval funds and crowdfunding in the US and how they are taxed at the federal level (as of 2026)."
+    }
+   },
+   "m18-l09": {
+    "de": {
+     "titel": "Daten zum US-Immobilienmarkt",
+     "hinweis": "Statt deutscher Preisindizes, Gutachterausschüsse und Bauzinsen: wie man den US-Immobilienmarkt mit Case-Shiller- und FHFA-Index, Freddie-Mac-Zinsen und lokalen Verkaufsdaten einschätzt (Stand 2026)."
+    },
+    "en": {
+     "titel": "US housing market data",
+     "hinweis": "Instead of German price indexes, valuation committees and German mortgage rates: how to read the US housing market with the Case-Shiller and FHFA indexes, Freddie Mac rates and local sales records (as of 2026)."
+    }
+   }
+  }
+ }
+}
