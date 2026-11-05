@@ -1,0 +1,25 @@
+name: Fehler / Bug
+description: Etwas funktioniert nicht wie erwartet / Something does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Profil, ganz unten / Profile, at the bottom
+    validations:
+      required: true
+  - type: dropdown
+    id: plattform
+    attributes:
+      label: Plattform / Platform
+      options: [Android, Windows, Linux, macOS]
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte / Steps
+      description: Was hast du gemacht, was ist passiert, was hast du erwartet? / What did you do, what happened, what did you expect?
+    validations:
+      required: true

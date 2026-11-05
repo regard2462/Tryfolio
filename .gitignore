@@ -1,0 +1,15 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+/app/release/
+.kotlin/
+
+# Exporte von Brokern (Transaktionsexporte) nie einchecken
+*.csv
+
+# Xcode-Huelle der iOS-App
+build-ios/
+xcuserdata/

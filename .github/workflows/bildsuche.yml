@@ -1,0 +1,26 @@
+# Sucht freie Fotos auf Wikimedia Commons für Personen ohne Bild (Copytrading). Läuft nur von Hand.
+# Legt Bericht und Vorschaubilder auf dem Branch bildsuche ab; in die App kommt nichts ohne Prüfung.
+name: Bildsuche
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  suche:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Suchen
+        run: python3 .github/bildsuche/suche.py .github/bildsuche/personen.json
+      - name: Branch bildsuche
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd ausgabe
+          git init -q -b bildsuche
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Bildsuche vom Stand ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" bildsuche

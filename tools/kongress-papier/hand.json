@@ -1,0 +1,6672 @@
+{
+ "_hinweis": "Von Hand am Seitenbild gelesene oder gepruefte Angaben. ersetzen: Geschaefte dieser Meldung kommen nur von hier (handschriftlich, Briefe, Sonderfaelle). korrekturen: einzelne Zeilen der automatischen Lesung (Schluessel Seite/Zeile) berichtigen, bestaetigen (ok) oder streichen. b: Betragsspalte A bis K.",
+ "meldungen": {
+  "8220796": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "650 HSBC HOLDINGS PLC",
+     "a": "VERKAUF",
+     "d": "2025-02-27",
+     "g": "2025-02-27",
+     "b": "B"
+    },
+    {
+     "s": 1,
+     "i": "",
+     "w": "TESLA COMMON STOCK",
+     "a": "KAUF",
+     "d": "2025-03-04",
+     "g": "2025-03-04",
+     "b": "B"
+    },
+    {
+     "s": 1,
+     "i": "",
+     "w": "TESLA COMMON STOCK",
+     "a": "KAUF",
+     "d": "2025-03-12",
+     "g": "2025-03-12",
+     "b": "C"
+    }
+   ]
+  },
+  "8220809": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "TESLA COMMON STOCK",
+     "a": "VERKAUF",
+     "d": "2025-03-17",
+     "b": "D",
+     "_anm": "Benachrichtigung ueberschrieben, nicht sicher lesbar"
+    }
+   ]
+  },
+  "8220845": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "APPLE INC COMMON STOCK",
+     "a": "KAUF",
+     "d": "2025-04-03",
+     "g": "2025-04-03",
+     "b": "D"
+    },
+    {
+     "s": 1,
+     "i": "",
+     "w": "APPLE INC COMMON STOCK",
+     "a": "VERKAUF",
+     "d": "2025-04-07",
+     "g": "2025-04-07",
+     "b": "C"
+    }
+   ]
+  },
+  "9116249": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "CHS Stock (Private), Cole, Hargraves, Snodgrass and Associates",
+     "a": "VERKAUF",
+     "d": "2026-06-30",
+     "g": "2026-07-07",
+     "b": "B",
+     "t": "OT"
+    }
+   ]
+  },
+  "8221276": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "Treasury Bills",
+     "a": "VERKAUF",
+     "d": "2025-12-19",
+     "g": "2025-12-19",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "",
+     "w": "Chipotle",
+     "a": "VERKAUF",
+     "d": "2025-12-19",
+     "g": "2025-12-19",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "",
+     "w": "Flagstar",
+     "a": "VERKAUF",
+     "d": "2025-12-19",
+     "g": "2025-12-19",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "",
+     "w": "Ichan Bonds",
+     "a": "KAUF",
+     "d": "2025-12-19",
+     "g": "2025-12-19",
+     "b": "B"
+    }
+   ]
+  },
+  "8221287": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "US Treasury Bill",
+     "a": "KAUF",
+     "d": "2025-12-24",
+     "g": "2025-12-26",
+     "b": "D"
+    }
+   ]
+  },
+  "9116217": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "US Treasury Bill",
+     "a": "KAUF",
+     "d": "2026-06-25",
+     "b": "D",
+     "_anm": "Benachrichtigung ueberschrieben, nicht sicher lesbar"
+    }
+   ]
+  },
+  "8220768": {
+   "grund": "irrtuemlich gemeldet, mit 8220770 zurueckgezogen (Kauf fand nicht statt)",
+   "ersetzen": []
+  },
+  "8220770": {
+   "grund": "Brief: Meldung vom 20.02.2025 (8220768) irrtuemlich, keine Geschaefte",
+   "ersetzen": []
+  },
+  "8220780": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "US Treasury Bonds",
+     "a": "KAUF",
+     "d": "2025-03-03",
+     "g": "2025-03-03",
+     "b": "A"
+    }
+   ]
+  },
+  "8220731": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "ATT INC",
+     "a": "VERKAUF",
+     "d": "2025-01-10",
+     "g": "2025-01-10",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "Genuine Parts Co",
+     "a": "KAUF",
+     "d": "2025-01-10",
+     "g": "2025-01-10",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "Merck & Co, INC",
+     "a": "VERKAUF",
+     "d": "2025-01-10",
+     "g": "2025-01-10",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "NVIDIA Corp",
+     "a": "KAUF",
+     "d": "2025-01-10",
+     "g": "2025-01-10",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Pepsico INC",
+     "a": "KAUF",
+     "d": "2025-01-10",
+     "g": "2025-01-10",
+     "b": "A"
+    }
+   ]
+  },
+  "9115686": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "Leidos Holdings, Inc",
+     "a": "VERKAUF",
+     "d": "2025-10-07",
+     "g": "2025-10-14",
+     "b": "A"
+    }
+   ]
+  },
+  "9116197": {
+   "grund": "Wiederholung der Meldung 8220731: dieselben fuenf Geschaefte vom 10.01.2025, ueber 17 Monate vor der Einreichung",
+   "ersetzen": []
+  },
+  "8220764": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "Carter Baldwin",
+     "a": "KAUF",
+     "d": "2025-01-14",
+     "g": "2025-01-14",
+     "b": "A"
+    }
+   ]
+  },
+  "9115549": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "Carter Baldwin",
+     "a": "KAUF",
+     "d": "2025-07-14",
+     "b": "B"
+    }
+   ]
+  },
+  "8221238": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "Bitcoin",
+     "a": "KAUF",
+     "d": "2025-10-17",
+     "b": "A",
+     "k": "BTC-USD",
+     "t": "OT"
+    }
+   ]
+  },
+  "8220828": {
+   "grund": "handschriftlich",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "",
+     "w": "AT&T",
+     "a": "VERKAUF",
+     "d": "2024-11-13",
+     "g": "2025-04-09",
+     "b": "A"
+    }
+   ]
+  },
+  "8221212": {
+   "_anm": "Seite 1 Formular (6 Geschaefte, auch im Brief), Seiten 2-3 Brief mit 10 nachgemeldeten Geschaeften, Seiten 4-14 Ausdruck der elektronischen Meldung 20032129 (nicht doppelt erfasst)",
+   "ersetzen": [
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "BigBear.ai, Inc. Common Stock",
+     "a": "KAUF",
+     "d": "2025-07-10",
+     "g": "2025-08-11",
+     "b": "B"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "NuScale Power Corporation Class A Common Stock",
+     "a": "KAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-11",
+     "b": "B"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "NuScale Power Corporation Class A Common Stock",
+     "a": "KAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-11",
+     "b": "B"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "NVIDIA Corporation- Common Stock",
+     "a": "VERKAUF",
+     "d": "2025-06-26",
+     "g": "2025-08-11",
+     "b": "C"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "Palantir Technologies Inc. - Class A Common Stock",
+     "a": "TEILVERKAUF",
+     "d": "2025-06-02",
+     "g": "2025-08-11",
+     "b": "C"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "Palantir Technologies Inc. - Class A Common Stock",
+     "a": "TEILVERKAUF",
+     "d": "2025-06-11",
+     "g": "2025-08-11",
+     "b": "C"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "Palantir Technologies Inc. - Class A Common Stock",
+     "a": "TEILVERKAUF",
+     "d": "2025-06-26",
+     "g": "2025-08-11",
+     "b": "D"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "Rigetti Computing, Inc. - Common Stock",
+     "a": "KAUF",
+     "d": "2025-07-17",
+     "g": "2025-08-11",
+     "b": "B"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "Taiwan Semiconductor Manufacturing Company Ltd.",
+     "a": "TEILVERKAUF",
+     "d": "2025-06-26",
+     "g": "2025-08-11",
+     "b": "C"
+    },
+    {
+     "s": 3,
+     "i": "SP",
+     "w": "Tesla, Inc. - Common Stock",
+     "a": "VERKAUF",
+     "d": "2025-06-02",
+     "g": "2025-08-11",
+     "b": "B"
+    }
+   ]
+  },
+  "8220750": {
+   "korrekturen": {
+    "3/8": {
+     "unlesbar": true
+    },
+    "23/4": {
+     "w": "PUT/XSP @ 580 EXP 03/28/2025"
+    },
+    "23/5": {
+     "w": "PUT/XSP @ 555 EXP 03/07/2025"
+    },
+    "23/6": {
+     "w": "PUT/XSP @ 560 EXP 03/21/2025"
+    },
+    "23/7": {
+     "w": "PUT/XSP @ 575 EXP 03/14/2025"
+    },
+    "32/6": {
+     "unlesbar": true
+    },
+    "32/7": {
+     "unlesbar": true
+    },
+    "32/8": {
+     "unlesbar": true
+    },
+    "1/2": {
+     "streichen": true
+    },
+    "7/12": {
+     "w": "SHERWIN-WILLIAMS CO CMN"
+    },
+    "7/15": {
+     "w": "ANALOG DEVICES, INC. CMN"
+    },
+    "33/11": {
+     "w": "ELASTIC N.V. CMN"
+    },
+    "20/9": {
+     "ok": true,
+     "w": "MOLINA HEALTHCARE, INC. CMN"
+    },
+    "19/17": {
+     "ok": true,
+     "w": "INCYTE CORPORATION CMN"
+    },
+    "23/3": {
+     "ok": true,
+     "w": "COPART, INC. CMN"
+    }
+   }
+  },
+  "8220783": {
+   "korrekturen": {
+    "19/18": {
+     "w": "CALL/HSBC FLEX EURO PM 53 EXP 02/14/2025"
+    },
+    "20/3": {
+     "w": "CALL/TTE FLEX EURO PM @ 59 EXP 02/14/2025"
+    },
+    "20/4": {
+     "w": "CALL/SNY FLEX EURO PM @ 51 EXP 02/14/2025"
+    },
+    "20/5": {
+     "w": "PUT/XSP @ 550 EXP 04/30/2025"
+    },
+    "20/6": {
+     "w": "PUT/XSP @ 587 EXP 04/11/2025"
+    },
+    "20/7": {
+     "w": "PUT/XSP @ 581 EXP 04/04/2025"
+    },
+    "20/8": {
+     "w": "PUT/XSP @ 590 EXP 04/17/2025"
+    },
+    "20/9": {
+     "w": "PUT/XSP @ 555 EXP 04/17/2025"
+    },
+    "1/2": {
+     "streichen": true
+    },
+    "4/7": {
+     "d": "2025-02-05",
+     "g": "2025-03-05"
+    },
+    "13/6": {
+     "d": "2025-02-25",
+     "g": "2025-03-05"
+    },
+    "28/16": {
+     "d": "2025-02-20",
+     "g": "2025-02-28"
+    },
+    "28/17": {
+     "d": "2025-02-20",
+     "g": "2025-02-28"
+    },
+    "3/5": {
+     "w": "STARBUCKS CORP. CMN"
+    },
+    "3/18": {
+     "w": "VISA INC. CMN CLASS A"
+    },
+    "7/6": {
+     "w": "IQVIA HOLDINGS INC CMN"
+    },
+    "22/18": {
+     "w": "SNAP-ON INC CMN"
+    }
+   }
+  },
+  "8220827": {
+   "korrekturen": {
+    "21/5": {
+     "w": "CALL/ING FLEX EURO PM @ 17 EXP 03/14/2025"
+    },
+    "21/6": {
+     "w": "PUT/XSP @ 575 EXP 03/14/2025"
+    },
+    "21/8": {
+     "w": "CALL/HSBC FLEX EURO PM 52 EXP 03/14/2025"
+    },
+    "21/9": {
+     "w": "CALL/SNY FLEX EURO PM @ 54 EXP 03/14/2025"
+    },
+    "21/10": {
+     "w": "CALL/TAK FLEX EURO PM @ 13.5 EXP 03/14/2025"
+    },
+    "21/11": {
+     "w": "CALL/AZN FLEX EURO PM @ 73 EXP 03/14/2025"
+    },
+    "21/12": {
+     "w": "PUT/XSP @ 550 EXP 06/20/2025"
+    },
+    "21/13": {
+     "w": "PUT/XSP @ 535 EXP 05/30/2025"
+    },
+    "21/15": {
+     "w": "PUT/XSP @ 528 EXP 04/30/2025"
+    },
+    "21/16": {
+     "w": "PUT/XSP @ 518 EXP 05/30/2025"
+    },
+    "21/17": {
+     "w": "PUT/XSP @ 530 EXP 05/16/2025"
+    },
+    "21/18": {
+     "w": "PUT/XSP @ 535 EXP 05/02/2025"
+    },
+    "22/3": {
+     "w": "PUT/XSP @ 544 EXP 04/17/2025"
+    },
+    "1/2": {
+     "streichen": true
+    },
+    "4/9": {
+     "w": "HARTFORD INSURANCE GROUP INC/T CMN",
+     "i": "DC",
+     "a": "TEILVERKAUF",
+     "d": "2025-03-03",
+     "g": "2025-04-07",
+     "b": "A"
+    },
+    "4/20": {
+     "w": "LINDE PLC CMN",
+     "a": "KAUF",
+     "d": "2025-03-12",
+     "g": "2025-04-07",
+     "b": "A"
+    },
+    "5/19": {
+     "w": "N V R INC CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-03-12",
+     "g": "2025-04-07",
+     "b": "A"
+    },
+    "17/7": {
+     "w": "MCKESSON CORPORATION CMN",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-03-06",
+     "g": "2025-04-07",
+     "b": "A"
+    },
+    "18/8": {
+     "w": "BEST BUY CO INC CMN",
+     "a": "KAUF",
+     "d": "2025-03-06",
+     "g": "2025-04-07",
+     "b": "A"
+    },
+    "20/15": {
+     "w": "DUN & BRADSTREET HOLDINGS, INC CMN",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-03-04",
+     "g": "2025-04-07",
+     "b": "A"
+    },
+    "28/2": {
+     "w": "Apollo Global Management Inc",
+     "a": "KAUF",
+     "d": "2025-03-07",
+     "g": "2025-03-31",
+     "b": "A"
+    },
+    "28/4": {
+     "w": "Apollo Global Management Inc",
+     "a": "KAUF",
+     "d": "2025-03-07",
+     "g": "2025-03-31",
+     "b": "A",
+     "i": ""
+    },
+    "28/6": {
+     "w": "Apollo Global Management Inc",
+     "a": "KAUF",
+     "d": "2025-03-07",
+     "g": "2025-03-31",
+     "b": "A",
+     "i": ""
+    },
+    "1/1": {
+     "streichen": true
+    },
+    "4/13": {
+     "d": "2025-03-27",
+     "g": "2025-04-07"
+    },
+    "4/16": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "4/17": {
+     "d": "2025-03-12",
+     "g": "2025-04-07",
+     "w": "LAM RESEARCH CORPORATION CMN"
+    },
+    "5/5": {
+     "d": "2025-03-24",
+     "g": "2025-04-07",
+     "w": "MINNESOTA ST GO 5% 08/01/32 FA"
+    },
+    "5/7": {
+     "d": "2025-03-12",
+     "g": "2025-04-07",
+     "w": "MARSH & MCLENNAN CO INC CMN"
+    },
+    "5/8": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "5/15": {
+     "d": "2025-03-12",
+     "g": "2025-04-07",
+     "w": "BROADCOM INC. CMN"
+    },
+    "5/16": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "5/17": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "7/18": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "9/4": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "9/7": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "9/9": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "9/14": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "9/15": {
+     "d": "2025-03-12",
+     "g": "2025-04-07",
+     "w": "BERKSHIRE HATHAWAY INC. CLASS B"
+    },
+    "9/17": {
+     "d": "2025-03-12",
+     "g": "2025-04-07"
+    },
+    "13/6": {
+     "d": "2025-03-21",
+     "g": "2025-04-07"
+    },
+    "13/14": {
+     "d": "2025-03-10",
+     "g": "2025-04-07"
+    },
+    "19/2": {
+     "d": "2025-03-06",
+     "g": "2025-04-07"
+    },
+    "22/13": {
+     "d": "2025-03-06",
+     "g": "2025-04-07"
+    },
+    "22/14": {
+     "d": "2025-03-17",
+     "g": "2025-04-07"
+    },
+    "27/13": {
+     "d": "2025-03-19",
+     "g": "2025-04-07"
+    },
+    "4/4": {
+     "w": "CORNING INCORPORATED CMN"
+    },
+    "4/7": {
+     "w": "ABBOTT LABORATORIES CMN"
+    },
+    "4/19": {
+     "w": "PROCTER & GAMBLE COMPANY (THE) CMN"
+    },
+    "5/3": {
+     "w": "SERVICENOW INC CMN"
+    },
+    "9/10": {
+     "w": "M&T BANK CORPORATION CMN"
+    },
+    "20/16": {
+     "w": "VERIZON COMMUNICATIONS, INC. CMN"
+    },
+    "21/7": {
+     "w": "PUT/XSP @ 580 EXP 03/28/2025"
+    },
+    "21/14": {
+     "w": "PUT/XSP @ 500 EXP 05/16/2025"
+    },
+    "21/19": {
+     "w": "PUT/XSP @ 528 EXP 05/30/2025"
+    }
+   }
+  },
+  "8220906": {
+   "korrekturen": {
+    "25/13": {
+     "w": "PUT/XSP @ 590 EXP 04/17/2025"
+    },
+    "25/15": {
+     "w": "PUT/XSP @ 544 EXP 04/17/2025"
+    },
+    "25/16": {
+     "w": "PUT/XSP @ 550 EXP 04/30/2025",
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "25/17": {
+     "w": "PUT/XSP @ 555 EXP 04/17/2025"
+    },
+    "25/18": {
+     "w": "PUT/XSP @ 528 EXP 04/30/2025"
+    },
+    "26/2": {
+     "w": "PUT/XSP @ 544 EXP 04/17/2025"
+    },
+    "26/3": {
+     "w": "PUT/XSP @ 515 EXP 07/18/2025"
+    },
+    "26/4": {
+     "w": "PUT/XSP @ 505 EXP 08/15/2025",
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "26/5": {
+     "w": "PUT/XSP @ 506 EXP 06/30/2025",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-04-16",
+     "g": "2025-05-08",
+     "b": "A"
+    },
+    "26/6": {
+     "w": "PUT/XSP @ 517 EXP 07/18/2025"
+    },
+    "26/7": {
+     "w": "PUT/XSP @ 510 EXP 07/31/2025"
+    },
+    "26/8": {
+     "w": "PUT/XSP @ 460 EXP 06/30/2025"
+    },
+    "26/9": {
+     "w": "PUT/XSP @ 490 EXP 07/31/2025"
+    },
+    "39/4": {
+     "w": "PUT (JPM) JPMORGAN CHASE &CO. JUL 18 25 $170 (100 SHS"
+    },
+    "39/7": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION JUL 18 25 $75 (100 SHS)"
+    },
+    "39/8": {
+     "w": "PUT (GOOGL) ALPHABET INC CAP STK JUL 18 25 $120 (100 SHS)"
+    },
+    "39/9": {
+     "w": "PUT (TSLA) TESLA INC COM JUL 18 25 $195 (100 SHS)"
+    },
+    "39/10": {
+     "w": "PUT (IWM) ISHARES RUSSELL 2000 JUL 18 25 $145 (100 SHS)"
+    },
+    "43/10": {
+     "w": "PUT (JPM) JPMORGAN CHASE &CO. JUL 18 25 $170 (100 SHS"
+    },
+    "43/11": {
+     "w": "PUT (AAPL) APPLE INC JUL 18 25 $155 (100 SHS)"
+    },
+    "43/12": {
+     "w": "PUT (SPY) SPDR S&P500 ETF JUL 18 25 $410 (100 SHS)"
+    },
+    "43/13": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION JUL 18 25 $75 (100 SHS)"
+    },
+    "43/14": {
+     "w": "PUT (GS) GOLDMAN SACHS GROUP JUL 18 25 $380 (100 SHS)",
+     "d": "2025-04-08",
+     "g": "2025-04-09"
+    },
+    "43/15": {
+     "w": "PUT (GOOGL) ALPHABET INC CAP STK JUL 18 25 $120 (100 SHS)"
+    },
+    "43/17": {
+     "w": "PUT (IWM) ISHARES RUSSELL 2000 JUL 18 25 $145 (100 SHS)",
+     "d": "2025-04-08",
+     "g": "2025-04-09"
+    },
+    "43/18": {
+     "w": "PUT (V) VISA INC JUL 18 25 $255 (100 SHS)"
+    },
+    "48/3": {
+     "w": "PUT (AAPL) APPLE INC JUL 18 25 $155 (100 SHS)"
+    },
+    "48/4": {
+     "w": "PUT (SPY) SPDR S&P500 ETF JUL 18 25 $410 (100 SHS)"
+    },
+    "48/5": {
+     "w": "PUT (GS) GOLDMAN SACHS GROUP JUL 18 25 $380 (100 SHS)"
+    },
+    "48/6": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION JUL 18 25 $75 (100 SHS)",
+     "d": "2025-04-08",
+     "g": "2025-04-09"
+    },
+    "48/7": {
+     "w": "PUT (GOOGL) ALPHABET INC CAP STK JUL 18 25 $120 (100 SHS)"
+    },
+    "48/8": {
+     "w": "PUT (TSLA) TESLA INC COM JUL 18 25 $195 (100 SHS)"
+    },
+    "48/9": {
+     "w": "PUT (IWM) ISHARES RUSSELL 2000 JUL 18 25 $145 (100 SHS)"
+    },
+    "48/10": {
+     "w": "PUT (V) VISA INC JUL 18 25 $255 (100 SHS)"
+    },
+    "5/19": {
+     "d": "2025-04-21",
+     "g": "2025-05-08",
+     "w": "MORGAN STANLEY FINANCE LLC LINKED TO S&P 500 INDEX"
+    },
+    "6/3": {
+     "d": "2025-04-15",
+     "g": "2025-05-08"
+    },
+    "6/16": {
+     "d": "2025-04-15",
+     "g": "2025-05-08"
+    },
+    "8/17": {
+     "d": "2025-04-15",
+     "g": "2025-05-08"
+    },
+    "10/5": {
+     "d": "2025-04-15",
+     "g": "2025-05-08"
+    },
+    "15/13": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "17/4": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "17/11": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "17/13": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "18/5": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "18/7": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "19/6": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "20/19": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "21/15": {
+     "d": "2025-04-17",
+     "g": "2025-05-08"
+    },
+    "21/16": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "23/18": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "24/17": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "26/13": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "26/17": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "27/3": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "27/12": {
+     "d": "2025-04-23",
+     "g": "2025-05-08"
+    },
+    "27/15": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "28/10": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "29/9": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "29/17": {
+     "d": "2025-04-03",
+     "g": "2025-05-08"
+    },
+    "30/18": {
+     "d": "2025-04-03",
+     "g": "2025-05-08"
+    },
+    "31/6": {
+     "d": "2025-04-09",
+     "g": "2025-05-08"
+    },
+    "31/7": {
+     "d": "2025-04-08",
+     "g": "2025-05-08"
+    },
+    "39/15": {
+     "d": "2025-04-04",
+     "g": "2025-04-07"
+    },
+    "40/4": {
+     "d": "2025-04-04",
+     "g": "2025-04-07"
+    },
+    "42/4": {
+     "d": "2025-04-04",
+     "g": "2025-04-07"
+    },
+    "44/16": {
+     "d": "2025-04-04",
+     "g": "2025-04-07"
+    },
+    "44/17": {
+     "d": "2025-04-04",
+     "g": "2025-04-07"
+    },
+    "6/15": {
+     "w": "THERMO FISHER SCIENTIFIC INC CMN"
+    },
+    "18/11": {
+     "w": "FREEPORT-MCMORAN INC CMN"
+    },
+    "22/5": {
+     "w": "KEYSIGHT TECHNOLOGIES, INC. CMN"
+    },
+    "40/5": {
+     "w": "ALPHABET INC CAP STK CL A"
+    },
+    "40/19": {
+     "w": "CONOCOPHILLIPS COM"
+    },
+    "41/6": {
+     "w": "HOME DEPOT INC"
+    },
+    "41/11": {
+     "w": "ISHARES TR 0-3 MNTH TREASRY"
+    },
+    "41/13": {
+     "w": "JOHNSON &JOHNSON COM"
+    },
+    "41/14": {
+     "w": "LVMH MOET HENNESSY LOUIS VUITTON ADR"
+    },
+    "41/17": {
+     "w": "MCDONALD S CORP"
+    },
+    "41/18": {
+     "w": "MICROSOFT CORP"
+    },
+    "42/5": {
+     "w": "ORACLE CORP"
+    },
+    "42/6": {
+     "w": "PALANTIR TECHNOLOGIES INC CL A"
+    },
+    "42/14": {
+     "w": "TARGA RESOURCES CORP"
+    },
+    "42/15": {
+     "w": "TESLA INC COM"
+    },
+    "43/7": {
+     "w": "ZOETIS INC"
+    },
+    "46/2": {
+     "w": "JOHNSON &JOHNSON COM"
+    },
+    "35/17": {
+     "w": "NIKE CLASS-B CMN CLASS B"
+    },
+    "40/10": {
+     "w": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B"
+    },
+    "47/18": {
+     "w": "PUT (JPM) JPMORGAN CHASE &CO. JUL 18 25 $170 (100 SHS"
+    },
+    "17/7": {
+     "w": "MKS INSTRUMENTS INC CMN"
+    },
+    "48/19": {
+     "w": "ALPHABET INC CAP STK CL A"
+    },
+    "11/15": {
+     "w": "REGIONS FINANCIAL CORPORATION CMN"
+    },
+    "22/8": {
+     "w": "DECKERS OUTDOORS CORP CMN"
+    },
+    "25/12": {
+     "w": "PUT/XSP @ 587 EXP 04/11/2025"
+    },
+    "39/6": {
+     "w": "PUT (SPY) SPDR S&P500 ETF JUL 18 25 $410 (100 SHS)"
+    }
+   }
+  },
+  "8221124": {
+   "korrekturen": {
+    "4/12": {
+     "w": "CALL/GEV FLEX EURO PM @ 355 EXP 05/02/2025"
+    },
+    "19/12": {
+     "w": "PUT/XSP @ 539 EXP 07/31/2025"
+    },
+    "9/17": {
+     "w": "CHARTER COMMUNICATIONS, INC. CMN",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-05-19",
+     "g": "2025-06-09",
+     "b": "B"
+    },
+    "1/1": {
+     "streichen": true
+    },
+    "4/4": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "4/7": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "4/11": {
+     "d": "2025-05-15",
+     "g": "2025-06-09"
+    },
+    "4/14": {
+     "d": "2025-05-16",
+     "g": "2025-06-09"
+    },
+    "4/15": {
+     "d": "2025-05-07",
+     "g": "2025-06-09"
+    },
+    "4/16": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "5/5": {
+     "d": "2025-05-02",
+     "g": "2025-06-09"
+    },
+    "5/6": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "5/12": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "7/4": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "7/11": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "7/18": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "8/11": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "8/17": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "8/19": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "9/13": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "9/19": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "11/8": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "11/14": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "11/19": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "12/7": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "12/15": {
+     "d": "2025-05-19",
+     "g": "2025-06-09"
+    },
+    "13/7": {
+     "d": "2025-05-02",
+     "g": "2025-06-09"
+    },
+    "13/9": {
+     "d": "2025-05-12",
+     "g": "2025-06-09"
+    },
+    "13/10": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "13/13": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "13/17": {
+     "d": "2025-05-06",
+     "g": "2025-06-09"
+    },
+    "14/15": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "14/16": {
+     "d": "2025-05-06",
+     "g": "2025-06-09"
+    },
+    "15/7": {
+     "d": "2025-05-09",
+     "g": "2025-06-09"
+    },
+    "15/9": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "15/10": {
+     "d": "2025-05-09",
+     "g": "2025-06-09"
+    },
+    "15/15": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "15/18": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "16/5": {
+     "d": "2025-05-02",
+     "g": "2025-06-09"
+    },
+    "16/6": {
+     "d": "2025-05-28",
+     "g": "2025-06-09",
+     "w": "SERVICENOW INC CMN"
+    },
+    "16/8": {
+     "d": "2025-05-09",
+     "g": "2025-06-09",
+     "w": "LVMH MOET HENNESSY LOUIS VUITTON S.A. ADR CMN"
+    },
+    "16/16": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "16/18": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "17/2": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "17/4": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "17/9": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "17/15": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "18/17": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "19/3": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "19/9": {
+     "d": "2025-05-13",
+     "g": "2025-06-09"
+    },
+    "19/15": {
+     "d": "2025-05-09",
+     "g": "2025-06-09",
+     "w": "NESTLE SA SPONSORED ADR (REP 1/20 CHF 10 REGD SHS)"
+    },
+    "19/17": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "19/20": {
+     "d": "2025-05-16",
+     "g": "2025-06-09"
+    },
+    "20/4": {
+     "d": "2025-05-09",
+     "g": "2025-06-09"
+    },
+    "20/5": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "20/8": {
+     "d": "2025-05-02",
+     "g": "2025-06-09"
+    },
+    "20/9": {
+     "d": "2025-05-09",
+     "g": "2025-06-09"
+    },
+    "21/7": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "21/12": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "22/3": {
+     "d": "2025-05-09",
+     "g": "2025-06-09",
+     "w": "ING GROEP N.V. SPONS ADR SPONSORED ADR CMN"
+    },
+    "22/4": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "22/5": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "23/8": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "23/10": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "23/15": {
+     "d": "2025-05-28",
+     "g": "2025-06-09"
+    },
+    "23/16": {
+     "d": "2025-05-08",
+     "g": "2025-06-09",
+     "w": "SENSATA TECHNOLOGIES HOLDING P CMN"
+    },
+    "24/4": {
+     "d": "2025-05-09",
+     "g": "2025-06-09",
+     "i": "SP",
+     "w": "TAKEDA PHARMACEUTICAL CO LTD SPONSORED ADR CMN",
+     "a": "TEILVERKAUF",
+     "b": "A"
+    },
+    "25/6": {
+     "d": "2025-05-15",
+     "g": "2025-06-09"
+    },
+    "25/8": {
+     "d": "2025-05-08",
+     "g": "2025-06-09"
+    },
+    "26/10": {
+     "d": "2025-05-07",
+     "g": "2025-06-09"
+    },
+    "26/18": {
+     "d": "2025-05-21",
+     "g": "2025-06-09"
+    },
+    "2/13": {
+     "i": "DC",
+     "w": "EXXON MOBIL CORP COM",
+     "a": "KAUF",
+     "d": "2025-05-09",
+     "g": "2025-05-08",
+     "b": "A"
+    },
+    "24/3": {
+     "i": "SP",
+     "w": "ENPHASE ENERGY, INC. CMN",
+     "a": "VERKAUF",
+     "d": "2025-05-28",
+     "g": "2025-06-09",
+     "b": "A"
+    },
+    "2/7": {
+     "w": "JOHNSON &JOHNSON COM"
+    },
+    "2/14": {
+     "w": "HOME DEPOT INC"
+    },
+    "3/4": {
+     "w": "EXXON MOBIL CORP COM"
+    },
+    "3/5": {
+     "w": "HOME DEPOT INC"
+    },
+    "3/6": {
+     "w": "JOHNSON &JOHNSON COM"
+    },
+    "5/3": {
+     "w": "TRUIST FINANCIAL CORPORATION CMN"
+    },
+    "5/11": {
+     "w": "ELANCO ANIMAL HEALTH INCORPORA CMN"
+    },
+    "7/15": {
+     "w": "AIR PRODUCTS & CHEMICALS INC CMN"
+    },
+    "8/3": {
+     "w": "LENNAR CORPORATION CMN CLASS A"
+    },
+    "8/4": {
+     "w": "REVVITY INC CMN"
+    },
+    "9/12": {
+     "w": "UNITEDHEALTH GROUP INCORPORATE CMN"
+    },
+    "10/18": {
+     "w": "BUILDERS FIRSTSOURCE, INC. CMN"
+    },
+    "11/4": {
+     "w": "CORNING INCORPORATED CMN"
+    },
+    "11/10": {
+     "w": "OTIS WORLDWIDE CORPORATION CMN"
+    },
+    "12/6": {
+     "w": "HEWLETT PACKARD ENTERPRISE CO CMN"
+    },
+    "14/14": {
+     "w": "SENSATA TECHNOLOGIES HOLDING P CMN"
+    },
+    "17/5": {
+     "w": "TRUIST FINANCIAL CORPORATION CMN"
+    },
+    "17/13": {
+     "w": "WATERS CORPORATION COMMON STOCK"
+    },
+    "20/7": {
+     "w": "INTEL CORPORATION CMN"
+    },
+    "23/14": {
+     "w": "ZIMMER BIOMET HOLDINGS INC"
+    },
+    "23/20": {
+     "w": "AVALONBAY COMMUNITIES INC CMN"
+    },
+    "25/4": {
+     "w": "KKR & CO INC PFD 6.875000/01/2065"
+    },
+    "26/14": {
+     "w": "HAMILTON CNTY OHIO SALES TAX REV 5% 12/01/25 JD"
+    },
+    "19/10": {
+     "w": "PUT/XSP @ 560 EXP 08/15/2025"
+    },
+    "12/5": {
+     "w": "SUPER MICRO COMPUTER, INC. CMN"
+    },
+    "19/11": {
+     "w": "PUT/XSP @ 555 EXP 07/11/2025"
+    },
+    "19/13": {
+     "w": "PUT/XSP @ 530 EXP 06/06/2025"
+    },
+    "19/14": {
+     "w": "PUT/XSP @ 570 EXP 06/30/2025"
+    },
+    "9/15": {
+     "w": "ALPHABET INC. CMN CLASS A"
+    }
+   }
+  },
+  "8221176": {
+   "korrekturen": {
+    "3/9": {
+     "w": "CALL/GEV FLEX EURO PM @ 395 EXP 06/06/2025"
+    },
+    "3/10": {
+     "w": "CALL/MSFT FLEX EURO PM 420 EXP 06/06/2025"
+    },
+    "3/11": {
+     "w": "CALL/NVDA FLEX EURO PM 126 EXP 06/06/2025"
+    },
+    "3/12": {
+     "w": "CALL/MS FLEX EURO PM @ 122 EXP 06/06/2025",
+     "d": "2025-06-06",
+     "g": "2025-07-07"
+    },
+    "3/13": {
+     "w": "CALL/JPM FLEX EURO PM @ 250 EXP 06/06/2025",
+     "d": "2025-06-06",
+     "g": "2025-07-07"
+    },
+    "13/16": {
+     "w": "CALL/TSM FLEX EURO PM @ 187.5 EXP 06/13/2025"
+    },
+    "13/18": {
+     "w": "PUT/XSP @ 575 EXP 07/25/2025"
+    },
+    "17/10": {
+     "w": "PPL CORPORATION CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-07",
+     "b": "A"
+    },
+    "18/3": {
+     "w": "HARRIS CNTY TEX CULTURAL ED FACS FIN 02.00000% 10/01/2045 CORP REV HOSP BDS TEXAS CHILDRENS HOSP 7-MONTH WINDOW VRDB",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "D"
+    },
+    "18/5": {
+     "w": "THE CIGNA GROUP COM",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/6": {
+     "w": "CENTENE CORP",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/7": {
+     "w": "HOME DEPOT INC",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/13": {
+     "w": "PFIZER INC",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/15": {
+     "w": "THERMO FISHER SCIENTIFIC INC",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/17": {
+     "w": "VERIZON COMMUNICATIONS INC",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/2": {
+     "w": "HARRIS CNTY TEX CULTURAL ED FACS FIN 02.00000% 10/01/2045 CORP REV HOSP BDS TEXAS CHILDRENS HOSP 7-MONTH WINDOW VRDB",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "D"
+    },
+    "19/3": {
+     "w": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/4": {
+     "w": "THE CIGNA GROUP COM",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/5": {
+     "w": "CENTENE CORP",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/6": {
+     "w": "HOME DEPOT INC",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/7": {
+     "w": "JOHNSON & JOHNSON COM",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/8": {
+     "w": "LOWES COMPANIES INC COM USD0.50",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/9": {
+     "w": "MERCK &CO. INC COM",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/11": {
+     "w": "PEPSICO INC",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/4": {
+     "aufnehmen": true,
+     "w": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/8": {
+     "w": "JOHNSON & JOHNSON COM",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/9": {
+     "w": "LOWES COMPANIES INC COM USD0.50",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/10": {
+     "w": "MERCK &CO. INC COM",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/11": {
+     "w": "NVR INC COM USD0.01",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/12": {
+     "w": "PEPSICO INC",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/14": {
+     "w": "PROCTER AND GAMBLE CO COM",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "18/16": {
+     "w": "UNITEDHEALTH GROUP INC",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/10": {
+     "w": "NVR INC COM USD0.01",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/12": {
+     "w": "PFIZER INC",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/13": {
+     "w": "PROCTER AND GAMBLE CO COM",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/14": {
+     "w": "THERMO FISHER SCIENTIFIC INC",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/15": {
+     "w": "UNITEDHEALTH GROUP INC",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/16": {
+     "w": "VERIZON COMMUNICATIONS INC",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "19/17": {
+     "w": "CHEVRON CORP NEW COM",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/2": {
+     "w": "HARRIS CNTY TEX CULTURAL ED FACS FIN 02.00000% 10/01/2045 CORP REV HOSP BDS TEXAS CHILDRENS HOSP 7-MONTH WINDOW VRDB",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "C"
+    },
+    "20/3": {
+     "w": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/4": {
+     "w": "HOME DEPOT INC",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/6": {
+     "w": "MERCK &CO. INC COM",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/7": {
+     "w": "PEPSICO INC",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/8": {
+     "w": "PROCTER AND GAMBLE CO COM",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/9": {
+     "w": "UNITEDHEALTH GROUP INC",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/11": {
+     "w": "INDIANA FIN AUTH HEALTH SYS REV BDS 01.75000% 09/01/2048 FRANCISCAN ALLIANCE INC F/K/A SISTERS OF ST FRANCIS HLTH SVCS",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "A"
+    },
+    "20/12": {
+     "w": "FRANKLIN CNTY OHIO HOSP REV REV BDS 01.75000% 12/01/2028 OHIO HEALTH CORP DOCTORS OHIOHEALTH CORP SER. 1998B",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "A"
+    },
+    "20/5": {
+     "w": "JOHNSON & JOHNSON COM",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-06-20",
+     "g": "2025-06-20",
+     "b": "A"
+    },
+    "20/14": {
+     "w": "INDIANA FIN AUTH HEALTH SYS REV BDS 01.75000% 09/01/2048 FRANCISCAN ALLIANCE INC F/K/A SISTERS OF ST FRANCIS HLTH SVCS",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "B"
+    },
+    "20/15": {
+     "w": "FRANKLIN CNTY OHIO HOSP REV REV BDS 01.75000% 12/01/2028 OHIO HEALTH CORP DOCTORS OHIOHEALTH CORP SER. 1998B",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-06-30",
+     "g": "2025-06-30",
+     "b": "D"
+    },
+    "2/4": {
+     "d": "2025-06-26",
+     "g": "2025-07-07"
+    },
+    "2/6": {
+     "d": "2025-06-06",
+     "g": "2025-07-07"
+    },
+    "2/15": {
+     "d": "2025-06-04",
+     "g": "2025-07-07"
+    },
+    "3/15": {
+     "d": "2025-06-06",
+     "g": "2025-07-07"
+    },
+    "5/7": {
+     "d": "2025-06-17",
+     "g": "2025-07-07"
+    },
+    "6/5": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "7/6": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "7/17": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "8/4": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "8/16": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "8/17": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "8/19": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "8/20": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "9/10": {
+     "d": "2025-06-23",
+     "g": "2025-07-07",
+     "w": "INTL BUSINESS MACHINES CORP CMN"
+    },
+    "9/15": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "10/7": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/3": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/4": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/6": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/7": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/9": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/13": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "11/14": {
+     "d": "2025-06-23",
+     "g": "2025-07-07"
+    },
+    "12/4": {
+     "d": "2025-06-26",
+     "g": "2025-07-07"
+    },
+    "13/4": {
+     "d": "2025-06-16",
+     "g": "2025-07-07"
+    },
+    "13/11": {
+     "d": "2025-06-16",
+     "g": "2025-07-07"
+    },
+    "13/14": {
+     "d": "2025-06-10",
+     "g": "2025-07-07"
+    },
+    "14/8": {
+     "d": "2025-06-26",
+     "g": "2025-07-07"
+    },
+    "14/18": {
+     "d": "2025-06-26",
+     "g": "2025-07-07"
+    },
+    "15/5": {
+     "d": "2025-06-26",
+     "g": "2025-07-07"
+    },
+    "17/4": {
+     "d": "2025-06-03",
+     "g": "2025-07-07"
+    },
+    "17/6": {
+     "d": "2025-06-03",
+     "g": "2025-07-07"
+    },
+    "17/9": {
+     "d": "2025-06-18",
+     "g": "2025-07-07"
+    },
+    "17/11": {
+     "d": "2025-06-27",
+     "g": "2025-07-07"
+    },
+    "6/3": {
+     "w": "BOFA FINANCE LLC LINKED TO S&P 500 INDEX"
+    },
+    "8/14": {
+     "w": "BRISTOL-MYERS SQUIBB COMPANY CMN"
+    },
+    "9/13": {
+     "w": "SERVICENOW INC CMN"
+    },
+    "9/18": {
+     "w": "SHERWIN-WILLIAMS CO CMN"
+    },
+    "14/5": {
+     "w": "NCR VOYIX CORP CMN"
+    },
+    "11/11": {
+     "w": "LKQ CORPORATION CMN"
+    },
+    "9/19": {
+     "w": "UNION PACIFIC CORP. CMN"
+    }
+   }
+  },
+  "8221231": {
+   "korrekturen": {
+    "3/5": {
+     "w": "CALL/AAPL FLEX EURO PM 225 EXP 10/03/2025"
+    },
+    "13/4": {
+     "w": "CALL/TSM FLEX EURO PM @ 275 EXP 10/10/2025"
+    },
+    "13/5": {
+     "w": "CALL/AZN FLEX EURO PM @ 80 EXP 10/10/2025"
+    },
+    "13/6": {
+     "w": "PUT/XSP @ 629 EXP 12/19/2025"
+    },
+    "13/7": {
+     "w": "PUT/XSP @ 640 EXP 12/05/2025"
+    },
+    "13/8": {
+     "w": "PUT/XSP @ 635 EXP 12/12/2025"
+    },
+    "13/9": {
+     "w": "PUT/XSP @ 625 EXP 01/16/2026"
+    },
+    "21/3": {
+     "w": "LINDE PLC COM EUR0.001"
+    },
+    "22/3": {
+     "w": "LINDE PLC COM EUR0.001"
+    },
+    "23/3": {
+     "w": "LINDE PLC COM EUR0.001"
+    },
+    "15/5": {
+     "w": "THE CAMPBELL'S COMPANY CMN"
+    },
+    "17/6": {
+     "w": "COMERICA INCORPORATED PFD 6.8750 SERIES B BEO"
+    },
+    "13/10": {
+     "w": "PUT/XSP @ 659 EXP 12/19/2025"
+    }
+   }
+  },
+  "8221237": {
+   "korrekturen": {
+    "1/4": {
+     "w": "Ishares Tr Core MSCI Europe ETF IEUR"
+    },
+    "2/4": {
+     "w": "SPDR Ser Tr S&P Mid Cap Value MDYV"
+    }
+   }
+  },
+  "8221264": {
+   "korrekturen": {
+    "2/17": {
+     "w": "CALL/ISRG FLEX EURO PM 525 EXP 11/07/2025"
+    },
+    "2/18": {
+     "w": "CALL/AAPL FLEX EURO PM 260 EXP 11/07/2025"
+    },
+    "2/19": {
+     "w": "CALL/GOOG FLEX EURO PM 265 EXP 11/07/2025"
+    },
+    "3/12": {
+     "w": "COCA-COLA EUROPEAN PARTNERS PL CMN"
+    },
+    "20/14": {
+     "w": "PUT/XSP @ 635 EXP 01/30/2026"
+    },
+    "20/15": {
+     "w": "PUT/XSP @ 650 EXP 01/16/2026"
+    },
+    "20/16": {
+     "w": "PUT/XSP @ 610 EXP 01/09/2026"
+    },
+    "2/5": {
+     "w": "EATON CORP PLC CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-11-07",
+     "g": "2025-12-04",
+     "b": "A"
+    },
+    "14/15": {
+     "w": "MICROSOFT CORPORATION CMN",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-11-10",
+     "g": "2025-12-04",
+     "b": "A"
+    },
+    "19/17": {
+     "d": "2025-11-10",
+     "g": "2025-12-04",
+     "w": "GARMIN LTD CMN"
+    },
+    "5/5": {
+     "w": "APOLLO GLOBAL MANAGEMENT INC CMN CLASS A"
+    },
+    "21/6": {
+     "w": "AMERICAN TOWER CORPORATION 5.9% 11/15/2033 USD"
+    }
+   }
+  },
+  "8221285": {
+   "korrekturen": {
+    "3/4": {
+     "w": "CALL/GOOG FLEX EURO PM 275 EXP 12/05/2025"
+    },
+    "13/14": {
+     "w": "PUT/XSP @ 655 EXP 02/20/2026"
+    },
+    "13/15": {
+     "w": "PUT/XSP @ 649 EXP 02/27/2026"
+    },
+    "13/16": {
+     "w": "PUT/XSP @ 650 EXP 02/06/2026"
+    },
+    "16/8": {
+     "w": "ASML HOLDING N.V. ADR CMN",
+     "i": "SP",
+     "a": "TEILVERKAUF",
+     "d": "2025-12-12",
+     "g": "2026-01-04",
+     "b": "A"
+    }
+   }
+  },
+  "8221322": {
+   "korrekturen": {
+    "47/8": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "54/4": {
+     "w": "CALL/UBS FLEX EURO PM @ 42 EXP 01/09/2026"
+    },
+    "54/5": {
+     "w": "CALL/CRH FLEX EURO PM @ 120 EXP 01/09/2026"
+    },
+    "54/6": {
+     "w": "CALL/SMFG FLEX EURO PM 19.5 EXP 01/09/2026"
+    },
+    "54/7": {
+     "w": "CALL/HSBC FLEX EURO PM 78 EXP 01/09/2026"
+    },
+    "54/9": {
+     "w": "PUT/XSP @ 655 EXP 03/31/2026"
+    },
+    "54/10": {
+     "w": "PUT/XSP @ 660 EXP 03/20/2026"
+    },
+    "54/11": {
+     "w": "PUT/XSP @ 669 EXP 03/06/2026"
+    },
+    "6/12": {
+     "w": "ABBOTT LABORATORIES CMN",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2026-01-22",
+     "g": "2026-02-03",
+     "b": "A"
+    },
+    "15/9": {
+     "w": "MARSH & MCLENNAN CO INC CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2026-01-06",
+     "g": "2026-02-03",
+     "b": "A"
+    },
+    "19/6": {
+     "w": "FACTSET RESEARCH SYSTEMS INC CMN",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2026-01-06",
+     "g": "2026-02-03",
+     "b": "A"
+    },
+    "27/5": {
+     "w": "CONSTELLATION BRANDS INC CMN CLASS A",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "b": "A"
+    },
+    "39/6": {
+     "w": "IDEXX LABORATORIES CMN",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "b": "B"
+    },
+    "45/20": {
+     "w": "CARRIER GLOBAL CORPORATION CMN",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "b": "A"
+    },
+    "48/17": {
+     "w": "ALEXANDRIA REAL ESTATE EQUITIES, IN",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "b": "A"
+    },
+    "8/3": {
+     "d": "2026-01-22",
+     "g": "2026-02-03"
+    },
+    "9/14": {
+     "d": "2026-01-23",
+     "g": "2026-02-03",
+     "w": "MARSH ORD CMN"
+    },
+    "13/20": {
+     "d": "2026-01-23",
+     "g": "2026-02-03",
+     "w": "STARBUCKS CORP. CMN"
+    },
+    "20/15": {
+     "d": "2026-01-23",
+     "g": "2026-02-03"
+    },
+    "25/20": {
+     "d": "2026-01-29",
+     "g": "2026-02-03"
+    },
+    "32/4": {
+     "d": "2026-01-29",
+     "g": "2026-02-03"
+    },
+    "39/17": {
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "w": "QUALCOMM INC CMN"
+    },
+    "40/18": {
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "w": "CVS HEALTH CORP CMN"
+    },
+    "43/10": {
+     "d": "2026-01-29",
+     "g": "2026-02-03"
+    },
+    "43/20": {
+     "d": "2026-01-29",
+     "g": "2026-02-03"
+    },
+    "47/7": {
+     "d": "2026-01-29",
+     "g": "2026-02-03",
+     "w": "CORPAY INC CMN"
+    },
+    "15/4": {
+     "w": "IRON MOUNTAIN INCORPORATED CMN"
+    },
+    "15/19": {
+     "w": "JABIL INC CMN"
+    },
+    "30/8": {
+     "w": "EDWARDS LIFESCIENCES CORPORATI CMN"
+    },
+    "44/16": {
+     "w": "BLIND BROOK-RYE N Y UN FREE GO 5%"
+    },
+    "45/3": {
+     "w": "BUILD NYC RESOURCE CORP N Y REV 4.0"
+    },
+    "45/10": {
+     "w": "PUBLIC-SVC ENTERPRISE GROUP HOLDI"
+    }
+   }
+  },
+  "8221358": {
+   "korrekturen": {
+    "2/11": {
+     "w": "COCA-COLA EUROPEAN PARTNERS PL CMN"
+    },
+    "2/14": {
+     "w": "CALL/JNJ FLEX EURO PM @ 202.5 EXP 02/06/2026"
+    },
+    "2/15": {
+     "w": "CALL/ODFL FLEX EURO PM 180 EXP 02/06/2026"
+    },
+    "3/16": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "23/14": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "24/11": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "31/4": {
+     "w": "CALL/SMFG FLEX EURO PM 21.25 EXP 02/13/2026"
+    },
+    "31/5": {
+     "w": "CALL/RIO FLEX EURO PM @ 82 EXP 02/13/2026"
+    },
+    "31/6": {
+     "w": "CALL/EWJ FLEX EURO PM @ 86.84 EXP 02/13/2026"
+    },
+    "31/7": {
+     "w": "CALL/NVS FLEX EURO PM @ 145 EXP 02/13/2026"
+    },
+    "31/9": {
+     "w": "CALL/TAK FLEX EURO PM @ 15.5 EXP 02/13/2026"
+    },
+    "31/10": {
+     "w": "CALL/TSM FLEX EURO PM @ 340 EXP 02/13/2026"
+    },
+    "31/11": {
+     "w": "CALL/EWA FLEX EURO PM @ 27.5 EXP 02/13/2026"
+    },
+    "31/12": {
+     "w": "CALL/TTE FLEX EURO PM @ 69 EXP 02/13/2026"
+    },
+    "31/13": {
+     "w": "CALL/HSBC FLEX EURO PM 82 EXP 02/13/2026"
+    },
+    "31/14": {
+     "w": "CALL/UL FLEX EURO PM @ 70 EXP 02/13/2026"
+    },
+    "31/15": {
+     "w": "CALL/CCEP FLEX EURO PM 96 EXP 02/13/2026"
+    },
+    "31/16": {
+     "w": "PUT/XSP @ 645 EXP 05/15/2026"
+    },
+    "31/17": {
+     "w": "PUT/XSP @ 647 EXP 04/30/2026"
+    },
+    "31/18": {
+     "w": "PUT/XSP @ 640 EXP 04/24/2026"
+    },
+    "31/19": {
+     "w": "PUT/XSP @ 645 EXP 04/10/2026"
+    },
+    "36/4": {
+     "w": "COCA-COLA EUROPEAN PARTNERS PL CMN"
+    },
+    "2/4": {
+     "w": "BARCLAYS BANK PLC LINKED TO BASKET OF INDICES",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2026-02-03",
+     "g": "2026-03-02",
+     "b": "D"
+    },
+    "24/6": {
+     "w": "AXALTA COATING SYSTEMS LTD. CMN",
+     "i": "SP",
+     "a": "TEILVERKAUF",
+     "d": "2026-02-23",
+     "g": "2026-03-04",
+     "b": "A"
+    },
+    "28/3": {
+     "w": "BANCO BILBAO VIZCAYA S A ADR SPONSORED ADR CMN USD0.3296",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2026-02-13",
+     "g": "2026-03-04",
+     "b": "B"
+    },
+    "40/3": {
+     "w": "GS TAX-ADVANTAGED GLOBAL EQUITY PORTFOLIO CLASS P",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2026-02-10",
+     "g": "2026-03-04",
+     "b": "C"
+    },
+    "23/17": {
+     "d": "2026-02-05",
+     "g": "2026-03-04",
+     "w": "COSTAR GROUP, INC. CMN"
+    },
+    "26/18": {
+     "d": "2026-02-06",
+     "g": "2026-03-04",
+     "w": "QUANTA SERVICES INC CMN"
+    },
+    "37/0": {
+     "i": "SP",
+     "w": "AUTONATION INC 3.85% 03/01/2032 USD",
+     "a": "KAUF",
+     "d": "2026-02-02",
+     "g": "2026-03-04",
+     "b": "A"
+    },
+    "37/1": {
+     "i": "SP",
+     "w": "METLIFE, INC. HYBRID 03/15/2056",
+     "a": "KAUF",
+     "d": "2026-02-24",
+     "g": "2026-03-04",
+     "b": "A"
+    },
+    "37/2": {
+     "i": "SP",
+     "w": "NEXTERA ENERGY CAPITAL HOLDING HYBRID 06/15/2054 USD",
+     "a": "KAUF",
+     "d": "2026-02-17",
+     "g": "2026-03-04",
+     "b": "A"
+    },
+    "6/8": {
+     "w": "SHERWIN-WILLIAMS CO CMN"
+    },
+    "9/7": {
+     "w": "IDEXX LABORATORIES CMN"
+    },
+    "32/17": {
+     "w": "ING GROEP N.V. SPONS ADR SPONSORED ADR CMN"
+    },
+    "36/9": {
+     "w": "INDUSTRIA DE DISENO TEXTIL, S. ADR CMN"
+    },
+    "41/3": {
+     "w": "NETFLIX INC"
+    },
+    "12/13": {
+     "ok": true,
+     "w": "ROPER TECHNOLOGIES INC CMN"
+    },
+    "34/14": {
+     "w": "TRADE DESK, INC. (THE) CMN"
+    },
+    "31/8": {
+     "w": "CALL/NGG FLEX EURO PM @ 81 EXP 02/13/2026"
+    }
+   }
+  },
+  "9115671": {
+   "korrekturen": {
+    "2/13": {
+     "w": "COCA-COLA EUROPEAN PARTNERS PL CMN"
+    },
+    "3/5": {
+     "w": "CALL/JPM FLEX EURO PM @ 275 EXP 07/03/2025",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-02",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/7": {
+     "w": "CALL/AXP FLEX EURO PM @ 305 EXP 07/03/2025",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-02",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/8": {
+     "w": "CALL/MSFT FLEX EURO PM 470 EXP 07/03/2025",
+     "d": "2025-07-02",
+     "g": "2025-08-01"
+    },
+    "3/9": {
+     "w": "CALL/NVDA FLEX EURO PM 135 EXP 07/03/2025",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-02",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "14/9": {
+     "w": "CALL/ING FLEX EURO PM @ 22 EXP 07/11/2025"
+    },
+    "14/10": {
+     "w": "CALL/TSM FLEX EURO PM @ 210 EXP 07/11/2025"
+    },
+    "14/12": {
+     "w": "PUT/XSP @ 600 EXP 09/30/2025"
+    },
+    "3/3": {
+     "w": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-17",
+     "g": "2025-08-01",
+     "b": "B"
+    },
+    "3/4": {
+     "w": "THE BANK OF NOVA SCOTIA LINKED TO BASKET OF INDICES",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-29",
+     "g": "2025-08-01",
+     "b": "B"
+    },
+    "5/3": {
+     "w": "TENABLE HOLDINGS, INC CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-01",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "6/4": {
+     "w": "UDR INC CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/3": {
+     "w": "LENNAR CORPORATION CMN CLASS A",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/4": {
+     "w": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/6": {
+     "w": "CENTENE CORPORATION CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/7": {
+     "w": "ERIE INDEMNITY COMPANY CL-A CMN CLASS A",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/8": {
+     "w": "APOLLO GLOBAL MANAGEMENT INC CMN",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "8/2": {
+     "w": "BANK OF MONTREAL LINKED TO S&P 500 INDEX",
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-17",
+     "g": "2025-08-01",
+     "b": "B"
+    },
+    "9/6": {
+     "w": "CF INDUSTRIES HOLDINGS, INC. CMN",
+     "i": "DC",
+     "a": "VERKAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "14/7": {
+     "w": "CANADIAN IMPERIAL BANK OF COMM LINKED TO S&P 500 INDEX",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-07-31",
+     "g": "2025-08-01",
+     "b": "D"
+    },
+    "5/2": {
+     "d": "2025-07-10",
+     "g": "2025-08-01",
+     "i": "DC",
+     "w": "ULTRA CLEAN HOLDINGS, INC. CMN",
+     "a": "KAUF",
+     "b": "A"
+    },
+    "5/8": {
+     "i": "DC",
+     "w": "BERKSHIRE HATHAWAY INC. CLASS B",
+     "a": "KAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/19": {
+     "d": "2025-07-25",
+     "g": "2025-08-01"
+    },
+    "8/4": {
+     "d": "2025-07-16",
+     "g": "2025-08-01",
+     "i": "DC",
+     "w": "BNP PARIBAS LINKED TO S&P 500 INDEX",
+     "a": "KAUF",
+     "b": "C"
+    },
+    "8/7": {
+     "d": "2025-07-02",
+     "g": "2025-08-01"
+    },
+    "8/13": {
+     "d": "2025-07-25",
+     "g": "2025-08-01"
+    },
+    "9/19": {
+     "d": "2025-07-25",
+     "g": "2025-08-01"
+    },
+    "10/3": {
+     "d": "2025-07-25",
+     "g": "2025-08-01"
+    },
+    "14/11": {
+     "d": "2025-07-21",
+     "g": "2025-08-01",
+     "w": "PUT/XSP @ 589 EXP 09/19/2025"
+    },
+    "16/8": {
+     "d": "2025-07-01",
+     "g": "2025-08-01"
+    },
+    "18/6": {
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "w": "REGAL REXNORD CORP CMN",
+     "i": "SP",
+     "a": "TEILVERKAUF",
+     "b": "A"
+    },
+    "18/7": {
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "i": "SP",
+     "w": "CATERPILLAR INC (DELAWARE) CMN",
+     "a": "TEILVERKAUF",
+     "b": "A"
+    },
+    "3/6": {
+     "i": "DC",
+     "w": "CALL/GEV FLEX EURO PM @ 475 EXP 07/03/2025",
+     "a": "KAUF",
+     "d": "2025-07-02",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/10": {
+     "i": "DC",
+     "w": "ACCENTURE PLC CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-02",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/11": {
+     "i": "DC",
+     "w": "CARMAX, INC. CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-10",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/12": {
+     "i": "DC",
+     "w": "KEYCORP CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/13": {
+     "i": "DC",
+     "w": "CATERPILLAR INC (DELAWARE) CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-24",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/15": {
+     "i": "DC",
+     "w": "FERGUSON ENTERPRISES INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "3/16": {
+     "i": "DC",
+     "w": "FERGUSON ENTERPRISES INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "4/6": {
+     "i": "DC",
+     "w": "CATERPILLAR INC (DELAWARE) CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/4": {
+     "i": "DC",
+     "w": "TENABLE HOLDINGS, INC CMN",
+     "a": "KAUF",
+     "d": "2025-07-10",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/5": {
+     "i": "DC",
+     "w": "COLGATE-PALMOLIVE CO CMN",
+     "a": "KAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/6": {
+     "i": "DC",
+     "w": "ZIMMER BIOMET HOLDINGS INC",
+     "a": "KAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/7": {
+     "i": "DC",
+     "w": "THERMO FISHER SCIENTIFIC INC CMN",
+     "a": "KAUF",
+     "d": "2025-07-30",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/9": {
+     "i": "DC",
+     "w": "PINTEREST INC CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-15",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/11": {
+     "i": "DC",
+     "w": "TARGET CORPORATION CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/12": {
+     "i": "DC",
+     "w": "TEXAS INSTRUMENTS INC. CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "5/13": {
+     "i": "DC",
+     "w": "FERGUSON ENTERPRISES INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "6/3": {
+     "i": "DC",
+     "w": "HEALTHPEAK OP, LLC CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "6/6": {
+     "i": "DC",
+     "w": "THE KRAFT HEINZ CO CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/2": {
+     "i": "DC",
+     "w": "SHERWIN-WILLIAMS CO CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/5": {
+     "i": "DC",
+     "w": "CONSTELLATION BRANDS INC CMN CLASS A",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/9": {
+     "i": "DC",
+     "w": "LOWES COMPANIES INC CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/10": {
+     "i": "DC",
+     "w": "COMCAST CORPORATION CMN CLASS A VOTING",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/11": {
+     "i": "DC",
+     "w": "BLACKSTONE GROUP INC/THE CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/12": {
+     "i": "DC",
+     "w": "AFLAC INCORPORATED CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/13": {
+     "i": "DC",
+     "w": "S&P GLOBAL INC. CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/14": {
+     "i": "DC",
+     "w": "HUMANA INC. CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "7/15": {
+     "i": "DC",
+     "w": "THE PROCTER & GAMBLE COMPANY CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "B"
+    },
+    "7/16": {
+     "i": "DC",
+     "w": "MARSH & MCLENNAN CO INC CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "B"
+    },
+    "7/18": {
+     "i": "DC",
+     "w": "APPLE INC. CMN",
+     "a": "KAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "B"
+    },
+    "8/3": {
+     "i": "DC",
+     "w": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX",
+     "a": "KAUF",
+     "d": "2025-07-24",
+     "g": "2025-08-01",
+     "b": "C"
+    },
+    "8/5": {
+     "i": "DC",
+     "w": "THE BANK OF NOVA SCOTIA LINKED TO S&P 500 INDEX",
+     "a": "KAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "E"
+    },
+    "8/6": {
+     "i": "DC",
+     "w": "JPMORGAN CHASE & CO. LINKED TO S&P 500 INDEX",
+     "a": "KAUF",
+     "d": "2025-07-07",
+     "g": "2025-08-01",
+     "b": "E"
+    },
+    "9/14": {
+     "i": "DC",
+     "w": "CIGNA GROUP/THE CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "15/8": {
+     "i": "SP",
+     "w": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-01",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "16/2": {
+     "i": "SP",
+     "w": "ROSS STORES,INC CMN",
+     "a": "VERKAUF",
+     "d": "2025-07-01",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "16/7": {
+     "i": "SP",
+     "w": "CONSTELLATION BRANDS INC CMN CLASS A",
+     "a": "VERKAUF",
+     "d": "2025-07-01",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "17/6": {
+     "i": "SP",
+     "w": "PNC FINANCIAL SERVICES GROUP, HYBRID PERPETUAL USD",
+     "a": "KAUF",
+     "d": "2025-07-18",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "18/2": {
+     "i": "SP",
+     "w": "LULULEMON ATHLETICA INC. CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "18/5": {
+     "i": "SP",
+     "w": "FERGUSON ENTERPRISES INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-25",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "18/8": {
+     "i": "SP",
+     "w": "TARGET CORPORATION CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-08",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "18/10": {
+     "i": "SP",
+     "w": "FERGUSON ENTERPRISES INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "18/11": {
+     "i": "SP",
+     "w": "TEXAS INSTRUMENTS INC. CMN",
+     "a": "TEILVERKAUF",
+     "d": "2025-07-09",
+     "g": "2025-08-01",
+     "b": "A"
+    },
+    "20/3": {
+     "i": "SP",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF",
+     "a": "KAUF",
+     "d": "2025-07-21",
+     "g": "2025-07-21",
+     "b": "A"
+    },
+    "21/3": {
+     "i": "SP",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF",
+     "a": "KAUF",
+     "d": "2025-07-21",
+     "g": "2025-07-21",
+     "b": "A"
+    },
+    "21/5": {
+     "i": "DC",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF",
+     "a": "KAUF",
+     "d": "2025-07-21",
+     "g": "2025-07-21",
+     "b": "A"
+    },
+    "21/9": {
+     "i": "DC",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF",
+     "a": "KAUF",
+     "d": "2025-07-21",
+     "g": "2025-07-21",
+     "b": "D"
+    },
+    "21/10": {
+     "i": "DC",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF",
+     "a": "KAUF",
+     "d": "2025-07-29",
+     "g": "2025-07-29",
+     "b": "A"
+    },
+    "21/12": {
+     "i": "DC",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF",
+     "a": "KAUF",
+     "d": "2025-07-21",
+     "g": "2025-07-21",
+     "b": "F"
+    },
+    "21/13": {
+     "i": "DC",
+     "a": "KAUF",
+     "d": "2025-07-29",
+     "g": "2025-07-29",
+     "b": "B",
+     "w": "VANGUARD SPECIALIZED FUNDS DIV APP ETF"
+    },
+    "2/10": {
+     "w": "COLGATE-PALMOLIVE CO CMN"
+    },
+    "10/13": {
+     "w": "UNITEDHEALTH GROUP INCORPORATE CMN"
+    },
+    "10/15": {
+     "w": "BERKSHIRE HATHAWAY INC. CLASS B"
+    },
+    "13/3": {
+     "w": "PFIZER INC. CMN"
+    },
+    "16/4": {
+     "w": "KIMCO REALTY OP, LLC CMN"
+    },
+    "16/12": {
+     "w": "LOWES COMPANIES INC CMN"
+    },
+    "8/10": {
+     "ok": true,
+     "w": "MOLINA HEALTHCARE, INC. CMN"
+    },
+    "14/13": {
+     "w": "PUT/XSP @ 600 EXP 09/30/2025"
+    },
+    "14/14": {
+     "w": "PUT/XSP @ 599 EXP 08/22/2025"
+    },
+    "14/17": {
+     "w": "PUT/XSP @ 595 EXP 09/19/2025"
+    }
+   }
+  },
+  "9115676": {
+   "korrekturen": {
+    "2/13": {
+     "w": "CALL/NVDA FLEX EURO PM 162.5 EXP 08/01/2025",
+     "d": "2025-08-01",
+     "g": "2025-09-04"
+    },
+    "2/14": {
+     "w": "CALL/GEV FLEX EURO PM @ 585 EXP 08/01/2025"
+    },
+    "11/20": {
+     "w": "CALL/CRH FLEX EURO PM @ 101 EXP 08/08/2025"
+    },
+    "11/21": {
+     "w": "CALL/ING FLEX EURO PM @ 23 EXP 08/08/2025"
+    },
+    "11/22": {
+     "w": "CALL/UBS FLEX EURO PM @ 35 EXP 08/08/2025"
+    },
+    "11/23": {
+     "w": "PUT/XSP @ 620 EXP 09/26/2025",
+     "d": "2025-08-18",
+     "g": "2025-09-04"
+    },
+    "11/25": {
+     "w": "PUT/XSP @ 585 EXP 10/17/2025"
+    },
+    "11/26": {
+     "w": "PUT/XSP @ 605 EXP 10/31/2025"
+    },
+    "10/6": {
+     "w": "ALLSTATE CORPORATION COMMON STOCK",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "b": "A"
+    },
+    "2/8": {
+     "d": "2025-08-05",
+     "g": "2025-09-04",
+     "w": "ZOETIS INC. CMN CLASS A"
+    },
+    "2/9": {
+     "d": "2025-08-05",
+     "g": "2025-09-04",
+     "w": "FEDEX CORPORATION CMN"
+    },
+    "2/18": {
+     "d": "2025-08-06",
+     "g": "2025-09-04",
+     "w": "MARTIN MARIETTA MATERIALS CMN"
+    },
+    "2/19": {
+     "d": "2025-08-06",
+     "g": "2025-09-04",
+     "w": "NASDAQ INC. CMN"
+    },
+    "2/22": {
+     "d": "2025-08-18",
+     "g": "2025-09-04"
+    },
+    "2/23": {
+     "d": "2025-08-01",
+     "g": "2025-09-04"
+    },
+    "3/2": {
+     "d": "2025-08-05",
+     "g": "2025-09-04",
+     "w": "ZOETIS INC. CMN CLASS A"
+    },
+    "3/3": {
+     "d": "2025-08-05",
+     "g": "2025-09-04",
+     "w": "FEDEX CORPORATION CMN"
+    },
+    "4/31": {
+     "d": "2025-08-26",
+     "g": "2025-09-04",
+     "w": "PUBLIC STORAGE CMN"
+    },
+    "5/5": {
+     "d": "2025-08-26",
+     "g": "2025-09-04",
+     "w": "BLOCK, INC. CMN CLASS A"
+    },
+    "5/7": {
+     "d": "2025-08-26",
+     "g": "2025-09-04"
+    },
+    "5/14": {
+     "d": "2025-08-26",
+     "g": "2025-09-04",
+     "w": "SERVICENOW INC CMN"
+    },
+    "5/27": {
+     "d": "2025-08-26",
+     "g": "2025-09-04"
+    },
+    "6/6": {
+     "d": "2025-08-26",
+     "g": "2025-09-04",
+     "w": "METLIFE, INC. CMN"
+    },
+    "6/19": {
+     "d": "2025-08-26",
+     "g": "2025-09-04"
+    },
+    "6/23": {
+     "d": "2025-08-26",
+     "g": "2025-09-04"
+    },
+    "6/24": {
+     "d": "2025-08-26",
+     "g": "2025-09-04",
+     "w": "VERISK ANALYTICS, INC. CMN"
+    },
+    "6/28": {
+     "d": "2025-08-26",
+     "g": "2025-09-04",
+     "w": "TESLA, INC. CMN"
+    },
+    "8/3": {
+     "d": "2025-08-13",
+     "g": "2025-09-04"
+    },
+    "8/5": {
+     "d": "2025-08-11",
+     "g": "2025-09-04",
+     "w": "TENABLE HOLDINGS, INC CMN"
+    },
+    "8/8": {
+     "d": "2025-08-20",
+     "g": "2025-09-04",
+     "w": "TENABLE HOLDINGS, INC CMN"
+    },
+    "9/4": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "JOHNSON & JOHNSON CMN"
+    },
+    "9/11": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "STARBUCKS CORP. CMN"
+    },
+    "9/25": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "COOPER COS INC/THE CMN"
+    },
+    "9/28": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "C.H. ROBINSON WORLDWIDE, INC. CMN"
+    },
+    "9/29": {
+     "d": "2025-08-04",
+     "g": "2025-09-04"
+    },
+    "9/32": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "GENERAL MILLS INC CMN"
+    },
+    "9/33": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "KIMCO REALTY OP, LLC CMN"
+    },
+    "9/38": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "BEST BUY CO INC CMN"
+    },
+    "10/36": {
+     "d": "2025-08-04",
+     "g": "2025-09-04"
+    },
+    "12/28": {
+     "d": "2025-08-04",
+     "g": "2025-09-04"
+    },
+    "12/35": {
+     "d": "2025-08-04",
+     "g": "2025-09-04",
+     "w": "EQUITY RESIDENTIAL CMN"
+    },
+    "14/11": {
+     "d": "2025-08-04",
+     "g": "2025-09-04"
+    },
+    "14/12": {
+     "d": "2025-08-13",
+     "g": "2025-09-04"
+    },
+    "14/14": {
+     "d": "2025-08-13",
+     "g": "2025-09-04",
+     "w": "BANK OF AMERICA CORP CMN"
+    },
+    "15/6": {
+     "d": "2025-08-19",
+     "g": "2025-09-04"
+    },
+    "4/24": {
+     "w": "SHERWIN-WILLIAMS CO CMN"
+    },
+    "4/28": {
+     "w": "HILTON WORLDWIDE HOLDINGS INC. CMN"
+    },
+    "4/32": {
+     "w": "ZOETIS INC. CMN CLASS A"
+    },
+    "8/7": {
+     "w": "TENABLE HOLDINGS, INC CMN"
+    },
+    "9/6": {
+     "w": "CROWDSTRIKE HOLDINGS, INC. CMN"
+    },
+    "9/17": {
+     "w": "INTL.FLAVORS & FRAGRANCE CMN"
+    },
+    "10/3": {
+     "w": "TYLER TECHNOLOGIES, INC. CMN"
+    },
+    "10/5": {
+     "w": "INTERNATIONAL PAPER CO. CMN"
+    },
+    "10/24": {
+     "w": "PFIZER INC. CMN"
+    },
+    "10/32": {
+     "w": "COCA-COLA COMPANY (THE) CMN"
+    },
+    "11/27": {
+     "w": "LYONDELLBASELL INDUSTRIES N.V. CMN CLASS A"
+    },
+    "11/29": {
+     "w": "CAESARS ENTERTAINMENT INC CMN"
+    },
+    "12/30": {
+     "w": "EQUINIX, INC. REIT"
+    },
+    "14/6": {
+     "w": "FEDEX CORPORATION CMN"
+    },
+    "15/11": {
+     "w": "TAIWAN SEMICONDUCTOR MFG ADS LTD ADS 1ADS EQUALS 5ORDS"
+    },
+    "9/7": {
+     "w": "VERTEX PHARMACEUTICALS INCORPO CMN"
+    }
+   }
+  },
+  "9115679": {
+   "korrekturen": {
+    "13/21": {
+     "w": "CALL/CRH FLEX EURO PM @ 104 EXP 09/12/2025"
+    },
+    "14/3": {
+     "w": "PUT/XSP @ 599 EXP 11/21/2025"
+    },
+    "14/4": {
+     "w": "PUT/XSP @ 630 EXP 11/14/2025"
+    },
+    "14/6": {
+     "w": "PUT/XSP @ 635 EXP 11/07/2025"
+    },
+    "2/19": {
+     "d": "2025-09-15",
+     "g": "2025-10-02"
+    },
+    "3/13": {
+     "d": "2025-09-08",
+     "g": "2025-10-02",
+     "w": "NASDAQ INC. CMN"
+    },
+    "3/14": {
+     "d": "2025-09-08",
+     "g": "2025-10-02",
+     "w": "CARMAX, INC. CMN"
+    },
+    "4/10": {
+     "d": "2025-09-08",
+     "g": "2025-10-02",
+     "w": "NASDAQ INC. CMN"
+    },
+    "5/8": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "5/13": {
+     "d": "2025-09-29",
+     "g": "2025-10-02",
+     "w": "MSCI INC. CMN"
+    },
+    "5/14": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "5/17": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "6/16": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "6/17": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "7/11": {
+     "d": "2025-09-29",
+     "g": "2025-10-02",
+     "w": "CONAGRA BRANDS INC CMN"
+    },
+    "7/18": {
+     "d": "2025-09-29",
+     "g": "2025-10-02",
+     "w": "BAXTER INTERNATIONAL INC. CMN"
+    },
+    "7/19": {
+     "d": "2025-09-29",
+     "g": "2025-10-02",
+     "w": "WATERS CORPORATION COMMON STOCK"
+    },
+    "7/20": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "9/18": {
+     "d": "2025-09-29",
+     "g": "2025-10-02",
+     "w": "LKQ CORPORATION CMN"
+    },
+    "10/5": {
+     "d": "2025-09-29",
+     "g": "2025-10-02"
+    },
+    "10/6": {
+     "d": "2025-09-29",
+     "g": "2025-10-02",
+     "w": "DEXCOM, INC. CMN"
+    },
+    "12/2": {
+     "d": "2025-09-30",
+     "g": "2025-10-02"
+    },
+    "12/4": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "PHILIP MORRIS INTL INC CMN"
+    },
+    "12/9": {
+     "d": "2025-09-05",
+     "g": "2025-10-02"
+    },
+    "13/5": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "EQUINIX, INC. REIT"
+    },
+    "13/11": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "GLOBAL PAYMENTS INC. CMN"
+    },
+    "13/13": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "EQUITY RESIDENTIAL CMN"
+    },
+    "14/8": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "SALESFORCE INC CMN"
+    },
+    "14/14": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "PAYPAL HOLDINGS, INC. CMN"
+    },
+    "15/4": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "VERISK ANALYTICS, INC. CMN"
+    },
+    "15/7": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "AMCOR PLC CMN"
+    },
+    "15/10": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "CARDINAL HEALTH, INC. CMN"
+    },
+    "15/11": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "UNION PACIFIC CORP. CMN"
+    },
+    "15/19": {
+     "d": "2025-09-05",
+     "g": "2025-10-02"
+    },
+    "16/4": {
+     "d": "2025-09-05",
+     "g": "2025-10-02",
+     "w": "DATADOG, INC. CMN CLASS A"
+    },
+    "16/7": {
+     "d": "2025-09-05",
+     "g": "2025-10-02"
+    },
+    "18/2": {
+     "d": "2025-09-26",
+     "g": "2025-10-02"
+    },
+    "19/10": {
+     "d": "2025-09-19",
+     "g": "2025-10-02",
+     "w": "TAIWAN SEMICONDUCTOR MFG ADS LTD ADS 1ADS EQUALS 5ORDS"
+    },
+    "2/10": {
+     "w": "COLGATE-PALMOLIVE CO CMN"
+    },
+    "4/5": {
+     "w": "HOLOGIC INCORPORATED CMN"
+    },
+    "4/11": {
+     "w": "MICRON TECHNOLOGY, INC. CMN"
+    },
+    "7/6": {
+     "w": "UDR INC CMN"
+    },
+    "10/8": {
+     "w": "FISERV, INC. CMN"
+    },
+    "12/3": {
+     "w": "UNITEDHEALTH GROUP INCORPORATE CMN"
+    },
+    "12/14": {
+     "w": "ZOETIS INC. CMN CLASS A"
+    },
+    "17/3": {
+     "w": "SBA COMMUNICATIONS CORPORATION CMN"
+    },
+    "3/2": {
+     "w": "CALL/AAPL FLEX EURO PM 220 EXP 09/05/2025"
+    },
+    "13/20": {
+     "w": "CALL/EWJ FLEX EURO PM @ 77 EXP 09/12/2025"
+    },
+    "14/5": {
+     "w": "PUT/XSP @ 629 EXP 10/24/2025"
+    },
+    "14/7": {
+     "w": "PUT/XSP @ 625 EXP 11/21/2025"
+    }
+   }
+  },
+  "9115704": {
+   "korrekturen": {
+    "1/3": {
+     "w": "Euronet Worldwide Inc Com (EEFT)"
+    }
+   }
+  },
+  "9115726": {
+   "korrekturen": {
+    "2/14": {
+     "w": "CALL/JNJ FLEX EURO PM @ 220 EXP 03/06/2026"
+    },
+    "20/17": {
+     "w": "COCA COLA EUROPEAN PARTNERS PL CMN"
+    },
+    "24/15": {
+     "w": "PUT/XSP @ 655 EXP 03/31/2026"
+    },
+    "24/16": {
+     "w": "CALL/SHEL FLEX EURO PM 76 EXP 03/13/2026"
+    },
+    "24/17": {
+     "w": "CALL/TTE FLEX EURO PM @ 69 EXP 03/13/2026"
+    },
+    "25/3": {
+     "w": "PUT/XSP @ 660 EXP 03/20/2026"
+    },
+    "25/4": {
+     "w": "CALL/NGG FLEX EURO PM @ 85 EXP 03/13/2026"
+    },
+    "25/5": {
+     "w": "CALL/CCEP FLEX EURO PM 94 EXP 03/13/2026"
+    },
+    "25/6": {
+     "w": "PUT/XSP @ 610 EXP 06/30/2026"
+    },
+    "25/7": {
+     "w": "PUT/XSP @ 610 EXP 06/18/2026"
+    },
+    "25/8": {
+     "w": "PUT/XSP @ 625 EXP 05/29/2026"
+    },
+    "38/4": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION SEP 18 26 $155 (100 SHS)",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2026-03-16",
+     "g": "2026-03-16",
+     "b": "A"
+    },
+    "38/5": {
+     "w": "PUT (AVGO) BROADCOM INC COM SEP 18 26 $280 (100 SHS)"
+    },
+    "38/6": {
+     "w": "PUT (AMD) ADVANCED MICRO SEP 18 26 $170 (100 SHS)",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2026-03-16",
+     "g": "2026-03-16",
+     "b": "A"
+    },
+    "38/7": {
+     "w": "PUT (MSFT) MICROSOFT CORP SEP 18 26 $340 (100 SHS)"
+    },
+    "38/8": {
+     "w": "PUT (PLTR) PALANTIR SEP 18 26 $130 (100 SHS)"
+    },
+    "38/9": {
+     "w": "PUT (AVGO) BROADCOM INC COM MAR 19 27 $280 (100 SHS)",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2026-03-16",
+     "g": "2026-03-16",
+     "b": "A"
+    },
+    "38/10": {
+     "w": "PUT (MSFT) MICROSOFT CORP MAR 19 27 $340 (100 SHS)"
+    },
+    "38/11": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION MAR 19 27 $155 (100 SHS)"
+    },
+    "38/12": {
+     "w": "PUT (AMD) ADVANCED MICRO MAR 19 27 $165 (100 SHS)"
+    },
+    "38/13": {
+     "w": "PUT (PLTR) PALANTIR MAR 19 27 $130 (100 SHS)"
+    },
+    "40/4": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION SEP 18 26 $155 (100 SHS)"
+    },
+    "40/6": {
+     "w": "PUT (AMD) ADVANCED MICRO SEP 18 26 $170 (100 SHS)"
+    },
+    "40/7": {
+     "w": "PUT (MSFT) MICROSOFT CORP SEP 18 26 $340 (100 SHS)"
+    },
+    "40/9": {
+     "w": "PUT (AVGO) BROADCOM INC COM MAR 19 27 $280 (100 SHS)"
+    },
+    "40/10": {
+     "w": "PUT (MSFT) MICROSOFT CORP MAR 19 27 $340 (100 SHS)"
+    },
+    "40/12": {
+     "w": "PUT (AMD) ADVANCED MICRO MAR 19 27 $165 (100 SHS)"
+    },
+    "40/13": {
+     "w": "PUT (PLTR) PALANTIR MAR 19 27 $130 (100 SHS)"
+    },
+    "42/4": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION SEP 18 26 $155 (100 SHS)"
+    },
+    "42/5": {
+     "w": "PUT (AVGO) BROADCOM INC COM SEP 18 26 $280 (100 SHS)"
+    },
+    "42/6": {
+     "w": "PUT (AMD) ADVANCED MICRO SEP 18 26 $170 (100 SHS)"
+    },
+    "42/7": {
+     "w": "PUT (MSFT) MICROSOFT CORP SEP 18 26 $340 (100 SHS)"
+    },
+    "42/8": {
+     "w": "PUT (PLTR) PALANTIR SEP 18 26 $130 (100 SHS)"
+    },
+    "42/9": {
+     "w": "PUT (AVGO) BROADCOM INC COM MAR 19 27 $280 (100 SHS)"
+    },
+    "42/10": {
+     "w": "PUT (MSFT) MICROSOFT CORP MAR 19 27 $340 (100 SHS)"
+    },
+    "42/11": {
+     "w": "PUT (NVDA) NVIDIA CORPORATION MAR 19 27 $155 (100 SHS)"
+    },
+    "42/12": {
+     "w": "PUT (AMD) ADVANCED MICRO MAR 19 27 $165 (100 SHS)"
+    },
+    "42/13": {
+     "w": "PUT (PLTR) PALANTIR MAR 19 27 $130 (100 SHS)"
+    },
+    "2/9": {
+     "i": "DC",
+     "w": "BROADCOM INC CMN",
+     "a": "KAUF",
+     "d": "2026-03-06",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "2/18": {
+     "i": "DC",
+     "w": "META PLATFORMS INC CLASS A CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-06",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "6/8": {
+     "i": "DC",
+     "w": "HENRY SCHEIN INC COMMON STOCK",
+     "a": "KAUF",
+     "d": "2026-03-30",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "7/15": {
+     "i": "DC",
+     "w": "AMERICAN TOWER CORPORATION CMN",
+     "a": "VERKAUF",
+     "d": "2026-03-30",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "11/3": {
+     "i": "DC",
+     "w": "STERIS PUBLIC LIMITED COMPANY CMN",
+     "a": "VERKAUF",
+     "d": "2026-03-30",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "13/5": {
+     "i": "SP",
+     "w": "NIKE CLASS B CMN CLASS B",
+     "a": "KAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "13/6": {
+     "i": "SP",
+     "w": "CHARLES SCHWAB CORPORATION CMN",
+     "a": "KAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "13/10": {
+     "i": "SP",
+     "w": "KEURIG DR PEPPER INC CMN",
+     "a": "KAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "13/12": {
+     "i": "SP",
+     "w": "UBER TECHNOLOGIES INC CMN",
+     "a": "KAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "15/6": {
+     "i": "SP",
+     "w": "BERKSHIRE HATHAWAY INC CLASS B",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "B"
+    },
+    "16/16": {
+     "i": "SP",
+     "w": "DATADOG INC. CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "17/9": {
+     "i": "SP",
+     "w": "MICRON TECHNOLOGY INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-18",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "18/4": {
+     "i": "SP",
+     "w": "UNITED AIRLINES HOLDINGS INC CMN",
+     "a": "VERKAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "19/17": {
+     "i": "SP",
+     "w": "S&P GLOBAL INC CMN",
+     "a": "KAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "B"
+    },
+    "20/8": {
+     "i": "SP",
+     "w": "APOLLO GLOBAL MANAGEMENT INC CMN CLASS A",
+     "a": "KAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "21/6": {
+     "i": "SP",
+     "w": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLASS A",
+     "a": "KAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "22/11": {
+     "i": "SP",
+     "w": "WORKDAY INC CMN CLASS A",
+     "a": "KAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "24/6": {
+     "i": "SP",
+     "w": "TRADE DESK INC (THE) CMN",
+     "a": "KAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "25/9": {
+     "i": "SP",
+     "w": "VISA INC CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "B"
+    },
+    "26/4": {
+     "i": "SP",
+     "w": "PAYCHEX, INC CMN",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "B"
+    },
+    "27/12": {
+     "i": "SP",
+     "w": "DOORDASH INC CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "28/6": {
+     "i": "SP",
+     "w": "IBERDROLA SOCIEDAD ANONIMA SPONSORED ADR CMN",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-13",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "29/4": {
+     "i": "SP",
+     "w": "TRANE TECHNOLOGIES PUBLIC LIMI CMN",
+     "a": "VERKAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "30/6": {
+     "i": "SP",
+     "w": "DARDEN RESTAURANTS INC CMN",
+     "a": "VERKAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "31/6": {
+     "i": "SP",
+     "w": "SMURFIT WESTROCK PUBLIC LIMITE CMN",
+     "a": "VERKAUF",
+     "d": "2026-03-23",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "35/3": {
+     "i": "DC",
+     "w": "DATADOG INC. CMN CLASS A",
+     "a": "TEILVERKAUF",
+     "d": "2026-03-18",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "35/4": {
+     "i": "DC",
+     "w": "NEW MEXICO FIN AUTH REV REV 5% 06/01/26 JD",
+     "a": "VERKAUF",
+     "d": "2026-03-26",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "35/5": {
+     "i": "DC",
+     "w": "MINNESOTA ST GO 5% 08/01/26 FA",
+     "a": "VERKAUF",
+     "d": "2026-03-26",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "35/6": {
+     "i": "DC",
+     "w": "OHIO ST GO 5% 05/01/26 MN",
+     "a": "VERKAUF",
+     "d": "2026-03-26",
+     "g": "2026-04-02",
+     "b": "A"
+    },
+    "36/3": {
+     "i": "DC",
+     "w": "GS TAX ADVANTAGED GLOBAL EQUITY PORTFOLIO CLASS P",
+     "a": "KAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "C"
+    },
+    "37/3": {
+     "i": "DC",
+     "w": "GS TAX ADVANTAGED GLOBAL EQUITY PORTFOLIO CLASS P",
+     "a": "KAUF",
+     "d": "2026-03-10",
+     "g": "2026-04-02",
+     "b": "C"
+    },
+    "38/19": {
+     "i": "SP",
+     "w": "PROCTER AND GAMBLE CO COM",
+     "a": "VERKAUF",
+     "d": "2026-03-20",
+     "g": "2026-03-20",
+     "b": "A"
+    },
+    "39/4": {
+     "i": "SP",
+     "w": "PHILIP MORRIS INTERNATIONAL INC COM NPV",
+     "a": "VERKAUF",
+     "d": "2026-03-20",
+     "g": "2026-03-20",
+     "b": "A"
+    },
+    "39/5": {
+     "i": "SP",
+     "w": "SALESFORCE INC COM",
+     "a": "VERKAUF",
+     "d": "2026-03-20",
+     "g": "2026-03-20",
+     "b": "A"
+    },
+    "28/11": {
+     "w": "ENEL SOCIETA PER AZIONI ADR CMN"
+    },
+    "30/17": {
+     "w": "ING GROEP N V SPONS ADR SPONSORED ADR CMN"
+    },
+    "31/15": {
+     "w": "INDUSTRIA DE DISENO TEXTIL S ADR CMN"
+    },
+    "33/7": {
+     "ok": true,
+     "w": "BWX TECHNOLOGIES INC CMN"
+    }
+   }
+  },
+  "9115820": {
+   "korrekturen": {
+    "1/9": {
+     "w": "CALIFORNIA INFRASTRUCTURE"
+    },
+    "3/0": {
+     "w": "ASML HOLDING NV EUR0"
+    },
+    "3/2": {
+     "w": "ASML HOLDING NV EUR0"
+    },
+    "3/8": {
+     "w": "AERCAP HOLDINGS N.V. EUR0.01"
+    },
+    "3/12": {
+     "w": "AERCAP HOLDINGS N.V. EUR0"
+    }
+   }
+  },
+  "9115822": {
+   "korrekturen": {
+    "22/17": {
+     "w": "CALL/TTE FLEX EURO PM @ 83 EXP 04/10/2026"
+    },
+    "23/3": {
+     "w": "PUT/XSP @ 645 EXP 04/10/2026"
+    },
+    "23/4": {
+     "w": "CALL/SHEL FLEX EURO PM 78 EXP 04/10/2026"
+    },
+    "23/5": {
+     "w": "CALL/SHEL FLEX EURO PM 85 EXP 04/10/2026"
+    },
+    "23/6": {
+     "w": "PUT/XSP @ 595 EXP 07/17/2026"
+    },
+    "23/7": {
+     "w": "PUT/XSP @ 675 EXP 06/30/2026"
+    },
+    "23/8": {
+     "w": "PUT/XSP @ 670 EXP 07/17/2026"
+    },
+    "23/9": {
+     "w": "PUT/XSP @ 665 EXP 06/05/2026"
+    },
+    "29/3": {
+     "i": "DC",
+     "w": "GS TAX-ADVANTAGED GLOBAL EQUITY PORTFOLIO CLASS P",
+     "a": "KAUF",
+     "d": "2026-04-10",
+     "g": "2026-05-04",
+     "b": "C"
+    },
+    "30/3": {
+     "i": "DC",
+     "w": "GS TAX-ADVANTAGED GLOBAL EQUITY PORTFOLIO CLASS P",
+     "a": "KAUF",
+     "d": "2026-04-10",
+     "g": "2026-05-04",
+     "b": "C"
+    }
+   }
+  },
+  "9116141": {
+   "korrekturen": {
+    "1/8": {
+     "w": "CALIFORNIA ST GO"
+    },
+    "1/10": {
+     "w": "CALIFORNIA ST GO"
+    },
+    "4/19": {
+     "d": "2026-05-06",
+     "g": "2026-06-05",
+     "w": "ALPHABET INC CL A"
+    },
+    "1/7": {
+     "w": "NEW CANAAN CONN GO"
+    },
+    "1/9": {
+     "w": "RIO RANCHO N MEX PUB SCH DIST"
+    },
+    "1/11": {
+     "w": "LOUISIANA-PACIFIC CORP"
+    },
+    "2/15": {
+     "w": "EVERPURE, INC. CLASS A"
+    },
+    "5/7": {
+     "w": "ARAMARK COM"
+    },
+    "2/0": {
+     "w": "CARLISLE COMPANIES INC"
+    }
+   }
+  },
+  "9116142": {
+   "korrekturen": {
+    "2/8": {
+     "w": "CALL/MS FLEX EURO PM @ 177.5 EXP 05/01/2026"
+    },
+    "2/9": {
+     "w": "CALL/AMZN FLEX EURO PM 245 EXP 05/01/2026"
+    },
+    "2/10": {
+     "w": "CALL/GOOG FLEX EURO PM 340 EXP 05/01/2026"
+    },
+    "18/6": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "26/11": {
+     "w": "CALL/UBS FLEX EURO PM @ 42 EXP 05/08/2026"
+    },
+    "26/12": {
+     "w": "CALL/ING FLEX EURO PM @ 28 EXP 05/08/2026"
+    },
+    "32/13": {
+     "w": "PUT/XSP @ 710 EXP 07/24/2026"
+    },
+    "32/14": {
+     "w": "PUT/XSP @ 705 EXP 06/26/2026"
+    },
+    "32/15": {
+     "w": "PUT/XSP @ 700 EXP 08/21/2026"
+    },
+    "32/16": {
+     "w": "PUT/XSP @ 680 EXP 07/31/2026"
+    },
+    "12/4": {
+     "w": "UNITEDHEALTH GROUP INCORPORATE CMN"
+    },
+    "12/17": {
+     "ok": true,
+     "w": "INCYTE CORPORATION CMN"
+    },
+    "9/5": {
+     "w": "ELI LILLY & CO CMN"
+    }
+   }
+  },
+  "9116206": {
+   "korrekturen": {
+    "2/18": {
+     "w": "CALL/MS FLEX EURO PM @ 187.5 EXP 06/05/2026"
+    },
+    "3/3": {
+     "w": "CALL/AAPL FLEX EURO PM 285 EXP 06/05/2026"
+    },
+    "3/4": {
+     "w": "CALL/ODFL FLEX EURO PM 235 EXP 06/05/2026"
+    },
+    "3/5": {
+     "w": "CALL/NVDA FLEX EURO PM 205 EXP 06/05/2026"
+    },
+    "3/6": {
+     "w": "CALL/AMZN FLEX EURO PM 245 EXP 06/05/2026"
+    },
+    "3/8": {
+     "w": "COCA-COLA EUROPEAN PARTNERS PL CMN"
+    },
+    "23/3": {
+     "w": "CALL/UBS FLEX EURO PM @ 47 EXP 06/12/2026"
+    },
+    "23/4": {
+     "w": "PUT/XSP @ 710 EXP 08/31/2026"
+    },
+    "23/5": {
+     "w": "PUT/XSP @ 705 EXP 08/14/2026"
+    },
+    "23/6": {
+     "w": "PUT/XSP @ 715 EXP 08/07/2026"
+    },
+    "4/7": {
+     "d": "2026-06-22",
+     "g": "2026-07-01"
+    },
+    "16/16": {
+     "d": "2026-06-16",
+     "g": "2026-07-01",
+     "w": "INTUIT INC CMN"
+    },
+    "24/8": {
+     "d": "2026-06-30",
+     "g": "2026-07-01",
+     "w": "NETFLIX, INC. CMN"
+    },
+    "22/14": {
+     "w": "ISHARES MSCI AUSTRALIA ETF"
+    },
+    "31/3": {
+     "w": "MAI CAPITAL MANAGEMENT"
+    }
+   }
+  },
+  "9116267": {
+   "korrekturen": {
+    "2/5": {
+     "w": "CALL/JNJ FLEX EURO PM @ 245 EXP 07/02/2026"
+    },
+    "3/19": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "14/5": {
+     "w": "CALLAWAY GOLF COMPANY CMN",
+     "i": "SP"
+    },
+    "14/14": {
+     "w": "CALLAWAY GOLF COMPANY CMN",
+     "i": "SP"
+    },
+    "15/14": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "16/11": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "17/9": {
+     "w": "CALL/CCEP FLEX EURO PM 99 EXP 07/10/2026"
+    },
+    "17/10": {
+     "w": "CALL/UBS FLEX EURO PM @ 50 EXP 07/10/2026"
+    },
+    "17/11": {
+     "w": "CALL/SMFG FLEX EURO PM 25 EXP 07/10/2026"
+    },
+    "17/12": {
+     "w": "PUT/XSP @ 690 EXP 10/16/2026"
+    },
+    "17/13": {
+     "w": "PUT/XSP @ 710 EXP 10/16/2026"
+    },
+    "17/14": {
+     "w": "PUT/XSP @ 709 EXP 09/18/2026"
+    },
+    "17/15": {
+     "w": "PUT/XSP @ 699 EXP 09/30/2026"
+    },
+    "15/20": {
+     "i": "SP",
+     "w": "CIGNA GROUP/THE CMN",
+     "a": "TEILVERKAUF",
+     "d": "2026-07-20",
+     "g": "2026-08-03",
+     "b": "A"
+    },
+    "17/18": {
+     "ok": true,
+     "w": "RELX PLC SPONSORED ADR CMN"
+    }
+   }
+  },
+  "9116290": {
+   "korrekturen": {
+    "1/5": {
+     "w": "Ishares Tr Ishares Core MSCI Europe IEUR"
+    },
+    "1/2": {
+     "w": "GlobalXFds GlobalXDefense Tech ETF SHLD"
+    }
+   }
+  },
+  "9116328": {
+   "korrekturen": {
+    "2/8": {
+     "w": "CALL/MSFT FLEX EURO PM 485 EXP 08/07/2026"
+    },
+    "2/9": {
+     "w": "CALL/TMO FLEX EURO PM @ 555 EXP 08/07/2026"
+    },
+    "3/5": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "10/3": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "10/15": {
+     "w": "CALLAWAY GOLF COMPANY CMN"
+    },
+    "13/4": {
+     "w": "FLEX LTD CMN"
+    },
+    "13/17": {
+     "w": "CALL/ING FLEX EURO PM @ 33 EXP 08/14/2026"
+    },
+    "13/18": {
+     "w": "CALL/BBVA FLEX EURO PM 27 EXP 08/14/2026"
+    },
+    "14/3": {
+     "w": "PUT/XSP @ 730 EXP 11/20/2026"
+    },
+    "14/4": {
+     "w": "PUT/XSP @ 735 EXP 10/30/2026"
+    },
+    "14/5": {
+     "w": "PUT/XSP @ 735 EXP 09/30/2026"
+    },
+    "14/6": {
+     "w": "PUT/XSP @ 725 EXP 10/30/2026"
+    },
+    "4/13": {
+     "d": "2026-08-10",
+     "g": "2026-09-01",
+     "w": "SALESFORCE INC CMN"
+    },
+    "18/15": {
+     "d": "2026-08-21",
+     "g": "2026-09-01",
+     "w": "MIRION TECHNOLOGIES INC CMN CLASS A"
+    },
+    "11/15": {
+     "w": "EMCOR GROUP INC CMN"
+    },
+    "16/10": {
+     "w": "JABIL INC CMN"
+    },
+    "16/13": {
+     "w": "COHERENT CORP CMN"
+    },
+    "17/10": {
+     "w": "AMERICAN EXPRESS CO HYBRID PERPETUAL"
+    },
+    "10/10": {
+     "w": "WELLS FARGO & COMPANY CMN"
+    }
+   }
+  },
+  "9116376": {
+   "korrekturen": {
+    "2/9": {
+     "w": "CALL/MSFT FLEX EURO PM 460 EXP 09/04/2026"
+    },
+    "22/7": {
+     "w": "CALL/ING FLEX EURO PM @ 36 EXP 09/11/2026"
+    },
+    "22/8": {
+     "w": "PUT/XSP @ 725 EXP 11/30/2026"
+    },
+    "22/9": {
+     "w": "PUT/XSP @ 729 EXP 12/18/2026"
+    },
+    "25/8": {
+     "w": "FLEX LTD CMN"
+    },
+    "5/4": {
+     "d": "2026-09-11",
+     "g": "2026-10-01"
+    },
+    "5/16": {
+     "unlesbar": true
+    },
+    "11/14": {
+     "d": "2026-09-25",
+     "g": "2026-10-01"
+    },
+    "15/19": {
+     "d": "2026-09-25",
+     "g": "2026-10-01"
+    },
+    "17/4": {
+     "w": "DOLLAR TREE STORES INC CMN"
+    },
+    "18/5": {
+     "w": "ALLIANZ SE ADR CMN"
+    },
+    "20/17": {
+     "w": "FASTENAL COMPANY CMN"
+    },
+    "21/13": {
+     "w": "NXP SEMICONDUCTORS N V CMN"
+    }
+   }
+  },
+  "9116292": {
+   "grund": "am Seitenbild gelesen: Geschaefte von 2024, erst am 13.08.2026 gemeldet (Benachrichtigung 04.08.2026)",
+   "ersetzen": [
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "Apple Incorporated (AAPL)",
+     "a": "KAUF",
+     "d": "2024-08-20",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "Alphabet Incorporated (GOOGL)",
+     "a": "KAUF",
+     "d": "2024-08-20",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "Microsoft Corporation (MSFT)",
+     "a": "KAUF",
+     "d": "2024-08-20",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 1,
+     "i": "SP",
+     "w": "Meta Platforms (META)",
+     "a": "KAUF",
+     "d": "2024-08-20",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Nvidia Corporation (NVDA)",
+     "a": "KAUF",
+     "d": "2024-08-20",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Apple Incorporated (AAPL)",
+     "a": "VERKAUF",
+     "d": "2024-09-09",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Alphabet Incorporated (GOOGL)",
+     "a": "VERKAUF",
+     "d": "2024-09-09",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Microsoft Corporation (MSFT)",
+     "a": "VERKAUF",
+     "d": "2024-09-09",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Meta Platforms (META)",
+     "a": "VERKAUF",
+     "d": "2024-09-09",
+     "g": "2026-08-04",
+     "b": "A"
+    },
+    {
+     "s": 2,
+     "i": "SP",
+     "w": "Nvidia Corporation (NVDA)",
+     "a": "VERKAUF",
+     "d": "2024-09-09",
+     "g": "2026-08-04",
+     "b": "A"
+    }
+   ]
+  },
+  "8220799": {
+   "korrekturen": {
+    "1/1": {
+     "streichen": true
+    },
+    "1/4": {
+     "a": "KAUF",
+     "b": "D"
+    },
+    "1/5": {
+     "i": "JT",
+     "w": "HIMS & HERS HEALTH INC CLASS A",
+     "a": "KAUF",
+     "d": "2025-02-25",
+     "g": "2025-03-13",
+     "b": "B"
+    }
+   }
+  },
+  "8220903": {
+   "korrekturen": {
+    "1/2": {
+     "w": "MERCADOLIBRE INC",
+     "a": "VERKAUF",
+     "d": "2025-04-04",
+     "g": "2025-05-13",
+     "b": "B"
+    },
+    "1/4": {
+     "w": "RH",
+     "a": "KAUF",
+     "d": "2025-04-04",
+     "g": "2025-05-13",
+     "b": "B"
+    },
+    "1/1": {
+     "streichen": true
+    }
+   }
+  },
+  "8220904": {
+   "korrekturen": {
+    "5/14": {
+     "w": "CONOCOPHILLIPS",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-04-15",
+     "g": "2025-05-05",
+     "b": "A"
+    },
+    "1/1": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "KING CO WA SD#410"
+    },
+    "1/5": {
+     "d": "2025-04-10",
+     "g": "2025-05-05"
+    },
+    "1/6": {
+     "d": "2025-04-07",
+     "g": "2025-05-05"
+    },
+    "1/7": {
+     "d": "2025-04-10",
+     "g": "2025-05-05"
+    },
+    "1/11": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "NETFLIX COM INC"
+    },
+    "1/12": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "DEXCOM INC"
+    },
+    "1/16": {
+     "d": "2025-04-15",
+     "g": "2025-05-05",
+     "w": "ARIZONA GAME FISH DEPT"
+    },
+    "1/17": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "FORTINET INC"
+    },
+    "1/18": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "BROADCOM INC"
+    },
+    "1/19": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "NVIDIA"
+    },
+    "1/20": {
+     "d": "2025-04-08",
+     "g": "2025-05-05"
+    },
+    "1/23": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "DYNATRACE INC REG SHS"
+    },
+    "2/2": {
+     "d": "2025-04-08",
+     "g": "2025-05-05"
+    },
+    "2/15": {
+     "d": "2025-04-28",
+     "g": "2025-05-05",
+     "w": "MAYS-ALLOCATE"
+    },
+    "2/20": {
+     "d": "2025-04-11",
+     "g": "2025-05-05",
+     "w": "META PLATFORMS INC"
+    },
+    "2/22": {
+     "d": "2025-04-08",
+     "g": "2025-05-05"
+    },
+    "3/7": {
+     "d": "2025-04-01",
+     "g": "2025-05-05"
+    },
+    "3/8": {
+     "d": "2025-04-01",
+     "g": "2025-05-05"
+    },
+    "3/9": {
+     "d": "2025-04-01",
+     "g": "2025-05-05"
+    },
+    "3/11": {
+     "d": "2025-04-01",
+     "g": "2025-05-05"
+    },
+    "3/14": {
+     "d": "2025-04-01",
+     "g": "2025-05-05",
+     "w": "NC HSG FIN AGY"
+    },
+    "3/16": {
+     "d": "2025-04-02",
+     "g": "2025-05-05",
+     "w": "MERCK AND CO INC SHS"
+    },
+    "3/19": {
+     "d": "2025-04-10",
+     "g": "2025-05-05",
+     "w": "HUMANA INC"
+    },
+    "3/20": {
+     "d": "2025-04-10",
+     "g": "2025-05-05",
+     "w": "CACI INTL INC CL A"
+    },
+    "3/21": {
+     "d": "2025-04-08",
+     "g": "2025-05-05",
+     "w": "DOLLAR TREE INC"
+    },
+    "3/23": {
+     "d": "2025-04-10",
+     "g": "2025-05-05",
+     "w": "CVS HEALTH CORP"
+    },
+    "4/2": {
+     "d": "2025-04-01",
+     "g": "2025-05-05"
+    },
+    "5/2": {
+     "d": "2025-04-08",
+     "g": "2025-05-05"
+    },
+    "5/7": {
+     "d": "2025-04-01",
+     "g": "2025-05-05",
+     "w": "LENNAR CORP"
+    },
+    "5/17": {
+     "d": "2025-04-11",
+     "g": "2025-05-05",
+     "w": "ALPHABET INC"
+    },
+    "5/18": {
+     "d": "2025-04-02",
+     "g": "2025-05-05",
+     "w": "AON PLC"
+    },
+    "5/20": {
+     "d": "2025-04-11",
+     "g": "2025-05-05",
+     "w": "META PLATFORMS INC"
+    },
+    "5/21": {
+     "d": "2025-04-23",
+     "g": "2025-05-05",
+     "w": "SHELL PLC"
+    },
+    "5/24": {
+     "d": "2025-04-11",
+     "g": "2025-05-05",
+     "w": "AMAZON.COM INC"
+    },
+    "1/0": {
+     "unlesbar": true
+    },
+    "2/11": {
+     "w": "RCP DIRECT V"
+    },
+    "3/12": {
+     "w": "ADVNCD MICRO D INC"
+    },
+    "5/8": {
+     "w": "CONOCOPHILLIPS"
+    },
+    "5/11": {
+     "w": "RCP DIRECT V"
+    }
+   }
+  },
+  "8221123": {
+   "korrekturen": {
+    "1/5": {
+     "streichen": true
+    },
+    "1/6": {
+     "i": "",
+     "w": "Redeemed San Antonio TX Wtr Rev Ser A 5.000 Due 5/15/25 Matured Security",
+     "a": "VERKAUF",
+     "d": "2025-05-15",
+     "g": "2025-06-10",
+     "b": "A"
+    },
+    "1/2": {
+     "streichen": true
+    },
+    "1/3": {
+     "i": "",
+     "w": "Redeemed MD St Dept Transn Cons Rev 5.000 Due 05/01/25 Matured Security",
+     "a": "VERKAUF",
+     "d": "2025-05-01",
+     "g": "2025-06-10",
+     "b": "A"
+    }
+   }
+  },
+  "8221173": {
+   "korrekturen": {
+    "1/4": {
+     "w": "RCPDIRECT V LP",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-06-25",
+     "g": "2025-07-05",
+     "b": "C"
+    },
+    "4/7": {
+     "w": "LENNAR CORP-A",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "b": "B"
+    },
+    "5/9": {
+     "w": "GE AEROSPACE",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "C"
+    },
+    "5/23": {
+     "w": "CONOCOPHILLIPS",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "1/1": {
+     "d": "2025-06-02",
+     "g": "2025-07-05"
+    },
+    "1/5": {
+     "d": "2025-06-06",
+     "g": "2025-07-05",
+     "w": "BROADCOM INC"
+    },
+    "1/11": {
+     "d": "2025-06-02",
+     "g": "2025-07-05",
+     "w": "DEXCOM INC"
+    },
+    "1/15": {
+     "d": "2025-06-23",
+     "g": "2025-07-05",
+     "w": "ASML HOLDING NV"
+    },
+    "1/16": {
+     "d": "2025-06-13",
+     "g": "2025-07-05"
+    },
+    "1/17": {
+     "d": "2025-06-25",
+     "g": "2025-07-05"
+    },
+    "1/21": {
+     "d": "2025-06-03",
+     "g": "2025-07-05",
+     "w": "MAYS-ALLOCATE"
+    },
+    "1/23": {
+     "d": "2025-06-26",
+     "g": "2025-07-05",
+     "w": "ASML HOLDING NV"
+    },
+    "1/24": {
+     "d": "2025-06-30",
+     "g": "2025-07-05",
+     "w": "DANAHER CORP"
+    },
+    "2/1": {
+     "d": "2025-06-30",
+     "g": "2025-07-05"
+    },
+    "2/2": {
+     "d": "2025-06-03",
+     "g": "2025-07-05",
+     "w": "U.S. TREASURY BILL"
+    },
+    "2/3": {
+     "d": "2025-06-17",
+     "g": "2025-07-05",
+     "w": "U.S. TREASURY BILL"
+    },
+    "2/7": {
+     "d": "2025-06-12",
+     "g": "2025-07-05",
+     "w": "GE VERNOVA INC"
+    },
+    "2/9": {
+     "d": "2025-06-03",
+     "g": "2025-07-05",
+     "w": "PROSUS NV"
+    },
+    "2/11": {
+     "d": "2025-06-20",
+     "g": "2025-07-05",
+     "w": "GE VERNOVA INC"
+    },
+    "2/13": {
+     "d": "2025-06-23",
+     "g": "2025-07-05",
+     "w": "GE VERNOVA INC"
+    },
+    "2/16": {
+     "d": "2025-06-30",
+     "g": "2025-07-05",
+     "w": "WELLS FARGO & CO"
+    },
+    "2/21": {
+     "d": "2025-06-09",
+     "g": "2025-07-05",
+     "w": "META PLATFORMS INC"
+    },
+    "2/22": {
+     "d": "2025-06-09",
+     "g": "2025-07-05",
+     "w": "SYNOPSYS INC"
+    },
+    "2/24": {
+     "d": "2025-06-06",
+     "g": "2025-07-05",
+     "w": "GE VERNOVA LLC"
+    },
+    "3/1": {
+     "d": "2025-06-06",
+     "g": "2025-07-05"
+    },
+    "3/2": {
+     "d": "2025-06-09",
+     "g": "2025-07-05",
+     "w": "HOWMET AEROSPACE INC"
+    },
+    "3/3": {
+     "d": "2025-06-06",
+     "g": "2025-07-05",
+     "w": "HOWMET AEROSPACE INC"
+    },
+    "3/9": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "SAFRAN SA"
+    },
+    "3/11": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "GE VERNOVA LLC"
+    },
+    "3/15": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "CADENCE DESIGN SYS INC"
+    },
+    "3/16": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "NETFLIX COM INC"
+    },
+    "3/17": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "BOOKING HLDGS INC"
+    },
+    "3/18": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "ABBOTT LABS"
+    },
+    "3/21": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "MASTERCARD INC"
+    },
+    "3/23": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "HOWMET AEROSPACE INC"
+    },
+    "3/24": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "AUTODESK INC DEL PV$0.01"
+    },
+    "4/3": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "SYNOPSYS INC"
+    },
+    "4/5": {
+     "d": "2025-06-09",
+     "g": "2025-07-05",
+     "w": "GENPACT LTD"
+    },
+    "4/10": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "VISA INC CL A SHRS"
+    },
+    "4/13": {
+     "d": "2025-06-06",
+     "g": "2025-07-05",
+     "w": "META PLATFORMS INC"
+    },
+    "4/15": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "DYNATRACE INC REG SHS"
+    },
+    "4/21": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "CADENCE DESIGN SYS INC"
+    },
+    "4/22": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "UBER TECHNOLOGIES INC"
+    },
+    "4/23": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "LONDON STOCK EXCHG"
+    },
+    "5/1": {
+     "d": "2025-06-30",
+     "g": "2025-07-05"
+    },
+    "5/3": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "FORTINET INC"
+    },
+    "5/6": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "MASTERCARD INC"
+    },
+    "5/7": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "GE VERNOVA LLC"
+    },
+    "5/10": {
+     "d": "2025-06-27",
+     "g": "2025-07-05"
+    },
+    "5/12": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "INTUIT INC COM"
+    },
+    "5/14": {
+     "d": "2025-06-27",
+     "g": "2025-07-05"
+    },
+    "5/16": {
+     "d": "2025-06-16",
+     "g": "2025-07-05"
+    },
+    "5/17": {
+     "d": "2025-06-16",
+     "g": "2025-07-05"
+    },
+    "5/19": {
+     "d": "2025-06-16",
+     "g": "2025-07-05"
+    },
+    "5/21": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "DYNATRACE INC REG SHS"
+    },
+    "5/22": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "META PLATFORMS INC"
+    },
+    "5/24": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "FISERV INC WISC PV 1CT"
+    },
+    "6/0": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "AMAZON COM INC COM"
+    },
+    "6/2": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "MICROSOFT CORP"
+    },
+    "6/3": {
+     "d": "2025-06-23",
+     "g": "2025-07-05"
+    },
+    "6/5": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "BROADCOM INC"
+    },
+    "6/7": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "INTUIT INC COM"
+    },
+    "6/8": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "NVIDIA"
+    },
+    "6/9": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "ALPHABET INC SHS CL A"
+    },
+    "6/12": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "AMAZON COM INC COM"
+    },
+    "6/13": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "MICROSOFT CORP"
+    },
+    "6/14": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "NVIDIA"
+    },
+    "6/16": {
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "w": "NUCOR CORPORATION"
+    },
+    "6/18": {
+     "d": "2025-06-05",
+     "g": "2025-07-05",
+     "w": "CHEVRON CORP"
+    },
+    "6/19": {
+     "d": "2025-06-27",
+     "g": "2025-07-05"
+    },
+    "6/22": {
+     "d": "2025-06-27",
+     "g": "2025-07-05"
+    },
+    "6/24": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "SUN COMMNTYS INC"
+    },
+    "8/1": {
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "w": "NAT FUEL GAS CO NJ $1"
+    },
+    "8/5": {
+     "d": "2025-06-23",
+     "g": "2025-07-05",
+     "w": "Cliffwater Corporate Lending Fund"
+    },
+    "1/2": {
+     "w": "HARRIS CNTY TEX FLOOD"
+    },
+    "1/8": {
+     "w": "LKCM HEADWATER INVESTMENTS IV LP"
+    },
+    "2/19": {
+     "w": "SAP SE"
+    },
+    "3/7": {
+     "w": "LIBERTY BROADBAND-C"
+    },
+    "3/20": {
+     "w": "DEXCOM INC"
+    },
+    "3/22": {
+     "w": "GE AEROSPACE"
+    },
+    "4/9": {
+     "w": "NOVO NORDISK A S ADR"
+    },
+    "4/16": {
+     "w": "FISERV INC WISC PV 1CT"
+    },
+    "4/24": {
+     "w": "HUMANA INC"
+    },
+    "5/0": {
+     "w": "SHELL PLC"
+    },
+    "5/5": {
+     "w": "BOOKING HLDGS INC"
+    },
+    "5/11": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "5/18": {
+     "w": "VISA INC CL A SHRS"
+    },
+    "6/6": {
+     "w": "DES MOINES IOWA AREA"
+    },
+    "7/1": {
+     "w": "STANLEY BLACK & DECKER"
+    },
+    "7/6": {
+     "w": "ALLY FINL INC"
+    },
+    "7/7": {
+     "w": "HUMANA INC"
+    },
+    "7/9": {
+     "w": "TAPESTRY INC"
+    },
+    "7/12": {
+     "w": "DOLLAR TREE INC"
+    },
+    "7/17": {
+     "w": "MERCK AND CO INC SHS"
+    },
+    "7/0": {
+     "i": "SP",
+     "w": "CACI INTL INC CL A",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "C"
+    },
+    "7/4": {
+     "i": "SP",
+     "w": "VISHAY INTERTECHNLGY",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "C"
+    },
+    "7/13": {
+     "i": "SP",
+     "w": "KRAFT (THE) HEINZ CO SHS",
+     "a": "VERKAUF",
+     "d": "2025-06-16",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/14": {
+     "i": "SP",
+     "w": "DOW INC REG",
+     "a": "VERKAUF",
+     "d": "2025-06-05",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/15": {
+     "i": "SP",
+     "w": "TYSON FOODS INC CL A",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/16": {
+     "i": "SP",
+     "w": "CHEVRON CORP",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/19": {
+     "i": "SP",
+     "w": "CVS HEALTH CORP",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/20": {
+     "i": "SP",
+     "w": "INTL BUSINESS MACHINES",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/21": {
+     "i": "SP",
+     "w": "CITIGROUP INC COM NEW",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/22": {
+     "i": "SP",
+     "w": "CENCORA INC",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/23": {
+     "i": "SP",
+     "w": "ALLSTATE CORP DEL COM",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "7/24": {
+     "i": "SP",
+     "w": "EQUITABLE HOLDINGS INC",
+     "a": "VERKAUF",
+     "d": "2025-06-27",
+     "g": "2025-07-05",
+     "b": "D"
+    },
+    "1/0": {
+     "unlesbar": true
+    },
+    "4/8": {
+     "w": "ALCOA CORP"
+    },
+    "2/4": {
+     "w": "ALPHABET INC-CL A"
+    },
+    "1/7": {
+     "w": "CONNECTICUT ST SPL TAX"
+    },
+    "2/5": {
+     "w": "ALPHABET INC-CL C"
+    }
+   }
+  },
+  "8221297": {
+   "korrekturen": {
+    "1/2": {
+     "w": "RH",
+     "i": "JT",
+     "a": "TEILVERKAUF",
+     "d": "2025-12-17",
+     "g": "2026-01-09",
+     "b": "B"
+    }
+   }
+  },
+  "8221302": {
+   "korrekturen": {
+    "1/14": {
+     "w": "Mays-Allocate LP",
+     "i": "SP",
+     "a": "KAUF",
+     "d": "2025-12-19",
+     "g": "2026-01-05",
+     "b": "B"
+    },
+    "1/2": {
+     "d": "2025-12-12",
+     "g": "2026-01-05"
+    },
+    "1/3": {
+     "d": "2025-12-18",
+     "g": "2026-01-05"
+    },
+    "1/20": {
+     "d": "2025-12-22",
+     "g": "2026-01-05",
+     "w": "MERCADOLIBRE INC"
+    },
+    "2/8": {
+     "d": "2025-12-10",
+     "g": "2026-01-05",
+     "w": "ALPHABET INC-CL C"
+    },
+    "2/14": {
+     "d": "2025-12-16",
+     "g": "2026-01-05",
+     "w": "BOOKING HLDGS INC"
+    },
+    "3/7": {
+     "d": "2025-12-09",
+     "g": "2026-01-05",
+     "w": "ALLY FINL INC"
+    },
+    "3/24": {
+     "d": "2025-12-11",
+     "g": "2026-01-05"
+    },
+    "2/6": {
+     "w": "ALPHABET INC-CL C"
+    },
+    "2/7": {
+     "w": "ALPHABET INC-CL C"
+    }
+   }
+  },
+  "9115677": {
+   "korrekturen": {
+    "3/11": {
+     "w": "Fortune Brands Home & Security Inc",
+     "i": "SP",
+     "a": "VERKAUF",
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "b": "A"
+    },
+    "1/2": {
+     "d": "2025-08-01",
+     "g": "2025-09-05"
+    },
+    "1/4": {
+     "d": "2025-08-12",
+     "g": "2025-09-05"
+    },
+    "1/7": {
+     "d": "2025-08-13",
+     "g": "2025-09-05"
+    },
+    "1/8": {
+     "d": "2025-08-20",
+     "g": "2025-09-05",
+     "w": "ORACLE CORP"
+    },
+    "1/9": {
+     "d": "2025-08-15",
+     "g": "2025-09-05",
+     "w": "BROADCOM INC"
+    },
+    "1/13": {
+     "d": "2025-08-07",
+     "g": "2025-09-05",
+     "w": "AptarGroup, Inc."
+    },
+    "1/19": {
+     "d": "2025-08-04",
+     "g": "2025-09-05",
+     "w": "REDDIT INC REG SHS-A-"
+    },
+    "1/22": {
+     "d": "2025-08-04",
+     "g": "2025-09-05",
+     "w": "DEXCOM INC"
+    },
+    "1/23": {
+     "d": "2025-08-11",
+     "g": "2025-09-05",
+     "w": "PINTEREST INC REG SHS"
+    },
+    "2/0": {
+     "d": "2025-08-27",
+     "g": "2025-09-05",
+     "w": "Mays-Allocate LP"
+    },
+    "2/2": {
+     "d": "2025-08-29",
+     "g": "2025-09-05",
+     "w": "REDDIT INC REG SHS-A-"
+    },
+    "2/3": {
+     "d": "2025-08-08",
+     "g": "2025-09-05",
+     "w": "INTUIT INC"
+    },
+    "2/6": {
+     "d": "2025-08-07",
+     "g": "2025-09-05",
+     "w": "DEXCOM INC"
+    },
+    "2/11": {
+     "d": "2025-08-15",
+     "g": "2025-09-05",
+     "w": "MASTERCARD INC"
+    },
+    "2/12": {
+     "d": "2025-08-29",
+     "g": "2025-09-05",
+     "w": "BROADCOM INC"
+    },
+    "2/13": {
+     "d": "2025-08-08",
+     "g": "2025-09-05",
+     "w": "REDDIT INC REG SHS-A-"
+    },
+    "2/14": {
+     "d": "2025-08-15",
+     "g": "2025-09-05",
+     "w": "VISA INC CL A"
+    },
+    "2/16": {
+     "d": "2025-08-29",
+     "g": "2025-09-05",
+     "w": "U.S. TREASURY BILL"
+    },
+    "2/17": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "REDDIT INC REG SHS-A-"
+    },
+    "3/3": {
+     "d": "2025-08-28",
+     "g": "2025-09-05",
+     "w": "U.S. TREASURY BILL"
+    },
+    "4/16": {
+     "d": "2025-08-29",
+     "g": "2025-09-05",
+     "w": "BROADCOM INC"
+    },
+    "4/24": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "NETFLIX COM INC"
+    },
+    "5/9": {
+     "d": "2025-08-29",
+     "g": "2025-09-05",
+     "w": "NVIDIA"
+    },
+    "5/15": {
+     "d": "2025-08-15",
+     "g": "2025-09-05"
+    },
+    "5/17": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "BOOKING HLDGS INC"
+    },
+    "5/18": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "DYNATRACE INC"
+    },
+    "5/24": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "DEXCOM INC"
+    },
+    "6/17": {
+     "d": "2025-08-01",
+     "g": "2025-09-05"
+    },
+    "6/20": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "AMAZON COM INC COM"
+    },
+    "6/22": {
+     "d": "2025-08-01",
+     "g": "2025-09-05",
+     "w": "PALM BEACH CNTY FLA SCH"
+    },
+    "7/0": {
+     "d": "2025-08-15",
+     "g": "2025-09-05"
+    },
+    "7/1": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "MICROSOFT CORP"
+    },
+    "7/2": {
+     "d": "2025-08-15",
+     "g": "2025-09-05"
+    },
+    "7/6": {
+     "d": "2025-08-21",
+     "g": "2025-09-05",
+     "w": "NVIDIA"
+    },
+    "7/9": {
+     "d": "2025-08-27",
+     "g": "2025-09-05",
+     "w": "ALEXANDRIA REAL EST EQTS"
+    },
+    "7/12": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "SUN COMMNTYS INC"
+    },
+    "7/13": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "SENSATA TECHNOLOGIES"
+    },
+    "7/18": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "ALLY FINL INC"
+    },
+    "7/19": {
+     "d": "2025-08-27",
+     "g": "2025-09-05",
+     "w": "TAPESTRY INC"
+    },
+    "7/23": {
+     "d": "2025-08-27",
+     "g": "2025-09-05",
+     "w": "SUN COMMNTYS INC"
+    },
+    "8/7": {
+     "d": "2025-08-22",
+     "g": "2025-09-05"
+    },
+    "8/9": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "CENCORA INC"
+    },
+    "8/10": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "CHEVRON CORP"
+    },
+    "8/12": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "CVS HEALTH CORP"
+    },
+    "8/14": {
+     "d": "2025-08-22",
+     "g": "2025-09-05"
+    },
+    "8/16": {
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "w": "NAT FUEL GAS CO"
+    },
+    "8/20": {
+     "d": "2025-08-01",
+     "g": "2025-09-05"
+    },
+    "5/14": {
+     "i": "SP",
+     "w": "NVIDIA",
+     "a": "VERKAUF",
+     "d": "2025-08-22",
+     "g": "2025-09-05",
+     "b": "B"
+    },
+    "6/23": {
+     "i": "SP",
+     "w": "ARISTA NETWORKS INC REG",
+     "a": "VERKAUF",
+     "d": "2025-08-20",
+     "g": "2025-09-05",
+     "b": "C"
+    },
+    "1/6": {
+     "w": "Cavco Inds Inc Delcom"
+    },
+    "1/15": {
+     "w": "White Mountains Insurance Group Ltd"
+    },
+    "1/18": {
+     "w": "Zions Bancorporation NA"
+    },
+    "2/4": {
+     "w": "REDDIT INC REG SHS-A-"
+    },
+    "2/9": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "2/10": {
+     "w": "BROADCOM INC"
+    },
+    "2/15": {
+     "w": "Mays-Allocate LP"
+    },
+    "2/23": {
+     "w": "HILTON WORLDWIDE HOLDINGS IN"
+    },
+    "2/24": {
+     "w": "META PLATFORMS INC-CLASS A"
+    },
+    "3/0": {
+     "w": "AON PLC-CLASS A"
+    },
+    "3/6": {
+     "w": "AMAZON.COM INC"
+    },
+    "3/8": {
+     "w": "MSA Safety Incorporated"
+    },
+    "3/10": {
+     "w": "ARAMARK"
+    },
+    "3/14": {
+     "w": "BJ's Wholesale Club Holdings"
+    },
+    "3/24": {
+     "w": "Zions Bancorporation NA"
+    },
+    "5/3": {
+     "w": "SHELL PLC-ADR"
+    },
+    "6/3": {
+     "w": "ASML HOLDING"
+    },
+    "6/4": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "6/12": {
+     "w": "FISERV INC"
+    },
+    "6/21": {
+     "w": "ARISTA NETWORKS INC"
+    },
+    "7/17": {
+     "w": "CACI INTL INC CL A"
+    },
+    "8/4": {
+     "w": "CENCORA INC"
+    },
+    "4/8": {
+     "w": "Gates Industrial Corp PLC"
+    }
+   }
+  },
+  "8220754": {
+   "korrekturen": {
+    "1/1": {
+     "d": "2025-01-28",
+     "g": "2025-02-05"
+    },
+    "1/2": {
+     "d": "2025-01-22",
+     "g": "2025-02-05"
+    },
+    "1/7": {
+     "d": "2025-01-08",
+     "g": "2025-02-05"
+    },
+    "1/16": {
+     "d": "2025-01-16",
+     "g": "2025-02-05"
+    },
+    "1/19": {
+     "d": "2025-01-30",
+     "g": "2025-02-05",
+     "w": "NVIDIA"
+    },
+    "1/20": {
+     "d": "2025-01-30",
+     "g": "2025-02-05",
+     "w": "META PLATFORMS INC"
+    },
+    "2/5": {
+     "d": "2025-01-15",
+     "g": "2025-02-05",
+     "w": "HUMANA INC"
+    },
+    "2/12": {
+     "d": "2025-01-02",
+     "g": "2025-02-05"
+    },
+    "2/22": {
+     "d": "2025-01-09",
+     "g": "2025-02-05",
+     "w": "META PLATFORMS INC"
+    },
+    "2/23": {
+     "d": "2025-01-09",
+     "g": "2025-02-05",
+     "w": "WOODWARD INC"
+    },
+    "3/20": {
+     "d": "2025-01-02",
+     "g": "2025-02-05"
+    },
+    "4/0": {
+     "d": "2025-01-10",
+     "g": "2025-02-05"
+    },
+    "4/1": {
+     "d": "2025-01-23",
+     "g": "2025-02-05",
+     "w": "TAPESTRY INC"
+    },
+    "4/2": {
+     "d": "2025-01-09",
+     "g": "2025-02-05",
+     "w": "CONOCOPHILLIPS"
+    },
+    "4/3": {
+     "d": "2025-01-02",
+     "g": "2025-02-05"
+    },
+    "4/6": {
+     "d": "2025-01-17",
+     "g": "2025-02-05",
+     "w": "Beacon Roofing Supply Inc"
+    },
+    "4/7": {
+     "d": "2025-01-30",
+     "g": "2025-02-05",
+     "w": "APPLE INC"
+    },
+    "1/21": {
+     "w": "GE AEROSPACE"
+    },
+    "1/23": {
+     "w": "BDT CAPITAL PARTNER FUND 3"
+    },
+    "2/6": {
+     "w": "BDT CAPITAL PARTNER FUND 4"
+    },
+    "2/11": {
+     "w": "BDT SUNRISE HOLDINGS LLC"
+    },
+    "2/17": {
+     "w": "SAP SE"
+    },
+    "2/19": {
+     "w": "SAP SE"
+    },
+    "3/2": {
+     "w": "SAP SE"
+    }
+   }
+  },
+  "8220834": {
+   "korrekturen": {
+    "1/1": {
+     "d": "2025-03-18",
+     "g": "2025-04-05"
+    },
+    "1/3": {
+     "d": "2025-03-28",
+     "g": "2025-04-05",
+     "w": "MAYS-ALLOCATE"
+    },
+    "1/4": {
+     "d": "2025-03-31",
+     "g": "2025-04-05",
+     "w": "INTUIT INC"
+    },
+    "1/5": {
+     "d": "2025-03-13",
+     "g": "2025-04-05",
+     "w": "LENNAR CORP"
+    },
+    "2/6": {
+     "d": "2025-03-04",
+     "g": "2025-04-05",
+     "w": "ESTEE LAUDER COMPANIES"
+    },
+    "3/5": {
+     "d": "2025-03-04",
+     "g": "2025-04-05"
+    },
+    "1/0": {
+     "unlesbar": true
+    },
+    "2/5": {
+     "w": "CARMAN-AINSWORTH CMNTY"
+    }
+   }
+  },
+  "8221120": {
+   "korrekturen": {
+    "1/4": {
+     "d": "2025-05-19",
+     "g": "2025-06-05"
+    },
+    "1/16": {
+     "d": "2025-05-26",
+     "g": "2025-06-05",
+     "w": "MAYS-ALLOCATE"
+    },
+    "2/2": {
+     "d": "2025-05-15",
+     "g": "2025-06-05",
+     "w": "VISA INC CL A SHRS"
+    },
+    "2/3": {
+     "d": "2025-05-19",
+     "g": "2025-06-05",
+     "w": "SENSATA TECHNOLOGIES"
+    },
+    "2/7": {
+     "d": "2025-05-01",
+     "g": "2025-06-05"
+    },
+    "1/0": {
+     "unlesbar": true
+    },
+    "1/15": {
+     "w": "Zions Bancorporation NA"
+    }
+   }
+  },
+  "9115664": {
+   "korrekturen": {
+    "2/0": {
+     "d": "2025-07-30",
+     "g": "2025-08-05",
+     "w": "BOOKING HLDGS INC"
+    },
+    "2/4": {
+     "d": "2025-07-09",
+     "g": "2025-08-05"
+    },
+    "3/8": {
+     "d": "2025-07-01",
+     "g": "2025-08-05"
+    },
+    "4/7": {
+     "d": "2025-07-01",
+     "g": "2025-08-05"
+    },
+    "1/0": {
+     "unlesbar": true
+    },
+    "1/3": {
+     "w": "Levine Leichtman Capital Partners VII LP"
+    },
+    "1/19": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "2/13": {
+     "w": "BDT Sunrise Holdings LLC"
+    },
+    "2/16": {
+     "w": "GCI LIBERTY INC-CL C SPIN OFF FROM LIBERTY BROADBAND CORP"
+    },
+    "3/1": {
+     "w": "ARIZONA GAME FISH DEPT"
+    },
+    "3/6": {
+     "w": "NOVO NORDISK A S ADR"
+    }
+   }
+  },
+  "9115662": {
+   "korrekturen": {
+    "1/1": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "1/2": {
+     "d": "2024-12-11",
+     "g": "2025-07-23"
+    },
+    "1/3": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "1/5": {
+     "d": "2024-06-28",
+     "g": "2025-07-23"
+    },
+    "1/6": {
+     "d": "2025-03-28",
+     "g": "2025-07-23"
+    },
+    "1/7": {
+     "d": "2024-07-01",
+     "g": "2025-07-23"
+    },
+    "1/8": {
+     "d": "2024-12-24",
+     "g": "2025-07-23"
+    },
+    "1/9": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "1/10": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "1/12": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "1/13": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "1/14": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "1/16": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "1/18": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "1/19": {
+     "d": "2024-12-11",
+     "g": "2025-07-23"
+    },
+    "1/20": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "1/22": {
+     "d": "2024-06-28",
+     "g": "2025-07-23"
+    },
+    "1/23": {
+     "d": "2025-03-28",
+     "g": "2025-07-23"
+    },
+    "1/24": {
+     "d": "2024-07-01",
+     "g": "2025-07-23"
+    },
+    "2/0": {
+     "d": "2024-12-24",
+     "g": "2025-07-23"
+    },
+    "2/1": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "2/2": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "2/4": {
+     "d": "2024-06-28",
+     "g": "2025-07-23"
+    },
+    "2/5": {
+     "d": "2024-12-11",
+     "g": "2025-07-23"
+    },
+    "2/6": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "2/7": {
+     "d": "2025-03-31",
+     "g": "2025-07-23"
+    },
+    "2/8": {
+     "d": "2024-03-28",
+     "g": "2025-07-23"
+    },
+    "2/9": {
+     "d": "2025-03-31",
+     "g": "2025-07-23"
+    },
+    "2/10": {
+     "d": "2024-03-28",
+     "g": "2025-07-23"
+    },
+    "2/12": {
+     "d": "2024-12-20",
+     "g": "2025-07-23"
+    },
+    "2/13": {
+     "d": "2025-03-28",
+     "g": "2025-07-23"
+    },
+    "2/14": {
+     "d": "2024-07-01",
+     "g": "2025-07-23"
+    },
+    "2/15": {
+     "d": "2024-12-24",
+     "g": "2025-07-23"
+    },
+    "2/16": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "2/17": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "2/19": {
+     "d": "2024-01-02",
+     "g": "2025-07-23"
+    },
+    "2/20": {
+     "d": "2024-12-19",
+     "g": "2025-07-23"
+    },
+    "2/21": {
+     "d": "2024-09-30",
+     "g": "2025-07-23"
+    },
+    "2/22": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "2/23": {
+     "d": "2024-06-05",
+     "g": "2025-07-23"
+    },
+    "2/24": {
+     "d": "2025-04-11",
+     "g": "2025-07-23"
+    },
+    "3/0": {
+     "d": "2024-10-23",
+     "g": "2025-07-23"
+    },
+    "3/1": {
+     "d": "2024-12-27",
+     "g": "2025-07-23"
+    },
+    "3/3": {
+     "d": "2025-03-27",
+     "g": "2025-07-23"
+    },
+    "3/4": {
+     "d": "2024-06-27",
+     "g": "2025-07-23"
+    },
+    "3/5": {
+     "d": "2024-09-27",
+     "g": "2025-07-23"
+    },
+    "3/6": {
+     "d": "2024-03-28",
+     "g": "2025-07-23"
+    },
+    "3/7": {
+     "d": "2025-01-31",
+     "g": "2025-07-23"
+    },
+    "3/8": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "3/9": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "3/10": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "3/11": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "3/12": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "3/13": {
+     "d": "2024-06-30",
+     "g": "2025-07-23"
+    },
+    "3/14": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/15": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/16": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/17": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/18": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/19": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/20": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/21": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/22": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/23": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "3/24": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/0": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/1": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/2": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/3": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/4": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/5": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/6": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/7": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/8": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/9": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/10": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/11": {
+     "d": "2024-03-25",
+     "g": "2025-07-23"
+    },
+    "4/13": {
+     "d": "2025-03-31",
+     "g": "2025-07-23"
+    },
+    "4/14": {
+     "d": "2024-07-02",
+     "g": "2025-07-23"
+    },
+    "4/15": {
+     "d": "2024-12-26",
+     "g": "2025-07-23"
+    },
+    "4/16": {
+     "d": "2024-03-28",
+     "g": "2025-07-23"
+    }
+   }
+  },
+  "9115684": {
+   "korrekturen": {
+    "1/16": {
+     "d": "2025-09-23",
+     "g": "2025-10-05"
+    },
+    "3/16": {
+     "d": "2025-09-22",
+     "g": "2025-10-05"
+    },
+    "3/17": {
+     "d": "2025-09-11",
+     "g": "2025-10-05"
+    },
+    "2/6": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "2/15": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "2/22": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "3/24": {
+     "w": "NEW YORK N Y GO BDS A"
+    },
+    "4/6": {
+     "w": "ALEXANDRIA REAL EST EQTS"
+    },
+    "4/8": {
+     "w": "ALLY FINL INC"
+    }
+   }
+  },
+  "8221228": {
+   "korrekturen": {
+    "1/23": {
+     "d": "2025-10-10",
+     "g": "2025-11-05"
+    },
+    "5/8": {
+     "d": "2025-10-17",
+     "g": "2025-11-05"
+    },
+    "1/4": {
+     "w": "RCPDirect V LP"
+    },
+    "1/14": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "2/11": {
+     "w": "AON PLC-CLASS A"
+    },
+    "2/21": {
+     "w": "WYANDOTTE CNTY KANS CITY"
+    },
+    "2/23": {
+     "w": "HUDSON YDS INFRASTR CORP"
+    },
+    "3/2": {
+     "w": "CARMAN-AINSWORTH CMNTY"
+    },
+    "3/15": {
+     "w": "HONOLULU HI CY-CO WWTR"
+    },
+    "3/18": {
+     "w": "PASADENA TEX ECONOMC DEV"
+    },
+    "3/20": {
+     "w": "ILLINOIS ST TOLL HWY"
+    },
+    "4/18": {
+     "w": "LEXINGTON-FAY URB CO ARP"
+    },
+    "4/20": {
+     "w": "SO WILLIAMSPORT PA ASD"
+    },
+    "5/5": {
+     "w": "MIAMI VY CAREER"
+    },
+    "6/19": {
+     "w": "WORKDAY INC-CLASS A"
+    },
+    "7/14": {
+     "w": "INTL FLAVORS&FRAGRNC"
+    },
+    "7/15": {
+     "w": "ALEXANDRIA REAL EST EQTS"
+    },
+    "7/21": {
+     "w": "ALEXANDRIA REAL EST EQTS"
+    },
+    "8/1": {
+     "w": "VISHAY INTERTECHNLGY"
+    },
+    "8/12": {
+     "w": "ALEXANDRIA REAL EST EQTS"
+    },
+    "2/8": {
+     "ok": true,
+     "w": "ALPHABET INC-CL A"
+    }
+   }
+  },
+  "8221321": {
+   "korrekturen": {
+    "1/2": {
+     "i": "JT",
+     "g": "2026-02-02",
+     "ok": true,
+     "w": "Ishares TR 3-7 Yr Treas Bd ETF TLH"
+    },
+    "1/3": {
+     "i": "JT",
+     "ok": true
+    },
+    "1/4": {
+     "i": "JT",
+     "ok": true
+    },
+    "1/5": {
+     "i": "JT",
+     "ok": true
+    },
+    "1/6": {
+     "i": "JT",
+     "ok": true
+    },
+    "2/1": {
+     "i": "JT",
+     "ok": true
+    },
+    "2/2": {
+     "i": "JT",
+     "ok": true
+    },
+    "2/3": {
+     "i": "JT",
+     "ok": true
+    },
+    "2/4": {
+     "i": "JT",
+     "ok": true
+    }
+   }
+  },
+  "9116212": {
+   "korrekturen": {
+    "1/2": {
+     "i": "JT",
+     "ok": true
+    },
+    "1/3": {
+     "i": "JT",
+     "ok": true
+    }
+   }
+  },
+  "9115811": {
+   "korrekturen": {
+    "1/2": {
+     "i": "",
+     "ok": true
+    }
+   }
+  },
+  "9115813": {
+   "korrekturen": {
+    "2/1": {
+     "i": "",
+     "ok": true
+    },
+    "2/2": {
+     "i": "",
+     "ok": true
+    },
+    "2/3": {
+     "i": "",
+     "ok": true
+    },
+    "2/4": {
+     "i": "",
+     "ok": true
+    }
+   }
+  },
+  "9115814": {
+   "korrekturen": {
+    "1/2": {
+     "i": "",
+     "ok": true
+    },
+    "1/3": {
+     "i": "",
+     "ok": true
+    },
+    "2/2": {
+     "i": "",
+     "ok": true
+    },
+    "2/4": {
+     "i": "",
+     "ok": true
+    }
+   }
+  },
+  "9115815": {
+   "korrekturen": {
+    "2/2": {
+     "i": "",
+     "ok": true
+    },
+    "2/6": {
+     "i": "",
+     "ok": true
+    }
+   }
+  },
+  "9115689": {
+   "korrekturen": {
+    "3/1": {
+     "i": "",
+     "w": "Sell Ish Rsl 1000 @ 361.30",
+     "a": "VERKAUF",
+     "d": "2025-09-26",
+     "g": "2025-10-08",
+     "b": "A"
+    },
+    "3/2": {
+     "i": "",
+     "w": "Sell Ish Core S&P 500 @ 661.15",
+     "a": "VERKAUF",
+     "d": "2025-09-26",
+     "g": "2025-10-08",
+     "b": "A"
+    },
+    "4/1": {
+     "unlesbar": true
+    },
+    "4/2": {
+     "unlesbar": true
+    },
+    "4/3": {
+     "unlesbar": true
+    },
+    "4/4": {
+     "unlesbar": true
+    },
+    "4/5": {
+     "unlesbar": true
+    }
+   }
+  },
+  "8221270": {
+   "korrekturen": {
+    "1/2": {
+     "i": "",
+     "w": "Sell AT&T Inc @ 25.51",
+     "a": "VERKAUF",
+     "d": "2025-11-24",
+     "g": "2025-12-11",
+     "b": "A"
+    }
+   }
+  },
+  "9115808": {
+   "korrekturen": {
+    "1/2": {
+     "i": "",
+     "w": "Buy St Str",
+     "a": "KAUF",
+     "d": "2026-03-31",
+     "g": null,
+     "b": "A"
+    }
+   }
+  },
+  "9116218": {
+   "korrekturen": {
+    "1/3": {
+     "unlesbar": true
+    }
+   },
+   "grund": "Betragsspalte nicht angekreuzt"
+  },
+  "9116342": {
+   "korrekturen": {
+    "1/2": {
+     "i": "",
+     "w": "Redeemed Electronic Arts",
+     "a": "VERKAUF",
+     "d": "2026-08-05",
+     "g": "2026-09-22",
+     "b": "A"
+    }
+   }
+  },
+  "8220765": {
+   "korrekturen": {
+    "1/2": {
+     "i": "JT",
+     "w": "Dallas TX ISD 5% 2/15/2031",
+     "a": "KAUF",
+     "d": "2025-01-21",
+     "g": "2025-01-22",
+     "b": "D"
+    },
+    "1/3": {
+     "i": "JT",
+     "w": "Pecos Barstow Toyah TX 4% 2/15/2030",
+     "a": "KAUF",
+     "d": "2025-01-21",
+     "g": "2025-01-22",
+     "b": "D"
+    }
+   }
+  },
+  "8220836": {
+   "korrekturen": {
+    "1/2": {
+     "i": "JT",
+     "w": "Washington Subn San Dist MD 4.00% 12/1/2032",
+     "a": "KAUF",
+     "d": "2025-03-18",
+     "g": "2025-03-19",
+     "b": "D"
+    }
+   }
+  },
+  "9116260": {
+   "korrekturen": {
+    "2/4": {
+     "i": "JT",
+     "w": "SERVICENOW INC",
+     "a": "KAUF",
+     "d": "2026-06-09",
+     "g": "2026-07-24",
+     "b": "B"
+    }
+   }
+  },
+  "9116308": {
+   "korrekturen": {
+    "1/3": {
+     "i": "JT",
+     "w": "ADOBE INC",
+     "a": "TEILVERKAUF",
+     "d": "2026-07-14",
+     "g": "2026-08-18",
+     "b": "A"
+    },
+    "1/5": {
+     "i": "JT",
+     "w": "SALESFORCE INC",
+     "a": "TEILVERKAUF",
+     "d": "2026-07-14",
+     "g": "2026-08-18",
+     "b": "B"
+    },
+    "2/4": {
+     "i": "JT",
+     "w": "SERVICENOW INC",
+     "a": "TEILVERKAUF",
+     "d": "2026-07-14",
+     "g": "2026-08-18",
+     "b": "B"
+    }
+   }
+  },
+  "8220753": {
+   "korrekturen": {
+    "1/2": {
+     "w": "Amplify ETF Tr - HACK"
+    },
+    "1/4": {
+     "w": "Global X Funds Uranium - URA"
+    },
+    "1/5": {
+     "w": "Global X Funds Defense - SHLD"
+    },
+    "1/3": {
+     "w": "Franklin Templeton ETF TR - FLJP"
+    },
+    "3/1": {
+     "w": "SPDR Ser TR S&P 600 Small Cap - SLYV"
+    }
+   }
+  },
+  "8220902": {
+   "korrekturen": {
+    "1/2": {
+     "w": "Amplify ETF TR HACK"
+    },
+    "1/3": {
+     "w": "Global X Uranium URA"
+    },
+    "1/6": {
+     "w": "Invesco ETF S&P Smallcap Quality XSHQ"
+    },
+    "2/1": {
+     "w": "Invesco Currency Shares Swiss Franc FXF"
+    },
+    "4/2": {
+     "w": "Spdr Ser Tr Divid ETF SDY"
+    },
+    "5/3": {
+     "w": "Tractor Supply TSCO"
+    },
+    "3/4": {
+     "w": "SPDR Ser Tr S&P 600 Small Cap Value SLYV"
+    },
+    "4/4": {
+     "w": "SPDR Ser Tr S7P 400 Mid Cap Value MDYV"
+    }
+   }
+  },
+  "9115670": {
+   "korrekturen": {
+    "1/3": {
+     "w": "Invesco Currency Shares FXF"
+    },
+    "3/1": {
+     "w": "Select Sector Spdr Tr Con Stpls XLP"
+    },
+    "2/6": {
+     "w": "Spdr Ser Tr S&P 400 Mid Cap Val MDYV"
+    }
+   }
+  },
+  "9116256": {
+   "korrekturen": {
+    "1/4": {
+     "w": "Harris Cnty TX Cultural SR A RV BE/R/"
+    },
+    "2/1": {
+     "w": "Energy Northwest WA Elec SR A RV BE/R/"
+    }
+   }
+  },
+  "9116357": {
+   "korrekturen": {
+    "2/5": {
+     "w": "Coatue Innovation Fund"
+    }
+   }
+  },
+  "8221263": {
+   "korrekturen": {
+    "1/6": {
+     "w": "NC TPK AT TRIANGLE EXPWY"
+    },
+    "1/20": {
+     "w": "LOUISIANA-PAC CORPCOM"
+    },
+    "2/19": {
+     "w": "INTL FLAVORS&FRAGRNC"
+    }
+   }
+  },
+  "8221326": {
+   "korrekturen": {
+    "1/3": {
+     "w": "Levine Leichtman Capital Partners VII LP"
+    },
+    "2/0": {
+     "w": "BDT Sunrise Holdings LLC"
+    }
+   }
+  },
+  "8221359": {
+   "korrekturen": {
+    "2/8": {
+     "w": "LOUISIANA-PACIFIC CORP"
+    }
+   }
+  },
+  "9116211": {
+   "korrekturen": {
+    "3/5": {
+     "w": "CORE &MAIN INC CL A"
+    },
+    "3/21": {
+     "w": "ZIONS BANCORPORATION"
+    },
+    "4/3": {
+     "w": "ARAMARK COM"
+    }
+   }
+  },
+  "9116378": {
+   "korrekturen": {
+    "3/6": {
+     "w": "WORKDAY INC CL A"
+    }
+   }
+  },
+  "9115623": {
+   "grund": "keine Geschaefte gemeldet (Nothing to report, handschriftlich)",
+   "ersetzen": []
+  }
+ }
+}

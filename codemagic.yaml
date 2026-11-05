@@ -1,0 +1,53 @@
+# iPhone- und iPad-App von Tryfolio auf Codemagic (Alternative zu .github/workflows/ios.yml, auch für das private
+# Repository). Gleicher Ablauf: Kotlin-Framework aus ios/, Xcode-Hülle iosApp/ ohne Signatur, Payload/Tryfolio.app
+# als Tryfolio-<Fassung>-ios-unsigned.ipa. Die IPA liegt danach unter den Artefakten des Laufs.
+#
+# Einrichten (einmal): auf codemagic.io mit GitHub anmelden, ein persönliches Konto nehmen (kein Team, sonst entfallen
+# die freien macOS-Minuten), das Repository freigeben und den Workflow „ios-unsigned“ starten. Optional hängt der Lauf
+# die IPA an das GitHub-Release v<Fassung>: dazu in Codemagic eine Umgebungsgruppe „github“ mit GITHUB_TOKEN (Zugriff
+# contents: write auf dieses Repository) anlegen und unten bei environment „groups: [github]“ ergänzen.
+workflows:
+  ios-unsigned:
+    name: iOS-IPA (unsigniert)
+    instance_type: mac_mini_m2
+    max_build_duration: 90
+    environment:
+      xcode: latest
+      java: 17
+    triggering:
+      events:
+        - tag
+      tag_patterns:
+        - pattern: "v*"
+    scripts:
+      - name: Fassung
+        script: |
+          fassung=$(sed -n 's/^ *versionName = "\(.*\)"/\1/p' app/build.gradle.kts)
+          echo "FASSUNG=$fassung" >> "$CM_ENV"
+          xcodebuild -version
+      - name: Kotlin-Framework bauen
+        script: |
+          chmod +x gradlew
+          ./gradlew -p ios linkReleaseFrameworkIosArm64 --no-daemon
+      - name: App bauen (ohne Signatur)
+        script: |
+          xcodebuild -project iosApp/iosApp.xcodeproj -target iosApp -configuration Release -sdk iphoneos \
+            SYMROOT="$CM_BUILD_DIR/build-ios" MARKETING_VERSION="$FASSUNG" CURRENT_PROJECT_VERSION="${BUILD_NUMBER:-1}" \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build
+      - name: IPA packen
+        script: |
+          app="$CM_BUILD_DIR/build-ios/Release-iphoneos/Tryfolio.app"
+          test -d "$app" || { echo "Tryfolio.app fehlt"; exit 1; }
+          mkdir -p ausgabe paket/Payload
+          cp -R "$app" paket/Payload/
+          (cd paket && zip -qry "../ausgabe/Tryfolio-$FASSUNG-ios-unsigned.ipa" Payload)
+          ls -l ausgabe
+      - name: An das Release der Fassung hängen (nur mit GITHUB_TOKEN)
+        script: |
+          if [ -z "$GITHUB_TOKEN" ]; then echo "Kein GITHUB_TOKEN, die IPA liegt nur unter den Artefakten"; exit 0; fi
+          tag="v$FASSUNG"
+          if ! gh release view "$tag" >/dev/null 2>&1; then echo "Kein Release $tag"; exit 0; fi
+          gh release upload "$tag" "ausgabe/Tryfolio-$FASSUNG-ios-unsigned.ipa" --clobber
+    artifacts:
+      - ausgabe/*.ipa
