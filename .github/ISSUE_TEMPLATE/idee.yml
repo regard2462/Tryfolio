@@ -1,0 +1,11 @@
+name: Idee / Feature request
+description: Vorschlag für eine neue Funktion / Suggest a new feature
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Idee / Idea
+      description: Was soll die App können und wofür? / What should the app do and why?
+    validations:
+      required: true

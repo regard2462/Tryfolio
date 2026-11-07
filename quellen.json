@@ -1,0 +1,39 @@
+{
+  "version": 4,
+  "bundleUrls": [
+    "https://raw.githubusercontent.com/regard2462/Tryfolio/main/quellen.json",
+    "https://cdn.jsdelivr.net/gh/regard2462/Tryfolio@main/quellen.json"
+  ],
+  "links": {
+    "repo": "https://github.com/regard2462/Tryfolio",
+    "releases": "https://github.com/regard2462/Tryfolio/releases",
+    "releasesApi": "https://api.github.com/repositories/1444103610/releases/latest",
+    "issues": "https://github.com/regard2462/Tryfolio/issues",
+    "spenden": "https://buymeacoffee.com/regard2462",
+    "lizenz": "https://github.com/regard2462/Tryfolio/blob/main/LICENSE"
+  },
+  "sources": {
+    "yahoo": {
+      "off": false,
+      "fallbacks": {
+        "query1.finance.yahoo.com": [
+          "query2.finance.yahoo.com"
+        ],
+        "query2.finance.yahoo.com": [
+          "query1.finance.yahoo.com"
+        ]
+      },
+      "moves": {},
+      "paths": {},
+      "headers": {},
+      "fields": {
+        "kennzahlen": "trailingPE,priceToBook,epsTrailingTwelveMonths,epsForward,bookValue,trailingAnnualDividendYield"
+      },
+      "timeoutMs": 0,
+      "gapMs": 0,
+      "pauseMs": 60000
+    }
+  },
+  "notices": [],
+  "tuning": {}
+}

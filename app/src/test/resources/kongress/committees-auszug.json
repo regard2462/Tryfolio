@@ -1,0 +1,278 @@
+[
+ {
+  "type": "house",
+  "name": "House Committee on Agriculture",
+  "url": "https://agriculture.house.gov/",
+  "minority_url": "https://republicans-agriculture.house.gov",
+  "thomas_id": "HSAG",
+  "house_committee_id": "AG",
+  "subcommittees": [
+   {
+    "name": "Forestry and Horticulture",
+    "thomas_id": "15",
+    "address": "1301 LHOB; Washington, DC 20515",
+    "phone": "(202) 225-2171"
+   }
+  ],
+  "address": "1301 LHOB; Washington, DC 20515-6001",
+  "phone": "(202) 225-2171",
+  "rss_url": "https://agriculture.house.gov/Rss.aspx?GroupID=1",
+  "jurisdiction": "The House Committee on Agriculture has legislative jurisdiction over agriculture, food, rural development, and forestry.",
+  "youtube_id": "UCOWh2WJxPywHIaccDWb8Mvg"
+ },
+ {
+  "type": "house",
+  "name": "House Committee on Energy and Commerce",
+  "url": "https://energycommerce.house.gov/",
+  "minority_url": "https://republicans-energycommerce.house.gov/",
+  "thomas_id": "HSIF",
+  "house_committee_id": "IF",
+  "subcommittees": [
+   {
+    "name": "Commerce, Manufacturing, and Trade",
+    "thomas_id": "17",
+    "address": "2125 RHOB; Washington, DC 20515",
+    "phone": "(202) 225-3641"
+   }
+  ],
+  "address": "2125 RHOB; Washington, DC 20515-6115",
+  "phone": "(202) 225-3641",
+  "jurisdiction": "The House Committee on Energy and Commerce has legislative jurisdiction on matters related to telecommunications, consumer protection, food and drug safety, public health research, environmental quality, energy policy, and interstate and foreign commerce. It oversees multiple cabinet-level Departments and independent agencies, including the Departments of Energy, Health and Human Services, Commerce, and Transportation, as well as the Environmental Protection Agency, the Federal Trade Commission, the Food and Drug Administration, and the Federal Communications Commission.",
+  "jurisdiction_source": "https://energycommerce.house.gov/committee-history/",
+  "youtube_id": "UCCbD3bkHRcwiBsaL1lWE_QQ"
+ },
+ {
+  "type": "house",
+  "name": "House Committee on Science, Space, and Technology",
+  "url": "https://science.house.gov/",
+  "minority_url": "https://republicans-science.house.gov/",
+  "thomas_id": "HSSY",
+  "house_committee_id": "SY",
+  "subcommittees": [
+   {
+    "name": "Energy",
+    "thomas_id": "20",
+    "address": "2321 RHOB; Washington, DC 20515",
+    "phone": "(202) 225-6371"
+   }
+  ],
+  "address": "2321 RHOB; Washington, DC 20515-6301",
+  "phone": "(202) 225-6371",
+  "jurisdiction": "The Committee on Science, Space, and Technology has a jurisdiction over a range of matters related to energy research and development, federally owned or operated non-military energy laboratories, astronautical research and development, civil aviation, environmental research and development; marine research, and more. The Committee oversees the National Institute of Standards and Technology, National Aeronautics and Space Administration, National Science Foundation, and National Weather Service. It also reviews laws, programs, and Government activities relating to non-military research and development to report back to the House.",
+  "jurisdiction_source": "https://science.house.gov/about/jurisdiction",
+  "youtube_id": "UCtoUE3dJ-mLUo5dwGs7hXOw"
+ },
+ {
+  "type": "joint",
+  "name": "Joint Committee on Taxation",
+  "url": "https://www.jct.gov",
+  "thomas_id": "JSTX",
+  "house_committee_id": "IT",
+  "senate_committee_id": "JSTX",
+  "wikipedia": "United States Congress Joint Committee on Taxation",
+  "address": "502 FHOB; Washington, DC 20515-6453",
+  "phone": "(202) 225-3621"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Indian Affairs",
+  "url": "http://www.indian.senate.gov/",
+  "thomas_id": "SLIA",
+  "senate_committee_id": "SLIA",
+  "wikipedia": "United States Senate Committee on Indian Affairs",
+  "jurisdiction": "The Senate Committee on Indian Affairs has jurisdiction to study the unique problems of American Indian, Native Hawaiian, and Alaska Native peoples and to propose legislation to alleviate these difficulties. These issues include, but are not limited to, Indian education, economic development, land management, trust responsibilities, health care, and claims against the United States. Additionally, all legislation proposed by Members of the Senate that specifically pertains to American Indians, Native Hawaiians, or Alaska Natives is under the jurisdiction of the Committee.",
+  "jurisdiction_source": "https://www.indian.senate.gov/about/history",
+  "youtube_id": "UCyrk47CduR0_u8fF-YV66Ig"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Special Committee on Aging",
+  "url": "http://www.aging.senate.gov/",
+  "thomas_id": "SPAG",
+  "senate_committee_id": "SPAG",
+  "wikipedia": "United States Senate Special Committee on Aging",
+  "jurisdiction": "The Senate Special Committee on Aging conducts a continuing study of issues related to older Americans such as health, income, lifestyle, and more. The committee reports its findings back to the Senate at least once a year. No bills are referred to this committee and the committee has no legislative jurisdiction.",
+  "jurisdiction_source": "https://www.aging.senate.gov/about/rules"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
+  "url": "http://www.agriculture.senate.gov/",
+  "thomas_id": "SSAF",
+  "senate_committee_id": "SSAF",
+  "subcommittees": [
+   {
+    "name": "Commodities, Derivatives, Risk Management, and Trade",
+    "thomas_id": "13",
+    "wikipedia": "United States Senate Agriculture Subcommittee on Commodities, Markets, Trade and Risk Management"
+   }
+  ],
+  "rss_url": "http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=democrat",
+  "minority_rss_url": "http://www.ag.senate.gov/rss/feeds/?type=press&amp;groups=republican",
+  "wikipedia": "United States Senate Committee on Agriculture, Nutrition and Forestry",
+  "jurisdiction": "The Senate Committee on Agriculture has legislative jurisdiction over agriculture, food, and nutrition.",
+  "jurisdiction_source": "https://www.agriculture.senate.gov/about/jurisdiction"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Appropriations",
+  "url": "http://www.appropriations.senate.gov/",
+  "thomas_id": "SSAP",
+  "senate_committee_id": "SSAP",
+  "subcommittees": [
+   {
+    "name": "Commerce, Justice, Science, and Related Agencies",
+    "thomas_id": "16",
+    "wikipedia": "United States Senate Appropriations Subcommittee on Commerce, Justice, Science, and Related Agencies"
+   }
+  ],
+  "wikipedia": "United States Senate Committee on Appropriations",
+  "jurisdiction": "The Senate Committee on Appropriations is responsible for legislation allocating federal funds prior to expenditure from the treasury. Appropriations are generally limited to the levels set by the Budget Resolution drafted by the Senate Committee on the Budget. The Committee is also responsible for supplemental spending bills, which are sometimes needed in the middle of a fiscal year to compensate for emergency expenses.",
+  "jurisdiction_source": "https://www.appropriations.senate.gov/about/jurisdiction"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on the Budget",
+  "url": "http://www.budget.senate.gov/",
+  "thomas_id": "SSBU",
+  "senate_committee_id": "SSBU",
+  "rss_url": "http://www.budget.senate.gov/democratic/index.cfm?a=RSS.Feed&amp;Type=press-releases,statements",
+  "minority_rss_url": "http://www.budget.senate.gov/republican/public/index.cfm/rss/feed",
+  "wikipedia": "United States Senate Committee on the Budget",
+  "jurisdiction": "The Senate Committee on the Budget is responsible for drafting a concurrent resolution on the budget for congressional action on spending, revenue, and debt-limit legislation. The Budget Resolution must be jointly agreed to by both the House and the Senate, but does not need to be signed by the President. The Committee is also responsible for enforcing the Budget Resolution by informing senators of violations to the budget, and by working with other committees, such as the Committee on Appropriations, to prevent potential violations.",
+  "jurisdiction_source": "https://www.budget.senate.gov/about/committee-history"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Commerce, Science, and Transportation",
+  "url": "http://www.commerce.senate.gov/",
+  "thomas_id": "SSCM",
+  "senate_committee_id": "SSCM",
+  "subcommittees": [
+   {
+    "thomas_id": "33",
+    "name": "Aviation, Space, and Innovation"
+   }
+  ],
+  "wikipedia": "United States Senate Committee on Commerce, Science and Transportation",
+  "jurisdiction": "The Senate Committee on Commerce, Science, and Transportation has legislative jurisdiction on matters related to science and technology, oceans policy, transportation, communications, and consumer affairs.",
+  "jurisdiction_source": "https://www.commerce.senate.gov/public/index.cfm/jurisdiction"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Energy and Natural Resources",
+  "url": "http://www.energy.senate.gov/",
+  "thomas_id": "SSEG",
+  "senate_committee_id": "SSEG",
+  "subcommittees": [
+   {
+    "name": "Water and Power",
+    "thomas_id": "07",
+    "wikipedia": "United States Senate Energy Subcommittee on Water and Power"
+   }
+  ],
+  "rss_url": "http://www.energy.senate.gov/public/index.cfm/rss/feed?type=democratic-news",
+  "minority_rss_url": "http://www.energy.senate.gov/public/index.cfm/rss/feed?type=republican-news",
+  "wikipedia": "United States Senate Committee on Energy and Natural Resources",
+  "jurisdiction": "The Senate Committee on Energy and Natural Resources has legislative jurisdiction on matters related to energy resources and development, nuclear energy, Indian affairs, public lands and their renewable resources, surface mining, territories and insular possessions, and water resources.",
+  "jurisdiction_source": "https://www.energy.senate.gov/public/index.cfm/jurisdiction",
+  "youtube_id": "UChLTzGO2KEkdBlJ22pOccjA"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Environment and Public Works",
+  "url": "http://www.epw.senate.gov/",
+  "thomas_id": "SSEV",
+  "senate_committee_id": "SSEV",
+  "subcommittees": [
+   {
+    "name": "Clean Air, Climate, and Nuclear Innovation and Safety",
+    "thomas_id": "10",
+    "wikipedia": "United States Senate Environment and Public Works Subcommittee on Clean Air and Nuclear Safety"
+   }
+  ],
+  "rss_url": "http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Majority",
+  "minority_rss_url": "http://www.epw.senate.gov/public/index.cfm?FuseAction=RSS.Minority",
+  "wikipedia": "United States Senate Committee on Environment and Public Works",
+  "jurisdiction": "The Senate Committee on Environment and Public Works has legislative jurisdiction on matters related to environmental protection, resource utilization and conservation, and public infrastructure.",
+  "jurisdiction_source": "https://www.epw.senate.gov/public/index.cfm/committee-jurisdiction",
+  "youtube_id": "UCqMG6uXhoBo_nHcJN9XrLKw"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Finance",
+  "url": "http://www.finance.senate.gov/",
+  "thomas_id": "SSFI",
+  "senate_committee_id": "SSFI",
+  "subcommittees": [
+   {
+    "name": "Energy, Natural Resources, and Infrastructure",
+    "thomas_id": "12",
+    "wikipedia": "United States Senate Finance Subcommittee on Energy, Natural Resources, and Infrastructure"
+   }
+  ],
+  "rss_url": "http://www.finance.senate.gov/rss/feed/chair/",
+  "minority_rss_url": "http://www.finance.senate.gov/rss/feed/ranking/",
+  "wikipedia": "United States Senate Committee on Finance",
+  "jurisdiction": "The Senate Committee on Finance has legislative jurisdiction on matters relating to taxation, debt, customs, foreign trade, and health programs under the Social Security Act such as Medicare, Medicaid, the Children's Health Insurance Program (CHIP), Temporary Assistance to Needy Families (TANF) and other health and human services programs financed by a specific tax or trust fund.",
+  "jurisdiction_source": "https://www.ethics.senate.gov/public/index.cfm/jurisdiction",
+  "youtube_id": "UCqy51oGHjollKBBWV4_iRgQ"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Health, Education, Labor, and Pensions",
+  "url": "http://www.help.senate.gov/",
+  "thomas_id": "SSHR",
+  "senate_committee_id": "SSHR",
+  "subcommittees": [
+   {
+    "name": "Employment and Workplace Safety",
+    "thomas_id": "11",
+    "wikipedia": "United States Senate Health Subcommittee on Employment and Workplace Safety"
+   }
+  ],
+  "wikipedia": "United States Senate Committee on Health, Education, Labor, and Pensions",
+  "jurisdiction": "The Senate Committee on Health, Education, Labor, and Pensions has jurisdiction over most of the agencies, institutes, and programs of the Department of Health and Human Services, including the Food and Drug Administration, the Centers for Disease Control and Prevention, the National Institutes of Health, the Administration on Aging, the Substance Abuse and Mental Health Services Administration, and the Agency for Healthcare Research and Quality.",
+  "jurisdiction_source": "https://www.help.senate.gov/about/issues/"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on the Judiciary",
+  "url": "http://www.judiciary.senate.gov/",
+  "thomas_id": "SSJU",
+  "senate_committee_id": "SSJU",
+  "subcommittees": [
+   {
+    "name": "the Constitution",
+    "thomas_id": "21",
+    "wikipedia": "United States Senate Judiciary Subcommittee on the Constitution, Civil Rights and Human Rights"
+   }
+  ],
+  "wikipedia": "United States Senate Committee on the Judiciary",
+  "jurisdiction": "The Senate Committee on the Judiciary provides oversight of the Department of Justice and the agencies under the Department's jurisdiction, including the Federal Bureau of Investigation, and the Department of Homeland Security. It also plays an important role in the consideration of nominations and pending legislation. Any legislation related to civil liberty, constitutional amendments, immigration and naturalization, and a variety of other topics is referred to the Committee.",
+  "jurisdiction_source": "https://www.judiciary.senate.gov/about/jurisdiction"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Small Business and Entrepreneurship",
+  "url": "http://www.sbc.senate.gov/",
+  "thomas_id": "SSSB",
+  "senate_committee_id": "SSSB",
+  "wikipedia": "United States Senate Committee on Small Business and Entrepreneurship",
+  "jurisdiction": "The Senate Committee on Small Business and Entrepreneurship has legislative jurisdiction over the Small Business Administration (SBA). The SBA is an independent federal agency meant to assist and protect the interests of small businesses. The Committee is also responsible for studying and problems of American small business enterprises, and reporting back to the Senate.",
+  "jurisdiction_source": "https://www.sbc.senate.gov/public/index.cfm/jurisdiction"
+ },
+ {
+  "type": "senate",
+  "name": "Senate Committee on Veterans' Affairs",
+  "url": "http://www.veterans.senate.gov/",
+  "thomas_id": "SSVA",
+  "senate_committee_id": "SSVA",
+  "rss_url": "http://www.veterans.senate.gov/rss.cfm",
+  "minority_rss_url": "http://www.veterans.senate.gov/rankingmember/rss.cfm",
+  "wikipedia": "United States Senate Committee on Veterans' Affairs",
+  "jurisdiction": "The Senate Committee on Veterans' Affairs has legislative jurisdiction over matters relating to veterans compensation and veterans generally, as well as matters relating to the vocational rehabilitation, education, medical care, civil relief, and civilian readjustment of veterans.",
+  "jurisdiction_source": "https://www.veterans.senate.gov/about",
+  "youtube_id": "UCKJISmkvK8tn0kFiCaIzUwQ"
+ }
+]

@@ -1,0 +1,544 @@
+Tryfolio
+Copyright (C) the Tryfolio contributors
+
+The source code of this program is licensed under the GNU Affero General
+Public License, version 3 or later (see LICENSE). The parts listed below are
+not covered by that licence. They keep their own licences or terms, which
+apply in addition to the AGPL when you copy or redistribute them.
+
+
+1. Photos bundled with the app
+
+The portraits in app/src/main/assets/copytrading/bilder come from Wikimedia
+Commons. Each one is used under the licence named here; the author or
+copyright holder and the source page are given for attribution. Some images
+were cropped and scaled down. Public domain and CC0 images carry no
+conditions; the others require attribution (CC BY) and, for CC BY-SA, that
+adapted versions are shared under the same licence. The app shows the
+author and licence next to each photo.
+
+  ackman.jpg    Bill Ackman
+                CC BY 2.0, Senate Democrats
+                https://commons.wikimedia.org/wiki/File:Valeant_Pharmaceuticals%27_Business_Model_(headshot).jpg
+
+  buffett.jpg   Warren Buffett
+                Public domain, USA International Trade Administration
+                https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg
+
+  dalio.jpg     Ray Dalio
+                CC BY 2.0, Web Summit
+                https://commons.wikimedia.org/wiki/File:Web_Summit_2018_-_Forum_-_Day_2,_November_7_HM1_7481_(44858045925).jpg
+
+  gates.jpg     Bill Gates
+                CC BY 4.0, Bogdan Hoyaux / European Union
+                https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg
+
+  gerstner.jpg  Brad Gerstner
+                Public domain, The White House
+                https://commons.wikimedia.org/wiki/File:Brad_Gerstner_at_the_White_House_2025_(54581192563).jpg
+
+  hohn.jpg      Chris Hohn
+                CC BY 2.0, Foreign, Commonwealth & Development Office
+                https://commons.wikimedia.org/wiki/File:Chris_Hohn_GFSS_2023.jpg
+
+  icahn.jpg     Carl Icahn
+                CC0, AviateHistory
+                https://commons.wikimedia.org/wiki/File:Carl_Icahn,_1980s.jpg
+
+  klarman.jpg   Seth Klarman
+                CC BY 2.0, Maryland GovPics
+                https://commons.wikimedia.org/wiki/File:Seth_Klarman_at_147th_Preakness_Stakes.jpg
+
+  lilu.jpg      Li Lu
+                CC BY 2.0, Joi Ito
+                https://commons.wikimedia.org/wiki/File:Li_Lu,_Davis_Guggenheim_and_Lisa_Shue.jpg
+
+  marks.jpg     Howard Marks
+                CC BY 2.0, kellywritershouse
+                https://commons.wikimedia.org/wiki/File:Howard_Marks_2.17.12_(cropped).jpg
+
+  pabrai.jpg    Mohnish Pabrai
+                CC BY-SA 3.0, Fabarsi
+                https://commons.wikimedia.org/wiki/File:Mohnish_Pabrai.jpg
+
+  smith.jpg     Terry Smith
+                CC BY 4.0, New Zealand Government, Office of the Governor-General
+                https://commons.wikimedia.org/wiki/File:Terry_Smith_MNZM_investiture.jpg
+
+  soros.jpg     George Soros
+                CC BY 4.0, Aris Oikonomou / European Commission
+                https://commons.wikimedia.org/wiki/File:George_Soros,_Founder_and_Chairman_of_the_Open_Society_Foundations,_visits_the_EC_(3x4_cropped).jpg
+
+  tepper.jpg    David Tepper
+                CC BY-SA 3.0, Appaloosa Management
+                https://commons.wikimedia.org/wiki/File:David_Tepper_01.jpg
+
+  trump.jpg     Donald Trump
+                Public domain, Daniel Torok
+                https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg
+
+  vance.jpg     JD Vance
+                Public domain, Emily J. Higgins
+                https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg
+
+  watsa.jpg     Prem Watsa
+                CC BY 3.0, செல்வா at Tamil Wikipedia
+                https://commons.wikimedia.org/wiki/File:Prem_Watsa.jpg
+
+  wood.jpg      Cathie Wood
+                CC BY-SA 4.0, Caroline Wood
+                https://commons.wikimedia.org/wiki/File:Cathie_Wood_ARK_Invest_Photo.jpg
+
+  bedford-bryan.jpg Bryan Bedford
+                Public domain, Federal Aviation Administration
+                https://commons.wikimedia.org/wiki/File:FAA_Administrator_Bryan_Bedford.jpg
+
+  bessent-scott.jpg Scott Bessent
+                Public domain, United States Department of the Treasury
+                https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent.jpg
+
+  bisignano-frank.jpg Frank Bisignano
+                Public domain, the Office of U.S. Senator John Cornyn
+                https://commons.wikimedia.org/wiki/File:Frank_Bisignano_for_Wikipedia_page.jpg
+
+  blanche-todd.jpg Todd Blanche
+                Public domain, Ryan M. Biller
+                https://commons.wikimedia.org/wiki/File:AG_Todd_Blanche_Official_Portrait.jpg
+
+  bondi-pam.jpg Pam Bondi
+                Public domain, U.S. Department of Justice
+                https://commons.wikimedia.org/wiki/File:Pam_Bondi_official_portrait_(cropped1).jpg
+
+  burgum-douglas.jpg Doug Burgum
+                Public domain, United States Department of the Interior
+                https://commons.wikimedia.org/wiki/File:Doug_Burgum_2025_DOI_portrait.jpg
+
+  chavezderemer-lori.jpg Lori Chavez-DeRemer
+                Public domain, Shawn T Moore, U.S. Department of Labor
+                https://commons.wikimedia.org/wiki/File:Secretary_Lori_Chavez-DeRemer_official_portrait_2025_(54382448706).jpg
+
+  dixon-stacey.jpg Stacey Dixon
+                Public domain, United States Office of the Director of National Intelligence
+                https://commons.wikimedia.org/wiki/File:Stacey_Dixon,_ODNI_Deputy_Director.png
+
+  duffy-sean.jpg Sean Duffy
+                Public domain, U.S. Department of Transportation
+                https://commons.wikimedia.org/wiki/File:Secretary_of_Transportation_Sean_Duffy_Official_Portrait.jpg
+
+  edgar-troy.jpg Troy Edgar
+                Public domain, Mikaela McGee; United States Department of Homeland Security
+                https://commons.wikimedia.org/wiki/File:Troy_Edgar_in_2025_(cropped).jpg
+
+  faulkender-michael.jpg Michael Faulkender
+                Public domain, U.S. Department of the Treasury
+                https://commons.wikimedia.org/wiki/File:Michael_W._Faulkender_official_photo.jpg
+
+  gabbard-tulsi.jpg Tulsi Gabbard
+                Public domain, Office of the Director of National Intelligence
+                https://commons.wikimedia.org/wiki/File:Director_Tulsi_Gabbard_Official_Portrait.jpg
+
+  gor-sergio.jpg Sergio Gor
+                Public domain, U.S. Embassy &amp; Consulates in India
+                https://commons.wikimedia.org/wiki/File:Sergio_Gor,_official_portrait_(2025).jpg
+
+  hegseth-pete.jpg Pete Hegseth
+                Public domain, U.S. Department of Defense
+                https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait_(cropped).jpg
+
+  kennedy-robert.jpg Robert F. Kennedy Jr.
+                Public domain, U.S. Department of Health and Human Services
+                https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy_Jr.,_official_portrait_(2025)_(cropped_3-4).jpg
+
+  kratsios-michael.jpg Michael Kratsios
+                Public domain, Shealeah Craighead
+                https://commons.wikimedia.org/wiki/File:Michael_Kratsios_(cropped).jpg
+
+  kupor-scott.jpg Scott Kupor
+                Public domain, United States Office of Personnel Management
+                https://commons.wikimedia.org/wiki/File:OPM_Director_scott-kupor_(cropped).jpg
+
+  landau-christopher.jpg Christopher Landau
+                Public domain, U.S. Department of State
+                https://commons.wikimedia.org/wiki/File:Christopher_T._Landau_official_photo.jpg
+
+  lutnick-howard.jpg Howard Lutnick
+                Public domain, Daniel Torok
+                https://commons.wikimedia.org/wiki/File:Howard_Lutnick_2025.jpg
+
+  macgregor-katharine.jpg Katharine MacGregor
+                Public domain, U.S. Department of the Interior
+                https://commons.wikimedia.org/wiki/File:Katharine_MacGregor_2025.jpg
+
+  mcmahon-linda.jpg Linda McMahon
+                Public domain, US Government
+                https://commons.wikimedia.org/wiki/File:ED_Sec_Linda_McMahon_(cropped).jpg
+
+  miller-stephen.jpg Stephen Miller
+                Public domain, The White House
+                https://commons.wikimedia.org/wiki/File:Stephen_Miller_July_2025.jpg
+
+  mullin-markwayne.jpg Markwayne Mullin
+                Public domain, U.S. Department of Homeland Security (DHS)
+                https://commons.wikimedia.org/wiki/File:DHS_Secretary_Markwayne_Mullin_Official_Portrait_(55166865268).jpg
+
+  noem-kristi.jpg Kristi Noem
+                Public domain, U.S. Department of Homeland Security
+                https://commons.wikimedia.org/wiki/File:Official_Portrait_of_Secretary_Kristi_Noem.jpg
+
+  phelan-john.jpg John C. Phelan
+                Public domain, U.S. Navy
+                https://commons.wikimedia.org/wiki/File:Secretary_of_Navy_John_Phelan.png
+
+  scavino-daniel.jpg Dan Scavino
+                CC BY-SA 3.0, Gage Skidmore
+                https://commons.wikimedia.org/wiki/File:Dan_Scavino_by_Gage_Skidmore.jpg
+
+  sonderling-keith.jpg Keith Sonderling
+                Public domain, US Department of Labor
+                https://commons.wikimedia.org/wiki/File:2025_Keith_Sonderling_(cropped).jpg
+
+  turner-eric.jpg Scott Turner (politician)
+                Public domain, U.S. Department of Housing and Urban Development
+                https://commons.wikimedia.org/wiki/File:Scott_Turner,_official_portrait_(2025).jpg
+
+  ueland-eric.jpg Eric Ueland
+                Public domain, U.S. Department of State
+                https://commons.wikimedia.org/wiki/File:Eric_M._Ueland.jpg
+
+  vaden-stephen.jpg Stephen Vaden
+                Public domain, USDAgov
+                https://commons.wikimedia.org/wiki/File:2025_Stephen_Vaden.jpg
+
+  warrington-david.jpg David Warrington
+                Public domain, The White House
+                https://commons.wikimedia.org/wiki/File:David_Warrington_September_2025.jpg
+
+  warsh-kevin.jpg Kevin Warsh
+                Public domain, Federalreserve
+                https://commons.wikimedia.org/wiki/File:Official_portrait_of_Kevin_M._Warsh_(cropped)2.jpg
+
+  whitaker-michael.jpg Michael Whitaker (government official)
+                Public domain, Federal Aviation Administration
+                https://commons.wikimedia.org/wiki/File:Michael_Whitaker_2023_FAA_Portrait.jpg
+
+  wiles-susie.jpg Susie Wiles
+                Public domain, The White House
+                https://commons.wikimedia.org/wiki/File:Susie_Wiles_July_2025.jpg
+
+  wright-christopher.jpg Chris Wright
+                Public domain, U.S. Department of Energy
+                https://commons.wikimedia.org/wiki/File:Secretary_Chris_Wright_Official_Portrait.jpg
+
+  zeldin-lee.jpg Lee Zeldin
+                Public domain, Unknown authorUnknown author
+                https://commons.wikimedia.org/wiki/File:Lee-Zeldin-EPA-Official-Portrait.jpg
+
+Licence texts:
+  CC0 1.0       https://creativecommons.org/publicdomain/zero/1.0/
+  CC BY 2.0     https://creativecommons.org/licenses/by/2.0/
+  CC BY 3.0     https://creativecommons.org/licenses/by/3.0/
+  CC BY 4.0     https://creativecommons.org/licenses/by/4.0/
+  CC BY-SA 3.0  https://creativecommons.org/licenses/by-sa/3.0/
+  CC BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/
+
+Showing a photo of a person does not mean that the person endorses this
+program. Personality and trademark rights are not licensed by the above.
+
+
+Party, state, district, start of service and committee memberships of members
+of Congress in app/src/main/assets/copytrading/personen.json come from the
+unitedstates/congress-legislators project (CC0 1.0); the party of further
+government members comes from Wikidata (CC0 1.0).
+
+
+2. Screenshots in docs/bilder and app/src/main/assets/anleitung
+
+The screenshots show the app with live data at the time they were taken.
+Where they contain one of the photos above, that photo stays under its own
+licence and attribution as listed in section 1. Company names and logos
+visible in screenshots belong to their owners, as do the headlines shown on
+the news page.
+
+
+3. Data loaded at runtime
+
+Prices, company data, logos, option chains, news, filings, portraits of
+members of Congress and prediction market data are fetched from third
+parties while the app runs. They are not part of this repository and not
+covered by its licence; the terms of each source apply.
+
+Financial disclosure reports of members of the US House of Representatives
+(Clerk of the House), the US Senate (eFD system), the President and Vice
+President (U.S. Office of Government Ethics) and further members of the US
+administration (OGE Form 278-T, listed by the U.S. Office of Government
+Ethics and the White House, whitehouse.gov) must not be used, under
+5 U.S.C. § 13107, for any unlawful purpose, for any commercial purpose other
+than by news and communications media for dissemination to the general
+public, for determining or establishing anyone's credit rating, or directly
+or indirectly for soliciting money for any political, charitable or other
+purpose. This program is a free learning and practice tool. If you build on
+it, you are responsible for complying with these terms. The 278-T reports of
+further members of the administration are fetched on the user's device only,
+for personal use; none of them is part of this program.
+
+Reports of managers' transactions (Art. 19 MAR) and of major holdings of
+voting rights (sections 33 et seq. WpHG) come from the databases of the
+German Federal Financial Supervisory Authority. Source:
+© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de
+A snapshot is bundled in app/src/main/assets/copytrading/bafin.json
+(tools/bafin/holen.py); the app adds newer reports while it runs.
+
+US insider transactions (Form 4) come from the Form 345 data sets and
+EDGAR of the U.S. Securities and Exchange Commission (public records of the
+US government). A snapshot is bundled in app/src/main/assets/copytrading/
+sec.json (tools/sec/holen.py). Notices of proposed sales (Form 144) and
+reports of beneficial ownership (Schedule 13D and 13G) come from SEC EDGAR as
+well; they are fetched at runtime for the opened stock with the user's contact
+address and are not bundled.
+
+Swedish insider transactions (Art. 19 MAR) come from the public insider
+register of Finansinspektionen (fi.se). A snapshot is bundled in
+app/src/main/assets/copytrading/insider_se.json (tools/schweden/holen.py);
+the app adds newer reports while it runs.
+
+Net short positions in shares traded in Paris come from the list of the
+Autorité des marchés financiers published on data.gouv.fr under the
+Licence Ouverte / Open Licence 2.0
+(https://www.etalab.gouv.fr/licence-ouverte-open-licence). The data was
+summarised per share (open positions and weekly totals);
+app/src/main/assets/copytrading/leerpositionen_fr.json is built with
+tools/amf/holen.py and the app recalculates it from the current list.
+
+Commitments of Traders data comes from the U.S. Commodity Futures Trading
+Commission (public records of the US government) and is fetched at runtime.
+
+Further insider transactions: app/src/main/assets/copytrading/insider_fr.json
+(© Autorité des marchés financiers – droits réservés, BDIF) and insider_nl.json
+(Autoriteit Financiële Markten, register of managers' transactions) are built
+with the desktop task insiderBuendel; the app adds newer reports at runtime.
+Swiss management transactions (SIX Exchange Regulation) are fetched at runtime
+only. Issuer announcements of the officially appointed mechanism of Česká
+národní banka (Czechia, oam.cnb.cz), the officially appointed mechanism of the
+Luxembourg Stock Exchange (luxse.com, read on the device without links to its
+website), 1Info (Computershare, Italy), the Public OAM of the Cyprus Stock
+Exchange, Dealings by Directors of the Colombo Stock Exchange (Sri Lanka) and
+Major Investors Trade Activities of Muscat Clearing & Depository (Oman) are
+fetched on the user's device for the opened stock only, for personal use. For
+the capital market disclosures of Magyar Nemzeti Bank (Hungary) the app reads
+only the search results and links each disclosure; the user opens the PDF
+files there. UK director
+dealings come from Investegate (investegate.co.uk) after a one-time
+confirmation as a private investor, and managers' transactions in Denmark,
+Finland, Iceland and the Baltic states from the news interface of Nasdaq
+Nordic; both are fetched on the user's device for personal use. HKEX (Hong
+Kong) is linked only. If a source returns nothing, the app links the National
+Storage Mechanism of the Financial Conduct Authority (UK) or the Nasdaq Nordic
+page. Lists and forms the user downloads
+personally (BSE India, Consob Italy, net short positions of the Bundesanzeiger
+and of the Financial Conduct Authority, SEDI weekly summaries converted with
+tools/kanada/sedi.py, reports of the Egyptian Exchange, Nigerian Exchange,
+Boursa Kuwait and Qatar Stock Exchange, Appendix 3Y forms of the ASX,
+notifications under Art. 19 MAR as PDF) can be imported in the app and stay on
+the device; none of these data is part of this program. The app does not open
+or link the website of the Qatar Stock Exchange. Lobby registers:
+app/src/main/assets/behoerden/lobby_welt.json is built with tools/lobby/welt.py
+from the EU Transparency Register (reuse under Commission Decision 2011/833/EU),
+the lobby register of the German Bundestag and the HATVP register of interest
+representatives (Licence Ouverte).
+
+Short positions in Swedish shares come from the Blankningsregister of
+Finansinspektionen (open data, source and date stated);
+app/src/main/assets/copytrading/leerpositionen_se.json is built with
+tools/fi_blankning/holen.py. UK aggregated net short positions are read only
+from the files the user downloads from the Financial Conduct Authority.
+
+Euro area yield curves (dataset YC) and the Harmonised Index of Consumer
+Prices of the euro area (dataset HICP) come from the ECB Data Portal of the
+European Central Bank. US consumer prices (CPI-U) of the U.S. Bureau of Labor
+Statistics are fetched through FRED (Federal Reserve Bank of St. Louis) or
+the BLS interface. BLS.gov cannot vouch for the data or analyses derived from
+these data after the data have been retrieved from BLS.gov. ETF holdings (topHoldings), annual report figures
+(fundamentals-timeseries), similar stocks (recommendationsbysymbol) and stock
+splits come from Yahoo Finance. All of these are fetched at runtime only and
+are not bundled.
+
+FDA approvals and recalls come from openFDA (U.S. Food and Drug Administration,
+CC0 1.0) and are fetched at runtime. openFDA is not intended for medical
+decisions.
+
+13F holdings come from SEC EDGAR filings (public records of the US
+government) and 13f.info. Official congressional portraits come from
+unitedstates.github.io and are in the public domain.
+
+
+Lobbying reports (LD-2) are public records filed with the Clerk of the US
+House of Representatives; app/src/main/assets/behoerden/lobbying.json is a
+summary of them per company. app/src/main/assets/copytrading/haus.json and
+vermoegen.json are built from the financial disclosure reports published by
+the Clerk of the House and fall under the terms of 5 U.S.C. § 13107 above.
+Federal contract data comes from USAspending.gov, short selling data from
+FINRA, campaign finance data from the Federal Election Commission, and
+patent data from the USPTO Open Data Portal; all of it is fetched at runtime.
+
+app/src/main/assets/behoerden/entlassungen.json contains layoff notices from
+WARN Feed (https://github.com/APVentureEngine/warn-act-notices), licensed
+under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The data was
+filtered to companies in the app's catalogue and shortened. WARN Feed
+collects the notices from state labour agencies; it is not affiliated with
+this program.
+
+Early signals and outlook (fetched at runtime only, none bundled): weekly
+inventories and historical futures prices of the U.S. Energy Information
+Administration (eia.gov), initial claims of the U.S. Department of Labor
+through FRED, checkpoint travel numbers of the Transportation Security
+Administration (tsa.gov), the U.S. Drought Monitor (jointly produced by the
+National Drought Mitigation Center at the University of Nebraska-Lincoln,
+the United States Department of Agriculture and the National Oceanic and
+Atmospheric Administration) and, with the user's own free key, EU gas
+storage data of GIE AGSI+ (Gas Infrastructure Europe, named as the source).
+Fed funds futures of CME Group come through Yahoo Finance, US gross domestic
+product for the Buffett indicator from the World Bank (CC BY 4.0). The St. Louis
+Fed Financial Stress Index and the ICE BofA US High Yield Index Option-Adjusted
+Spread (ICE Data Indices, LLC) are retrieved from FRED, Federal Reserve Bank of
+St. Louis. Press releases of the Deutsche Bundesbank come from its RSS feeds
+(source: Deutsche Bundesbank).
+app/src/main/assets/indikatoren holds only hit rates computed from such
+series and from prices, no source data. Mentions on Reddit and 4chan /biz/
+come from ApeWisdom (apewisdom.io), page views from the Wikimedia REST API.
+
+Replacement sources for data whose original source cannot be fetched (all of
+them fetched at runtime only, none bundled):
+- Newer US Senate transaction reports come from the open dataset Congress
+  Trading Monitor (https://github.com/kadoa-org/congress-trading-monitor,
+  MIT licence, Copyright (c) Kadoa). It is read from the same Senate eFD
+  filings and falls under the terms of 5 U.S.C. § 13107 above. Only the
+  Senate rows are used, not the returns or prices of the project.
+- The cyclically adjusted price/earnings ratio (CAPE) comes from the data
+  of Robert J. Shiller (https://shillerdata.com). Neither he nor his
+  affiliates guarantee its accuracy.
+- The Global Supply Chain Pressure Index: © Federal Reserve Bank of New
+  York. Content from the New York Fed subject to the Terms of Use at
+  newyorkfed.org.
+- Margin loans of brokers and dealers (Federal Reserve, Financial Accounts
+  of the United States, Z.1), the Freight Transportation Services Index
+  and rail freight carloads (U.S. Bureau of Transportation Statistics) and
+  industrial production of semiconductors (Federal Reserve) are fetched
+  through FRED, Federal Reserve Bank of St. Louis; these series are in the
+  public domain.
+- Story counts from the Hacker News search API (hn.algolia.com) and
+  hashtag usage counts of mastodon.social (numbers only, no posts) are
+  fetched for the opened stock.
+
+Further sources (fetched at runtime on the user's device for personal,
+non-commercial use only, kept in memory, none bundled):
+- Put/call ratios of the last trading day from the daily market statistics
+  of Cboe Global Markets (cdn.cboe.com); no history is stored.
+- Settlement prices of the VX futures from the Cboe Futures Exchange
+  (cdn.cboe.com) for the VIX futures curve; only shown, no history is stored.
+- The CNN Fear & Greed Index (CNN, through the interface its website uses)
+  and the weekly AAII Sentiment Survey (American Association of Individual
+  Investors, aaii.com).
+- World Container Index assessed by Drewry (drewry.co.uk), credited to
+  Drewry; weekly rail traffic figures of the Association of American
+  Railroads (aar.org); worldwide semiconductor billings from the Historical
+  Billings Report of World Semiconductor Trade Statistics (wsts.org),
+  © WSTS.
+- Insider disclosures of Boursa Kuwait through its RSS service
+  (rss.boursakuwait.com.kw) and the linked disclosure forms.
+- With the user's own free token: financial disclosures of US federal
+  judges from the CourtListener REST API of the Free Law Project; they fall
+  under the terms of 5 U.S.C. § 13107 above.
+- With the user's own Bluesky app password: post counts from the Bluesky
+  search (numbers only, no posts).
+- Letters of fund managers to their investors, read from the senders'
+  websites and shown as short excerpts of at most two sentences around the
+  mention of a stock, with a link to the sender; with the user's contact
+  address also fund reports from the EDGAR full-text search of the SEC.
+
+
+4. Libraries in the app packages
+
+The app packages (Android APK, desktop packages for Windows, Linux and
+macOS, iOS app) contain the libraries below. They keep their own licences.
+The full licence texts and copyright notices are in THIRD_PARTY_LICENSES.txt,
+which is part of every package and shown in the app under About, Open
+source licences. Which libraries a package contains depends on the
+platform.
+
+Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+  Kotlin standard library, kotlinx.coroutines, kotlinx.serialization,
+  kotlinx-datetime, atomicfu and JetBrains annotations (JetBrains);
+  AndroidX, Jetpack Compose including Material Icons, Accompanist, Guava
+  ListenableFuture, Gson and Error Prone annotations (Google); Compose
+  Multiplatform and Skiko (JetBrains); OkHttp and Okio (Square); Coil;
+  jcefmaven; Apache Commons Compress, IO, Lang and Codec.
+  Skiko: This project contains code adapted from "The Android Open Source
+  Project" licensed under the Apache License, Version 2.0 (the "License"):
+  https://android.googlesource.com/platform/frameworks/base
+  Inside Skiko: Wuffs (desktop and iOS), piex (Linux, macOS, iOS),
+  SPIRV-Cross (Windows).
+  Apache Commons: This product includes software developed at The Apache
+  Software Foundation (https://www.apache.org/).
+
+BSD 3-Clause License
+  Skia (inside Skiko, desktop and iOS): Copyright (c) 2011 Google Inc.
+  JCEF (desktop): Copyright (c) 2008-2013 Marshall A. Greenblatt.
+  Portions Copyright (c) 2006-2009 Google Inc.
+  libwebp (inside Skiko): Copyright (c) 2010, Google Inc.
+  ThreeTen-Backport code in the Kotlin standard library and kotlinx-datetime:
+  Copyright (c) 2007-present, Stephen Colebourne & Michael Nascimento Santos.
+
+Further components inside the Skiko native library (desktop and iOS)
+  FreeType (Linux): Portions of this software are copyright (c) The
+  FreeType Project (https://freetype.org). All rights reserved.
+  (FreeType License)
+  libjpeg-turbo: This software is based in part on the work of the
+  Independent JPEG Group. (IJG, BSD 3-Clause and zlib licences)
+  HarfBuzz and Expat (MIT License), ICU (Unicode License v3), libpng
+  (libpng License), zlib (zlib License), Adobe DNG SDK (Linux, macOS,
+  iOS; DNG SDK licence of Adobe). This product includes DNG technology
+  under license by Adobe Systems Incorporated.
+
+JogAmp (desktop)
+  JOGL and GlueGen runtime: BSD 2-Clause License (Copyright 2009-2024 JogAmp
+  Community), with parts under BSD 3-Clause (Sun Microsystems, LWJGL
+  Project, Brian Paul), SGI Free Software License B 2.0 and Apache License
+  1.1 and 2.0, see THIRD_PARTY_LICENSES.txt.
+
+MIT License
+  jsoup (desktop): Copyright (c) 2009-2024 Jonathan Hedley.
+
+Mozilla Public License 2.0 (https://mozilla.org/MPL/2.0/)
+  OkHttp contains publicsuffixes.gz, compiled from the Public Suffix List.
+  Its source form is available at https://publicsuffix.org/list/ and
+  https://github.com/publicsuffix/list.
+
+GNU General Public License, version 2, with the Classpath Exception
+  The desktop packages contain a Java runtime built with jlink from
+  Eclipse Temurin 17.0.14+7 (OpenJDK). Its licence texts are in the
+  folder legal of the runtime inside each package (Windows: runtime/legal,
+  Linux: lib/runtime/legal, macOS:
+  Tryfolio.app/Contents/runtime/Contents/Home/legal). The source code is
+  available at https://github.com/adoptium/jdk17u (tag jdk-17.0.14+7). For
+  at least three years after each release we also provide this source
+  code on request through the issue tracker of this repository.
+
+The Chromium files of the built-in browser are not part of the desktop
+packages. The app downloads them from Maven Central when they are first
+needed; their own licences apply.
+
+
+5. Map data bundled with the app
+
+The country outlines of the globe in app/src/main/assets/globus/laender.json
+come from Natural Earth (ne_10m_admin_0_countries_deu), simplified. The data
+is in the public domain.
+Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.
+
+
+6. Not part of the licence
+
+Names of brokers, exchanges, companies and data providers mentioned in the
+program or its documentation are used only to describe compatibility. They
+may be trademarks of their owners. This program is not affiliated with or
+endorsed by any of them.

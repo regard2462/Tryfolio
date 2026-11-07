@@ -1,0 +1,201 @@
+{
+ "SSAF": [
+  {
+   "name": "Adam B. Schiff",
+   "party": "minority",
+   "rank": 10,
+   "bioguide": "S001150"
+  }
+ ],
+ "SSAF13": [
+  {
+   "name": "Adam B. Schiff",
+   "party": "minority",
+   "rank": 3,
+   "bioguide": "S001150"
+  }
+ ],
+ "SSAF14": [
+  {
+   "name": "Adam B. Schiff",
+   "party": "minority",
+   "rank": 5,
+   "bioguide": "S001150"
+  }
+ ],
+ "SSAP": [
+  {
+   "name": "Jon Husted",
+   "party": "majority",
+   "rank": 14,
+   "bioguide": "H001104"
+  }
+ ],
+ "SSAP01": [
+  {
+   "name": "Jon Husted",
+   "party": "majority",
+   "rank": 8,
+   "bioguide": "H001104"
+  }
+ ],
+ "SSCM": [
+  {
+   "name": "Maria Cantwell",
+   "party": "minority",
+   "rank": 1,
+   "title": "Ranking Member",
+   "bioguide": "C000127"
+  }
+ ],
+ "SSEG": [
+  {
+   "name": "Maria Cantwell",
+   "party": "minority",
+   "rank": 3,
+   "bioguide": "C000127"
+  }
+ ],
+ "SSEV": [
+  {
+   "name": "Jon Husted",
+   "party": "majority",
+   "rank": 9,
+   "bioguide": "H001104"
+  },
+  {
+   "name": "Bernard Sanders",
+   "party": "minority",
+   "rank": 2,
+   "bioguide": "S000033"
+  },
+  {
+   "name": "Adam B. Schiff",
+   "party": "minority",
+   "rank": 7,
+   "bioguide": "S001150"
+  }
+ ],
+ "SSFI": [
+  {
+   "name": "Maria Cantwell",
+   "party": "minority",
+   "rank": 2,
+   "bioguide": "C000127"
+  },
+  {
+   "name": "Bernard Sanders",
+   "party": "minority",
+   "rank": 9,
+   "bioguide": "S000033"
+  }
+ ],
+ "SSHR": [
+  {
+   "name": "Jon Husted",
+   "party": "majority",
+   "rank": 10,
+   "bioguide": "H001104"
+  },
+  {
+   "name": "Bernard Sanders",
+   "party": "minority",
+   "rank": 1,
+   "title": "Ranking Member",
+   "bioguide": "S000033"
+  }
+ ],
+ "SLIA": [
+  {
+   "name": "Maria Cantwell",
+   "party": "minority",
+   "rank": 2,
+   "bioguide": "C000127"
+  }
+ ],
+ "SSSB": [
+  {
+   "name": "Jon Husted",
+   "party": "majority",
+   "rank": 10,
+   "bioguide": "H001104"
+  },
+  {
+   "name": "Maria Cantwell",
+   "party": "minority",
+   "rank": 2,
+   "bioguide": "C000127"
+  },
+  {
+   "name": "Adam B. Schiff",
+   "party": "minority",
+   "rank": 9,
+   "bioguide": "S001150"
+  }
+ ],
+ "SSBU": [
+  {
+   "name": "Bernard Sanders",
+   "party": "minority",
+   "rank": 4,
+   "bioguide": "S000033"
+  }
+ ],
+ "SSJU": [
+  {
+   "name": "Adam B. Schiff",
+   "party": "minority",
+   "rank": 10,
+   "bioguide": "S001150"
+  }
+ ],
+ "SSVA": [
+  {
+   "name": "Bernard Sanders",
+   "party": "minority",
+   "rank": 3,
+   "bioguide": "S000033"
+  }
+ ],
+ "JSTX": [
+  {
+   "name": "Maria Cantwell",
+   "party": "minority",
+   "rank": 2,
+   "bioguide": "C000127",
+   "chamber": "senate"
+  }
+ ],
+ "SPAG": [
+  {
+   "name": "Jon Husted",
+   "party": "majority",
+   "rank": 7,
+   "bioguide": "H001104"
+  }
+ ],
+ "HSSY": [
+  {
+   "name": "April McClain Delaney",
+   "party": "minority",
+   "rank": 15,
+   "bioguide": "M001232"
+  }
+ ],
+ "HSAG": [
+  {
+   "name": "April McClain Delaney",
+   "party": "minority",
+   "rank": 22,
+   "bioguide": "M001232"
+  }
+ ],
+ "HSIF": [
+  {
+   "name": "Alexandria Ocasio-Cortez",
+   "party": "minority",
+   "rank": 18,
+   "bioguide": "O000172"
+  }
+ ]
+}

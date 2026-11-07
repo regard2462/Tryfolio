@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vorschau des Widgets „Globus“ in der Auswahl des Startbildschirms: schwarzer Grund, Kugel mit grauem Rand und einigen Laendern -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+    <path android:fillColor="#FF000000" android:pathData="M0,0h160v160h-160z" />
+    <path android:fillColor="#FF08080A" android:strokeColor="#FF2C2C30" android:strokeWidth="1.2"
+        android:pathData="M80,80m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0" />
+    <path android:fillColor="#FF1E8F55" android:strokeColor="#FF6A6A70" android:strokeWidth="0.8"
+        android:pathData="M52,44L72,38L84,46L80,60L66,66L54,58Z" />
+    <path android:fillColor="#FFC93B44" android:strokeColor="#FF6A6A70" android:strokeWidth="0.8"
+        android:pathData="M88,52L108,50L116,68L104,84L90,76Z" />
+    <path android:fillColor="#FF3A3A3E" android:strokeColor="#FF6A6A70" android:strokeWidth="0.8"
+        android:pathData="M60,84L78,90L82,112L70,124L58,108Z" />
+    <path android:fillColor="#FF2F8A55" android:strokeColor="#FF6A6A70" android:strokeWidth="0.8"
+        android:pathData="M96,92L112,96L108,112L94,108Z" />
+</vector>

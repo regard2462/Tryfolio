@@ -1,0 +1,9 @@
+// Kennungen der App. TEAM_ID bleibt leer: Die IPA entsteht unsigniert, SideStore, AltStore oder Sideloadly signieren
+// sie beim Installieren mit der Apple-ID der Person. Fuer einen Bau in Xcode auf dem eigenen Geraet hier das eigene
+// Team eintragen. MARKETING_VERSION setzen die Bauskripte aus versionName in app/build.gradle.kts.
+TEAM_ID=
+DEVELOPMENT_TEAM=$(TEAM_ID)
+PRODUCT_NAME=Tryfolio
+PRODUCT_BUNDLE_IDENTIFIER=de.troetenrepublik.app
+MARKETING_VERSION=0.68
+CURRENT_PROJECT_VERSION=1

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- www.bundesbank.de nutzt die Telekom Security TLS ECC Root 2020 (SHA-256 578AF4DE D0853F4E 5998DB4A EAF9CBEA
+     8D945F60 B620A38D 1A3C13B2 BC7BA8E1, Mozilla- und JDK-Wurzelliste), die Android erst ab 16 mitbringt. Nur fuer
+     diesen Host kommt sie zu den Systemwurzeln hinzu; alle anderen Verbindungen bleiben unveraendert. -->
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="false">www.bundesbank.de</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/telekom_security_tls_ecc_root_2020" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
