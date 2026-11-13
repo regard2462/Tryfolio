@@ -1,0 +1,1436 @@
+{
+ "schema": 1,
+ "stand": "2026-11-13",
+ "knoten": [
+  {
+   "id": "NVDA",
+   "typ": "firma",
+   "name": "Nvidia",
+   "symbole": [
+    "NVDA"
+   ],
+   "cik": "1045810"
+  },
+  {
+   "id": "AMD",
+   "typ": "firma",
+   "name": "AMD",
+   "symbole": [
+    "AMD"
+   ],
+   "cik": "2488"
+  },
+  {
+   "id": "INTC",
+   "typ": "firma",
+   "name": "Intel",
+   "symbole": [
+    "INTC"
+   ],
+   "cik": "50863"
+  },
+  {
+   "id": "TSM",
+   "typ": "firma",
+   "name": "TSMC",
+   "symbole": [
+    "TSM",
+    "2330.TW"
+   ],
+   "cik": "1046179"
+  },
+  {
+   "id": "MU",
+   "typ": "firma",
+   "name": "Micron",
+   "symbole": [
+    "MU"
+   ],
+   "cik": "723125"
+  },
+  {
+   "id": "AVGO",
+   "typ": "firma",
+   "name": "Broadcom",
+   "symbole": [
+    "AVGO"
+   ],
+   "cik": "1730168"
+  },
+  {
+   "id": "MRVL",
+   "typ": "firma",
+   "name": "Marvell",
+   "symbole": [
+    "MRVL"
+   ],
+   "cik": "1058057"
+  },
+  {
+   "id": "LITE",
+   "typ": "firma",
+   "name": "Lumentum",
+   "symbole": [
+    "LITE"
+   ],
+   "cik": "1633978"
+  },
+  {
+   "id": "COHR",
+   "typ": "firma",
+   "name": "Coherent",
+   "symbole": [
+    "COHR"
+   ],
+   "cik": "21510"
+  },
+  {
+   "id": "MSFT",
+   "typ": "firma",
+   "name": "Microsoft",
+   "symbole": [
+    "MSFT"
+   ],
+   "cik": "789019"
+  },
+  {
+   "id": "AMZN",
+   "typ": "firma",
+   "name": "Amazon",
+   "symbole": [
+    "AMZN"
+   ],
+   "cik": "1018724"
+  },
+  {
+   "id": "GOOGL",
+   "typ": "firma",
+   "name": "Alphabet",
+   "symbole": [
+    "GOOGL",
+    "GOOG"
+   ],
+   "cik": "1652044"
+  },
+  {
+   "id": "META",
+   "typ": "firma",
+   "name": "Meta Platforms",
+   "symbole": [
+    "META"
+   ],
+   "cik": "1326801"
+  },
+  {
+   "id": "ORCL",
+   "typ": "firma",
+   "name": "Oracle",
+   "symbole": [
+    "ORCL"
+   ],
+   "cik": "1341439"
+  },
+  {
+   "id": "OPENAI",
+   "typ": "firma",
+   "name": "OpenAI",
+   "domain": "openai.com"
+  },
+  {
+   "id": "ANTHROPIC",
+   "typ": "firma",
+   "name": "Anthropic",
+   "domain": "anthropic.com",
+   "cik": "2130357"
+  },
+  {
+   "id": "SPACEX",
+   "typ": "firma",
+   "name": "SpaceX",
+   "domain": "spacex.com",
+   "cik": "1181412"
+  },
+  {
+   "id": "XAI",
+   "typ": "firma",
+   "name": "xAI",
+   "domain": "x.ai"
+  },
+  {
+   "id": "CRWV",
+   "typ": "firma",
+   "name": "CoreWeave",
+   "symbole": [
+    "CRWV"
+   ],
+   "cik": "1769628"
+  },
+  {
+   "id": "NBIS",
+   "typ": "firma",
+   "name": "Nebius",
+   "symbole": [
+    "NBIS"
+   ],
+   "cik": "1513845"
+  },
+  {
+   "id": "IREN",
+   "typ": "firma",
+   "name": "IREN",
+   "symbole": [
+    "IREN"
+   ],
+   "cik": "1878848"
+  },
+  {
+   "id": "CBRS",
+   "typ": "firma",
+   "name": "Cerebras",
+   "domain": "cerebras.ai"
+  },
+  {
+   "id": "SBENERGY",
+   "typ": "firma",
+   "name": "SB Energy (Pike County)",
+   "domain": "sbenergy.com"
+  },
+  {
+   "id": "TIKTOKUSDS",
+   "typ": "firma",
+   "name": "TikTok USDS Joint Venture"
+  },
+  {
+   "id": "NOK",
+   "typ": "firma",
+   "name": "Nokia",
+   "symbole": [
+    "NOK"
+   ],
+   "cik": "924613"
+  },
+  {
+   "id": "SOFTBANK",
+   "typ": "firma",
+   "name": "SoftBank Group",
+   "symbole": [
+    "9984.T"
+   ]
+  },
+  {
+   "id": "NEOCLOUDS",
+   "typ": "sammel",
+   "name": "Neoclouds (Anbieter von KI-Cloud)",
+   "nameEn": "Neoclouds (AI cloud providers)"
+  },
+  {
+   "id": "KIFIN",
+   "typ": "sammel",
+   "name": "KI-Modellbauer und Infrastruktur-Finanzierer",
+   "nameEn": "AI model builders and infrastructure financiers"
+  },
+  {
+   "id": "GLAEUBIGER",
+   "typ": "sammel",
+   "name": "Gläubiger (Anleihen und Kredite)",
+   "nameEn": "Creditors (bonds and loans)"
+  },
+  {
+   "id": "NVDA_A",
+   "typ": "sammel",
+   "name": "Nvidia, direkter Kunde A",
+   "nameEn": "Nvidia, direct customer A"
+  },
+  {
+   "id": "NVDA_B",
+   "typ": "sammel",
+   "name": "Nvidia, direkter Kunde B",
+   "nameEn": "Nvidia, direct customer B"
+  },
+  {
+   "id": "PAGE",
+   "typ": "person",
+   "name": "Larry Page"
+  },
+  {
+   "id": "BRIN",
+   "typ": "person",
+   "name": "Sergey Brin"
+  },
+  {
+   "id": "ZUCKERBERG",
+   "typ": "person",
+   "name": "Mark Zuckerberg"
+  }
+ ],
+ "kanten": [
+  {
+   "id": "NVDA-finanziert-OPENAI",
+   "von": "NVDA",
+   "nach": "OPENAI",
+   "art": "finanziert",
+   "status": "absichtserklaerung",
+   "guete": "A",
+   "stand": "2025-09-22",
+   "quelle": {
+    "name": "Nvidia, Pressemitteilung zur Partnerschaft mit OpenAI",
+    "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 100000000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "bedingt": true,
+   "seit": "2025-09-22",
+   "hinweis": "Mindestens 10 GW Nvidia-Systeme, Auszahlung je Gigawatt. Nach Angabe von Nvidia im Dezember 2025 noch kein endgültiger Vertrag.",
+   "weitere": [
+    {
+     "name": "Fortune, Stand der Vereinbarung",
+     "url": "https://fortune.com/2025/12/02/nvidia-openai-deal-not-signed-yet-100-billion-rally-colette-kress/",
+     "primaer": false
+    }
+   ],
+   "hinweisEn": "At least 10 GW of Nvidia systems, paid per gigawatt. Per Nvidia in December 2025, no definitive contract yet."
+  },
+  {
+   "id": "OPENAI-kauft-NVDA",
+   "von": "OPENAI",
+   "nach": "NVDA",
+   "art": "kauft",
+   "status": "absichtserklaerung",
+   "guete": "A",
+   "stand": "2025-09-22",
+   "quelle": {
+    "name": "Nvidia, Pressemitteilung zur Partnerschaft mit OpenAI",
+    "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 10,
+    "einheit": "GW",
+    "hoechstens": true
+   },
+   "seit": "2025-09-22",
+   "hinweis": "Mindestens 10 GW Nvidia-Systeme laut Absichtserklärung.",
+   "hinweisEn": "At least 10 GW of Nvidia systems per the letter of intent."
+  },
+  {
+   "id": "NVDA-haelt_anteil-OPENAI",
+   "von": "NVDA",
+   "nach": "OPENAI",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-02-27",
+   "quelle": {
+    "name": "CNBC, Finanzierungsrunde OpenAI",
+    "url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 30000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-02-27",
+   "weitere": [
+    {
+     "name": "CNBC, Nvidia-Beteiligungen",
+     "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+     "primaer": false
+    }
+   ]
+  },
+  {
+   "id": "AMZN-finanziert-OPENAI",
+   "von": "AMZN",
+   "nach": "OPENAI",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-02-27",
+   "quelle": {
+    "name": "CNBC, Finanzierungsrunde OpenAI",
+    "url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 50000000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "bedingt": true,
+   "seit": "2026-02-27",
+   "hinweis": "15 Mrd. USD zuerst, 35 Mrd. USD bei Bedingungen (IPO oder AGI, Quellen uneins).",
+   "hinweisEn": "USD 15 bn first, USD 35 bn subject to conditions (IPO or AGI, sources disagree)."
+  },
+  {
+   "id": "SOFTBANK-haelt_anteil-OPENAI",
+   "von": "SOFTBANK",
+   "nach": "OPENAI",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-12-31",
+   "quelle": {
+    "name": "SoftBank Group, Pressemitteilung",
+    "url": "https://group.softbank/en/news/press/20251231",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 40000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-12-31",
+   "hinweis": "22,5 Mrd. USD beim Abschluss, zusammen 40 Mrd. USD, rund 11 %.",
+   "hinweisEn": "USD 22.5 bn at closing, USD 40 bn in total, about 11%."
+  },
+  {
+   "id": "MSFT-haelt_anteil-OPENAI",
+   "von": "MSFT",
+   "nach": "OPENAI",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-10-28",
+   "quelle": {
+    "name": "Microsoft, Blogeintrag zu OpenAI",
+    "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 27,
+    "einheit": "PCT",
+    "bezug": "KAPITAL",
+    "hoechstens": false
+   },
+   "seit": "2025-10-28",
+   "hinweis": "Verwässert, wandelbar. Wert rund 135 Mrd. USD, IP-Rechte bis 2032.",
+   "hinweisEn": "Diluted, convertible. Value about USD 135 bn, IP rights through 2032."
+  },
+  {
+   "id": "OPENAI-rechenzentrum-MSFT",
+   "von": "OPENAI",
+   "nach": "MSFT",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-10-28",
+   "quelle": {
+    "name": "Microsoft, Blogeintrag zu OpenAI",
+    "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 250000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-10-28",
+   "hinweis": "Zusätzliche Azure-Kapazität.",
+   "hinweisEn": "Additional Azure capacity."
+  },
+  {
+   "id": "OPENAI-rechenzentrum-AMZN",
+   "von": "OPENAI",
+   "nach": "AMZN",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-11-27",
+   "quelle": {
+    "name": "CNBC, Finanzierungsrunde OpenAI",
+    "url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 38000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-11-27",
+   "hinweis": "Erweitert um 100 Mrd. USD über acht Jahre.",
+   "hinweisEn": "Extended by USD 100 bn over eight years."
+  },
+  {
+   "id": "OPENAI-rechenzentrum-ORCL",
+   "von": "OPENAI",
+   "nach": "ORCL",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-09-10",
+   "quelle": {
+    "name": "Techzine (nach WSJ), OpenAI und Oracle",
+    "url": "https://www.techzine.eu/news/infrastructure/134530/openai-signs-historic-300-billion-deal-with-oracle",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 300000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-09-10",
+   "hinweis": "Rund 300 Mrd. USD über etwa fünf Jahre ab 2027, 4,5 GW. Oracle nennt im Quartalsbericht keine Kunden, nur den Auftragsbestand von 664 Mrd. USD.",
+   "weitere": [
+    {
+     "name": "Oracle, 10-Q zum 31.08.2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm",
+     "primaer": true
+    }
+   ],
+   "hinweisEn": "About USD 300 bn over roughly five years from 2027, 4.5 GW. Oracle names no customers in its quarterly report, only the backlog of USD 664 bn."
+  },
+  {
+   "id": "AMD-optionsschein-OPENAI",
+   "von": "AMD",
+   "nach": "OPENAI",
+   "art": "optionsschein",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-10-06",
+   "quelle": {
+    "name": "AMD, Pressemitteilung zur Partnerschaft mit OpenAI",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 160000000,
+    "einheit": "AKTIEN"
+   },
+   "bedingt": true,
+   "seit": "2025-10-06",
+   "hinweis": "160 Mio. AMD-Aktien zu 0,01 USD, Ausübung gestaffelt nach 1 bis 6 GW und Kursschwellen bis 600 USD.",
+   "hinweisEn": "160 m AMD shares at USD 0.01, exercise staged by 1 to 6 GW and share price thresholds up to USD 600."
+  },
+  {
+   "id": "OPENAI-kauft-AMD",
+   "von": "OPENAI",
+   "nach": "AMD",
+   "art": "kauft",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-10-06",
+   "quelle": {
+    "name": "AMD, Pressemitteilung zur Partnerschaft mit OpenAI",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 6,
+    "einheit": "GW",
+    "hoechstens": false
+   },
+   "seit": "2025-10-06",
+   "hinweis": "6 GW AMD Instinct, erste 1 GW MI450 ab 2. Halbjahr 2026.",
+   "hinweisEn": "6 GW of AMD Instinct, first 1 GW MI450 from the second half of 2026."
+  },
+  {
+   "id": "AMD-optionsschein-META",
+   "von": "AMD",
+   "nach": "META",
+   "art": "optionsschein",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-02-24",
+   "quelle": {
+    "name": "AMD, Pressemitteilung zur Partnerschaft mit Meta",
+    "url": "https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 160000000,
+    "einheit": "AKTIEN"
+   },
+   "bedingt": true,
+   "seit": "2026-02-24",
+   "hinweis": "160 Mio. AMD-Aktien zu 0,01 USD, 6 GW, gleiche Staffelung.",
+   "weitere": [
+    {
+     "name": "AMD, 8-K (Auszug)",
+     "url": "https://www.boardroomalpha.com/sec/amd-8-k-2026-02-24-0000002488-26-000045",
+     "primaer": false
+    }
+   ],
+   "hinweisEn": "160 m AMD shares at USD 0.01, 6 GW, same vesting schedule."
+  },
+  {
+   "id": "META-kauft-AMD",
+   "von": "META",
+   "nach": "AMD",
+   "art": "kauft",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-02-24",
+   "quelle": {
+    "name": "AMD, Pressemitteilung zur Partnerschaft mit Meta",
+    "url": "https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 6,
+    "einheit": "GW",
+    "hoechstens": false
+   },
+   "seit": "2026-02-24"
+  },
+  {
+   "id": "META-rechenzentrum-CRWV",
+   "von": "META",
+   "nach": "CRWV",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-09-30",
+   "quelle": {
+    "name": "RCR Wireless, Meta und CoreWeave",
+    "url": "https://www.rcrwireless.com/20251001/tech/coreweave-meta-ai",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 14200000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "seit": "2025-09-30",
+   "ablauf": "2031-12-31"
+  },
+  {
+   "id": "MSFT-rechenzentrum-CRWV",
+   "von": "MSFT",
+   "nach": "CRWV",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-01-01",
+   "quelle": {
+    "name": "Sacra, CoreWeave (gegen 10-K prüfen)",
+    "url": "https://sacra.com/chat/h/28e7e359-2823-48eb-aba0-247640ee1137/",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 67,
+    "einheit": "PCT",
+    "bezug": "UMSATZ",
+    "hoechstens": false
+   },
+   "seit": "2025-01-01",
+   "hinweis": "67 % des Umsatzes 2025 und 68 % der Forderungen (2024: 62 %) laut Auswertung von Sacra.",
+   "hinweisEn": "67% of 2025 revenue and 68% of receivables (2024: 62%) per an analysis by Sacra."
+  },
+  {
+   "id": "NVDA-haelt_anteil-CRWV",
+   "von": "NVDA",
+   "nach": "CRWV",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-01-01",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 2000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-01-01"
+  },
+  {
+   "id": "NVDA-garantie-SBENERGY",
+   "von": "NVDA",
+   "nach": "SBENERGY",
+   "art": "garantie",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-08-01",
+   "quelle": {
+    "name": "Nvidia, 10-Q zum 26.07.2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 105000000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "bedingt": true,
+   "seit": "2026-08-01",
+   "hinweis": "Kreditgarantie für den Standort Pike County (Ohio) einer OpenAI-Tochter: 20 Jahre je Phase, rund 4,25 GW, Nvidia-Exklusivität, Option auf 3,8 GW mehr, erste Phase im Geschäftsjahr 2029.",
+   "hinweisEn": "Credit guarantee for the Pike County (Ohio) site of an OpenAI subsidiary: 20 years per phase, about 4.25 GW, Nvidia exclusivity, option for 3.8 GW more, first phase in fiscal 2029."
+  },
+  {
+   "id": "NVDA-finanziert-KIFIN",
+   "von": "NVDA",
+   "nach": "KIFIN",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-07-26",
+   "quelle": {
+    "name": "Nvidia, 10-Q zum 26.07.2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 25000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "bedingt": true,
+   "seit": "2026-07-26",
+   "hinweis": "Zusagen an KI-Modellbauer und Infrastruktur-Finanzierer. Dazu 47,9 Mrd. USD nicht börsennotierte Beteiligungen und 3,3 Mrd. USD nach der Equity-Methode.",
+   "hinweisEn": "Commitments to AI model builders and infrastructure financiers. Plus USD 47.9 bn of non-listed stakes and USD 3.3 bn under the equity method."
+  },
+  {
+   "id": "NVDA-rechenzentrum-NEOCLOUDS",
+   "von": "NVDA",
+   "nach": "NEOCLOUDS",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-07-26",
+   "quelle": {
+    "name": "Nvidia, 10-Q zum 26.07.2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 36000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-07-26",
+   "hinweis": "AI-Cloud-Verträge, Nvidia darf Kapazität weiterverkaufen. Dazu 29 Mrd. USD Cloud-Dienste für eigene Forschung.",
+   "hinweisEn": "AI cloud contracts, Nvidia may resell capacity. Plus USD 29 bn of cloud services for its own research."
+  },
+  {
+   "id": "NVDA-finanziert-ANTHROPIC",
+   "von": "NVDA",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-11-18",
+   "quelle": {
+    "name": "Anthropic, Mitteilung zu Microsoft und Nvidia",
+    "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 10000000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "bedingt": true,
+   "seit": "2025-11-18"
+  },
+  {
+   "id": "ANTHROPIC-kauft-NVDA",
+   "von": "ANTHROPIC",
+   "nach": "NVDA",
+   "art": "kauft",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-11-18",
+   "quelle": {
+    "name": "Anthropic, Mitteilung zu Microsoft und Nvidia",
+    "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 1,
+    "einheit": "GW",
+    "hoechstens": true
+   },
+   "seit": "2025-11-18",
+   "hinweis": "Bis 1 GW Nvidia-Rechenleistung (Grace Blackwell, Vera Rubin).",
+   "hinweisEn": "Up to 1 GW of Nvidia compute (Grace Blackwell, Vera Rubin)."
+  },
+  {
+   "id": "MSFT-finanziert-ANTHROPIC",
+   "von": "MSFT",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-11-18",
+   "quelle": {
+    "name": "Anthropic, Mitteilung zu Microsoft und Nvidia",
+    "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 5000000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "bedingt": true,
+   "seit": "2025-11-18"
+  },
+  {
+   "id": "ANTHROPIC-rechenzentrum-MSFT",
+   "von": "ANTHROPIC",
+   "nach": "MSFT",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-11-18",
+   "quelle": {
+    "name": "Anthropic, Mitteilung zu Microsoft und Nvidia",
+    "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 30000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-11-18",
+   "hinweis": "Azure-Kapazität, dazu bis 1 GW.",
+   "hinweisEn": "Azure capacity, plus up to 1 GW."
+  },
+  {
+   "id": "ANTHROPIC-rechenzentrum-GOOGL",
+   "von": "ANTHROPIC",
+   "nach": "GOOGL",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2025-10-23",
+   "quelle": {
+    "name": "Anthropic, Mitteilung zu Google Cloud TPUs",
+    "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 1,
+    "einheit": "GW",
+    "hoechstens": false
+   },
+   "seit": "2025-10-23",
+   "hinweis": "Bis 1 Mio. TPUs, über 1 GW ab 2026, zig Milliarden USD.",
+   "hinweisEn": "Up to 1 m TPUs, over 1 GW from 2026, tens of billions of USD."
+  },
+  {
+   "id": "ANTHROPIC-rechenzentrum-AMZN",
+   "von": "ANTHROPIC",
+   "nach": "AMZN",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-06-01",
+   "quelle": {
+    "name": "Fortune, Anthropic und seine Geldgeber",
+    "url": "https://fortune.com/2026/06/04/amazon-google-billions-anthropic-ipo/",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 100000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-06-01",
+   "hinweis": "Über 100 Mrd. USD in zehn Jahren.",
+   "hinweisEn": "Over USD 100 bn in ten years."
+  },
+  {
+   "id": "ANTHROPIC-kauft-AVGO",
+   "von": "ANTHROPIC",
+   "nach": "AVGO",
+   "art": "kauft",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-12-01",
+   "quelle": {
+    "name": "The Decoder, Bestellung bei Broadcom",
+    "url": "https://the-decoder.com/anthropic-places-21-billion-order-for-google-chips-via-broadcom/",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 21000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-12-01",
+   "hinweis": "Google-TPU-Racks: 10 Mrd. USD plus 11 Mrd. USD. 3,5 GW Kapazität ab 2027, Aussagen von Broadcom stimmen nicht überein.",
+   "hinweisEn": "Google TPU racks: USD 10 bn plus USD 11 bn. 3.5 GW of capacity from 2027, statements by Broadcom differ."
+  },
+  {
+   "id": "NVDA-haelt_anteil-INTC",
+   "von": "NVDA",
+   "nach": "INTC",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-09-18",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 5000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-09-18",
+   "hinweis": "Rund 4 % zu 23,28 USD, Abschluss laut einer Quelle im Dezember 2025.",
+   "hinweisEn": "About 4% at USD 23.28, closing in December 2025 per one source."
+  },
+  {
+   "id": "NVDA-haelt_anteil-NOK",
+   "von": "NVDA",
+   "nach": "NOK",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-10-01",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 1000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-10-01",
+   "hinweis": "Rund 2,9 %.",
+   "hinweisEn": "About 2.9%."
+  },
+  {
+   "id": "NVDA-haelt_anteil-NBIS",
+   "von": "NVDA",
+   "nach": "NBIS",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-03-01",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 2000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-03-01"
+  },
+  {
+   "id": "NVDA-haelt_anteil-LITE",
+   "von": "NVDA",
+   "nach": "LITE",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-03-01",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 2000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-03-01"
+  },
+  {
+   "id": "NVDA-haelt_anteil-COHR",
+   "von": "NVDA",
+   "nach": "COHR",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-03-01",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 2000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-03-01"
+  },
+  {
+   "id": "NVDA-haelt_anteil-MRVL",
+   "von": "NVDA",
+   "nach": "MRVL",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-03-01",
+   "quelle": {
+    "name": "CNBC, Nvidia-Beteiligungen",
+    "url": "https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 2000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-03-01"
+  },
+  {
+   "id": "SPACEX-tochter-XAI",
+   "von": "SPACEX",
+   "nach": "XAI",
+   "art": "tochter",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-02-02",
+   "quelle": {
+    "name": "SpaceX, S-1/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+    "primaer": true
+   },
+   "seit": "2026-02-02",
+   "hinweis": "Reiner Aktientausch, zusammen 1,25 Bio. USD (SpaceX 1 Bio., xAI 250 Mrd.).",
+   "weitere": [
+    {
+     "name": "CNN, SpaceX übernimmt xAI",
+     "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/02/02/spacex-is-acquiring-xai/",
+     "primaer": false
+    }
+   ],
+   "hinweisEn": "All-stock deal, USD 1.25 tn combined (SpaceX 1 tn, xAI 250 bn)."
+  },
+  {
+   "id": "MSFT-rechenzentrum-NBIS",
+   "von": "MSFT",
+   "nach": "NBIS",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-09-01",
+   "quelle": {
+    "name": "FourWeekMBA, Microsoft und Neoclouds",
+    "url": "https://fourweekmba.com/ai-how-microsoft-rents-ai-capacity-3-neocloud-deals-70-9b/",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 17400000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "seit": "2025-09-01",
+   "ablauf": "2031-12-31",
+   "hinweis": "Nach Angabe der Quelle im 20-F genannt.",
+   "hinweisEn": "Named in the 20-F per the source."
+  },
+  {
+   "id": "MSFT-rechenzentrum-IREN",
+   "von": "MSFT",
+   "nach": "IREN",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2025-11-01",
+   "quelle": {
+    "name": "Yahoo Finance, Microsoft und IREN",
+    "url": "https://finance.yahoo.com/news/microsoft-signs-9-7-billion-110844856.html",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 9700000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2025-11-01",
+   "ablauf": "2031-12-31",
+   "hinweis": "20 % Vorauszahlung. Datum uneinheitlich.",
+   "hinweisEn": "20% prepayment. Dates differ between sources."
+  },
+  {
+   "id": "OPENAI-rechenzentrum-CBRS",
+   "von": "OPENAI",
+   "nach": "CBRS",
+   "art": "rechenzentrum",
+   "status": "definitiv",
+   "guete": "B",
+   "stand": "2026-01-14",
+   "quelle": {
+    "name": "SiliconANGLE, OpenAI und Cerebras",
+    "url": "https://siliconangle.com/2026/01/14/openai-commits-buying-10b-worth-ai-compute-capacity-cerebras-systems/",
+    "primaer": false
+   },
+   "umfang": {
+    "wert": 10000000000,
+    "einheit": "USD",
+    "hoechstens": true
+   },
+   "seit": "2026-01-14",
+   "ablauf": "2028-12-31",
+   "hinweis": "750 MW bis 2028.",
+   "hinweisEn": "750 MW through 2028."
+  },
+  {
+   "id": "ORCL-haelt_anteil-TIKTOKUSDS",
+   "von": "ORCL",
+   "nach": "TIKTOKUSDS",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-08-31",
+   "quelle": {
+    "name": "Oracle, 10-Q zum 31.08.2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 15,
+    "einheit": "PCT",
+    "bezug": "KAPITAL",
+    "hoechstens": false
+   },
+   "seit": "2026-08-31"
+  },
+  {
+   "id": "GLAEUBIGER-finanziert-ORCL",
+   "von": "GLAEUBIGER",
+   "nach": "ORCL",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-08-31",
+   "quelle": {
+    "name": "Oracle, 10-Q zum 31.08.2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 125000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "seit": "2026-08-31",
+   "hinweis": "Anleihen und Kredite. Dazu 11,4 Mrd. USD Kundenvorauszahlungen im ersten Quartal.",
+   "hinweisEn": "Bonds and loans. Plus USD 11.4 bn of customer prepayments in the first quarter."
+  },
+  {
+   "id": "PAGE-haelt_anteil-GOOGL",
+   "von": "PAGE",
+   "nach": "GOOGL",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-04-24",
+   "quelle": {
+    "name": "Alphabet, Proxy Statement 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 27.4,
+    "einheit": "PCT",
+    "bezug": "STIMMEN",
+    "hoechstens": false
+   },
+   "seit": "2026-04-24",
+   "hinweis": "Leitung zusammen 54,3 % der Stimmen.",
+   "hinweisEn": "Management together 54.3% of the votes."
+  },
+  {
+   "id": "BRIN-haelt_anteil-GOOGL",
+   "von": "BRIN",
+   "nach": "GOOGL",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-04-24",
+   "quelle": {
+    "name": "Alphabet, Proxy Statement 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 25.3,
+    "einheit": "PCT",
+    "bezug": "STIMMEN",
+    "hoechstens": false
+   },
+   "seit": "2026-04-24"
+  },
+  {
+   "id": "ZUCKERBERG-haelt_anteil-META",
+   "von": "ZUCKERBERG",
+   "nach": "META",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-04-16",
+   "quelle": {
+    "name": "Meta, Proxy Statement 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 60.8,
+    "einheit": "PCT",
+    "bezug": "STIMMEN",
+    "hoechstens": false
+   },
+   "seit": "2026-04-16",
+   "hinweis": "99,8 % der Klasse B. Meta ist ein controlled company.",
+   "hinweisEn": "99.8% of Class B. Meta is a controlled company."
+  },
+  {
+   "id": "NVDA-liefert-NVDA_A",
+   "von": "NVDA",
+   "nach": "NVDA_A",
+   "art": "liefert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-01-25",
+   "quelle": {
+    "name": "Nvidia, 10-K Geschäftsjahr 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 22,
+    "einheit": "PCT",
+    "bezug": "UMSATZ",
+    "hoechstens": false
+   },
+   "seit": "2026-01-25",
+   "hinweis": "Direkter Kunde, im Filing nicht benannt.",
+   "hinweisEn": "Direct customer, not named in the filing."
+  },
+  {
+   "id": "NVDA-liefert-NVDA_B",
+   "von": "NVDA",
+   "nach": "NVDA_B",
+   "art": "liefert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-01-25",
+   "quelle": {
+    "name": "Nvidia, 10-K Geschäftsjahr 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 14,
+    "einheit": "PCT",
+    "bezug": "UMSATZ",
+    "hoechstens": false
+   },
+   "seit": "2026-01-25",
+   "hinweis": "Direkter Kunde, im Filing nicht benannt.",
+   "hinweisEn": "Direct customer, not named in the filing."
+  },
+  {
+   "id": "GOOGL-haelt_anteil-ANTHROPIC",
+   "von": "GOOGL",
+   "nach": "ANTHROPIC",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 13.7,
+    "einheit": "PCT",
+    "bezug": "KAPITAL",
+    "hoechstens": false
+   },
+   "hinweis": "Vor dem Börsengang 13,9 %. 1.789.598.269 Aktien der Klasse N nach Börsengang und Privatplatzierung, ohne Stimmrecht. Anteil an allen Aktien ohne die Klassen T, F und E.",
+   "hinweisEn": "13.9% before the offering. 1,789,598,269 Class N shares after the offering and the private placement, non-voting. Share of all shares excluding Classes T, F and E."
+  },
+  {
+   "id": "AMZN-haelt_anteil-ANTHROPIC",
+   "von": "AMZN",
+   "nach": "ANTHROPIC",
+   "art": "haelt_anteil",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 14.7,
+    "einheit": "PCT",
+    "bezug": "KAPITAL",
+    "hoechstens": false
+   },
+   "hinweis": "Vor dem Börsengang 16,1 %. 1.920.511.218 Aktien der Klasse N, ohne Stimmrecht. Weitere 1.563.617.444 Aktien aus Wandelanleihen sind nach dem Börsengang wandelbar, soweit die Beteiligungsgrenze es zulässt.",
+   "hinweisEn": "16.1% before the offering. 1,920,511,218 Class N shares, non-voting. A further 1,563,617,444 shares from convertible notes can be converted after the offering as far as the ownership cap allows."
+  },
+  {
+   "id": "GOOGL-finanziert-ANTHROPIC",
+   "von": "GOOGL",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 10000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  },
+  {
+   "id": "NVDA-finanziert-ANTHROPIC-2",
+   "von": "NVDA",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 10000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  },
+  {
+   "id": "AMD-finanziert-ANTHROPIC",
+   "von": "AMD",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 2500000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  },
+  {
+   "id": "AVGO-finanziert-ANTHROPIC",
+   "von": "AVGO",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 1000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  },
+  {
+   "id": "MU-finanziert-ANTHROPIC",
+   "von": "MU",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 1000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  },
+  {
+   "id": "MSFT-finanziert-ANTHROPIC-2",
+   "von": "MSFT",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 1000000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  },
+  {
+   "id": "TSM-finanziert-ANTHROPIC",
+   "von": "TSM",
+   "nach": "ANTHROPIC",
+   "art": "finanziert",
+   "status": "definitiv",
+   "guete": "A",
+   "stand": "2026-11-10",
+   "quelle": {
+    "name": "Anthropic, S-1/A vom 10.11.2026 (Abschnitt The Offering)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "primaer": true
+   },
+   "umfang": {
+    "wert": 500000000,
+    "einheit": "USD",
+    "hoechstens": false
+   },
+   "hinweis": "Privatplatzierung von Klasse N zum Ausgabepreis, bedingt durch den Abschluss des Börsengangs. Betrag bei angenommenem Ausgabepreis von 74 USD.",
+   "bedingt": true,
+   "hinweisEn": "Private placement of Class N at the offering price, conditional on completion of the offering. Amount at an assumed offering price of USD 74."
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{"v":1,"stand":"2026-11-10","jahre":{
+"2023":{"abgeltung":25.0,"soli":5.5,"pauschbetrag":1000,"pauschbetragPaar":2000,"basiszins":2.55},
+"2024":{"abgeltung":25.0,"soli":5.5,"pauschbetrag":1000,"pauschbetragPaar":2000,"basiszins":2.29},
+"2025":{"abgeltung":25.0,"soli":5.5,"pauschbetrag":1000,"pauschbetragPaar":2000,"basiszins":2.53},
+"2026":{"abgeltung":25.0,"soli":5.5,"pauschbetrag":1000,"pauschbetragPaar":2000,"basiszins":3.20,"grundfreibetrag":12348,"soliFreigrenze":20350,"soliFreigrenzePaar":40700,"tarif":[{"bis":12348},{"bis":17799,"ab":12348,"a":914.51,"b":1400},{"bis":69878,"ab":17799,"a":173.10,"b":2397,"c":1034.87},{"bis":277825,"satz":0.42,"abzug":11135.63},{"satz":0.45,"abzug":19470.38}]}
+}}

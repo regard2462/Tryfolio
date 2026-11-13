@@ -1,0 +1,22 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+/app/release/
+.kotlin/
+
+# Exporte von Brokern (Transaktionsexporte) nie einchecken
+*.csv
+# Ausnahme: erfundene Musterdateien fuer die Import-Tests
+!app/src/test/resources/import/*.csv
+
+# Xcode-Huelle der iOS-App
+build-ios/
+xcuserdata/
+__pycache__/
+
+# Lokale Einstellungen von Entwicklungswerkzeugen
+.mcp.json
+.env

@@ -1,0 +1,25 @@
+{
+  "app": "troetenrepublik",
+  "format": 2,
+  "exportedAt": 1760000000000,
+  "account": {
+    "cash": 8123.45,
+    "deposited": 10000.0,
+    "positions": [
+      {"key": "SAP.DE", "name": "SAP", "symbol": "SAP.DE", "qty": 4.0, "avgPrice": 150.0, "openedAt": 1750000000000},
+      {"key": "ko-1", "name": "Turbo Long", "symbol": "SAP.DE", "qty": 100.0, "avgPrice": 1.2, "openedAt": 1750000100000,
+       "derivative": {"id": "ko-1", "underlying": "SAP.DE", "underlyingName": "SAP", "kind": "KO_LONG", "strike": 120.0, "barrier": 125.0, "ratio": 0.1}}
+    ],
+    "transactions": [
+      {"id": "t1", "ts": 1750000000000, "type": "DEPOSIT", "title": "Einzahlung", "amount": 10000.0, "tag": "DEPOSIT"},
+      {"id": "t2", "ts": 1750000000001, "type": "BUY", "title": "SAP", "amount": -600.0, "qty": 4.0, "price": 150.0, "symbol": "SAP.DE", "key": "SAP.DE", "tag": "BUY"}
+    ],
+    "history": [{"ts": 1750000000000, "value": 10000.0}],
+    "watchlist": ["SAP.DE", "AAPL"],
+    "createdAt": 1750000000000,
+    "tax": {"year": 2025, "allowanceUsed": 10.0},
+    "withdrawn": 0.0,
+    "watchMeta": {"AAPL": {"addedAt": 1750000000000, "price": 200.0}}
+  },
+  "settings": {"ownerName": "Alex", "interestBps": 250, "metric": "SINCE_BUY_PCT", "language": "EN"}
+}

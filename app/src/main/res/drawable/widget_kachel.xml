@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kachel im Schnellzugriff-Widget: leichte Flaeche, auf hellem und dunklem Grund sichtbar -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#24808080" />
+    <corners android:radius="14dp" />
+</shape>

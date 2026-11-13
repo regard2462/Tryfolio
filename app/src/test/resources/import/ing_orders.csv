@@ -1,0 +1,5 @@
+Orderart;Ordernummer;Ausführungsdatum;ISIN;Wertpapiername;Stück/Nominale;Ausführungskurs;Status
+Kauf;1001;03.01.2025;DE0000000001;Beispiel AG;10;50,00;Ausgeführt
+Verkauf;1002;10.01.2025;DE0000000001;Beispiel AG;4;60,00;Ausgeführt
+Kauf;1003;11.01.2025;DE0000000001;Beispiel AG;1;55,00;Storniert
+Kauf;1004;12.01.2025;US0000000002;Beispiel Inc;2,5;1.200,00;Ausgeführt

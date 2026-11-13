@@ -1,0 +1,51 @@
+{
+ "request_id": "1",
+ "results": [
+  {
+   "cash_amount": 0.26,
+   "currency": "USD",
+   "declaration_date": "2025-07-31",
+   "distribution_type": "recurring",
+   "ex_dividend_date": "2025-08-11",
+   "frequency": 4,
+   "historical_adjustment_factor": 0.997899,
+   "id": "Ed2c9da60abda1e3f0e99a43f6465863c137b671e1f5cd3f833d1fcb4f4eb27fe",
+   "pay_date": "2025-08-14",
+   "record_date": "2025-08-11",
+   "split_adjusted_cash_amount": 0.26,
+   "ticker": "AAPL"
+  },
+  {
+   "cash_amount": 0.52,
+   "currency": "USD",
+   "declaration_date": "2025-10-30",
+   "distribution_type": "recurring",
+   "ex_dividend_date": "2025-11-10",
+   "frequency": 4,
+   "id": "E0000000000000000000000000000000000000000000000000000000000000001",
+   "pay_date": "2025-11-13",
+   "record_date": "2025-11-10",
+   "split_adjusted_cash_amount": 0.27,
+   "ticker": "AAPL"
+  },
+  {
+   "cash_amount": 1.1,
+   "currency": "CAD",
+   "distribution_type": "special",
+   "ex_dividend_date": "2026-02-09",
+   "frequency": 0,
+   "id": "E0000000000000000000000000000000000000000000000000000000000000002",
+   "ticker": "AAPL"
+  },
+  {
+   "cash_amount": 0.3,
+   "currency": "USD",
+   "distribution_type": "recurring",
+   "ex_dividend_date": "kein Datum",
+   "frequency": 4,
+   "id": "E0000000000000000000000000000000000000000000000000000000000000003",
+   "ticker": "AAPL"
+  }
+ ],
+ "status": "OK"
+}

@@ -1,0 +1,289 @@
+{
+ "dateien": [
+  {
+   "name": "durchbrueche/inhalt.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/strukturen.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/laenderdaten.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/etf-laender.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/sanktionen.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/konflikte.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/firmen.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/firmen-privat.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/handel.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/steckbrief.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/taetigkeit.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/wiki-wirtschaft.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "katalog.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "copytrading/investoren.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "copytrading/personen.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "copytrading/amt.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "steuerwerte.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "globus/ersatz.json",
+   "schema": 1,
+   "minApp": "0.73"
+  },
+  {
+   "name": "welt/einfluss.json",
+   "schema": 1,
+   "minApp": "0.74"
+  },
+  {
+   "name": "welt/rohstoffe.json",
+   "schema": 1,
+   "minApp": "0.74"
+  },
+  {
+   "name": "welt/anlagen.json",
+   "schema": 1,
+   "minApp": "0.76"
+  },
+  {
+   "name": "indikatoren/warnzeichen_rueckblick.json",
+   "schema": 1,
+   "minApp": "0.75"
+  },
+  {
+   "name": "copytrading/cluster.json",
+   "schema": 1,
+   "minApp": "0.76"
+  },
+  {
+   "name": "etf-rueckwaerts.json",
+   "schema": 1,
+   "minApp": "0.77"
+  },
+  {
+   "name": "copytrading/gesamt13f.json",
+   "schema": 1,
+   "minApp": "0.77"
+  },
+  {
+   "name": "firmen/emissionen.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "firmen/emissionen-eu.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "firmen/staatsgeld-eu.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "analysten/haeuser.json",
+   "schema": 1,
+   "minApp": "0.77"
+  },
+  {
+   "name": "copytrading/sec_historie.json",
+   "schema": 1,
+   "minApp": "0.77"
+  },
+  {
+   "name": "globus/jst.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "globus/hauspreise.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/rezession_nyfed.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/cot_archiv.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/krypto_fng.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/kursmuster.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/zeichen_rueckblick.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/lange_reihen.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "globus/waehrung.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "globus/bigmac.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "globus/ranglisten.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "welt/oel.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "welt/energie.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "welt/gold.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "globus/schulden.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/btc_frueh.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/lebensrenditen.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "globus/langreihen.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "etf-abstand.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "globus/leitzins.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "indikatoren/fed_punkte.json",
+   "schema": 1,
+   "minApp": "0.78"
+  },
+  {
+   "name": "netz/kanten.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "netz/zulieferer.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "indikatoren/gpr.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "indikatoren/epu.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "welt/damodaran.json",
+   "schema": 1,
+   "minApp": "0.79"
+  },
+  {
+   "name": "globus/konflikte-reihe.json",
+   "schema": 1,
+   "minApp": "0.79"
+  }
+ ]
+}

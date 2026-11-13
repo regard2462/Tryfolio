@@ -1,0 +1,16 @@
+Action,Time,ISIN,Ticker,Name,Notes,ID,No. of shares,Price / share,Currency (Price / share),Exchange rate,Result,Currency (Result),Total,Currency (Total),Withholding tax,Currency (Withholding tax),Stamp duty reserve tax,Currency (Stamp duty reserve tax),Currency conversion fee,Currency (Currency conversion fee)
+Deposit,2025-01-02 09:00:00,,,,"Transaction ID: PB1",d1,,,,,,,1000.00,EUR,,,,,,
+Market buy,2025-01-03 14:30:03.613,US0000000002,USB,"Beispiel Inc",,EOF1,2.0000000000,110.00,USD,1.10,,EUR,200.30,EUR,,,,,0.30,EUR
+Limit sell,2025-01-04 15:00:00,US0000000002,USB,"Beispiel Inc",,EOF2,1.0000000000,132.00,USD,1.10,19.70,EUR,119.70,EUR,,,,,0.30,EUR
+Dividend (Ordinary),2025-01-05 10:00:00,US0000000002,USB,"Beispiel Inc",,,1.0000000000,0.85,USD,Not available,,,0.77,EUR,0.15,EUR,,,,
+Dividend (Ordinary),2025-01-06 10:00:00,US0000000002,USB,"Beispiel Inc",,,1.0000000000,0.85,USD,Not available,,,0.50,EUR,0.10,USD,,,,
+Interest on cash,2025-01-07 22:00:00,,,,"Interest on cash",i1,,,,,,,1.23,EUR,,,,,,
+Lending interest,2025-01-08 22:00:00,,,,,i2,,,,,,,0.10,EUR,,,,,,
+Spending cashback,2025-01-09 10:00:00,,,,,c1,,,,,,,0.25,EUR,,,,,,
+Card debit,2025-01-10 10:00:00,,,,,k1,,,,,,,-12.00,EUR,,,,,,
+New card cost,2025-01-11 10:00:00,,,,,k2,,,,,,,-5.00,EUR,,,,,,
+Currency conversion,2025-01-12 10:00:00,,,,,fx1,,,,,,,0.00,EUR,,,,,,
+Stock split close,2025-01-13 08:00:00,US0000000002,USB,"Beispiel Inc",,s1,1.0000000000,,,,,,0.00,EUR,,,,,,
+Stock split open,2025-01-13 08:00:00,US0000000002,USB,"Beispiel Inc",,s2,2.0000000000,,,,,,0.00,EUR,,,,,,
+Withdrawal,2025-01-14 10:00:00,,,,,w1,,,,,,,-100.00,EUR,,,,,,
+Dividend adjustment,2025-01-15 10:00:00,,,,,a1,,,,,,,0.00,EUR,,,,,,

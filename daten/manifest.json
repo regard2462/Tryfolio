@@ -1,0 +1,463 @@
+{
+ "dateien": {
+  "analysten/haeuser.json": {
+   "bytes": 14469,
+   "fassung": 1,
+   "minApp": "0.77",
+   "schema": 1,
+   "sha256": "86bb0df90623784349efed1fa4170a52e7ff0abc2d8589f0d118897895c4c448",
+   "stand": "2026-11-11"
+  },
+  "copytrading/amt.json": {
+   "bytes": 155,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "fe8af07fda6f50f27e601acb3045552faf566d5f930a2d4d5329dbcc42d003c6",
+   "stand": "2026-11-09"
+  },
+  "copytrading/cluster.json": {
+   "bytes": 944,
+   "fassung": 2,
+   "minApp": "0.76",
+   "schema": 1,
+   "sha256": "e42f2133ce77a7d84c339c7445db38c14d87f5f3559c42dc8433c616535fde1c",
+   "stand": "2026-09-30"
+  },
+  "copytrading/gesamt13f.json": {
+   "bytes": 498957,
+   "fassung": 1,
+   "minApp": "0.77",
+   "schema": 1,
+   "sha256": "0de78db5fb94edeb48d28784df977fc417ea1ce2f676eff388826d565586c3f8",
+   "stand": "2026-11-11"
+  },
+  "copytrading/investoren.json": {
+   "bytes": 351458,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "4809896abc18792b1a859a38ef77bb6d580ce55ed6510c62333483a45c7bfde2",
+   "stand": "2026-10-15"
+  },
+  "copytrading/personen.json": {
+   "bytes": 79966,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "6ae94ffe57f66636fc559982b061604893aac3313edc5b141d7adf3b54d9a0ac",
+   "stand": "2026-10-28"
+  },
+  "copytrading/sec_historie.json": {
+   "bytes": 571274,
+   "fassung": 1,
+   "minApp": "0.77",
+   "schema": 1,
+   "sha256": "e5ffe8b42abb5b1b8cc9d9305a4f4310c0d1af6fea9237942edb28948bcb4cf6",
+   "stand": "2025-03-31"
+  },
+  "durchbrueche/inhalt.json": {
+   "bytes": 99255,
+   "fassung": 2,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "bf22e0c7816b8875f289597977d1a371199ec7086241cc011c18183e5a86d80e",
+   "stand": "2026-11-10"
+  },
+  "etf-abstand.json": {
+   "bytes": 301819,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "81d6fd65aca76ee6c7254154b224ca845bcfd760482496f5f2aea89f9aeef363",
+   "stand": "2026-11-12"
+  },
+  "etf-rueckwaerts.json": {
+   "bytes": 25233,
+   "fassung": 1,
+   "minApp": "0.77",
+   "schema": 1,
+   "sha256": "29c96d117c84ffcbfec5d3ff9623ad0c4588c04f4680b0b78ada93709f4c2964",
+   "stand": "2026-11-11"
+  },
+  "firmen/emissionen-eu.json": {
+   "bytes": 41092,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "1c4914e4b675da4651dd81c0b637c3a4ac2d026eaa78c69ef14a77bcebdd9a11",
+   "stand": "2026-11-14"
+  },
+  "firmen/emissionen.json": {
+   "bytes": 888751,
+   "fassung": 2,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "cc735e593d500227e3bc4703bc0e05d99f00ea3dd1570706eb1f0262cd62986a",
+   "stand": "2026-11-13"
+  },
+  "firmen/staatsgeld-eu.json": {
+   "bytes": 28868,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "b0a24a2618c094c3b8ae2d1638757f600fd21a73b275cc1babd485b1cee5e544",
+   "stand": "2026-11-14"
+  },
+  "globus/bigmac.json": {
+   "bytes": 17045,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "ad173a150f1a95c0c8e6460418b95953e5a924f2b34b0441749c6d9534e37df3",
+   "stand": "2026-11-12"
+  },
+  "globus/ersatz.json": {
+   "bytes": 1693,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "238fe877c39c61ce9810c2a6f2340a8e54c14ab6d7fe8db0ce4f382b3ace6a6d",
+   "stand": "2026-11-09"
+  },
+  "globus/etf-laender.json": {
+   "bytes": 2769,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "e1291bb44057359cf6501d2547fe8836a1eeed46067180c0eb178d8baaa73910",
+   "stand": "2026-10-30"
+  },
+  "globus/firmen-privat.json": {
+   "bytes": 10277,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "53ae590f6d8320d22c16defb8f952f9eec0c7affdac56867f7e97547ac6c086f",
+   "stand": "2026-11-06"
+  },
+  "globus/firmen.json": {
+   "bytes": 55684,
+   "fassung": 2,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "63eef017144a729f779e01b08554fc3d41c3da254d9f5cbd978caa6818f897b6",
+   "stand": "2026-11-06"
+  },
+  "globus/handel.json": {
+   "bytes": 37474,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "96c5d27fefa31e9260d12693140102ac844019e5e221c5426f78ecc6806884c7",
+   "stand": "2026-11-09"
+  },
+  "globus/hauspreise.json": {
+   "bytes": 59274,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "003c7d04b8b3faa3ae7659b418ef9c0e48ac360ef1dbe390286c5f6e7fde771d",
+   "stand": "2026-11-12"
+  },
+  "globus/jst.json": {
+   "bytes": 72731,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "9ac0c135106a2d8adfbdc19bd21f178780d9a9bcdb5dac7bf4b6b639d231059e",
+   "stand": "2026-11-12"
+  },
+  "globus/konflikte-reihe.json": {
+   "bytes": 31390,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "e7a17e7ca696d7b9a3c4609471df361871a6d9fcb695d773d83581ab6d5cb31e",
+   "stand": "2026-11-14"
+  },
+  "globus/konflikte.json": {
+   "bytes": 3806,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "600a4bdd1d47f14edc5dc37d86b2830137280328280133d966c2f53ed68e2399",
+   "stand": "2026-11-09"
+  },
+  "globus/laenderdaten.json": {
+   "bytes": 26037,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "6ac2c5d23ce5520720d91419968855d9f17af224a22330288b3eb5131b01cc0c",
+   "stand": "2026-11-06"
+  },
+  "globus/langreihen.json": {
+   "bytes": 27908,
+   "fassung": 3,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "97ca4be64286dfc0f9492a3db3724c2a9725a3f2b88f4ae0ccc7f2715d6de8af",
+   "stand": "2026-11-12"
+  },
+  "globus/leitzins.json": {
+   "bytes": 68033,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "6589f1edd84b88bbe5774b8ba9f2a75f28fea5a057add3697a6d8deb7bcdd2ba",
+   "stand": "2026-11-12"
+  },
+  "globus/ranglisten.json": {
+   "bytes": 47951,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "c4ffbd08080d1b91db09fd23747646530d2c313091e748177d3046d6b516733a",
+   "stand": "2026-11-12"
+  },
+  "globus/sanktionen.json": {
+   "bytes": 3473,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "17f0110c2d43c0b2decd029fcf05c07bd18e7710caed14f664991668e1197ad2",
+   "stand": "2026-11-06"
+  },
+  "globus/schulden.json": {
+   "bytes": 15072,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "5ec55958dae67f85b32ead28f2f72c05f8aa73b6661f446ffa5c04b17ec4ffed",
+   "stand": "2026-11-12"
+  },
+  "globus/steckbrief.json": {
+   "bytes": 24836,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "b237ea7023f243a0bf3df6dd183bf8b4af38e7861afd2f632d4a44b417bf4cce",
+   "stand": "2026-11-09"
+  },
+  "globus/strukturen.json": {
+   "bytes": 978166,
+   "fassung": 3,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "d4104e5de65c5cf210b83865143e2e2e3b07144ba1d1f256654f5da6b50d2e6b",
+   "stand": "2026-11-10"
+  },
+  "globus/taetigkeit.json": {
+   "bytes": 673,
+   "fassung": 2,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "2dfe8429c1131599ca53c4d007b8d4b64916d66940cefda5b308459944470dd8",
+   "stand": "2026-11-01"
+  },
+  "globus/waehrung.json": {
+   "bytes": 55753,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "01e0b4b66ecc0d7ed9857f73000a33ab1f01b26dfb31f988f0c04a1f29cd3b9a",
+   "stand": "2026-11-12"
+  },
+  "globus/wiki-wirtschaft.json": {
+   "bytes": 14667,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "821c149e30c4965f61fc61b3021ba8ce595c30be6175805ac09857111bb1b55c",
+   "stand": "2026-11-06"
+  },
+  "indikatoren/btc_frueh.json": {
+   "bytes": 11443,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "17cdc50b897779ff103faca0582950e754d95c05283fdd28f8c324cfd5ae15e1",
+   "stand": "2026-11-12"
+  },
+  "indikatoren/cot_archiv.json": {
+   "bytes": 196942,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "8b5ced093025a17a2110fec8acae1767c0645718105a21caecce6dd992c6d704",
+   "stand": "2026-11-03"
+  },
+  "indikatoren/epu.json": {
+   "bytes": 13401,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "fe5bd941dd9ac4fce845931715af0b9bd3959f23f8d630af81a4f2d67e35b7c4",
+   "stand": "2026-11-14"
+  },
+  "indikatoren/fed_punkte.json": {
+   "bytes": 6926,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "42cfe1a6802aee52750b499fca38f0f79a827e2fbc9b3c0b5d1ff2a284cf6ea6",
+   "stand": "2026-11-12"
+  },
+  "indikatoren/gpr.json": {
+   "bytes": 181544,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "394abf320a77abba38d58eae5ff8d2bbb6331f06f34850da3949ecec0134887b",
+   "stand": "2026-11-14"
+  },
+  "indikatoren/krypto_fng.json": {
+   "bytes": 9696,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "685d52278431b6fe6fade0e21065c4d41629a65cd9b839eb3d447da07c31d2b5",
+   "stand": "2026-11-12"
+  },
+  "indikatoren/kursmuster.json": {
+   "bytes": 1398,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "3126722366ba8cec612f4217840e16e05ee6d30cab41b2bafbfbe8a50fe1482d",
+   "stand": "2026-10-01"
+  },
+  "indikatoren/lange_reihen.json": {
+   "bytes": 54837,
+   "fassung": 3,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "f7fbc4c6425d43fa4c5a60cf6b7ed5d241809f7054fda2220b91cf195ad4ee81",
+   "stand": "2026-11-12"
+  },
+  "indikatoren/lebensrenditen.json": {
+   "bytes": 734,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "852072d6453c8f71cc215ff30a4ef0d0c443617f4f24f7774bda6386d9edb536",
+   "stand": "2026-11-12"
+  },
+  "indikatoren/rezession_nyfed.json": {
+   "bytes": 4393,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "ab96a8a80763cbeea40a0d7e6ee9cd7074e3e98e031bff01b30a1f76d70906b3",
+   "stand": "2026-10-01"
+  },
+  "indikatoren/warnzeichen_rueckblick.json": {
+   "bytes": 162884,
+   "fassung": 4,
+   "minApp": "0.75",
+   "schema": 1,
+   "sha256": "af7fb613a3fab3b1e27952dc3f3c2394f6c5f0c4effa888a5df797a722541e48",
+   "stand": "2026-11-12"
+  },
+  "indikatoren/zeichen_rueckblick.json": {
+   "bytes": 6958,
+   "fassung": 2,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "984f1aab48ce42b4a29261f4ad989855ff47bbd75f26a976b707edecb76f4972",
+   "stand": "2026-11-09"
+  },
+  "katalog.json": {
+   "bytes": 157075,
+   "fassung": 1,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "b6120b5edaeebe64e5698dcf3a6471e17baead71285290a0132719fa8f6413d2",
+   "stand": "2026-09-24"
+  },
+  "netz/kanten.json": {
+   "bytes": 39120,
+   "fassung": 2,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "028b0cea05294ab8dc8b547090fb4e2464c80290e4aa587e6131825d3971f6ed",
+   "stand": "2026-11-13"
+  },
+  "netz/zulieferer.json": {
+   "bytes": 102882,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "6c0e171fea04bf4660b293832436d394f4f6474566066feeb02dbfbf91b3cc35",
+   "stand": "2026-11-14"
+  },
+  "steuerwerte.json": {
+   "bytes": 711,
+   "fassung": 2,
+   "minApp": "0.73",
+   "schema": 1,
+   "sha256": "dc9c8e0ae8730b35f3fe065b164293de5ff7717ac8a24404197feb72e1ce8106",
+   "stand": "2026-11-10"
+  },
+  "welt/anlagen.json": {
+   "bytes": 5922,
+   "fassung": 1,
+   "minApp": "0.76",
+   "schema": 1,
+   "sha256": "407322d9cb99b8735102d70bdf989f79012a26c96a2d6dcfd259e4e115221724",
+   "stand": "2026-11-10"
+  },
+  "welt/damodaran.json": {
+   "bytes": 16193,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "6b98e1da2c0a8d2766c50e7fe8217ae676523a467cab7f4cfc2e6f9fbe3627cf",
+   "stand": "2026-11-14"
+  },
+  "welt/einfluss.json": {
+   "bytes": 18111,
+   "fassung": 2,
+   "minApp": "0.74",
+   "schema": 1,
+   "sha256": "62b9333eb0b3ec529096ca32c02d5a1d185bb9137e48b6b86a98d992141c8c61",
+   "stand": "2026-11-10"
+  },
+  "welt/energie.json": {
+   "bytes": 126681,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "10596c744e475e292efeed942ed23d575f2bc81bd208e9c657ef68edb934458c",
+   "stand": "2026-11-09"
+  },
+  "welt/gold.json": {
+   "bytes": 6560,
+   "fassung": 1,
+   "minApp": "0.79",
+   "schema": 1,
+   "sha256": "fe91d671fa2880545c983fca5e3000faa62bb74b65becefeaf54286644e981c8",
+   "stand": "2026-11-14"
+  },
+  "welt/oel.json": {
+   "bytes": 37338,
+   "fassung": 1,
+   "minApp": "0.78",
+   "schema": 1,
+   "sha256": "5f23682d71f61bf6771025725381f29244bd0069db14114c7f7f5b06f2bce8d2",
+   "stand": "2026-11-05"
+  },
+  "welt/rohstoffe.json": {
+   "bytes": 22196,
+   "fassung": 6,
+   "minApp": "0.74",
+   "schema": 1,
+   "sha256": "b6819ee11f15ae2aec06e04ab2e81484aa8f9e9e367081370849a27363d4ff33",
+   "stand": "2026-11-10"
+  }
+ },
+ "erzeugt": "2026-11-14",
+ "manifest": 1,
+ "version": 42
+}

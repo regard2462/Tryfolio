@@ -1,0 +1,69 @@
+package de.troetenrepublik.app.engine
+
+import de.troetenrepublik.app.market.TruthNews
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+// Stochastik, Optionsanalyse und die Markierung der Trump-Beitraege.
+class Fassung44Test {
+
+    @Test
+    fun stochastikAmHochUndTief() {
+        // Steigt stetig: Schluss am Hoch der Spanne, %K bei 100
+        val schluss = (0 until 40).map { 100.0 + it }
+        val s = Indikatoren.stochastik(schluss.map { it + 0.0 }, schluss.map { it - 5 }, schluss)
+        assertNull(s.k[12])
+        assertEquals(100.0, s.k.last()!!, 1e-9)
+        assertEquals(100.0, s.d.last()!!, 1e-9)
+        // Faellt stetig: Schluss am Tief, %K bei 0, Deutung ueberverkauft
+        val fallend = (0 until 60).map { 200.0 - it }
+        val f = Indikatoren.stochastik(fallend.map { it + 5 }, fallend, fallend)
+        assertEquals(0.0, f.k.last()!!, 1e-9)
+        val d = Indikatoren.deuten(fallend.indices.map { 20_000L + it }, fallend, fallend.map { it + 5 }, fallend)
+        val st = d.firstOrNull { it.art == "stoch" }
+        assertNotNull(st)
+        assertEquals("ueberverkauft", st!!.lage)
+    }
+
+    @Test
+    fun optionsanalyse() {
+        val jetzt = 1_800_000_000L
+        val verfall = jetzt + 10 * 86_400
+        fun k(call: Boolean, strike: Double, preis: Double, umsatz: Long, offen: Long, letzter: Double = preis) =
+            Optionsanalyse.Kontrakt(call, strike, verfall, letzter, preis - 0.05, preis + 0.05, umsatz, offen, 0.3)
+        val kette = listOf(
+            k(true, 90.0, 10.5, 100, 1000), k(true, 100.0, 3.0, 300, 2000), k(true, 110.0, 0.5, 50, 4000),
+            k(false, 90.0, 0.4, 80, 3000), k(false, 100.0, 2.8, 150, 1500), k(false, 110.0, 10.2, 20, 500),
+            // grosser neuer Call, zum Brief gekauft
+            Optionsanalyse.Kontrakt(true, 105.0, verfall, 1.55, 1.45, 1.55, 6000, 300, 0.32),
+        )
+        val e = Optionsanalyse.auswerten(100.0, kette, jetzt)
+        assertEquals(250.0 / 6450.0, e.pcrUmsatz!!, 1e-9)
+        assertEquals(5.8, e.bewegung!!, 1e-9)
+        assertEquals(verfall, e.bewegungVerfall)
+        // Seit 5.94 traegt nur ein Verfall mit 20 bis 45 Tagen Restlaufzeit die 30-Tage-IV
+        assertNull(e.iv30)
+        val spaeter = jetzt + 30 * 86_400
+        val mit30 = Optionsanalyse.auswerten(100.0, kette + listOf(
+            Optionsanalyse.Kontrakt(true, 100.0, spaeter, 4.0, 3.9, 4.1, 10, 100, 0.3),
+            Optionsanalyse.Kontrakt(false, 100.0, spaeter, 3.8, 3.7, 3.9, 10, 100, 0.3),
+        ), jetzt)
+        assertEquals(0.3, mit30.iv30!!, 1e-9)
+        assertNotNull(e.maxPain)
+        val a = e.auffaellig.single()
+        assertEquals(105.0, a.kontrakt.strike, 1e-9)
+        assertEquals(Optionsanalyse.Seite.KAUF, a.seite)
+        // Max Pain: viele offene Calls bei 90 und Puts bei 110 ziehen zur Mitte
+        val schmerz = listOf(k(true, 90.0, 1.0, 0, 1000), k(true, 100.0, 1.0, 0, 10), k(false, 100.0, 1.0, 0, 10), k(false, 110.0, 1.0, 0, 1000))
+        assertEquals(100.0, Optionsanalyse.maxPain(schmerz)!!, 1e-9)
+    }
+
+    @Test
+    fun trumpNurWichtigesMarkiert() {
+        assertTrue(TruthNews.themen("We will put tariffs of 50% on all steel coming from China.", emptyList()).isNotEmpty())
+        assertTrue(TruthNews.themen("Happy Birthday to a great American patriot!", emptyList()).isEmpty())
+    }
+}

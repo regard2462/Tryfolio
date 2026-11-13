@@ -1,0 +1,32 @@
+{
+  "_hinweis": "Kapitel des Vorstellungsvideos je Sprache. bilder nennt die Bildschirmfotos gh_<sprache>_<name>.png im Fotoordner, die im Kapitel nacheinander erscheinen. {version} im Ende wird durch die Fassung ersetzt.",
+  "en": {
+    "titel": ["Tryfolio", "A practice portfolio with real prices"],
+    "kapitel": [
+      {"titel": "Practice with real prices", "satz": "Buy stocks, ETFs and crypto with virtual money.", "bilder": ["depot", "indikatoren", "kaufen"]},
+      {"titel": "See what Congress trades", "satz": "Official disclosures and 29 well-known investors.", "bilder": ["copytrading", "rangliste", "kongress"]},
+      {"titel": "What insiders buy", "satz": "Management trades in ten countries, weighted by role, and short positions.", "bilder": ["insider", "leerverkauf"]},
+      {"titel": "Bull and bear case", "satz": "What speaks for and against a stock, with evidence and FDA data.", "bilder": ["bullbear", "fda"]},
+      {"titel": "The politics behind a stock", "satz": "Lobbying, contracts and who traded it.", "bilder": ["behoerden"]},
+      {"titel": "Mood and markets at a glance", "satz": "Bull or bear market, warning signs, futures positioning and a heatmap.", "bilder": ["marktphase", "trends", "positionierung", "heatmap"]},
+      {"titel": "Prediction markets", "satz": "Polymarket and Kalshi with practice money.", "bilder": ["prognose", "wetten"]},
+      {"titel": "Understand your portfolio", "satz": "Returns, risk and a crash test.", "bilder": ["performance", "werkzeuge"]},
+      {"titel": "News and 206 lessons", "satz": "Headlines and a learning section that works offline.", "bilder": ["news", "wissen", "lektion_3"]}
+    ],
+    "ende": ["Free and open source", "No sign-up · Android · Windows · macOS · Linux", "Version {version}"]
+  },
+  "de": {
+    "titel": ["Tryfolio", "Ein Übungsdepot mit echten Kursen"],
+    "kapitel": [
+      {"titel": "Üben mit echten Kursen", "satz": "Aktien, ETFs und Krypto mit virtuellem Geld kaufen.", "bilder": ["depot", "aktie", "kaufen"]},
+      {"titel": "Sehen, was der Kongress handelt", "satz": "Amtliche Meldungen und 29 bekannte Investoren.", "bilder": ["copytrading", "rangliste", "kongress"]},
+      {"titel": "Was Insider kaufen", "satz": "Geschäfte der Führung in zehn Ländern nach Rolle gewichtet, dazu Leerverkäufe.", "bilder": ["insider", "leerverkauf"]},
+      {"titel": "Bull- und Bear-Case", "satz": "Was für und was gegen eine Aktie spricht, mit Beleg und FDA-Daten.", "bilder": ["bullbear", "fda"]},
+      {"titel": "Stimmung und Märkte auf einen Blick", "satz": "Bullen- oder Bärenmarkt, Warnzeichen, Terminmärkte und eine Heatmap.", "bilder": ["marktphase", "trends", "positionierung", "heatmap"]},
+      {"titel": "Prediction Markets", "satz": "Polymarket und Kalshi mit Übungsgeld.", "bilder": ["prognose", "wetten"]},
+      {"titel": "Das Depot verstehen", "satz": "Rendite, Risiko und ein Crash-Test.", "bilder": ["performance", "werkzeuge"]},
+      {"titel": "Nachrichten und 206 Lektionen", "satz": "Schlagzeilen und Finanzwissen ohne Internet.", "bilder": ["news", "wissen"]}
+    ],
+    "ende": ["Kostenlos und quelloffen", "Ohne Anmeldung · Android · Windows · macOS · Linux", "Version {version}"]
+  }
+}

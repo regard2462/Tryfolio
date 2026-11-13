@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".TroeteApp"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Troete"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.Troete">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Widgets auf dem Startbildschirm (seit 4.6) -->
+        <receiver
+            android:name=".plattform.StimmungWidget"
+            android:exported="false"
+            android:label="@string/widget_stimmung_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_stimmung_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.DurchbruecheWidget"
+            android:exported="false"
+            android:label="@string/widget_durchbrueche_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_durchbrueche_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.FruehwarnungWidget"
+            android:exported="false"
+            android:label="@string/widget_fruehwarnung_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_fruehwarnung_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.GlobusWidget"
+            android:exported="false"
+            android:label="@string/widget_globus_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_globus_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.HeatmapWidget"
+            android:exported="false"
+            android:label="@string/widget_heatmap_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_heatmap_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.BlasenWidget"
+            android:exported="false"
+            android:label="@string/widget_blasen_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_blasen_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.MarktphaseWidget"
+            android:exported="false"
+            android:label="@string/widget_marktphase_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_marktphase_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.CrashtestWidget"
+            android:exported="false"
+            android:label="@string/widget_crashtest_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_crashtest_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.AusblickWidget"
+            android:exported="false"
+            android:label="@string/widget_ausblick_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_ausblick_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.KonvergenzWidget"
+            android:exported="false"
+            android:label="@string/widget_konvergenz_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_konvergenz_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.VolatilitaetWidget"
+            android:exported="false"
+            android:label="@string/widget_volatilitaet_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_volatilitaet_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.TrendsWidget"
+            android:exported="false"
+            android:label="@string/widget_trends_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_trends_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.StreuungWidget"
+            android:exported="false"
+            android:label="@string/widget_streuung_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_streuung_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.PerformanceWidget"
+            android:exported="false"
+            android:label="@string/widget_performance_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_performance_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.DepotcheckWidget"
+            android:exported="false"
+            android:label="@string/widget_depotcheck_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_depotcheck_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.UmschichtenWidget"
+            android:exported="false"
+            android:label="@string/widget_umschichten_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_umschichten_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.SektorenWidget"
+            android:exported="false"
+            android:label="@string/widget_sektoren_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_sektoren_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.KongressFlowWidget"
+            android:exported="false"
+            android:label="@string/widget_kongressflow_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_kongressflow_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.ThemenWidget"
+            android:exported="false"
+            android:label="@string/widget_themen_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_themen_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.PrognoseWidget"
+            android:exported="false"
+            android:label="@string/widget_prognose_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_prognose_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.DepotWidget"
+            android:exported="false"
+            android:label="@string/widget_depot_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_depot_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.EinzelwertWidget"
+            android:exported="false"
+            android:label="@string/widget_einzel_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_einzel_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.SignaleWidget"
+            android:exported="false"
+            android:label="@string/widget_signale_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_signale_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.StillhalterWidget"
+            android:exported="false"
+            android:label="@string/widget_stillhalter_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_stillhalter_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.IndexBewegerWidget"
+            android:exported="false"
+            android:label="@string/widget_indexbeweger_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_indexbeweger_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.AnalyticsWidget"
+            android:exported="false"
+            android:label="@string/widget_analytics_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_analytics_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.BrancheWidget"
+            android:exported="false"
+            android:label="@string/widget_branche_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_branche_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.MeistgekauftWidget"
+            android:exported="false"
+            android:label="@string/widget_meistgekauft_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_meistgekauft_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.HaeuserWidget"
+            android:exported="false"
+            android:label="@string/widget_haeuser_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_haeuser_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.WarnzeichenWidget"
+            android:exported="false"
+            android:label="@string/widget_warnzeichen_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_warnzeichen_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.LageWidget"
+            android:exported="false"
+            android:label="@string/widget_lage_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_lage_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.WissenWidget"
+            android:exported="false"
+            android:label="@string/widget_wissen_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_wissen_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.SchnellWidget"
+            android:exported="false"
+            android:label="@string/widget_schnell_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_schnell_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.DividendenWidget"
+            android:exported="false"
+            android:label="@string/widget_dividenden_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_dividenden_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.AktienfinderWidget"
+            android:exported="false"
+            android:label="@string/widget_aktienfinder_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_aktienfinder_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.VorschlagsdepotWidget"
+            android:exported="false"
+            android:label="@string/widget_vorschlag_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_vorschlag_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.InsiderSimulatorWidget"
+            android:exported="false"
+            android:label="@string/widget_insidersim_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_insidersim_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.MoverWidget"
+            android:exported="false"
+            android:label="@string/widget_mover_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_mover_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.BewegungenWidget"
+            android:exported="false"
+            android:label="@string/widget_bewegungen_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_bewegungen_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.WerteWidget"
+            android:exported="false"
+            android:label="@string/widget_werte_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_werte_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.MaerkteWidget"
+            android:exported="false"
+            android:label="@string/widget_maerkte_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_maerkte_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.CopytradingWidget"
+            android:exported="false"
+            android:label="@string/widget_copytrading_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_copytrading_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.OrdersWidget"
+            android:exported="false"
+            android:label="@string/widget_orders_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_orders_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.TermineWidget"
+            android:exported="false"
+            android:label="@string/widget_termine_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_termine_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.InsiderSeltenWidget"
+            android:exported="false"
+            android:label="@string/widget_insiderselten_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_insiderselten_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.PraesidialWidget"
+            android:exported="false"
+            android:label="@string/widget_praesidial_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_praesidial_info" />
+        </receiver>
+        <receiver
+            android:name=".plattform.NewsWidget"
+            android:exported="false"
+            android:label="@string/widget_news_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_news_info" />
+        </receiver>
+        <!-- Zeilen der rollbaren Widget-Listen (seit 5.4); nur der Startbildschirm darf sich verbinden -->
+        <service
+            android:name=".plattform.WidgetListenDienst"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <!-- Nach einem Update der App die Widgets neu zeichnen -->
+        <receiver
+            android:name=".plattform.WidgetsNachUpdate"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <!-- Einstellung der Widgets (seit 4.6, seit 5.4 fuer alle ausser dem Schnellzugriff): ruft der Startbildschirm beim Hinzufuegen oder Bearbeiten auf -->
+        <activity
+            android:name=".plattform.WidgetEinstellung"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Troete">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

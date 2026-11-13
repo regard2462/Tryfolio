@@ -1,0 +1,726 @@
+{
+  "version": 1,
+  "eintraege": [
+    {
+      "id": "alphabet",
+      "symbole": ["GOOGL", "GOOG"],
+      "isins": ["US02079K3059", "US02079K1079"],
+      "ciks": ["1652044"],
+      "stand": "2026-04-24",
+      "ablauf": "2027-04-24",
+      "eintrag": {
+        "firma": "Alphabet Inc.",
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "kuerzel": "GOOGL", "symbole": ["GOOGL"], "isin": "US02079K3059", "stimmen": 1, "aktien": 5823665113, "beleg": 0},
+          {"id": "B", "titel": "Class B", "stimmen": 10, "aktien": 835779041, "boerse": false, "beleg": 0},
+          {"id": "C", "titel": "Class C", "kuerzel": "GOOG", "symbole": ["GOOG"], "isin": "US02079K1079", "stimmen": 0, "beleg": 0}
+        ],
+        "halter": [
+          {"name": "Larry Page", "art": "PERSON", "kapital": 5.84, "stimmen": 27.4, "gattung": "B", "beleg": 0},
+          {"name": "Sergey Brin", "art": "PERSON", "kapital": 5.39, "stimmen": 25.3, "gattung": "B", "beleg": 0},
+          {"name": "", "art": "GRUPPE", "stimmen": 54.3, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC DEF 14A Alphabet", "url": "https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm", "stand": "2026-04-24"}
+        ]
+      }
+    },
+    {
+      "id": "meta",
+      "symbole": ["META"],
+      "isins": ["US30303M1027"],
+      "ciks": ["1326801"],
+      "stand": "2026-04-16",
+      "ablauf": "2027-04-16",
+      "eintrag": {
+        "firma": "Meta Platforms, Inc.",
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "kuerzel": "META", "symbole": ["META"], "isin": "US30303M1027", "stimmen": 1, "aktien": 2196045588, "beleg": 0},
+          {"id": "B", "titel": "Class B", "stimmen": 10, "aktien": 342377716, "boerse": false, "beleg": 0}
+        ],
+        "halter": [
+          {"name": "Mark Zuckerberg", "art": "PERSON", "kapital": 13.5, "stimmen": 60.8, "gattung": "B", "klasse": 99.8, "beleg": 0}
+        ],
+        "notizen": [
+          {"de": "Meta gilt nach den Börsenregeln als Controlled Company.", "en": "Meta counts as a controlled company under the exchange rules."}
+        ],
+        "belege": [
+          {"name": "SEC DEF 14A Meta", "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm", "stand": "2026-04-16"}
+        ]
+      }
+    },
+    {
+      "id": "berkshire",
+      "symbole": ["BRK-A", "BRK-B", "BRK.A", "BRK.B"],
+      "isins": ["US0846701086", "US0846707026"],
+      "ciks": ["1067983"],
+      "stand": "2026-03-13",
+      "ablauf": "2027-03-13",
+      "eintrag": {
+        "firma": "Berkshire Hathaway Inc.",
+        "gattungen": [
+          {
+            "id": "A", "titel": "Class A", "kuerzel": "BRK.A", "symbole": ["BRK-A", "BRK.A"], "isin": "US0846701086", "stimmen": 1, "aktien": 511820, "beleg": 0,
+            "board": {"de": "Klasse A und B stimmen als eine Klasse, soweit das Recht von Delaware nichts anderes verlangt.", "en": "Class A and B vote as one class unless Delaware law requires otherwise."}
+          },
+          {
+            "id": "B", "titel": "Class B", "kuerzel": "BRK.B", "symbole": ["BRK-B", "BRK.B"], "isin": "US0846707026", "stimmen": 0.0001, "aktien": 1389605139, "gewicht": 0.000666666667, "beleg": 0,
+            "dividende": {"de": "1/1.500 der Dividende einer A-Aktie", "en": "1/1,500 of the dividend of a Class A share"},
+            "notizen": [
+              {"de": "Stimmrecht je B-Aktie: 1/10.000 der Stimme einer A-Aktie.", "en": "Voting right per Class B share: 1/10,000 of the vote of a Class A share."},
+              {"de": "Eine A-Aktie lässt sich in 1.500 B-Aktien wandeln, umgekehrt nicht.", "en": "One Class A share converts into 1,500 Class B shares, not the other way round."}
+            ]
+          }
+        ],
+        "halter": [
+          {
+            "name": "Warren Buffett", "art": "PERSON", "kapital": 13.7, "stimmen": 30.2, "beleg": 1,
+            "notiz": {"de": "Über 49,9 % der Stimmen stimmt er im Verhältnis der übrigen Aktionäre ab (Vertrag mit Berkshire).", "en": "Votes above 49.9 % are cast in proportion to the other shareholders (contract with Berkshire)."}
+          }
+        ],
+        "belege": [
+          {"name": "SEC 10-K Berkshire Hathaway", "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm", "stand": "2026-03-02"},
+          {"name": "SEC DEF 14A Berkshire Hathaway", "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm", "stand": "2026-03-13"}
+        ]
+      }
+    },
+    {
+      "id": "ford",
+      "symbole": ["F"],
+      "isins": ["US3453708600"],
+      "ciks": ["37996"],
+      "stand": "2026-03-27",
+      "ablauf": "2027-03-27",
+      "eintrag": {
+        "firma": "Ford Motor Company",
+        "gattungen": [
+          {"id": "ST", "titel": "Common Stock", "kuerzel": "F", "symbole": ["F"], "isin": "US3453708600", "stimmen": 1, "aktien": 3940230185, "stimmenAnteil": 60.0, "beleg": 0},
+          {
+            "id": "B", "titel": "Class B Stock", "stimmen": 37.075, "aktien": 70852076, "boerse": false, "stimmenAnteil": 40.0, "beleg": 0,
+            "notizen": [
+              {"de": "Die Stimmen je Aktie werden jährlich so berechnet, dass Klasse B 40 % aller Stimmen hat.", "en": "Votes per share are recalculated every year so that Class B holds 40 % of all votes."},
+              {"de": "Klasse B wandelt 1:1 in Stammaktien, nur zum Zweck des Verkaufs.", "en": "Class B converts 1:1 into common stock, only for the purpose of a sale."},
+              {"de": "Bei der Liquidation zuerst 0,50 USD je Stammaktie, dann 1,00 USD je B-Aktie, danach gleich.", "en": "In liquidation first 0.50 USD per common share, then 1.00 USD per Class B share, then equal."}
+            ]
+          }
+        ],
+        "halter": [
+          {"name": "Ford Voting Trust", "art": "FAMILIE", "stimmen": 39.96, "gattung": "B", "klasse": 99.9, "beleg": 0},
+          {"name": "Vanguard", "art": "FONDS", "gattung": "ST", "klasse": 11.68, "beleg": 0},
+          {"name": "State Street", "art": "FONDS", "gattung": "ST", "klasse": 8.41, "beleg": 0},
+          {"name": "BlackRock", "art": "FONDS", "gattung": "ST", "klasse": 8.36, "beleg": 0}
+        ],
+        "notizen": [
+          {"de": "Der Voting Trust der Familie Ford stimmt nach Mehrheit seiner vier Trustees ab und besteht dauerhaft.", "en": "The Ford family voting trust votes by plurality of its four trustees and is permanent."}
+        ],
+        "belege": [
+          {"name": "SEC DEF 14A Ford", "url": "https://www.sec.gov/Archives/edgar/data/37996/000155278126000164/e26003_f-def14a.htm", "stand": "2026-03-27"}
+        ]
+      }
+    },
+    {
+      "id": "nike",
+      "symbole": ["NKE"],
+      "isins": ["US6541061031"],
+      "ciks": ["320187"],
+      "stand": "2026-07-15",
+      "ablauf": "2027-07-15",
+      "eintrag": {
+        "firma": "NIKE, Inc.",
+        "gattungen": [
+          {
+            "id": "A", "titel": "Class A", "stimmen": 1, "aktien": 281387752, "boerse": false, "beleg": 0,
+            "board": {"de": "Nein, Klasse A wählt 8 von 11 Direktoren, Swoosh LLC hält 78,8 % dieser Klasse.", "en": "No, Class A elects 8 of 11 directors and Swoosh LLC holds 78.8 % of this class."},
+            "notizen": [{"de": "Klasse A wandelt 1:1 in Klasse B, auf Wunsch des Inhabers.", "en": "Class A converts 1:1 into Class B at the holder's request."}]
+          },
+          {
+            "id": "B", "titel": "Class B", "kuerzel": "NKE", "symbole": ["NKE"], "isin": "US6541061031", "stimmen": 1, "aktien": 1202110951, "beleg": 0,
+            "board": {"de": "Nur zum Teil, Klasse B wählt als eigene Klasse 3 von 11 Direktoren. Bei allen anderen Beschlüssen stimmen A und B gemeinsam.", "en": "Only in part, Class B elects 3 of 11 directors as its own class. On all other matters A and B vote together."}
+          }
+        ],
+        "halter": [
+          {"name": "Swoosh, LLC", "art": "HOLDING", "gattung": "A", "klasse": 78.8, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC DEF 14A Nike", "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000089/nke-20260715.htm", "stand": "2026-07-15"}
+        ]
+      }
+    },
+    {
+      "id": "underarmour",
+      "symbole": ["UAA", "UA"],
+      "isins": ["US9043111072", "US9043112062"],
+      "ciks": ["1336917"],
+      "stand": "2026-07-15",
+      "ablauf": "2027-07-15",
+      "eintrag": {
+        "firma": "Under Armour, Inc.",
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "kuerzel": "UAA", "symbole": ["UAA"], "isin": "US9043111072", "stimmen": 1, "aktien": 188839506, "beleg": 0},
+          {
+            "id": "B", "titel": "Class B", "stimmen": 10, "aktien": 34450000, "boerse": false, "beleg": 0,
+            "notizen": [{"de": "Nur Kevin Plank oder Nahestehende dürfen Klasse B halten. Sie wandelt automatisch in Klasse A, wenn Plank unter 15 % der A- und B-Aktien fällt, nicht mehr im Amt ist oder in einem Jahr mehr als eine festgelegte Menge verkauft.", "en": "Only Kevin Plank or related parties may hold Class B. It converts into Class A automatically if Plank falls below 15 % of A and B shares, leaves office or sells more than a set amount in a year."}]
+          },
+          {"id": "C", "titel": "Class C", "kuerzel": "UA", "symbole": ["UA"], "isin": "US9043112062", "stimmen": 0, "aktien": 203035386, "beleg": 0}
+        ],
+        "halter": [
+          {"name": "Kevin Plank", "art": "PERSON", "stimmen": 64.6, "beleg": 0},
+          {"name": "Fairfax Financial", "art": "HOLDING", "stimmen": 8.5, "gattung": "A", "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC DEF 14A Under Armour", "url": "https://www.sec.gov/Archives/edgar/data/1336917/000133691726000102/ua-20260715.htm", "stand": "2026-07-15"}
+        ]
+      }
+    },
+    {
+      "id": "snap",
+      "symbole": ["SNAP"],
+      "isins": ["US83304A1060"],
+      "ciks": ["1564408"],
+      "stand": "2026-02-05",
+      "ablauf": "2027-02-05",
+      "eintrag": {
+        "firma": "Snap Inc.",
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "kuerzel": "SNAP", "symbole": ["SNAP"], "isin": "US83304A1060", "stimmen": 0, "aktien": 1457403389, "beleg": 0},
+          {"id": "B", "titel": "Class B", "stimmen": 1, "aktien": 22523290, "boerse": false, "beleg": 0},
+          {
+            "id": "C", "titel": "Class C", "stimmen": 10, "aktien": 231626943, "boerse": false, "beleg": 0,
+            "notizen": [{"de": "Die Klasse C eines Gründers wandelt in Klasse B, neun Monate nach seinem Tod oder wenn seine C-Aktien unter 30 % der beim Börsengang gehaltenen fallen.", "en": "A founder's Class C converts into Class B nine months after his death or when his Class C shares fall below 30 % of those held at the IPO."}]
+          }
+        ],
+        "halter": [
+          {"name": "Evan Spiegel", "art": "PERSON", "stimmen": 53.1, "beleg": 0},
+          {"name": "Bobby Murphy", "art": "PERSON", "stimmen": 46.4, "beleg": 0}
+        ],
+        "notizen": [
+          {"de": "Spiegel und Murphy haben sich gegenseitig Stimmvollmacht für alle ihre B- und C-Aktien erteilt, sie wird wirksam, wenn einer der beiden wegfällt.", "en": "Spiegel and Murphy gave each other a proxy over all their Class B and C shares, effective if one of them drops out."}
+        ],
+        "belege": [
+          {"name": "SEC 10-K Snap", "url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm", "stand": "2026-02-05"}
+        ]
+      }
+    },
+    {
+      "id": "spotify",
+      "symbole": ["SPOT"],
+      "isins": ["LU1778762911"],
+      "ciks": ["1639920"],
+      "stand": "2026-02-10",
+      "ablauf": "2027-02-10",
+      "eintrag": {
+        "firma": "Spotify Technology S.A.",
+        "gattungen": [
+          {
+            "id": "O", "titel": "Ordinary Shares", "kuerzel": "SPOT", "symbole": ["SPOT"], "isin": "LU1778762911", "stimmen": 1, "aktien": 205832527, "beleg": 0,
+            "board": {"de": "Nein, die Gründer Ek und Lorentzon halten zusammen 69,3 % der Stimmen.", "en": "No, the founders Ek and Lorentzon together hold 69.3 % of the votes."}
+          },
+          {
+            "id": "BC", "titel": "Beneficiary Certificates", "art": "ZERTIFIKAT", "stimmen": 1, "aktien": 309932980, "wirtschaftlich": false, "boerse": false, "beleg": 0,
+            "notizen": [{"de": "Gründer-Zertifikate mit einer Stimme und ohne wirtschaftliche Rechte, 10 je Aktie ausgegeben. Sie sind nicht übertragbar und verfallen beim Verkauf der zugehörigen Aktie.", "en": "Founder certificates with one vote and no economic rights, issued 10 per share. They are not transferable and lapse when the related share is sold."}]
+          }
+        ],
+        "halter": [
+          {"name": "Martin Lorentzon", "art": "PERSON", "stimmen": 40.5, "beleg": 0},
+          {"name": "Daniel Ek", "art": "PERSON", "stimmen": 28.8, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC Form 20-F Spotify", "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm", "stand": "2026-02-10"}
+        ]
+      }
+    },
+    {
+      "id": "volkswagen",
+      "symbole": ["VOW.DE", "VOW3.DE"],
+      "isins": ["DE0007664005", "DE0007664039"],
+      "stand": "2026-06-18",
+      "ablauf": "2027-06-18",
+      "eintrag": {
+        "firma": "Volkswagen AG",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "kuerzel": "VOW", "symbole": ["VOW.DE"], "isin": "DE0007664005", "stimmen": 1, "aktien": 295089818, "beleg": 1},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "VOW3", "symbole": ["VOW3.DE"], "isin": "DE0007664039", "art": "VORZUG", "stimmen": 0, "aktien": 206205445, "beleg": 3,
+            "dividende": {"de": "Vorab 11 Cent, Stämme bis 11 Cent, danach 6 Cent mehr als die Stämme, nachzahlbar", "en": "11 cents first, common up to 11 cents, then 6 cents more than common, cumulative"}
+          }
+        ],
+        "halter": [
+          {"name": "Porsche Automobil Holding SE", "art": "HOLDING", "stimmen": 53.3, "kapital": 31.9, "gattung": "ST", "beleg": 2},
+          {"name": "Land Niedersachsen", "art": "STAAT", "stimmen": 20.0, "gattung": "ST", "beleg": 0},
+          {"name": "Qatar Holding LLC", "art": "STAAT", "stimmen": 17.0, "gattung": "ST", "beleg": 0},
+          {"name": "", "art": "STREUBESITZ", "stimmen": 9.7, "beleg": 0}
+        ],
+        "notizen": [
+          {"de": "VW-Gesetz § 4 Abs. 3: Beschlüsse, für die das Aktiengesetz 75 % verlangt, brauchen mehr als 80 %. Niedersachsen hat mit 20 % damit eine Sperrminorität.", "en": "VW Act section 4 para. 3: resolutions that need 75 % under the Stock Corporation Act need more than 80 %. With 20 %, Lower Saxony holds a blocking minority."},
+          {"de": "Niedersachsen entsendet zwei Aufsichtsratssitze, solange das Land mindestens 15 % der Stammaktien hält.", "en": "Lower Saxony appoints two supervisory board seats as long as it holds at least 15 % of the common shares."}
+        ],
+        "belege": [
+          {"name": "Volkswagen Aktionärsstruktur", "url": "https://volkswagen-group.com/de/aktionaersstruktur-15951", "stand": "2025-12-31"},
+          {"name": "Volkswagen Einladung Hauptversammlung 2026", "url": "https://uploads.vw-mms.de/system/production/files/cws/042/190/file/44165fac5b2d249a9cb1e8bd250292f114b7869f/hv-einladung-vw-ag.pdf", "stand": "2026-06-18"},
+          {"name": "Porsche SE Geschäftsbericht 2025", "url": "https://www.porsche-se.com/fileadmin/downloads/investorrelations/mandatorypublications/annualreport-25/PSE-GB_Deutsch_2025_.pdf", "stand": "2025-12-31"},
+          {"name": "Volkswagen Satzung § 27", "url": "https://www.volkswagen-group.com/de/publikationen/weitere/satzung-der-volkswagen-aktiengesellschaft-stand-juli-2024-2984", "stand": "2024-07-01"},
+          {"name": "VW-Gesetz § 4", "url": "https://www.gesetze-im-internet.de/vwgmbh_g/__4.html", "stand": ""},
+          {"name": "Aktiengesetz § 139 und § 140", "url": "https://www.gesetze-im-internet.de/aktg/__140.html", "stand": ""}
+        ]
+      }
+    },
+    {
+      "id": "porschese",
+      "symbole": ["PAH3.DE"],
+      "isins": ["DE000PAH0038", "DE000PAH0004"],
+      "stand": "2026-05-01",
+      "ablauf": "2027-05-01",
+      "eintrag": {
+        "firma": "Porsche Automobil Holding SE",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "isin": "DE000PAH0004", "stimmen": 1, "aktien": 153125000, "boerse": false, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "PAH3", "symbole": ["PAH3.DE"], "isin": "DE000PAH0038", "art": "VORZUG", "stimmen": 0, "aktien": 153125000, "beleg": 1,
+            "dividende": {"de": "Vorab 1,3 Cent, nachzahlbar, nach 1,3 Cent je Stamm 0,6 Cent Mehrdividende", "en": "1.3 cents first, cumulative, after 1.3 cents per common share a 0.6 cent premium"}
+          }
+        ],
+        "halter": [
+          {
+            "name": "Familien Porsche und Piëch", "art": "FAMILIE", "kapital": 50.0, "stimmen": 100.0, "gattung": "ST", "klasse": 100.0, "beleg": 0,
+            "notiz": {"de": "Alle Stammaktien mittelbar, die Beherrschung läuft über einen Konsortialvertrag.", "en": "All common shares indirectly, control runs through a consortium agreement."}
+          }
+        ],
+        "belege": [
+          {"name": "Porsche SE Einladung Hauptversammlung 2026", "url": "https://www.porsche-se.com/fileadmin/downloads/investorrelations/events_and_presentations/annualgeneralmeeting-2026/PSE_HV2026_Einladung_zur_Hauptversammlung.pdf", "stand": "2026-05-01"},
+          {"name": "Porsche SE Satzung", "url": "https://www.porsche-se.com/fileadmin/downloads/investorrelations/mandatorypublications/constitution/Porsche_SE_Satzung.pdf", "stand": ""}
+        ]
+      }
+    },
+    {
+      "id": "porscheag",
+      "symbole": ["P911.DE"],
+      "isins": ["DE000PAG9113", "DE000PAG3561"],
+      "stand": "2025-12-31",
+      "ablauf": "2026-12-31",
+      "eintrag": {
+        "firma": "Dr. Ing. h.c. F. Porsche AG",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "isin": "DE000PAG3561", "stimmen": 1, "aktien": 455500000, "boerse": false, "beleg": 0},
+          {"id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "P911", "symbole": ["P911.DE"], "isin": "DE000PAG9113", "art": "VORZUG", "stimmen": 0, "aktien": 455500000, "beleg": 0}
+        ],
+        "halter": [
+          {"name": "Volkswagen AG", "art": "HOLDING", "kapital": 75.4, "stimmen": 75.0, "gattung": "ST", "beleg": 2, "notiz": {"de": "75 % der Stammaktien minus eine Aktie und rund 75,8 % der Vorzugsaktien, mittelbar über die Porsche Holding Stuttgart.", "en": "75 % of the common shares minus one share and about 75.8 % of the preferred shares, indirectly through Porsche Holding Stuttgart."}},
+          {"name": "Porsche Automobil Holding SE", "art": "HOLDING", "kapital": 12.5, "stimmen": 25.0, "gattung": "ST", "beleg": 2, "notiz": {"de": "25 % der Stammaktien plus eine Aktie.", "en": "25 % of the common shares plus one share."}},
+          {"name": "", "art": "STREUBESITZ", "kapital": 12.1, "stimmen": 0.0, "gattung": "VZ", "klasse": 24.2, "beleg": 2, "notiz": {"de": "Rund 24,2 % der Vorzugsaktien.", "en": "About 24.2 % of the preferred shares."}}
+        ],
+        "belege": [
+          {"name": "Porsche AG Einladung Hauptversammlung 2026", "url": "https://www.hauptversammlung.de/fileadmin/public/user_upload/pag_TO26.pdf", "stand": "2026-06-23"},
+          {"name": "Porsche SE Geschäftsbericht 2025", "url": "https://www.porsche-se.com/fileadmin/downloads/investorrelations/mandatorypublications/annualreport-25/PSE-GB_Deutsch_2025_.pdf", "stand": "2025-12-31"},
+          {"name": "Porsche AG am Kapitalmarkt", "url": "https://newsroom.porsche.com/de/geschaefts-und-nachhaltigkeitsbericht/an-unsere-aktionaere/porsche-am-kapitalmarkt", "stand": "2025-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "henkel",
+      "symbole": ["HEN.DE", "HEN3.DE"],
+      "isins": ["DE0006048408", "DE0006048432"],
+      "stand": "2026-04-27",
+      "ablauf": "2027-04-27",
+      "eintrag": {
+        "firma": "Henkel AG & Co. KGaA",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "kuerzel": "HEN", "symbole": ["HEN.DE"], "isin": "DE0006048408", "stimmen": 1, "aktien": 259795875, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "HEN3", "symbole": ["HEN3.DE"], "isin": "DE0006048432", "art": "VORZUG", "stimmen": 0, "aktien": 178162875, "beleg": 0,
+            "dividende": {"de": "Vorab 4 Cent, nachzahlbar, Stämme bis 2 Cent, danach nach Kapitalanteil, also 2 Cent Mehrdividende", "en": "4 cents first, cumulative, common up to 2 cents, then by share of capital, so a 2 cent premium"}
+          }
+        ],
+        "halter": [
+          {"name": "Familie Henkel (Aktienbindungsvertrag)", "art": "FAMILIE", "gattung": "ST", "klasse": 61.8, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "Henkel Satzung", "url": "https://www.henkel.de/resource/blob/2172472/0d50c12a46206c87c2a068be375c4b01/data/2026-04-27-satzung-henkel-de.pdf", "stand": "2026-04-27"}
+        ]
+      }
+    },
+    {
+      "id": "sartorius",
+      "symbole": ["SRT.DE", "SRT3.DE"],
+      "isins": ["DE0007165607", "DE0007165631"],
+      "stand": "2026-03-01",
+      "ablauf": "2027-03-01",
+      "eintrag": {
+        "firma": "Sartorius AG",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "kuerzel": "SRT", "symbole": ["SRT.DE"], "isin": "DE0007165607", "stimmen": 1, "aktien": 37440000, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "SRT3", "symbole": ["SRT3.DE"], "isin": "DE0007165631", "art": "VORZUG", "stimmen": 0, "aktien": 37440000, "beleg": 0,
+            "dividende": {"de": "1 Cent mehr je Aktie als die Stammaktie", "en": "1 cent more per share than the common share"}
+          }
+        ],
+        "halter": [
+          {"name": "Erbengemeinschaft Horst Sartorius", "art": "FAMILIE", "gattung": "ST", "klasse": 50.1, "beleg": 0},
+          {"name": "Bio-Rad Laboratories", "art": "HOLDING", "gattung": "ST", "klasse": 34.7, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "Sartorius Geschäftsbericht 2025", "url": "https://www.hauptversammlung.de/fileadmin/public/user_upload/SRT3_GB25.pdf", "stand": "2025-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "fuchs",
+      "symbole": ["FPE.DE", "FPE3.DE"],
+      "isins": ["DE000A3E5D56", "DE000A3E5D64"],
+      "stand": "2026-05-06",
+      "ablauf": "2027-05-06",
+      "eintrag": {
+        "firma": "FUCHS SE",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "kuerzel": "FPE", "symbole": ["FPE.DE"], "isin": "DE000A3E5D56", "stimmen": 1, "aktien": 65500000, "beleg": 0},
+          {"id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "FPE3", "symbole": ["FPE3.DE"], "isin": "DE000A3E5D64", "art": "VORZUG", "stimmen": 0, "aktien": 65500000, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "Fuchs Einladung Hauptversammlung 2026", "url": "https://www.fuchs.com/fileadmin/Home/Hauptversammlung/HV_2026/Deutsch/FSE_HV26_deutsch_final_interaktiv_geschuetzt.pdf", "stand": "2026-05-06"}
+        ]
+      }
+    },
+    {
+      "id": "draeger",
+      "symbole": ["DRW3.DE", "DRW8.DE"],
+      "isins": ["DE0005550636", "DE0005550602"],
+      "stand": "2026-03-01",
+      "ablauf": "2027-03-01",
+      "eintrag": {
+        "firma": "Drägerwerk AG & Co. KGaA",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "symbole": ["DRW8.DE"], "isin": "DE0005550602", "stimmen": 1, "aktien": 10160000, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "DRW3", "symbole": ["DRW3.DE"], "isin": "DE0005550636", "art": "VORZUG", "stimmen": 0, "aktien": 8600000, "beleg": 0,
+            "dividende": {"de": "Vorab 0,13 Euro, nachzahlbar, Stämme 0,13 Euro, danach 0,06 Euro mehr je Vorzugsaktie", "en": "0.13 euro first, cumulative, common 0.13 euro, then 0.06 euro more per preferred share"}
+          }
+        ],
+        "halter": [
+          {"name": "Dr. Heinrich Dräger GmbH", "art": "HOLDING", "gattung": "ST", "klasse": 68.67, "beleg": 0},
+          {"name": "Familie Dräger", "art": "FAMILIE", "gattung": "ST", "klasse": 2.95, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "Dräger Geschäftsbericht 2025", "url": "https://www.hauptversammlung.de/fileadmin/public/user_upload/Draeger_GB25.pdf", "stand": "2025-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "jungheinrich",
+      "symbole": ["JUN3.DE"],
+      "isins": ["DE0006219934", "DE0006219900"],
+      "stand": "2025-05-01",
+      "ablauf": "2026-12-31",
+      "eintrag": {
+        "firma": "Jungheinrich AG",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "isin": "DE0006219900", "stimmen": 1, "aktien": 54000000, "boerse": false, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "JUN3", "symbole": ["JUN3.DE"], "isin": "DE0006219934", "art": "VORZUG", "stimmen": 0, "aktien": 48000000, "beleg": 0,
+            "dividende": {"de": "Vorab 4 % des Grundkapitalanteils, Stämme bis 4 %, danach 2 % Zusatzdividende", "en": "4 % of the capital share first, common up to 4 %, then a 2 % premium"}
+          }
+        ],
+        "halter": [
+          {"name": "Familie Lange", "art": "FAMILIE", "gattung": "ST", "klasse": 50.0, "beleg": 1},
+          {"name": "Familie Wolf", "art": "FAMILIE", "gattung": "ST", "klasse": 50.0, "beleg": 1}
+        ],
+        "belege": [
+          {"name": "Jungheinrich Einladung Hauptversammlung 2025", "url": "https://www.hauptversammlung.de/fileadmin/public/user_upload/jungheinrich_TO2025.pdf", "stand": "2025-05-01"},
+          {"name": "Jungheinrich Geschäftsbericht 2024", "url": "https://irpages2.eqs.com/download/companies/jungheinrich/Annual%20Reports/DE0006219934-JA-2024-EQ-D-00.pdf", "stand": "2024-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "sixt",
+      "symbole": ["SIX2.DE", "SIX3.DE"],
+      "isins": ["DE0007231326", "DE0007231334"],
+      "stand": "2026-05-01",
+      "ablauf": "2027-05-01",
+      "eintrag": {
+        "firma": "Sixt SE",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "kuerzel": "SIX2", "symbole": ["SIX2.DE"], "isin": "DE0007231326", "stimmen": 1, "aktien": 30367112, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "SIX3", "symbole": ["SIX3.DE"], "isin": "DE0007231334", "art": "VORZUG", "stimmen": 0, "aktien": 16576246, "beleg": 0,
+            "dividende": {"de": "0,02 Euro mehr als die Stämme, mindestens 0,05 Euro, nachzahlbar", "en": "0.02 euro more than common, at least 0.05 euro, cumulative"}
+          }
+        ],
+        "halter": [
+          {"name": "Erich Sixt Vermögensverwaltung GmbH", "art": "HOLDING", "gattung": "ST", "klasse": 58.3, "beleg": 1, "notiz": {"de": "Stand 31.12.2024.", "en": "As of 31 Dec 2024."}}
+        ],
+        "belege": [
+          {"name": "Sixt Einladung Hauptversammlung 2026", "url": "https://about.sixt.com/wp-content/uploads/2026/05/Einladung-zur-Ordentlichen-Hauptversammlung-2026-Sixt-SE.pdf", "stand": "2026-05-01"},
+          {"name": "Sixt Geschäftsbericht 2024", "url": "https://irpages2.eqs.com/download/companies/sixt/Annual%20Reports/DE0007231326-JA-2024-EQ-D-00.pdf", "stand": "2024-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "villeroy",
+      "symbole": ["VIB3.DE"],
+      "isins": ["DE0007657231", "DE0007657207"],
+      "stand": "2026-05-01",
+      "ablauf": "2027-05-01",
+      "eintrag": {
+        "firma": "Villeroy & Boch AG",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "isin": "DE0007657207", "stimmen": 1, "aktien": 14044800, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "VIB3", "symbole": ["VIB3.DE"], "isin": "DE0007657231", "art": "VORZUG", "stimmen": 0, "aktien": 14044800, "beleg": 0,
+            "dividende": {"de": "0,05 Euro mehr je Aktie als die Stämme, mindestens 0,13 Euro", "en": "0.05 euro more per share than common, at least 0.13 euro"}
+          }
+        ],
+        "belege": [
+          {"name": "Villeroy & Boch Einladung Hauptversammlung 2026", "url": "https://www.hauptversammlung.de/fileadmin/public/user_upload/Villeroy_TO26.pdf", "stand": "2026-05-01"}
+        ]
+      }
+    },
+    {
+      "id": "sto",
+      "symbole": ["STO3.DE"],
+      "isins": ["DE0007274136", "DE0007274102"],
+      "stand": "2026-05-01",
+      "ablauf": "2027-05-01",
+      "eintrag": {
+        "firma": "Sto SE & Co. KGaA",
+        "flags": ["DE_VORZUG"],
+        "gattungen": [
+          {"id": "ST", "titel": "Stammaktie", "isin": "DE0007274102", "stimmen": 1, "aktien": 4320000, "boerse": false, "beleg": 0},
+          {
+            "id": "VZ", "titel": "Vorzugsaktie", "kuerzel": "STO3", "symbole": ["STO3.DE"], "isin": "DE0007274136", "art": "VORZUG", "stimmen": 0, "aktien": 2538000, "beleg": 0,
+            "dividende": {"de": "Vorwegdividende 0,06 Euro, mindestens 0,13 Euro je Vorzugsaktie", "en": "Priority dividend of 0.06 euro, at least 0.13 euro per preferred share"}
+          }
+        ],
+        "halter": [
+          {"name": "Stotmeister Beteiligungs GmbH", "art": "HOLDING", "gattung": "ST", "klasse": 90.0, "beleg": 0, "notiz": {"de": "Die übrigen 10 % hält Sto selbst, mit ruhendem Stimmrecht.", "en": "Sto itself holds the other 10 %, with the vote suspended."}}
+        ],
+        "belege": [
+          {"name": "Sto Geschäftsbericht 2025", "url": "https://www.sto.de/cepcom/de/Dokumente/Investor-Relations/Hauptversammlung-2026/Geschaeftsbericht_Sto_-2025_de.pdf", "stand": "2025-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "roche",
+      "symbole": ["RO.SW", "ROG.SW", "ROP.SW"],
+      "isins": ["CH1499059983"],
+      "stand": "2026-03-10",
+      "ablauf": "2027-03-10",
+      "eintrag": {
+        "firma": "Roche Holding AG",
+        "gattungen": [
+          {"id": "AKT", "titel": "Inhaberaktie", "kuerzel": "RO", "symbole": ["RO.SW"], "stimmen": 1, "aktien": 106691000, "beleg": 0},
+          {
+            "id": "GS", "titel": "Genussschein, ab März 2026 Partizipationsschein", "kuerzel": "ROG", "symbole": ["ROG.SW", "ROP.SW"], "isin": "CH1499059983", "art": "GENUSS", "stimmen": 0, "aktien": 702562700, "beleg": 1,
+            "dividende": {"de": "Wie eine Aktie, 9,80 CHF brutto für 2025", "en": "Same as a share, 9.80 CHF gross for 2025"},
+            "notizen": [{"de": "Die Generalversammlung vom 10.03.2026 beschloss den Tausch der Genussscheine 1:1 gegen Partizipationsscheine. Die Aktienzahl bleibt gleich.", "en": "The general meeting of 10 March 2026 approved exchanging the participation certificates 1:1 for participation certificates. The share count stays the same."}]
+          }
+        ],
+        "halter": [
+          {
+            "name": "Aktionärsgruppe Hoffmann und Oeri", "art": "FAMILIE", "kapital": 8.6, "stimmen": 64.97, "gattung": "AKT", "klasse": 64.97, "beleg": 0,
+            "notiz": {"de": "64,97 % der Aktien mit Stimmbindung, Stand Ende 2024. Der Kapitalanteil ist aus Aktien plus Genussscheinen gerechnet.", "en": "64.97 % of the shares under a voting pool, as of end 2024. The capital share is calculated from shares plus certificates."}
+          }
+        ],
+        "belege": [
+          {"name": "Roche Geschäftsbericht 2024", "url": "https://assets.roche.com/f/174029/x/74e4b5f7dc/roche-annual-report-2024.pdf", "stand": "2024-12-31"},
+          {"name": "Roche Generalversammlung 2026", "url": "https://www.roche.com/investors/updates/inv-update-2026-03-10", "stand": "2026-03-10"}
+        ]
+      }
+    },
+    {
+      "id": "novonordisk",
+      "symbole": ["NOVO-B.CO", "NVO"],
+      "stand": "2026-02-20",
+      "ablauf": "2027-02-20",
+      "eintrag": {
+        "firma": "Novo Nordisk A/S",
+        "flags": ["ADR"],
+        "gattungen": [
+          {"id": "A", "titel": "A-Aktie", "stimmen": 100, "aktien": 1074872000, "boerse": false, "stimmenAnteil": 76.02, "beleg": 0},
+          {"id": "B", "titel": "B-Aktie", "kuerzel": "NOVO B", "symbole": ["NOVO-B.CO"], "stimmen": 10, "aktien": 3390128000, "stimmenAnteil": 23.98, "beleg": 0,
+            "notizen": [{"de": "337 Mio. B-Aktien sind eigene Aktien, ihr Stimmrecht ruht. Stimmen je Aktie sind aus der Stimmentabelle gerechnet.", "en": "337 million Class B shares are treasury shares with suspended votes. Votes per share are calculated from the voting table."}]
+          },
+          {
+            "id": "ADS", "titel": "ADR", "kuerzel": "NVO", "symbole": ["NVO"], "art": "ADS", "wirtschaftlich": false, "ads": 1, "basis": "B", "beleg": 1,
+            "notizen": [{"de": "Depotbank J.P. Morgan. Gebühren bis 5,00 USD je 100 ADR für Ausgabe und Rücknahme, bis 0,05 USD je ADR für Dividenden. Eine Gebühr für die Stimmweitergabe nennt der 20-F nicht.", "en": "Depositary J.P. Morgan. Fees up to 5.00 USD per 100 ADRs for issue and cancellation, up to 0.05 USD per ADR for dividends. The 20-F lists no fee for passing on votes."}]
+          }
+        ],
+        "halter": [
+          {
+            "name": "Novo Holdings A/S (Novo Nordisk Foundation)", "art": "STIFTUNG", "kapital": 28.05, "stimmen": 77.3, "beleg": 0,
+            "notiz": {"de": "Alle A-Aktien und 5,24 % der B-Aktien. Der Kapitalanteil ist aus den Aktienzahlen gerechnet.", "en": "All Class A shares and 5.24 % of Class B. The capital share is calculated from the share counts."}
+          }
+        ],
+        "belege": [
+          {"name": "Novo Nordisk Aktien und Stimmrechte 2026", "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/agm/2026/novo-nordisk-agm-2026-shares-and-voting-rights.pdf", "stand": "2026-02-20"},
+          {"name": "Novo Nordisk Form 20-F 2025", "url": "https://annualreport.novonordisk.com/2025/_assets/downloads/novo-nordisk-form-20-f-2025.pdf", "stand": "2025-12-31"}
+        ]
+      }
+    },
+    {
+      "id": "alibaba",
+      "symbole": ["BABA", "9988.HK"],
+      "ciks": ["1577552"],
+      "stand": "2026-05-20",
+      "ablauf": "2027-05-20",
+      "eintrag": {
+        "firma": "Alibaba Group Holding Limited",
+        "flags": ["ADR", "VIE"],
+        "gattungen": [
+          {
+            "id": "O", "titel": "Ordinary Shares", "kuerzel": "9988", "symbole": ["9988.HK"], "stimmen": 1, "aktien": 18669888147, "beleg": 0,
+            "board": {"de": "Aktionäre wählen, die Alibaba Partnership darf bis zu eine einfache Mehrheit der Verwaltungsräte nominieren.", "en": "Shareholders vote, and the Alibaba Partnership may nominate up to a simple majority of directors."}
+          },
+          {
+            "id": "ADS", "titel": "American Depositary Shares", "kuerzel": "BABA", "symbole": ["BABA"], "art": "ADS", "wirtschaftlich": false, "ads": 8, "basis": "O", "beleg": 0,
+            "notizen": [{"de": "Depotbank Citibank, N.A. Gebühren bis 5,00 USD je 100 ADS für Ausgabe, Rücknahme und Dividenden und bis 5,00 USD je 100 ADS und Jahr für Dienste. Eine Gebühr für die Stimmweitergabe nennt der 20-F nicht.", "en": "Depositary Citibank, N.A. Fees up to 5.00 USD per 100 ADS for issue, cancellation and dividends and up to 5.00 USD per 100 ADS a year for services. The 20-F lists no fee for passing on votes."}]
+          }
+        ],
+        "halter": [
+          {"name": "Joseph Tsai", "art": "PERSON", "kapital": 1.5, "stimmen": 1.5, "beleg": 0}
+        ],
+        "notizen": [
+          {"de": "Eine Änderung der Nominierungsrechte der Partnership braucht 95 % der anwesenden Stimmen und die Zustimmung der unabhängigen Direktoren.", "en": "Changing the Partnership's nomination rights needs 95 % of the votes present and the approval of the independent directors."}
+        ],
+        "belege": [
+          {"name": "SEC Form 20-F Alibaba", "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm", "stand": "2026-05-20"}
+        ]
+      }
+    },
+    {
+      "id": "pdd",
+      "symbole": ["PDD"],
+      "ciks": ["1737806"],
+      "stand": "2026-04-29",
+      "ablauf": "2027-04-29",
+      "eintrag": {
+        "firma": "PDD Holdings Inc.",
+        "flags": ["ADR", "VIE"],
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "stimmen": 1, "aktien": 5693585848, "beleg": 0},
+          {"id": "B", "titel": "Class B", "stimmen": 10, "aktien": 0, "boerse": false, "beleg": 0, "notizen": [{"de": "Keine Class-B-Aktien ausstehend.", "en": "No Class B shares outstanding."}]},
+          {
+            "id": "ADS", "titel": "American Depositary Shares", "kuerzel": "PDD", "symbole": ["PDD"], "art": "ADS", "wirtschaftlich": false, "ads": 4, "basis": "A", "beleg": 0,
+            "notizen": [{"de": "Depotbank Deutsche Bank Trust Company Americas. Gebühren bis 0,05 USD je ADS für Ausgabe, Löschung und Dividenden. Eine Gebühr für die Stimmweitergabe nennt der 20-F nicht.", "en": "Depositary Deutsche Bank Trust Company Americas. Fees up to 0.05 USD per ADS for issue, cancellation and dividends. The 20-F lists no fee for passing on votes."}]
+          }
+        ],
+        "halter": [
+          {"name": "Zheng Huang", "art": "PERSON", "kapital": 24.8, "stimmen": 24.8, "beleg": 0},
+          {"name": "Tencent", "art": "HOLDING", "kapital": 13.8, "stimmen": 13.8, "beleg": 0},
+          {"name": "PDD Partnership", "art": "HOLDING", "kapital": 6.5, "stimmen": 6.5, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC Form 20-F PDD Holdings", "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926050727/pdd-20251231x20f.htm", "stand": "2026-04-29"}
+        ]
+      }
+    },
+    {
+      "id": "jd",
+      "symbole": ["JD", "9618.HK"],
+      "ciks": ["1549802"],
+      "stand": "2026-04-16",
+      "ablauf": "2027-04-16",
+      "eintrag": {
+        "firma": "JD.com, Inc.",
+        "flags": ["ADR", "VIE"],
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "kuerzel": "9618", "symbole": ["9618.HK"], "stimmen": 1, "aktien": 2409875383, "beleg": 0},
+          {"id": "B", "titel": "Class B", "stimmen": 20, "aktien": 321766082, "boerse": false, "beleg": 0},
+          {
+            "id": "ADS", "titel": "American Depositary Shares", "kuerzel": "JD", "symbole": ["JD"], "art": "ADS", "wirtschaftlich": false, "ads": 2, "basis": "A", "beleg": 0,
+            "notizen": [{"de": "Depotbank Deutsche Bank Trust Company Americas. Gebühren bis 0,05 USD je ADS für Ausgabe, Rücknahme, Dividenden und Betrieb. Eine Gebühr für die Stimmweitergabe nennt der 20-F nicht.", "en": "Depositary Deutsche Bank Trust Company Americas. Fees up to 0.05 USD per ADS for issue, cancellation, dividends and operation. The 20-F lists no fee for passing on votes."}]
+          }
+        ],
+        "halter": [
+          {"name": "Richard Liu", "art": "PERSON", "kapital": 12.7, "stimmen": 73.1, "beleg": 0},
+          {"name": "BlackRock", "art": "FONDS", "kapital": 5.2, "stimmen": 1.6, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC Form 20-F JD.com", "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526157870/d53690d20f.htm", "stand": "2026-04-16"}
+        ]
+      }
+    },
+    {
+      "id": "baidu",
+      "symbole": ["BIDU", "9888.HK"],
+      "ciks": ["1329099"],
+      "stand": "2026-03-17",
+      "ablauf": "2027-03-17",
+      "eintrag": {
+        "firma": "Baidu, Inc.",
+        "flags": ["ADR", "VIE"],
+        "gattungen": [
+          {"id": "A", "titel": "Class A", "kuerzel": "9888", "symbole": ["9888.HK"], "stimmen": 1, "aktien": 2198000952, "beleg": 0},
+          {"id": "B", "titel": "Class B", "stimmen": 10, "aktien": 524020320, "boerse": false, "beleg": 0},
+          {
+            "id": "ADS", "titel": "American Depositary Shares", "kuerzel": "BIDU", "symbole": ["BIDU"], "art": "ADS", "wirtschaftlich": false, "ads": 8, "basis": "A", "beleg": 0,
+            "notizen": [{"de": "Depotbank Bank of New York Mellon. Gebühren bis 5,00 USD je 100 ADS für Ausgabe und Rücknahme und bis 0,02 USD je ADS für Bar-Ausschüttungen. Eine Gebühr für die Stimmweitergabe nennt der 20-F nicht.", "en": "Depositary Bank of New York Mellon. Fees up to 5.00 USD per 100 ADS for issue and cancellation and up to 0.02 USD per ADS for cash distributions. The 20-F lists no fee for passing on votes."}]
+          }
+        ],
+        "halter": [
+          {"name": "Robin Li", "art": "PERSON", "kapital": 18.6, "stimmen": 59.9, "beleg": 0},
+          {"name": "BlackRock", "art": "FONDS", "kapital": 4.7, "stimmen": 1.6, "beleg": 0}
+        ],
+        "belege": [
+          {"name": "SEC Form 20-F Baidu", "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526109289/d38065d20f.htm", "stand": "2026-03-17"}
+        ]
+      }
+    },
+    {
+      "id": "anthropic",
+      "symbole": ["ANT"],
+      "ciks": ["2130357"],
+      "stand": "2026-11-10",
+      "ablauf": "2027-05-10",
+      "eintrag": {
+        "firma": "Anthropic PBC",
+        "gattungen": [
+          {
+            "id": "A", "titel": "Class A", "kuerzel": "ANT", "symbole": ["ANT"], "stimmen": 1, "aktien": 6626640437, "stimmenAnteil": 49.9, "beleg": 0,
+            "board": {"de": "Nein, Klasse F hat fest 50,1 % der Stimmen und der Long-Term Benefit Trust wählt über Klasse T 4 von 7 Direktoren. Klasse A und F wählen die übrigen 3.", "en": "No, Class F always holds 50.1 % of the votes and the Long-Term Benefit Trust elects 4 of 7 directors through Class T. Class A and F elect the other 3."}
+          },
+          {
+            "id": "N", "titel": "Class N", "stimmen": 0, "aktien": 5307329452, "boerse": false, "stimmenAnteil": 0, "beleg": 0,
+            "notizen": [{"de": "Gleiche Dividenden- und Liquidationsrechte wie Klasse A. Wandelt 1:1 in Klasse A bei Verkauf an der Börse oder an einen nicht verbundenen Dritten. Inhaber sind vor allem strategische Partner.", "en": "Same dividend and liquidation rights as Class A. Converts 1:1 into Class A on sale on the exchange or to an unrelated third party. Holders are mainly strategic partners."}]
+          },
+          {
+            "id": "T", "titel": "Class T", "stimmen": 0, "aktien": 1, "wirtschaftlich": false, "boerse": false, "stimmenAnteil": 0, "beleg": 0,
+            "notizen": [{"de": "Eine Aktie beim Long-Term Benefit Trust. Sie wählt und entfernt die Class-T-Direktoren, hat sonst keine allgemeinen Stimmrechte.", "en": "One share held by the Long-Term Benefit Trust. It elects and removes the Class T directors and has no other general voting rights."}]
+          },
+          {
+            "id": "F", "titel": "Class F", "stimmen": 0, "aktien": 1, "wirtschaftlich": false, "boerse": false, "stimmenAnteil": 50.1, "beleg": 0,
+            "notizen": [{"de": "Eine Aktie bei der Founder LLC der sieben Mitgründer. Sie zählt immer 50,1 % der Gesamtstimmen, ohne Verwässerung.", "en": "One share held by the founder LLC of the seven co-founders. It always counts 50.1 % of total votes, without dilution."}]
+          }
+        ],
+        "halter": [
+          {"name": "Founder LLC (Class F)", "art": "HOLDING", "stimmen": 50.1, "gattung": "F", "beleg": 0},
+          {
+            "name": "Long-Term Benefit Trust", "art": "TRUST", "gattung": "T", "beleg": 0,
+            "notiz": {"de": "Wählt 4 von 7 Direktoren über Klasse T.", "en": "Elects 4 of 7 directors through Class T."}
+          },
+          {
+            "name": "Amazon", "art": "HOLDING", "kapital": 16.1, "stimmen": 0.0, "gattung": "N", "beleg": 0,
+            "notiz": {"de": "Aus den Aktienzahlen des S-1 gerechnet, Stand vor dem Börsengang.", "en": "Calculated from the share counts in the S-1, as of before the IPO."}
+          },
+          {
+            "name": "Google", "art": "HOLDING", "kapital": 13.9, "stimmen": 0.0, "gattung": "N", "beleg": 0,
+            "notiz": {"de": "Aus den Aktienzahlen des S-1 gerechnet, Stand vor dem Börsengang.", "en": "Calculated from the share counts in the S-1, as of before the IPO."}
+          }
+        ],
+        "notizen": [
+          {"de": "Angaben aus dem S-1/A vom 10.11.2026, Aktienzahlen vor dem Börsengang. Anthropic gilt als Controlled Company.", "en": "Figures from the S-1/A of 10 Nov 2026, share counts before the IPO. Anthropic counts as a controlled company."}
+        ],
+        "belege": [
+          {"name": "SEC S-1/A Anthropic", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm", "stand": "2026-11-10"}
+        ]
+      }
+    }
+  ]
+}

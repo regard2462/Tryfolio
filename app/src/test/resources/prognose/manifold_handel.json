@@ -1,0 +1,122 @@
+[
+ {
+  "id": "handel000",
+  "userId": "nutzer0001",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "NO",
+  "amount": 1,
+  "probBefore": 0.11538798806561433,
+  "probAfter": 0.11531434093021108,
+  "createdTime": 1794521078120,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel001",
+  "userId": "nutzer0002",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": 0,
+  "probBefore": 0.11538798806561433,
+  "probAfter": 0.11538798806561433,
+  "createdTime": 1794519514858,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel002",
+  "userId": "nutzer0003",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": 5,
+  "probBefore": 0.1125742636193872,
+  "probAfter": 0.11538798806561433,
+  "createdTime": 1794516714057,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel003",
+  "userId": "nutzer0001",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "NO",
+  "amount": 50,
+  "probBefore": 0.11621226853223615,
+  "probAfter": 0.1125742636193872,
+  "createdTime": 1794516713740,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel004",
+  "userId": "nutzer0002",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": 0,
+  "probBefore": 0.11621226853223615,
+  "probAfter": 0.11621226853223615,
+  "createdTime": 1794514877258,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel005",
+  "userId": "nutzer0003",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "NO",
+  "amount": 0,
+  "probBefore": 0.11621226853223615,
+  "probAfter": 0.11621226853223615,
+  "createdTime": 1794514866606,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel006",
+  "userId": "nutzer0001",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": -10.455129391735952,
+  "probBefore": 0.10436943071994288,
+  "probAfter": 0.10436943071994288,
+  "createdTime": 1794514697380,
+  "isRedemption": true,
+  "isCancelled": null
+ },
+ {
+  "id": "handel007",
+  "userId": "nutzer0002",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": 1,
+  "probBefore": 0.3499999999999999,
+  "probAfter": 0.3499999999999999,
+  "createdTime": 1777670932120,
+  "isRedemption": false,
+  "isCancelled": false
+ },
+ {
+  "id": "handel008",
+  "userId": "nutzer0003",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": 0,
+  "probBefore": 0.3499999999999999,
+  "probAfter": 0.3499999999999999,
+  "createdTime": 1777670433048,
+  "isRedemption": false,
+  "isCancelled": true
+ },
+ {
+  "id": "handel009",
+  "userId": "nutzer0001",
+  "contractId": "ZZLRuEZpZl",
+  "outcome": "YES",
+  "amount": 0,
+  "probBefore": 0.3499999999999999,
+  "probAfter": 0.3499999999999999,
+  "createdTime": 1777669349596,
+  "isRedemption": false,
+  "isCancelled": true
+ }
+]

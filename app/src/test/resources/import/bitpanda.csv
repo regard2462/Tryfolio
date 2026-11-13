@@ -1,0 +1,11 @@
+Bitpanda - Transaktionsverlauf
+Erstellt am 2025-03-01
+Hinweis: Alle Werte in der Anzeigewährung
+
+Transaction ID,Timestamp,Transaction Type,In/Out,Amount Fiat,Fiat,Amount Asset,Asset,Asset market price,Asset market price currency,Asset class,Product ID,Fee,Fee asset,Spread,Spread Currency
+T-1,2025-01-02T09:00:00Z,deposit,incoming,1000.00,EUR,1000.00,EUR,,,Fiat,1,0,EUR,,
+T-2,2025-01-03T10:00:00Z,buy,outgoing,500.00,EUR,0.00625,BTC,80000.00,EUR,Cryptocurrency,2,1.50,EUR,,
+T-3,2025-01-10T10:00:00Z,sell,incoming,200.00,EUR,0.0025,BTC,80000.00,EUR,Cryptocurrency,2,0.50,EUR,,
+T-4,2025-01-12T10:00:00Z,reward,incoming,0.80,EUR,0.00001,BTC,80000.00,EUR,Cryptocurrency,2,0,EUR,,
+T-5,2025-01-15T10:00:00Z,transfer,incoming,0,EUR,0.5,ETH,3000.00,EUR,Cryptocurrency,3,0,EUR,,
+T-6,2025-02-10T10:00:00Z,withdrawal,outgoing,100.00,EUR,100.00,EUR,,,Fiat,1,0,EUR,,

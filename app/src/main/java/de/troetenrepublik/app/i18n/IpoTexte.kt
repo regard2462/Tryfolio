@@ -1,0 +1,188 @@
+package de.troetenrepublik.app.i18n
+
+// Texte des Detailblatts eines Boersengangs, 0.78. Ein Schluessel je Text, Platzhalter {0}, {1} fuer Werte.
+internal object IpoTexte {
+
+    fun text(deutsch: Boolean, key: String, w: List<String> = emptyList()): String {
+        var t = (if (deutsch) DE else EN)[key] ?: return ""
+        w.forEachIndexed { i, v -> t = t.replace("{$i}", v) }
+        return t
+    }
+
+    // Alle Schluessel einer Sprache (der Test vergleicht beide Sprachen)
+    fun schluessel(deutsch: Boolean): Set<String> = (if (deutsch) DE else EN).keys
+
+    private val DE = mapOf(
+        // Zeile unter dem grossen Wert im Kopf
+        "wert.KURS" to "seit Ausgabe zu {0}",
+        "wert.AUSGABE" to "Ausgabepreis",
+        "wert.MITTE" to "Mitte der Preisspanne",
+        "wert.PREIS" to "Preis je Aktie",
+        // Abstand zum Datum der Zeitleiste
+        "tage.in" to "in {0} Tagen",
+        "tage.morgen" to "morgen",
+        "tage.heute" to "heute",
+        "tage.gestern" to "gestern",
+        "tage.vor" to "vor {0} Tagen",
+        "ersterTag" to "Erster Tag",
+        "von" to "{0} von {1}",
+        // Groesse gegen die anderen Angebote
+        "groesse.titel" to "Größe im Vergleich",
+        "groesse.dieses" to "Dieses Angebot",
+        "groesse.median" to "Median der anderen",
+        "groesse.rang" to "Rang nach Volumen",
+        // Erster Handelstag der juengsten Boersengaenge
+        "erste.titel" to "Erster Handelstag anderer Börsengänge",
+        "erste.plus" to "Im Plus",
+        "erste.median" to "Median",
+        "erste.zeitraum" to "Start in den letzten {0} Tagen",
+        "erste.eigen" to "Dieser Börsengang",
+        // Kurs anderer Boersengaenge nach dem Start
+        "verlauf.titel" to "Andere Börsengänge nach dem Start",
+        "verlauf.spalte" to "Anteil unter dem Ausgabepreis",
+        "verlauf.30" to "Nach 1 Monat",
+        "verlauf.182" to "Nach 6 Monaten",
+        "verlauf.365" to "Nach 1 Jahr",
+        "verlauf.1095" to "Nach 3 Jahren",
+        "verlauf.zusatz" to "Median {0} · {1}",
+        "verlauf.anzahl" to "{0} Börsengänge",
+        "verlauf.anzahlJahre" to "{0} Börsengänge {1}",
+        "verlauf.jahre" to "{0} bis {1}",
+        "verlauf.dividenden" to "{0}, mit Dividenden",
+        "verlauf.grundlage" to "US-Börsengänge der letzten {0} Monate, ohne SPACs und ohne Aktien, die nicht mehr notieren",
+        "verlauf.grundlageSpac" to "US-SPACs der letzten {0} Monate, ohne solche, die nicht mehr notieren",
+        "verlauf.jahr" to "Erstes Jahr gegen gleich große Firmen",
+        "verlauf.gegen" to "{0} gegen {1}",
+        // Angaben aus dem Prospekt
+        "eigner.titel" to "Anteilseigner vor dem Börsengang",
+        "eigner.stimmrechte" to "Anteil an den Stimmrechten",
+        "eigner.gruppe" to "Vorstand und Aufsichtsrat zusammen",
+        "eigner.bis" to "je bis {0}",
+        "sperrfrist" to "Sperrfrist der Altaktionäre",
+        "sperrfrist.tage" to "{0} Tage",
+        "sperrfrist.bis" to "bis {0}",
+        // Reiter Sperrfristen: Fristen, die bald enden
+        "sperr.titel" to "Ende in den nächsten {0} Tagen",
+        "sperr.info" to "Sperrfrist (Lock-up): Altaktionäre und Führungskräfte dürfen nach dem Börsengang eine feste Zeit nicht verkaufen. " +
+            "Läuft sie ab, kann viel Angebot auf den Markt kommen.\n\n" +
+            "• Frist und gesperrter Anteil stammen aus dem Prospekt bei der SEC. Ohne feste Frist im Prospekt kein Eintrag.\n" +
+            "• Geprüft sind die {0} größten US-Börsengänge der letzten 200 Tage, ohne SPACs.\n" +
+            "• Das Enddatum zählt ab dem Tag der Preisfestsetzung. Banken können Aktien früher freigeben. Das steht hier nicht.",
+        "sperr.kontakt" to "Ohne Kontaktadresse unter Zugänge liest die App keine Sperrfristen aus den SEC-Prospekten.",
+        "sperr.leer" to "Keine Sperrfrist endet in den nächsten {0} Tagen.",
+        "sperr.frist" to "{0} Tage Sperrfrist",
+        "sperr.vor" to "{0} der Altaktien gesperrt",
+        "sperr.nach" to "{0} aller Aktien gesperrt",
+        // Angebot laut Prospekt: Streubesitz, Aufteilung, Mehrzuteilung, Gattungen, Freigabe
+        "angebot.titel" to "Aktien im Börsengang",
+        "angebot.frei" to "Frei handelbar",
+        "angebot.danach" to "Aktien nach dem Börsengang",
+        "angebot.neu" to "Neue Aktien, Geld an die Firma",
+        "angebot.verkauf" to "Verkauf durch Altaktionäre",
+        "angebot.herkunft" to "Herkunft",
+        "angebot.nurNeu" to "alle neu",
+        "angebot.nurNeuHint" to "Geld geht an die Firma",
+        "angebot.nurVerkauf" to "alle von Altaktionären",
+        "angebot.nurVerkaufHint" to "Geld geht an die Verkäufer",
+        "angebot.mehr" to "Mehrzuteilungsoption",
+        "angebot.mehrAnteil" to "{0} der angebotenen Aktien",
+        "angebot.klasse" to "Klasse {0}",
+        "angebot.klasseMit" to "Klasse {0}, {1}",
+        "angebot.stimme1" to "1 Stimme je Aktie",
+        "angebot.stimmen" to "{0} Stimmen je Aktie",
+        "angebot.stimmanteil" to "Stimmanteil der angebotenen Aktien",
+        "freigabe" to "Zusätzlich frei nach der Sperrfrist",
+        "freigabe.hint" to "{0} aller Aktien, {1}",
+        "freigabe.ab" to "ab {0}",
+        "freigabe.nach" to "nach {0} Tagen",
+        "stufen.titel" to "Gestaffelte Freigabe",
+        "stufen.zeile" to "Nach {0} Tagen",
+        "stufen.bis" to "bis zu {0}",
+        "banken.titel" to "Banken",
+        "banken.anteil" to "Anteil an der Zuteilung",
+        "quelle.ritter" to "Jay R. Ritter, University of Florida (Stand {0})",
+    )
+
+    private val EN = mapOf(
+        "wert.KURS" to "since issue at {0}",
+        "wert.AUSGABE" to "Issue price",
+        "wert.MITTE" to "Midpoint of the price range",
+        "wert.PREIS" to "Price per share",
+        "tage.in" to "in {0} days",
+        "tage.morgen" to "tomorrow",
+        "tage.heute" to "today",
+        "tage.gestern" to "yesterday",
+        "tage.vor" to "{0} days ago",
+        "ersterTag" to "First day",
+        "von" to "{0} of {1}",
+        "groesse.titel" to "Size compared",
+        "groesse.dieses" to "This offering",
+        "groesse.median" to "Median of the others",
+        "groesse.rang" to "Rank by size",
+        "erste.titel" to "First trading day of other IPOs",
+        "erste.plus" to "Up",
+        "erste.median" to "Median",
+        "erste.zeitraum" to "Started in the last {0} days",
+        "erste.eigen" to "This IPO",
+        "verlauf.titel" to "Other IPOs after the start",
+        "verlauf.spalte" to "Share below the issue price",
+        "verlauf.30" to "After 1 month",
+        "verlauf.182" to "After 6 months",
+        "verlauf.365" to "After 1 year",
+        "verlauf.1095" to "After 3 years",
+        "verlauf.zusatz" to "Median {0} · {1}",
+        "verlauf.anzahl" to "{0} IPOs",
+        "verlauf.anzahlJahre" to "{0} IPOs {1}",
+        "verlauf.jahre" to "{0} to {1}",
+        "verlauf.dividenden" to "{0}, with dividends",
+        "verlauf.grundlage" to "US IPOs of the last {0} months, without SPACs and without stocks no longer listed",
+        "verlauf.grundlageSpac" to "US SPACs of the last {0} months, without those no longer listed",
+        "verlauf.jahr" to "First year against firms of the same size",
+        "verlauf.gegen" to "{0} against {1}",
+        "eigner.titel" to "Shareholders before the IPO",
+        "eigner.stimmrechte" to "Share of voting rights",
+        "eigner.gruppe" to "Officers and directors combined",
+        "eigner.bis" to "up to {0} each",
+        "sperrfrist" to "Lock-up of existing shareholders",
+        "sperrfrist.tage" to "{0} days",
+        "sperrfrist.bis" to "until {0}",
+        "sperr.titel" to "Ending in the next {0} days",
+        "sperr.info" to "Lock-up: existing shareholders and executives may not sell for a fixed time after the IPO. " +
+            "When it ends, a lot of supply can reach the market.\n\n" +
+            "• Period and locked share come from the prospectus at the SEC. No entry without a fixed period in the prospectus.\n" +
+            "• Checked: the {0} largest US IPOs of the last 200 days, without blank-check companies.\n" +
+            "• The end date counts from the pricing day. Banks can release shares earlier. That is not shown here.",
+        "sperr.kontakt" to "Without a contact address under Access keys, the app does not read lock-up periods from the SEC prospectuses.",
+        "sperr.leer" to "No lock-up ends in the next {0} days.",
+        "sperr.frist" to "{0}-day lock-up",
+        "sperr.vor" to "{0} of pre-IPO shares locked",
+        "sperr.nach" to "{0} of all shares locked",
+        "angebot.titel" to "Shares in the IPO",
+        "angebot.frei" to "Freely tradable",
+        "angebot.danach" to "Shares after the IPO",
+        "angebot.neu" to "New shares, money to the company",
+        "angebot.verkauf" to "Sold by existing shareholders",
+        "angebot.herkunft" to "Source",
+        "angebot.nurNeu" to "all new",
+        "angebot.nurNeuHint" to "Money goes to the company",
+        "angebot.nurVerkauf" to "all from existing shareholders",
+        "angebot.nurVerkaufHint" to "Money goes to the sellers",
+        "angebot.mehr" to "Over-allotment option",
+        "angebot.mehrAnteil" to "{0} of the shares offered",
+        "angebot.klasse" to "Class {0}",
+        "angebot.klasseMit" to "Class {0}, {1}",
+        "angebot.stimme1" to "1 vote per share",
+        "angebot.stimmen" to "{0} votes per share",
+        "angebot.stimmanteil" to "Voting share of the shares offered",
+        "freigabe" to "Also freed after the lock-up",
+        "freigabe.hint" to "{0} of all shares, {1}",
+        "freigabe.ab" to "from {0}",
+        "freigabe.nach" to "after {0} days",
+        "stufen.titel" to "Staggered release",
+        "stufen.zeile" to "After {0} days",
+        "stufen.bis" to "up to {0}",
+        "banken.titel" to "Banks",
+        "banken.anteil" to "Share of the allocation",
+        "quelle.ritter" to "Jay R. Ritter, University of Florida (as of {0})",
+    )
+}

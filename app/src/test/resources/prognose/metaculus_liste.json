@@ -1,0 +1,124 @@
+{
+ "next": "https://www.metaculus.com/api/posts/?limit=20&offset=20",
+ "previous": null,
+ "results": [
+  {
+   "id": 90001,
+   "title": "Will the central bank cut its policy rate before July 2027?",
+   "short_title": "Policy rate cut before July 2027",
+   "slug": "policy-rate-cut-before-july-2027",
+   "author_id": 1000,
+   "author_username": "beispielnutzer",
+   "projects": {
+    "category": [
+     {"id": 3698, "name": "Economy & Business", "slug": "economy-business", "description": "Economy & Business"}
+    ]
+   },
+   "status": "open",
+   "scheduled_close_time": "2027-06-30T12:00:00Z",
+   "nr_forecasters": 312,
+   "forecasts_count": 1840,
+   "question": {
+    "id": 91001,
+    "title": "Will the central bank cut its policy rate before July 2027?",
+    "description": "Background text.",
+    "scheduled_close_time": "2027-06-30T12:00:00Z",
+    "type": "binary",
+    "options": null,
+    "status": "open",
+    "resolution": null,
+    "resolution_criteria": "Resolves Yes if the rate is cut.",
+    "fine_print": "",
+    "label": null,
+    "post_id": 90001,
+    "aggregations": {
+     "recency_weighted": {
+      "history": [
+       {"start_time": 1790000000.5, "end_time": 1791000000.0, "forecast_values": null, "forecaster_count": 40, "interval_lower_bounds": [0.3], "centers": [0.42], "interval_upper_bounds": [0.55], "means": null, "histogram": null},
+       {"start_time": 1791000000.0, "end_time": 1792000000.0, "forecast_values": null, "forecaster_count": 180, "interval_lower_bounds": [0.5], "centers": [0.58], "interval_upper_bounds": [0.66], "means": null, "histogram": null}
+      ],
+      "latest": {"start_time": 1792000000.0, "end_time": null, "forecast_values": [0.37, 0.63], "forecaster_count": 312, "interval_lower_bounds": [0.55], "centers": [0.63], "interval_upper_bounds": [0.7], "means": null, "histogram": null}
+     },
+     "unweighted": {"history": [], "latest": null}
+    }
+   }
+  },
+  {
+   "id": 90002,
+   "title": "Will a ceasefire hold until the end of 2027?",
+   "slug": "ceasefire-holds-2027",
+   "author_username": "beispielnutzer",
+   "projects": {"category": [{"id": 3687, "name": "Geopolitics", "slug": "geopolitics"}]},
+   "status": "open",
+   "scheduled_close_time": "2027-12-31T12:00:00Z",
+   "nr_forecasters": 95,
+   "question": {
+    "id": 91002,
+    "title": "Will a ceasefire hold until the end of 2027?",
+    "description": "Background text.",
+    "scheduled_close_time": "2027-12-31T12:00:00Z",
+    "type": "binary",
+    "status": "open",
+    "resolution": null,
+    "post_id": 90002,
+    "aggregations": {
+     "recency_weighted": {"history": null, "latest": null},
+     "unweighted": {"history": null, "latest": null}
+    }
+   }
+  },
+  {
+   "id": 90003,
+   "title": "Which party will win the most seats?",
+   "slug": "most-seats",
+   "projects": {"category": [{"id": 3685, "name": "Elections", "slug": "elections"}]},
+   "status": "open",
+   "scheduled_close_time": "2027-09-01T00:00:00Z",
+   "nr_forecasters": 150,
+   "question": {
+    "id": 91003,
+    "title": "Which party will win the most seats?",
+    "scheduled_close_time": "2027-09-01T00:00:00Z",
+    "type": "multiple_choice",
+    "options": ["Party A", "Party B", "Other"],
+    "status": "open",
+    "resolution": null,
+    "post_id": 90003,
+    "aggregations": {
+     "recency_weighted": {
+      "history": [],
+      "latest": {"start_time": 1792000000.0, "end_time": null, "forecast_values": [0.25, 0.6, 0.15], "forecaster_count": 150, "centers": [0.25, 0.6, 0.15], "means": null}
+     }
+    }
+   }
+  },
+  {
+   "id": 90004,
+   "title": "Will these companies report higher revenue?",
+   "slug": "higher-revenue",
+   "projects": {"category": [{"id": 3698, "name": "Economy & Business", "slug": "economy-business"}]},
+   "status": "open",
+   "nr_forecasters": 60,
+   "group_of_questions": {
+    "id": 5001,
+    "description": "Group text.",
+    "resolution_criteria": "Per company.",
+    "questions": [
+     {"id": 91004, "title": "Will these companies report higher revenue? (Company A)", "label": "Company A", "type": "binary", "status": "open", "scheduled_close_time": "2027-03-01T00:00:00Z", "resolution": null,
+      "aggregations": {"recency_weighted": {"history": [], "latest": {"start_time": 1792000000.0, "end_time": null, "forecast_values": [0.2, 0.8], "centers": [0.8]}}}},
+     {"id": 91005, "title": "Will these companies report higher revenue? (Company B)", "label": "Company B", "type": "binary", "status": "open", "scheduled_close_time": "2027-03-01T00:00:00Z", "resolution": null,
+      "aggregations": {"recency_weighted": {"history": [], "latest": {"start_time": 1792000000.0, "end_time": null, "forecast_values": [0.7, 0.3], "centers": [0.3]}}}}
+    ]
+   }
+  },
+  {
+   "id": 90005,
+   "title": "How many units will be sold in 2027?",
+   "slug": "units-sold",
+   "projects": {"category": []},
+   "status": "open",
+   "nr_forecasters": 30,
+   "question": {"id": 91006, "title": "How many units will be sold in 2027?", "type": "numeric", "status": "open", "aggregations": {"recency_weighted": {"history": [], "latest": {"start_time": 1792000000.0, "centers": [0.4]}}}}
+  }
+ ]
+}

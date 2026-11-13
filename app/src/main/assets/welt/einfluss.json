@@ -1,0 +1,320 @@
+{
+ "v": 1,
+ "stand": "2026-11-10",
+ "groessen": [
+  {
+   "id": "zins", "typ": "ZINS", "de": "Zinsen", "en": "Interest rates",
+   "kd": "Leitzinsen und Anleiherenditen bestimmen Finanzierungskosten und Bewertungen",
+   "ke": "Policy rates and bond yields set financing costs and valuations",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Branchenmerkmal: Zinsertrag oder Fremdfinanzierung", "ben": "Industry trait: interest income or debt financing", "branchen": ["BANKEN", "VERSICHERUNG", "IMMOBILIEN", "VERSORGER", "BAU", "HOLDINGS"]}
+   ]
+  },
+  {
+   "id": "oel", "typ": "ENERGIE", "de": "Ölpreis", "en": "Oil price",
+   "kd": "Förderer verdienen am Preis, Verkehr und Chemie tragen ihn als Kosten",
+   "ke": "Producers earn on the price, transport and chemicals carry it as a cost",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "r": 1, "beleg": "Erlös der Förderer ist Menge mal Preis", "ben": "Producers' revenue is volume times price", "branchen": ["OEL_GAS"], "werte": ["BZ=F", "CL=F"]},
+    {"art": "ABGELEITET", "r": -1, "beleg": "Treibstoff als Kostenblock der Fluglinien", "ben": "Fuel as a cost block of airlines", "branchen": ["LUFTFAHRT"]},
+    {"art": "ABGELEITET", "beleg": "Branchenmerkmal: Energie als Kosten oder Rohstoff", "ben": "Industry trait: energy as a cost or raw material", "branchen": ["VERKEHR", "CHEMIE", "FAHRZEUGE"]},
+    {"art": "ABGELEITET", "beleg": "Größte Förderländer, Energy Institute Statistical Review of World Energy", "ben": "Largest producing countries, Energy Institute Statistical Review of World Energy", "laender": ["US", "SA", "RU"]}
+   ]
+  },
+  {
+   "id": "gas", "typ": "ENERGIE", "de": "Gaspreis", "en": "Gas price",
+   "kd": "Energieversorger und Chemie hängen an Gaspreis und Lieferwegen",
+   "ke": "Utilities and chemicals depend on gas prices and supply routes",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "r": 1, "beleg": "Erlös der Förderer ist Menge mal Preis", "ben": "Producers' revenue is volume times price", "branchen": ["OEL_GAS"], "werte": ["NG=F"]},
+    {"art": "ABGELEITET", "beleg": "Branchenmerkmal: Gas als Brennstoff oder Rohstoff (Dünger, Chemie)", "ben": "Industry trait: gas as fuel or raw material (fertiliser, chemicals)", "branchen": ["VERSORGER", "CHEMIE"]},
+    {"art": "ABGELEITET", "beleg": "Größte Förderländer, Energy Institute Statistical Review of World Energy", "ben": "Largest producing countries, Energy Institute Statistical Review of World Energy", "laender": ["US", "RU", "IR"]}
+   ]
+  },
+  {
+   "id": "dollar", "typ": "WAEHRUNG", "de": "US-Dollar", "en": "US dollar",
+   "kd": "Rohstoffe sind in Dollar notiert, Firmen mit Umsatz im Ausland rechnen um",
+   "ke": "Commodities are priced in dollars, firms with foreign sales translate their revenue",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Rohstoffe werden in US-Dollar gehandelt", "ben": "Commodities are traded in US dollars", "branchen": ["BERGBAU", "ROHSTOFFE", "OEL_GAS"]}
+   ]
+  },
+  {
+   "id": "china", "typ": "NACHFRAGE", "de": "Nachfrage aus China", "en": "Demand from China",
+   "kd": "Rohstoffförderer, Maschinen- und Autobauer verkaufen viel nach China",
+   "ke": "Miners, machinery and carmakers sell heavily to China",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Handelsverflechtung nach UN Comtrade", "ben": "Trade links according to UN Comtrade", "branchen": ["BERGBAU", "ROHSTOFFE", "MASCHINEN", "FAHRZEUGE", "HALBLEITER", "KONSUM"], "laender": ["AU", "BR", "DE", "KR", "TW", "CL"]}
+   ]
+  },
+  {
+   "id": "halbleiter", "typ": "ZYKLUS", "de": "Halbleiterzyklus", "en": "Semiconductor cycle",
+   "kd": "Chip-Nachfrage schwankt in Wellen und zieht Zulieferer und Abnehmer mit",
+   "ke": "Chip demand moves in waves and carries suppliers and customers with it",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Lieferkette: Chips sind Vorprodukt dieser Branchen", "ben": "Supply chain: chips are an input of these industries", "branchen": ["HALBLEITER", "COMPUTER", "ELEKTRO", "FAHRZEUGE", "MASCHINEN"], "laender": ["TW", "KR", "JP", "NL", "US"]}
+   ]
+  },
+  {
+   "id": "programm:chips-us", "typ": "PROGRAMM", "de": "CHIPS Act (USA)", "en": "CHIPS Act (USA)",
+   "kd": "US-Förderung für Chipfabriken im Land",
+   "ke": "US subsidies for chip fabs in the country",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "CHIPS and Science Act, Pub. L. 117-167 (2022)", "branchen": ["HALBLEITER"], "im": ["US"], "laender": ["US"]},
+    {"art": "GEMELDET", "beleg": "Förderzusagen des US-Handelsministeriums an die Firmen", "ben": "Funding commitments by the US Department of Commerce to the companies", "werte": ["INTC", "MU", "TSM", "GFS", "005930.KS"]}
+   ]
+  },
+  {
+   "id": "programm:chips-eu", "typ": "PROGRAMM", "de": "EU Chips Act", "en": "EU Chips Act",
+   "kd": "EU-Förderung für Chipfertigung in Europa",
+   "ke": "EU support for chip manufacturing in Europe",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Verordnung (EU) 2023/1781", "branchen": ["HALBLEITER"], "im": ["EU"], "laender": ["DE", "NL", "FR", "IT", "IE"]}
+   ]
+  },
+  {
+   "id": "programm:ira", "typ": "PROGRAMM", "de": "Inflation Reduction Act (USA)", "en": "Inflation Reduction Act (USA)",
+   "kd": "US-Steuergutschriften für saubere Energie und Fahrzeuge, später gesetzlich geändert",
+   "ke": "US tax credits for clean energy and vehicles, later changed by law",
+   "stand": "2026-11-10", "ablauf": "2027-12-31",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Inflation Reduction Act, Pub. L. 117-169 (2022)", "branchen": ["VERSORGER", "UMWELT", "FAHRZEUGE"], "im": ["US"], "laender": ["US"]}
+   ]
+  },
+  {
+   "id": "programm:co2-flotte", "typ": "PROGRAMM", "de": "CO2-Flottengrenzwerte (EU)", "en": "Fleet CO2 limits (EU)",
+   "kd": "Autobauer müssen den CO2-Ausstoß ihrer neuen Flotte senken",
+   "ke": "Carmakers must cut the CO2 output of their new fleet",
+   "stand": "2026-11-10", "ablauf": "2027-12-31",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Verordnung (EU) 2019/631", "branchen": ["FAHRZEUGE"], "im": ["EU"], "laender": ["DE", "FR", "IT", "SE", "ES", "CZ"]}
+   ]
+  },
+  {
+   "id": "programm:crma", "typ": "PROGRAMM", "de": "EU-Rohstoffgesetz", "en": "EU Critical Raw Materials Act",
+   "kd": "Ziele für Förderung, Verarbeitung und Recycling kritischer Rohstoffe in der EU",
+   "ke": "Targets for mining, processing and recycling of critical raw materials in the EU",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Verordnung (EU) 2024/1252", "branchen": ["BERGBAU", "FAHRZEUGE", "ELEKTRO", "VERSORGER"], "im": ["EU"]}
+   ]
+  },
+  {
+   "id": "programm:cbam", "typ": "PROGRAMM", "de": "CO2-Grenzausgleich (EU)", "en": "Carbon border adjustment (EU)",
+   "kd": "Abgabe auf CO2-Gehalt importierter Stahl-, Zement-, Aluminium-, Dünger- und Stromwaren",
+   "ke": "Levy on the CO2 content of imported steel, cement, aluminium, fertiliser and electricity",
+   "stand": "2026-11-10", "ablauf": "2027-12-31",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Verordnung (EU) 2023/956", "branchen": ["BAU", "CHEMIE", "VERSORGER", "ROHSTOFFE"], "im": ["EU"]}
+   ]
+  },
+  {
+   "id": "programm:zoelle-232", "typ": "PROGRAMM", "de": "US-Zölle auf Stahl und Aluminium", "en": "US tariffs on steel and aluminium",
+   "kd": "Zölle der USA auf Stahl und Aluminium und daraus gefertigte Waren",
+   "ke": "US tariffs on steel and aluminium and goods made from them",
+   "stand": "2026-11-10", "ablauf": "2027-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Proklamationen der US-Regierung 2025 nach Section 232 des Trade Expansion Act von 1962", "ben": "US government proclamations of 2025 under Section 232 of the Trade Expansion Act of 1962", "branchen": ["BAU", "MASCHINEN", "FAHRZEUGE", "ROHSTOFFE", "BERGBAU"], "laender": ["US"]}
+   ]
+  },
+  {
+   "id": "programm:exportkontrolle", "typ": "PROGRAMM", "de": "US-Exportkontrollen für Chips", "en": "US export controls on chips",
+   "kd": "Beschränkt Verkauf von KI-Chips und Fertigungsgeräten an bestimmte Länder",
+   "ke": "Restricts sales of AI chips and chipmaking equipment to certain countries",
+   "stand": "2026-11-10", "ablauf": "2027-12-31",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "U.S. Bureau of Industry and Security, Export Administration Regulations, Regeln ab Oktober 2022", "branchen": ["HALBLEITER", "COMPUTER"], "laender": ["US", "CN", "NL", "TW", "KR", "JP"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint6", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route (Energie), IWF PortWatch", "ben": "Cargo flows on the route (energy), IMF PortWatch", "branchen": ["OEL_GAS", "LUFTFAHRT", "VERKEHR", "CHEMIE"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint4", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route (Container, Energie), IWF PortWatch", "ben": "Cargo flows on the route (containers, energy), IMF PortWatch", "branchen": ["VERKEHR", "HANDEL", "OEL_GAS"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint1", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route (Container, Energie), IWF PortWatch", "ben": "Cargo flows on the route (containers, energy), IMF PortWatch", "branchen": ["VERKEHR", "HANDEL"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint2", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route (Container, Getreide), IWF PortWatch", "ben": "Cargo flows on the route (containers, grain), IMF PortWatch", "branchen": ["VERKEHR", "HANDEL"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint5", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route (Container, Energie), IWF PortWatch", "ben": "Cargo flows on the route (containers, energy), IMF PortWatch", "branchen": ["VERKEHR", "HANDEL", "OEL_GAS"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint11", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Chipfertigung und Elektronikexport der Anrainer, IWF PortWatch", "ben": "Chip manufacturing and electronics exports of the coastal states, IMF PortWatch", "branchen": ["HALBLEITER", "COMPUTER", "ELEKTRO", "FAHRZEUGE"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint14", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Chipfertigung und Elektronikexport der Anrainer, IWF PortWatch", "ben": "Chip manufacturing and electronics exports of the coastal states, IMF PortWatch", "branchen": ["HALBLEITER", "COMPUTER", "ELEKTRO"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint3", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Getreide- und Düngerausfuhr der Schwarzmeerhäfen, IWF PortWatch", "ben": "Grain and fertiliser exports of the Black Sea ports, IMF PortWatch", "branchen": ["NAHRUNG", "CHEMIE"]}
+   ]
+  },
+  {
+   "id": "engpass:chokepoint28", "typ": "ENGPASS",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Getreide- und Düngerausfuhr der Schwarzmeerhäfen, IWF PortWatch", "ben": "Grain and fertiliser exports of the Black Sea ports, IMF PortWatch", "branchen": ["NAHRUNG", "CHEMIE"]}
+   ]
+  },
+  {
+   "id": "spannung:TWN", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Chipfertigung und Elektronikexport der Region", "ben": "Chip manufacturing and electronics exports of the region", "branchen": ["HALBLEITER", "COMPUTER", "ELEKTRO"]}
+   ]
+  },
+  {
+   "id": "spannung:UKR", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Energie-, Getreide- und Düngerexporte der Region", "ben": "Energy, grain and fertiliser exports of the region", "branchen": ["OEL_GAS", "CHEMIE", "NAHRUNG"]}
+   ]
+  },
+  {
+   "id": "spannung:NAO", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Energieexporte und Flugrouten der Region", "ben": "Energy exports and flight routes of the region", "branchen": ["OEL_GAS", "LUFTFAHRT", "VERKEHR"]}
+   ]
+  },
+  {
+   "id": "spannung:GOL", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Energieexporte der Region", "ben": "Energy exports of the region", "branchen": ["OEL_GAS", "VERKEHR", "CHEMIE"]}
+   ]
+  },
+  {
+   "id": "spannung:ROT", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route, IWF PortWatch", "ben": "Cargo flows on the route, IMF PortWatch", "branchen": ["VERKEHR", "HANDEL"]}
+   ]
+  },
+  {
+   "id": "spannung:SCS", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Güterströme der Route, IWF PortWatch", "ben": "Cargo flows on the route, IMF PortWatch", "branchen": ["VERKEHR", "HANDEL", "HALBLEITER"]}
+   ]
+  },
+  {
+   "id": "spannung:KOR", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Chip- und Elektronikfertigung der Region", "ben": "Chip and electronics manufacturing in the region", "branchen": ["HALBLEITER", "ELEKTRO"]}
+   ]
+  },
+  {
+   "id": "spannung:VEN", "typ": "SPANNUNG",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Ölexporte der Region", "ben": "Oil exports of the region", "branchen": ["OEL_GAS"]}
+   ]
+  },
+  {
+   "id": "klima:enso", "typ": "KLIMA",
+   "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [
+    {"art": "ABGELEITET", "beleg": "Ernten und Schäden folgen dem Wettermuster", "ben": "Harvests and damage follow the weather pattern", "branchen": ["NAHRUNG", "VERSICHERUNG"]}
+   ]
+  },
+  {
+   "id": "durchbruch:krebs", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["BIOTECH", "PHARMA", "GESUNDHEIT"]}]
+  },
+  {
+   "id": "durchbruch:genetik", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["BIOTECH", "PHARMA"]}]
+  },
+  {
+   "id": "durchbruch:medizin", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["PHARMA", "GESUNDHEIT", "BIOTECH"]}]
+  },
+  {
+   "id": "durchbruch:ki", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["SOFTWARE", "COMPUTER", "HALBLEITER"]}]
+  },
+  {
+   "id": "durchbruch:quanten", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["COMPUTER", "SOFTWARE"]}]
+  },
+  {
+   "id": "durchbruch:halbleiter", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["HALBLEITER", "ELEKTRO"]}]
+  },
+  {
+   "id": "durchbruch:batterie", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["FAHRZEUGE", "ELEKTRO", "BERGBAU"]}]
+  },
+  {
+   "id": "durchbruch:energie", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["VERSORGER", "UMWELT"]}]
+  },
+  {
+   "id": "durchbruch:fusion", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["VERSORGER"]}]
+  },
+  {
+   "id": "durchbruch:raumfahrt", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["LUFTFAHRT"]}]
+  },
+  {
+   "id": "durchbruch:robotik", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["MASCHINEN", "ELEKTRO"]}]
+  },
+  {
+   "id": "durchbruch:materialien", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["CHEMIE", "MASCHINEN"]}]
+  },
+  {
+   "id": "durchbruch:klima", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["UMWELT", "VERSORGER"]}]
+  },
+  {
+   "id": "durchbruch:kommunikation", "typ": "DURCHBRUCH", "stand": "2026-11-10", "ablauf": "2028-06-30",
+   "gruppen": [{"art": "ABGELEITET", "beleg": "Branche des Themas", "ben": "Industry of the theme", "branchen": ["TELEKOM", "ELEKTRO"]}]
+  }
+ ]
+}

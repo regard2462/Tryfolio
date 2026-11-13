@@ -1,0 +1,36 @@
+{
+ "id": "ZZLRuEZpZl",
+ "creatorId": "nutzer0001",
+ "creatorUsername": "beispielnutzer1",
+ "creatorName": "Beispiel Nutzer 1",
+ "createdTime": 1767433865575,
+ "closeTime": 1798761540000,
+ "question": "Will Venezuelans be better off at the end of 2026?",
+ "slug": "will-venezuelans-be-better-off-at-t",
+ "url": "https://manifold.markets/beispielnutzer1/will-venezuelans-be-better-off-at-t",
+ "pool": {
+  "NO": 361.2764951540623,
+  "YES": 2771.694584069378
+ },
+ "probability": 0.11531434093021108,
+ "p": 0.5000000000000007,
+ "totalLiquidity": 1000,
+ "outcomeType": "BINARY",
+ "mechanism": "cpmm-1",
+ "volume": 271284.93423826376,
+ "volume24Hours": 8843.694303985883,
+ "isResolved": false,
+ "uniqueBettorCount": 438,
+ "lastUpdatedTime": 1794521078120,
+ "lastBetTime": 1794521078120,
+ "lastCommentTime": 1794501813929,
+ "token": "MANA",
+ "groupSlugs": [
+  "latin-america",
+  "politics-default",
+  "venezuela",
+  "world-default",
+  "news"
+ ],
+ "textDescription": "The US just attacked Venezuela and reportedly captured President Maduro. Will Venezuelans as a whole be better off at the end of 2026 compared to the end of 2025? Resolves based on my personal knowledge and understanding.\n\nI will not bet in this market. I will try to be unbiased, but I am a Democrat"
+}
